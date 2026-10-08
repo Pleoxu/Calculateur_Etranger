@@ -1,0 +1,132 @@
+[
+  {
+    "path": "lib/services/m252/m819_profile.dart",
+    "existed": false,
+    "directory": false
+  },
+  {
+    "path": "lib/services/m252/m819_table_codec.dart",
+    "existed": false,
+    "directory": false
+  },
+  {
+    "path": "lib/services/m252/m819_table_repository.dart",
+    "existed": false,
+    "directory": false
+  },
+  {
+    "path": "lib/services/balistique_mo81_m252_m819_service.dart",
+    "existed": false,
+    "directory": false
+  },
+  {
+    "path": "tool/build_m252_m819_m772_assets.dart",
+    "existed": false,
+    "directory": false
+  },
+  {
+    "path": "test/services/m252/m819_m772_tables_test.dart",
+    "existed": false,
+    "directory": false
+  },
+  {
+    "path": "maintenance/M252/PROFILES/RP_M819_M772_JSON_PDF_AUDIT.md",
+    "existed": false,
+    "directory": false
+  },
+  {
+    "path": "maintenance/M252/PROFILES/M819_M772_CH1",
+    "existed": false,
+    "directory": false
+  },
+  {
+    "path": "maintenance/M252/PROFILES/M819_M772_CH2",
+    "existed": false,
+    "directory": false
+  },
+  {
+    "path": "maintenance/M252/PROFILES/M819_M772_CH3",
+    "existed": false,
+    "directory": false
+  },
+  {
+    "path": "maintenance/M252/PROFILES/M819_M772_CH4",
+    "existed": false,
+    "directory": false
+  },
+  {
+    "path": "lib/models/calcul_data.dart",
+    "existed": true,
+    "directory": false
+  },
+  {
+    "path": "lib/services/balistique_service.dart",
+    "existed": true,
+    "directory": false
+  },
+  {
+    "path": "lib/presentation/fire/widgets/tir_header_section.dart",
+    "existed": true,
+    "directory": false
+  },
+  {
+    "path": "lib/presentation/fire/widgets/tir_results_card.dart",
+    "existed": true,
+    "directory": false
+  },
+  {
+    "path": "pubspec.yaml",
+    "existed": true,
+    "directory": false
+  },
+  {
+    "path": "assets/secure/tableaux/foreign/m252/profiles/M819_M772_CH1",
+    "existed": false,
+    "directory": false
+  },
+  {
+    "path": "assets/secure_enc/tableaux/foreign/m252/profiles/M819_M772_CH1",
+    "existed": false,
+    "directory": false
+  },
+  {
+    "path": "assets/secure/tableaux/foreign/m252/profiles/M819_M772_CH2",
+    "existed": false,
+    "directory": false
+  },
+  {
+    "path": "assets/secure_enc/tableaux/foreign/m252/profiles/M819_M772_CH2",
+    "existed": false,
+    "directory": false
+  },
+  {
+    "path": "assets/secure/tableaux/foreign/m252/profiles/M819_M772_CH3",
+    "existed": false,
+    "directory": false
+  },
+  {
+    "path": "assets/secure_enc/tableaux/foreign/m252/profiles/M819_M772_CH3",
+    "existed": false,
+    "directory": false
+  },
+  {
+    "path": "assets/secure/tableaux/foreign/m252/profiles/M819_M772_CH4",
+    "existed": false,
+    "directory": false
+  },
+  {
+    "path": "assets/secure_enc/tableaux/foreign/m252/profiles/M819_M772_CH4",
+    "existed": false,
+    "directory": false
+  },
+  {
+    "path": "assets/secure/manifest_foreign_m252_m819_m772.json",
+    "existed": false,
+    "directory": false
+  },
+  {
+    "path": "assets/secure_enc/manifest.json.enc",
+    "existed": true,
+    "directory": false
+  }
+]

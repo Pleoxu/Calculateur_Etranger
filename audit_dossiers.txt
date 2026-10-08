@@ -1,0 +1,26 @@
+200M	assets
+ 12M	assets_raw
+3.4M	android
+2.8M	ios
+1.6M	lib
+544K	macos
+172K	tools
+116K	windows
+ 68K	pretty.json
+ 40K	analyze.txt
+ 28K	pubspec.lock
+ 28K	docs
+4.0K	test
+4.0K	pubspec.yaml
+4.0K	devtools_options.yaml
+4.0K	analysis_options.yaml
+4.0K	README.md
+4.0K	PATCH_GPS_DEM_FALLBACK.md
+4.0K	PATCH_CARTE_OBJECTIF_V6_ALTITUDE.md
+4.0K	PATCH_CARTE_OBJECTIF_V5.md
+4.0K	PATCH_CARTE_OBJECTIF_V4.md
+4.0K	PATCH_CARTE_OBJECTIF.md
+4.0K	PATCH_CACHE_DEM_INTELLIGENT.md
+4.0K	PATCH_ARRONDIS_2_DECIMALES.txt
+4.0K	PATCH_ALTITUDE_OBJECTIF_DAZ.md
+  0B	TirComplet.typeTir

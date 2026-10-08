@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "typeTir": "Appui",
+    "munition": "OECL_81_F3",
+    "charge": "CH4",
+    "v0RefMps": 267.5,
+    "titre": "Température de la poudre — Effet sur la vitesse initiale",
+    "symbole": "ΔEF Vo/Tp"
+  },
+  "data": [
+    {
+      "tempPoudre": 60,
+      "pct_oaci": 115.6,
+      "deltaVo_temp": 7.3
+    },
+    {
+      "tempPoudre": 55,
+      "pct_oaci": 113.9,
+      "deltaVo_temp": 6.4
+    },
+    {
+      "tempPoudre": 50,
+      "pct_oaci": 112.1,
+      "deltaVo_temp": 5.4
+    },
+    {
+      "tempPoudre": 45,
+      "pct_oaci": 110.4,
+      "deltaVo_temp": 4.5
+    },
+    {
+      "tempPoudre": 40,
+      "pct_oaci": 108.7,
+      "deltaVo_temp": 3.6
+    },
+    {
+      "tempPoudre": 35,
+      "pct_oaci": 106.9,
+      "deltaVo_temp": 2.6
+    },
+    {
+      "tempPoudre": 30,
+      "pct_oaci": 105.2,
+      "deltaVo_temp": 1.7
+    },
+    {
+      "tempPoudre": 25,
+      "pct_oaci": 103.5,
+      "deltaVo_temp": 0.7
+    },
+    {
+      "tempPoudre": 21,
+      "pct_oaci": 102.1,
+      "deltaVo_temp": 0.0
+    },
+    {
+      "tempPoudre": 20,
+      "pct_oaci": 101.7,
+      "deltaVo_temp": -0.2
+    },
+    {
+      "tempPoudre": 15,
+      "pct_oaci": 100.0,
+      "deltaVo_temp": -1.1
+    },
+    {
+      "tempPoudre": 10,
+      "pct_oaci": 98.3,
+      "deltaVo_temp": -2.1
+    },
+    {
+      "tempPoudre": 5,
+      "pct_oaci": 96.5,
+      "deltaVo_temp": -3.0
+    },
+    {
+      "tempPoudre": 0,
+      "pct_oaci": 94.8,
+      "deltaVo_temp": -3.9
+    },
+    {
+      "tempPoudre": -5,
+      "pct_oaci": 93.1,
+      "deltaVo_temp": -4.9
+    },
+    {
+      "tempPoudre": -10,
+      "pct_oaci": 91.3,
+      "deltaVo_temp": -5.8
+    },
+    {
+      "tempPoudre": -15,
+      "pct_oaci": 89.6,
+      "deltaVo_temp": -6.8
+    },
+    {
+      "tempPoudre": -20,
+      "pct_oaci": 87.9,
+      "deltaVo_temp": -7.8
+    },
+    {
+      "tempPoudre": -25,
+      "pct_oaci": 86.1,
+      "deltaVo_temp": -8.8
+    },
+    {
+      "tempPoudre": -30,
+      "pct_oaci": 84.4,
+      "deltaVo_temp": -9.8
+    },
+    {
+      "tempPoudre": -35,
+      "pct_oaci": 82.6,
+      "deltaVo_temp": -10.8
+    },
+    {
+      "tempPoudre": -40,
+      "pct_oaci": 80.9,
+      "deltaVo_temp": -11.8
+    }
+  ]
+}

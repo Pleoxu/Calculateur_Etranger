@@ -1,0 +1,234 @@
+[
+  {
+    "portee_m": 3050.0,
+    "hausse_mil": 595.3,
+    "corr_hausse_+50m_mil": 23.0,
+    "corr_event_+50m_s": 0.29,
+    "event_s": 17.55,
+    "tirMontagne": false
+  },
+  {
+    "portee_m": 3100.0,
+    "hausse_mil": 605.6,
+    "corr_hausse_+50m_mil": 23.3,
+    "corr_event_+50m_s": 0.31,
+    "event_s": 18.01,
+    "tirMontagne": false
+  },
+  {
+    "portee_m": 3150.0,
+    "hausse_mil": 616.6,
+    "corr_hausse_+50m_mil": 23.7,
+    "corr_event_+50m_s": 0.33,
+    "event_s": 18.5,
+    "tirMontagne": false
+  },
+  {
+    "portee_m": 3200.0,
+    "hausse_mil": 628.3,
+    "corr_hausse_+50m_mil": 24.3,
+    "corr_event_+50m_s": 0.36,
+    "event_s": 19.01,
+    "tirMontagne": false
+  },
+  {
+    "portee_m": 3250.0,
+    "hausse_mil": 641.1,
+    "corr_hausse_+50m_mil": 25.1,
+    "corr_event_+50m_s": 0.39,
+    "event_s": 19.55,
+    "tirMontagne": false
+  },
+  {
+    "portee_m": 3300.0,
+    "hausse_mil": 654.9,
+    "corr_hausse_+50m_mil": 26.1,
+    "corr_event_+50m_s": 0.44,
+    "event_s": 20.12,
+    "tirMontagne": false
+  },
+  {
+    "portee_m": 3350.0,
+    "hausse_mil": 670.2,
+    "corr_hausse_+50m_mil": 27.6,
+    "corr_event_+50m_s": 0.49,
+    "event_s": 20.74,
+    "tirMontagne": false
+  },
+  {
+    "portee_m": 3400.0,
+    "hausse_mil": 687.4,
+    "corr_hausse_+50m_mil": 29.9,
+    "corr_event_+50m_s": 0.57,
+    "event_s": 21.41,
+    "tirMontagne": false
+  },
+  {
+    "portee_m": 3450.0,
+    "hausse_mil": 707.1,
+    "corr_hausse_+50m_mil": 33.5,
+    "corr_event_+50m_s": 0.7,
+    "event_s": 22.16,
+    "tirMontagne": false
+  },
+  {
+    "portee_m": 3500.0,
+    "hausse_mil": 731.0,
+    "corr_hausse_+50m_mil": 41.1,
+    "corr_event_+50m_s": 0.95,
+    "event_s": 23.04,
+    "tirMontagne": false
+  },
+  {
+    "portee_m": 3550.0,
+    "hausse_mil": 762.7,
+    "corr_hausse_+50m_mil": null,
+    "corr_event_+50m_s": null,
+    "event_s": 24.16,
+    "tirMontagne": false
+  },
+  {
+    "portee_m": 3550.0,
+    "hausse_mil": 913.1,
+    "corr_hausse_+50m_mil": null,
+    "corr_event_+50m_s": null,
+    "event_s": 28.86,
+    "tirMontagne": true
+  },
+  {
+    "portee_m": 3500.0,
+    "hausse_mil": 946.7,
+    "corr_hausse_+50m_mil": -26.8,
+    "corr_event_+50m_s": -1.14,
+    "event_s": 29.78,
+    "tirMontagne": true
+  },
+  {
+    "portee_m": 3450.0,
+    "hausse_mil": 972.4,
+    "corr_hausse_+50m_mil": -19.1,
+    "corr_event_+50m_s": -0.89,
+    "event_s": 30.46,
+    "tirMontagne": true
+  },
+  {
+    "portee_m": 3400.0,
+    "hausse_mil": 994.0,
+    "corr_hausse_+50m_mil": -15.1,
+    "corr_event_+50m_s": -0.76,
+    "event_s": 31.01,
+    "tirMontagne": true
+  },
+  {
+    "portee_m": 3350.0,
+    "hausse_mil": 1013.1,
+    "corr_hausse_+50m_mil": -12.7,
+    "corr_event_+50m_s": -0.68,
+    "event_s": 31.48,
+    "tirMontagne": true
+  },
+  {
+    "portee_m": 3300.0,
+    "hausse_mil": 1030.3,
+    "corr_hausse_+50m_mil": -10.9,
+    "corr_event_+50m_s": -0.63,
+    "event_s": 31.89,
+    "tirMontagne": true
+  },
+  {
+    "portee_m": 3250.0,
+    "hausse_mil": 1046.2,
+    "corr_hausse_+50m_mil": -9.7,
+    "corr_event_+50m_s": -0.59,
+    "event_s": 32.27,
+    "tirMontagne": true
+  },
+  {
+    "portee_m": 3200.0,
+    "hausse_mil": 1061.0,
+    "corr_hausse_+50m_mil": -8.7,
+    "corr_event_+50m_s": -0.55,
+    "event_s": 32.6,
+    "tirMontagne": true
+  },
+  {
+    "portee_m": 3150.0,
+    "hausse_mil": 1074.9,
+    "corr_hausse_+50m_mil": -7.8,
+    "corr_event_+50m_s": -0.53,
+    "event_s": 32.91,
+    "tirMontagne": true
+  },
+  {
+    "portee_m": 3100.0,
+    "hausse_mil": 1088.0,
+    "corr_hausse_+50m_mil": -7.1,
+    "corr_event_+50m_s": -0.5,
+    "event_s": 33.2,
+    "tirMontagne": true
+  },
+  {
+    "portee_m": 3050.0,
+    "hausse_mil": 1100.4,
+    "corr_hausse_+50m_mil": -6.5,
+    "corr_event_+50m_s": -0.49,
+    "event_s": 33.46,
+    "tirMontagne": true
+  },
+  {
+    "portee_m": 3000.0,
+    "hausse_mil": 1112.3,
+    "corr_hausse_+50m_mil": -6.0,
+    "corr_event_+50m_s": -0.47,
+    "event_s": 33.71,
+    "tirMontagne": true
+  },
+  {
+    "portee_m": 2950.0,
+    "hausse_mil": 1123.7,
+    "corr_hausse_+50m_mil": -5.6,
+    "corr_event_+50m_s": -0.46,
+    "event_s": 33.94,
+    "tirMontagne": true
+  },
+  {
+    "portee_m": 2900.0,
+    "hausse_mil": 1134.6,
+    "corr_hausse_+50m_mil": -5.2,
+    "corr_event_+50m_s": -0.44,
+    "event_s": 34.16,
+    "tirMontagne": true
+  },
+  {
+    "portee_m": 2850.0,
+    "hausse_mil": 1145.1,
+    "corr_hausse_+50m_mil": -4.8,
+    "corr_event_+50m_s": -0.43,
+    "event_s": 34.36,
+    "tirMontagne": true
+  },
+  {
+    "portee_m": 2800.0,
+    "hausse_mil": 1155.2,
+    "corr_hausse_+50m_mil": -4.5,
+    "corr_event_+50m_s": -0.42,
+    "event_s": 34.56,
+    "tirMontagne": true
+  },
+  {
+    "portee_m": 2750.0,
+    "hausse_mil": 1165.0,
+    "corr_hausse_+50m_mil": -4.2,
+    "corr_event_+50m_s": -0.41,
+    "event_s": 34.75,
+    "tirMontagne": true
+  },
+  {
+    "portee_m": 2700.0,
+    "hausse_mil": 1174.4,
+    "corr_hausse_+50m_mil": -3.9,
+    "corr_event_+50m_s": -0.41,
+    "event_s": 34.92,
+    "tirMontagne": true
+  }
+]

@@ -1,0 +1,282 @@
+{
+  "rows": [
+    {
+      "range": 2100,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.1",
+      "density_dec": "-6.3",
+      "density_inc": "6.3"
+    },
+    {
+      "range": 2125,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.1",
+      "density_dec": "-6.4",
+      "density_inc": "6.4"
+    },
+    {
+      "range": 2150,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.1",
+      "density_dec": "-6.5",
+      "density_inc": "6.4"
+    },
+    {
+      "range": 2175,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.1",
+      "density_dec": "-6.5",
+      "density_inc": "6.5"
+    },
+    {
+      "range": 2200,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.1",
+      "density_dec": "-6.6",
+      "density_inc": "6.6"
+    },
+    {
+      "range": 2225,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.1",
+      "density_dec": "-6.7",
+      "density_inc": "6.6"
+    },
+    {
+      "range": 2250,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-6.7",
+      "density_inc": "6.7"
+    },
+    {
+      "range": 2275,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-6.8",
+      "density_inc": "6.8"
+    },
+    {
+      "range": 2300,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-6.9",
+      "density_inc": "6.8"
+    },
+    {
+      "range": 2325,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-6.9",
+      "density_inc": "6.9"
+    },
+    {
+      "range": 2350,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-7.0",
+      "density_inc": "7.0"
+    },
+    {
+      "range": 2375,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-7.1",
+      "density_inc": "7.1"
+    },
+    {
+      "range": 2400,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-7.2",
+      "density_inc": "7.1"
+    },
+    {
+      "range": 2425,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-7.2",
+      "density_inc": "7.2"
+    },
+    {
+      "range": 2450,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-7.3",
+      "density_inc": "7.3"
+    },
+    {
+      "range": 2475,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-7.4",
+      "density_inc": "7.3"
+    },
+    {
+      "range": 2500,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-7.4",
+      "density_inc": "7.4"
+    },
+    {
+      "range": 2525,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-7.5",
+      "density_inc": "7.5"
+    },
+    {
+      "range": 2550,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-7.6",
+      "density_inc": "7.5"
+    },
+    {
+      "range": 2575,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-7.6",
+      "density_inc": "7.6"
+    },
+    {
+      "range": 2600,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-7.7",
+      "density_inc": "7.7"
+    },
+    {
+      "range": 2625,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-7.8",
+      "density_inc": "7.8"
+    },
+    {
+      "range": 2650,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-7.9",
+      "density_inc": "7.8"
+    },
+    {
+      "range": 2675,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-7.9",
+      "density_inc": "7.9"
+    },
+    {
+      "range": 2700,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-8.0",
+      "density_inc": "8.0"
+    },
+    {
+      "range": 2725,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-8.1",
+      "density_inc": "8.1"
+    },
+    {
+      "range": 2750,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-8.1",
+      "density_inc": "8.1"
+    },
+    {
+      "range": 2775,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-8.2",
+      "density_inc": "8.2"
+    },
+    {
+      "range": 2800,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-8.3",
+      "density_inc": "8.3"
+    },
+    {
+      "range": 2825,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-8.4",
+      "density_inc": "8.3"
+    },
+    {
+      "range": 2850,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-8.4",
+      "density_inc": "8.4"
+    },
+    {
+      "range": 2875,
+      "temp_dec": "-0.1",
+      "temp_inc": "0.2",
+      "density_dec": "-8.5",
+      "density_inc": "8.5"
+    },
+    {
+      "range": 2900,
+      "temp_dec": "",
+      "temp_inc": "",
+      "density_dec": "",
+      "density_inc": ""
+    }
+  ],
+  "_meta": {
+    "charge": 3,
+    "page": 5,
+    "group": "temp_density",
+    "source": "/home/ubuntu/rp_m819_pdf_audit/render/Tables_CH3_RPM819_FuM772-05.png",
+    "crop": "/home/ubuntu/rp_m819_json_reconstruction/vision_transcriptions/CH3_page05_temp_density.png",
+    "ranges": [
+      2100,
+      2125,
+      2150,
+      2175,
+      2200,
+      2225,
+      2250,
+      2275,
+      2300,
+      2325,
+      2350,
+      2375,
+      2400,
+      2425,
+      2450,
+      2475,
+      2500,
+      2525,
+      2550,
+      2575,
+      2600,
+      2625,
+      2650,
+      2675,
+      2700,
+      2725,
+      2750,
+      2775,
+      2800,
+      2825,
+      2850,
+      2875,
+      2900
+    ],
+    "model": "gpt-5",
+    "usage": {
+      "prompt_tokens": 1514,
+      "completion_tokens": 2783
+    }
+  }
+}

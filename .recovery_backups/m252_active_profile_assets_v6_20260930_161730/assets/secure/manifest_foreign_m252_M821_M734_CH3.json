@@ -1,0 +1,63 @@
+[
+  {
+    "id": "foreign.m252.profile.M821_M734_CH3.A",
+    "tableId": "A",
+    "family": "foreign",
+    "platform": "M252",
+    "format": "AEBTL_V1",
+    "rows": 65,
+    "file": "tableaux/foreign/m252/profiles/M821_M734_CH3/A/A.aebtl.gz",
+    "keyVersion": 0,
+    "profile": "M821_M734_CH3"
+  },
+  {
+    "id": "foreign.m252.profile.M821_M734_CH3.B",
+    "tableId": "B",
+    "family": "foreign",
+    "platform": "M252",
+    "format": "BEBTL_V1",
+    "rows": 41,
+    "file": "tableaux/foreign/m252/profiles/M821_M734_CH3/B/B.bebtl.gz",
+    "keyVersion": 0,
+    "profile": "M821_M734_CH3"
+  },
+  {
+    "id": "foreign.m252.profile.M821_M734_CH3.C",
+    "tableId": "C",
+    "family": "foreign",
+    "platform": "M252",
+    "variant": "APPUI",
+    "charge": 3,
+    "format": "CEBTL_V1",
+    "rows": 35,
+    "temperatureUnit": "F",
+    "file": "tableaux/foreign/m252/profiles/M821_M734_CH3/C/C_CH3.cebtl.gz",
+    "keyVersion": 0,
+    "profile": "M821_M734_CH3"
+  },
+  {
+    "id": "foreign.m252.profile.M821_M734_CH3.D",
+    "tableId": "D",
+    "family": "foreign",
+    "platform": "M252",
+    "charge": 3,
+    "format": "DEBTL_V2",
+    "rows": 125,
+    "file": "tableaux/foreign/m252/profiles/M821_M734_CH3/D/D_CH3.debtl.gz",
+    "keyVersion": 0,
+    "profile": "M821_M734_CH3"
+  },
+  {
+    "id": "foreign.m252.profile.M821_M734_CH3.E",
+    "tableId": "E",
+    "family": "foreign",
+    "platform": "M252",
+    "charge": 3,
+    "format": "EEBTL_V1",
+    "rows": 33,
+    "unpublishedProbableRangeRows": false,
+    "file": "tableaux/foreign/m252/profiles/M821_M734_CH3/E/E_CH3.eebtl.gz",
+    "keyVersion": 0,
+    "profile": "M821_M734_CH3"
+  }
+]

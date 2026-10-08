@@ -1,0 +1,83 @@
+
+PORT = "/dev/cu.usbserial-B003L0V8"
+
+ser = serial.Serial(PORT, timeout=2)
+
+print("Port ouvert:", PORT)
+print("Lecture brute STRIX... Ctrl+C pour arrêter")
+
+while True:
+    data = ser.read(64)
+
+    if data:
+        print(data.hex(" import serial
+
+PORT = "/dev/cu.usbserial-B003L0V8"
+
+ser = serial.Serial(PORT, timeout=2)
+
+print("Port ouvert:", PORT)
+print("Lecture brute STRIX... Ctrl+C pour arrêter")
+
+while True:
+    data = ser.read(64)
+
+    if data:
+        print(data.hex(" "))import serial
+import struct
+
+PORT = "/dev/cu.usbserial-B003L0V8"
+
+def crc16_ccitt(data: bytes) -> int:
+    crc = 0xFFFF
+    for byte in data:
+        crc ^= byte << 8
+        for _ in range(8):
+            if crc & 0x8000:
+                crc = (crc << 1) ^ 0x1021
+            else:
+                crc <<= 1
+            crc &= 0xFFFF
+    return crc
+
+ser = serial.Serial(PORT, timeout=2)
+
+print("Port ouvert:", PORT)
+
+while True:
+    b = ser.read(1)
+    if not b:
+        continue
+
+    if b[0] != 0xAA:
+        continue
+
+    b2 = ser.read(1)
+    if not b2 or b2[0] != 0x55:
+        continue
+
+    length_bytes = ser.read(2)
+    if len(length_bytes) != 2:
+        continue
+
+    length = struct.unpack("<H", length_bytes)[0]
+
+    if not (1 <= length <= 256):
+        continue
+
+    payload = ser.read(length)
+    crc_bytes = ser.read(2)
+
+    if len(payload) != length or len(crc_bytes) != 2:
+        continue
+
+    crc_rx = struct.unpack("<H", crc_bytes)[0]
+    crc_calc = crc16_ccitt(payload)
+
+    version = payload[0]
+
+    print(
+        f"STRIX frame: version={version} "
+        f"length={length} "
+        f"CRC={'OK' if crc_rx == crc_calc else 'ERREUR'}"
+    )

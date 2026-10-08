@@ -1,0 +1,57 @@
+import Foundation
+import Security
+
+enum SecureKey {
+
+    private static let service = "CalculateurTirSecureAssets"
+    private static let account = "asset-key-v2"
+
+    static func buildKeyHex() -> String {
+
+        let query: [String: Any] = [
+            kSecClass as String: kSecClassGenericPassword,
+            kSecAttrService as String: service,
+            kSecAttrAccount as String: account,
+            kSecReturnData as String: true,
+            kSecMatchLimit as String: kSecMatchLimitOne
+        ]
+
+        var item: CFTypeRef?
+
+        let status = SecItemCopyMatching(
+            query as CFDictionary,
+            &item
+        )
+
+        guard status == errSecSuccess else {
+            fatalError(
+                "Clé sécurisée introuvable dans le Trousseau macOS "
+                + "(status \(status))"
+            )
+        }
+
+        guard
+            let data = item as? Data,
+            let keyHex = String(data: data, encoding: .utf8)
+        else {
+            fatalError(
+                "Impossible de décoder la clé sécurisée."
+            )
+        }
+
+        let normalized = keyHex
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+
+        guard
+            normalized.count == 64,
+            normalized.allSatisfy({ $0.isHexDigit })
+        else {
+            fatalError(
+                "Clé sécurisée invalide : "
+                + "64 caractères hexadécimaux attendus."
+            )
+        }
+
+        return normalized
+    }
+}

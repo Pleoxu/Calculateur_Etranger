@@ -1,0 +1,106 @@
+[
+  {
+    "portee_m": 950.0,
+    "hausse_mil": 708.0,
+    "corr_hausse_+50m_mil": 53.2,
+    "corr_event_+50m_s": 0.42,
+    "event_s": 7.95,
+    "tirMontagne": false
+  },
+  {
+    "portee_m": 1000.0,
+    "hausse_mil": 709.3,
+    "corr_hausse_+50m_mil": 52.6,
+    "corr_event_+50m_s": 0.45,
+    "event_s": 8.45,
+    "tirMontagne": false
+  },
+  {
+    "portee_m": 1050.0,
+    "hausse_mil": 712.9,
+    "corr_hausse_+50m_mil": 51.4,
+    "corr_event_+50m_s": 0.47,
+    "event_s": 8.97,
+    "tirMontagne": false
+  },
+  {
+    "portee_m": 1100.0,
+    "hausse_mil": 719.0,
+    "corr_hausse_+50m_mil": 52.7,
+    "corr_event_+50m_s": 0.51,
+    "event_s": 9.52,
+    "tirMontagne": false
+  },
+  {
+    "portee_m": 1150.0,
+    "hausse_mil": 727.6,
+    "corr_hausse_+50m_mil": 53.5,
+    "corr_event_+50m_s": 0.56,
+    "event_s": 10.11,
+    "tirMontagne": false
+  },
+  {
+    "portee_m": 1200.0,
+    "hausse_mil": 739.1,
+    "corr_hausse_+50m_mil": 55.1,
+    "corr_event_+50m_s": 0.62,
+    "event_s": 10.73,
+    "tirMontagne": false
+  },
+  {
+    "portee_m": 1250.0,
+    "hausse_mil": 753.9,
+    "corr_hausse_+50m_mil": 58.1,
+    "corr_event_+50m_s": 0.72,
+    "event_s": 11.41,
+    "tirMontagne": false
+  },
+  {
+    "portee_m": 1300.0,
+    "hausse_mil": 773.0,
+    "corr_hausse_+50m_mil": 63.8,
+    "corr_event_+50m_s": 0.89,
+    "event_s": 12.17,
+    "tirMontagne": false
+  },
+  {
+    "portee_m": 1350.0,
+    "hausse_mil": 798.1,
+    "corr_hausse_+50m_mil": 78.5,
+    "corr_event_+50m_s": 1.27,
+    "event_s": 13.06,
+    "tirMontagne": false
+  },
+  {
+    "portee_m": 1400.0,
+    "hausse_mil": 834.8,
+    "corr_hausse_+50m_mil": null,
+    "corr_event_+50m_s": null,
+    "event_s": 14.19,
+    "tirMontagne": false
+  },
+  {
+    "portee_m": 1400.0,
+    "hausse_mil": 1014.3,
+    "corr_hausse_+50m_mil": null,
+    "corr_event_+50m_s": null,
+    "event_s": 18.39,
+    "tirMontagne": true
+  },
+  {
+    "portee_m": 1350.0,
+    "hausse_mil": 1059.6,
+    "corr_hausse_+50m_mil": -42.6,
+    "corr_event_+50m_s": -1.5,
+    "event_s": 19.22,
+    "tirMontagne": true
+  },
+  {
+    "portee_m": 1300.0,
+    "hausse_mil": 1093.9,
+    "corr_hausse_+50m_mil": -26.8,
+    "corr_event_+50m_s": -1.13,
+    "event_s": 19.81,
+    "tirMontagne": true
+  }
+]

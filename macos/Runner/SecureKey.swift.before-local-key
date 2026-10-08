@@ -1,0 +1,24 @@
+import Foundation
+
+enum SecureKey {
+
+    private static let contentKeyHex =
+        "0b6ccab89e3831022f87383b0b2174df695cfa7a0315cb253910e1dfcc645247"
+
+    static func buildKeyHex() -> String {
+        let normalized = contentKeyHex
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+
+        precondition(
+            normalized.count == 64 &&
+            normalized.allSatisfy { $0.isHexDigit },
+            "Clé AES invalide : 64 caractères hexadécimaux attendus."
+        )
+
+        return normalized
+    }
+
+    static func loadContentKeyHex() throws -> String {
+        return buildKeyHex()
+    }
+}

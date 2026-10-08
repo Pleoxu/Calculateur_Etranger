@@ -1,0 +1,24 @@
+{
+  "kit": "rp_m819_m772_corrections_v20",
+  "created_at": "2026-10-03T11:09:06",
+  "saved": [
+    "lib/services/m252/m819_table_codec.dart",
+    "lib/services/balistique_mo81_m252_m819_service.dart",
+    "tool/build_m252_m819_m772_assets.dart",
+    "test/services/m252/m819_m772_tables_test.dart",
+    "lib/presentation/fire/controllers/tir_complet_controller.dart",
+    "assets/secure/tableaux/foreign/m252/profiles/M819_M772_CH1",
+    "assets/secure/tableaux/foreign/m252/profiles/M819_M772_CH2",
+    "assets/secure/tableaux/foreign/m252/profiles/M819_M772_CH3",
+    "assets/secure/tableaux/foreign/m252/profiles/M819_M772_CH4",
+    "assets/secure_enc/tableaux/foreign/m252/profiles/M819_M772_CH1",
+    "assets/secure_enc/tableaux/foreign/m252/profiles/M819_M772_CH2",
+    "assets/secure_enc/tableaux/foreign/m252/profiles/M819_M772_CH3",
+    "assets/secure_enc/tableaux/foreign/m252/profiles/M819_M772_CH4",
+    "assets/secure/manifest_foreign_m252_m819_m772.json"
+  ],
+  "not_present_before_install": [
+    "maintenance/M252/PROFILES/M819_M772_CORRECTIONS.md",
+    "assets/secure_enc/manifest.json.enc"
+  ]
+}

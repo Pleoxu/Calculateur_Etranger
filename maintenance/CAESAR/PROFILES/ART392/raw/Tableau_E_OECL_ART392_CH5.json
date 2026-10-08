@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "typeTir": "Eclairant",
+    "charge": "CH5",
+    "deltaV_per_carreau_ms": -2.4
+  },
+  "data": [
+    {
+      "tempPoudre": 60.0,
+      "deltaVo_temp": 41.910878646000015
+    },
+    {
+      "tempPoudre": 55.0,
+      "deltaVo_temp": 33.96230433599999
+    },
+    {
+      "tempPoudre": 50.0,
+      "deltaVo_temp": 26.87790742599998
+    },
+    {
+      "tempPoudre": 45.0,
+      "deltaVo_temp": 20.60249241600002
+    },
+    {
+      "tempPoudre": 40.0,
+      "deltaVo_temp": 15.080863806000025
+    },
+    {
+      "tempPoudre": 35.0,
+      "deltaVo_temp": 10.25782609600003
+    },
+    {
+      "tempPoudre": 30.0,
+      "deltaVo_temp": 6.078183785999954
+    },
+    {
+      "tempPoudre": 25.0,
+      "deltaVo_temp": 2.4867413760000545
+    },
+    {
+      "tempPoudre": 21.0,
+      "deltaVo_temp": 0.0
+    },
+    {
+      "tempPoudre": 20.0,
+      "deltaVo_temp": -0.5716966339999772
+    },
+    {
+      "tempPoudre": 15.0,
+      "deltaVo_temp": -3.152325743999995
+    },
+    {
+      "tempPoudre": 10.0,
+      "deltaVo_temp": -5.310341453999968
+    },
+    {
+      "tempPoudre": 5.0,
+      "deltaVo_temp": -7.100939263999976
+    },
+    {
+      "tempPoudre": 0.0,
+      "deltaVo_temp": -8.579314673999988
+    },
+    {
+      "tempPoudre": -5.0,
+      "deltaVo_temp": -9.800663183999973
+    },
+    {
+      "tempPoudre": -10.0,
+      "deltaVo_temp": -10.82018029400001
+    },
+    {
+      "tempPoudre": -15.0,
+      "deltaVo_temp": -11.693061503999957
+    },
+    {
+      "tempPoudre": -20.0,
+      "deltaVo_temp": -12.474502314000006
+    },
+    {
+      "tempPoudre": -25.0,
+      "deltaVo_temp": -13.219698224000012
+    },
+    {
+      "tempPoudre": -30.0,
+      "deltaVo_temp": -13.983844734000058
+    },
+    {
+      "tempPoudre": -35.0,
+      "deltaVo_temp": -14.822137343999998
+    },
+    {
+      "tempPoudre": -40.0,
+      "deltaVo_temp": -15.789771554000026
+    }
+  ]
+}

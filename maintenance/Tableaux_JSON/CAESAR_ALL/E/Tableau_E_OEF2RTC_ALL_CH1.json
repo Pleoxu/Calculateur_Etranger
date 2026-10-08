@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "typeTir": "AppuiRTC_ALL",
+    "charge": "CH1",
+    "deltaV_per_carreau_ms": -1.6
+  },
+  "data": [
+    {
+      "tempPoudre": 60.0,
+      "deltaVo_temp": 46.226809492500024
+    },
+    {
+      "tempPoudre": 55.0,
+      "deltaVo_temp": 37.35699237999995
+    },
+    {
+      "tempPoudre": 50.0,
+      "deltaVo_temp": 29.474808517500037
+    },
+    {
+      "tempPoudre": 45.0,
+      "deltaVo_temp": 22.51717727999994
+    },
+    {
+      "tempPoudre": 40.0,
+      "deltaVo_temp": 16.42101804250001
+    },
+    {
+      "tempPoudre": 35.0,
+      "deltaVo_temp": 11.123250180000014
+    },
+    {
+      "tempPoudre": 30.0,
+      "deltaVo_temp": 6.560793067499958
+    },
+    {
+      "tempPoudre": 25.0,
+      "deltaVo_temp": 2.6705660799999578
+    },
+    {
+      "tempPoudre": 21.0,
+      "deltaVo_temp": 0.0
+    },
+    {
+      "tempPoudre": 20.0,
+      "deltaVo_temp": -0.6105114074999847
+    },
+    {
+      "tempPoudre": 15.0,
+      "deltaVo_temp": -3.345520019999981
+    },
+    {
+      "tempPoudre": 10.0,
+      "deltaVo_temp": -5.5975403825000285
+    },
+    {
+      "tempPoudre": 5.0,
+      "deltaVo_temp": -7.429653120000012
+    },
+    {
+      "tempPoudre": 0.0,
+      "deltaVo_temp": -8.904938857500042
+    },
+    {
+      "tempPoudre": -5.0,
+      "deltaVo_temp": -10.086478220000004
+    },
+    {
+      "tempPoudre": -10.0,
+      "deltaVo_temp": -11.037351832500008
+    },
+    {
+      "tempPoudre": -15.0,
+      "deltaVo_temp": -11.820640320000052
+    },
+    {
+      "tempPoudre": -20.0,
+      "deltaVo_temp": -12.499424307500021
+    },
+    {
+      "tempPoudre": -25.0,
+      "deltaVo_temp": -13.136784420000026
+    },
+    {
+      "tempPoudre": -30.0,
+      "deltaVo_temp": -13.795801282499951
+    },
+    {
+      "tempPoudre": -35.0,
+      "deltaVo_temp": -14.539555520000022
+    },
+    {
+      "tempPoudre": -40.0,
+      "deltaVo_temp": -15.431127757500008
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "typeTir": "AppuiRTC",
+    "deltaV_per_carreau_ms": -2.9
+  },
+  "data": [
+    { "tempPoudre": 60.0,  "deltaVo_temp": 37.595077361399944 },
+    { "tempPoudre": 55.0,  "deltaVo_temp": 30.567722902399964 },
+    { "tempPoudre": 50.0,  "deltaVo_temp": 24.281092003399976 },
+    { "tempPoudre": 45.0,  "deltaVo_temp": 18.68787421440004 },
+    { "tempPoudre": 40.0,  "deltaVo_temp": 13.740759085399986 },
+    { "tempPoudre": 35.0,  "deltaVo_temp": 9.392436166399989 },
+    { "tempPoudre": 30.0,  "deltaVo_temp": 5.595595007399993 },
+    { "tempPoudre": 25.0,  "deltaVo_temp": 2.302925158399944 },
+    { "tempPoudre": 21.0,  "deltaVo_temp": 0.0 },
+    { "tempPoudre": 20.0,  "deltaVo_temp": -0.5328838305999852 },
+    { "tempPoudre": 15.0,  "deltaVo_temp": -2.9591424095999628 },
+    { "tempPoudre": 10.0,  "deltaVo_temp": -5.023161028600043 },
+    { "tempPoudre": 5.0,   "deltaVo_temp": -6.772250137600054 },
+    { "tempPoudre": 0.0,   "deltaVo_temp": -8.253720186600049 },
+    { "tempPoudre": -5.0,  "deltaVo_temp": -9.514881625599969 },
+    { "tempPoudre": -10.0, "deltaVo_temp": -10.603044904599983 },
+    { "tempPoudre": -15.0, "deltaVo_temp": -11.565520473600031 },
+    { "tempPoudre": -20.0, "deltaVo_temp": -12.449618782600055 },
+    { "tempPoudre": -25.0, "deltaVo_temp": -13.302650281599995 },
+    { "tempPoudre": -30.0, "deltaVo_temp": -14.171925420600019 },
+    { "tempPoudre": -35.0, "deltaVo_temp": -15.104754649599954 },
+    { "tempPoudre": -40.0, "deltaVo_temp": -16.14844841859997 }
+  ]
+}

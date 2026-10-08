@@ -1,0 +1,723 @@
+[
+  {
+    "distance": 2050,
+    "denivelee": -100,
+    "correctionSite": -58,
+    "niveauMeteo": 1,
+    "tirMontagne": false
+  },
+  {
+    "distance": 2050,
+    "denivelee": -50,
+    "correctionSite": -30,
+    "niveauMeteo": 1,
+    "tirMontagne": false
+  },
+  {
+    "distance": 2050,
+    "denivelee": 0,
+    "correctionSite": 0,
+    "niveauMeteo": 2,
+    "tirMontagne": false
+  },
+  {
+    "distance": 2050,
+    "denivelee": 50,
+    "correctionSite": 35,
+    "niveauMeteo": 2,
+    "tirMontagne": false
+  },
+  {
+    "distance": 2050,
+    "denivelee": 100,
+    "correctionSite": 76,
+    "niveauMeteo": 2,
+    "tirMontagne": false
+  },
+  {
+    "distance": 2100,
+    "denivelee": -100,
+    "correctionSite": -61,
+    "niveauMeteo": 1,
+    "tirMontagne": false
+  },
+  {
+    "distance": 2100,
+    "denivelee": -50,
+    "correctionSite": -32,
+    "niveauMeteo": 1,
+    "tirMontagne": false
+  },
+  {
+    "distance": 2100,
+    "denivelee": 0,
+    "correctionSite": 0,
+    "niveauMeteo": 2,
+    "tirMontagne": false
+  },
+  {
+    "distance": 2100,
+    "denivelee": 50,
+    "correctionSite": 38,
+    "niveauMeteo": 2,
+    "tirMontagne": false
+  },
+  {
+    "distance": 2150,
+    "denivelee": -100,
+    "correctionSite": -65,
+    "niveauMeteo": 1,
+    "tirMontagne": false
+  },
+  {
+    "distance": 2150,
+    "denivelee": -50,
+    "correctionSite": -35,
+    "niveauMeteo": 2,
+    "tirMontagne": false
+  },
+  {
+    "distance": 2150,
+    "denivelee": 0,
+    "correctionSite": 0,
+    "niveauMeteo": 2,
+    "tirMontagne": false
+  },
+  {
+    "distance": 2186,
+    "denivelee": -100,
+    "correctionSite": -69,
+    "niveauMeteo": 2,
+    "tirMontagne": false
+  },
+  {
+    "distance": 2186,
+    "denivelee": -50,
+    "correctionSite": -38,
+    "niveauMeteo": 2,
+    "tirMontagne": false
+  },
+  {
+    "distance": 2186,
+    "denivelee": 0,
+    "correctionSite": 0,
+    "niveauMeteo": 2,
+    "tirMontagne": false
+  },
+  {
+    "distance": 2186,
+    "denivelee": -250,
+    "correctionSite": -379,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2186,
+    "denivelee": -200,
+    "correctionSite": -288,
+    "niveauMeteo": 2,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2186,
+    "denivelee": -150,
+    "correctionSite": -205,
+    "niveauMeteo": 2,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2186,
+    "denivelee": -100,
+    "correctionSite": -127,
+    "niveauMeteo": 2,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2186,
+    "denivelee": -50,
+    "correctionSite": -58,
+    "niveauMeteo": 2,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2186,
+    "denivelee": 0,
+    "correctionSite": 0,
+    "niveauMeteo": 2,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2150,
+    "denivelee": -250,
+    "correctionSite": -396,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2150,
+    "denivelee": -200,
+    "correctionSite": -302,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2150,
+    "denivelee": -150,
+    "correctionSite": -215,
+    "niveauMeteo": 2,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2150,
+    "denivelee": -100,
+    "correctionSite": -135,
+    "niveauMeteo": 2,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2150,
+    "denivelee": -50,
+    "correctionSite": -63,
+    "niveauMeteo": 2,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2150,
+    "denivelee": 0,
+    "correctionSite": 0,
+    "niveauMeteo": 2,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2100,
+    "denivelee": -300,
+    "correctionSite": -526,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2100,
+    "denivelee": -250,
+    "correctionSite": -420,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2100,
+    "denivelee": -200,
+    "correctionSite": -322,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2100,
+    "denivelee": -150,
+    "correctionSite": -230,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2100,
+    "denivelee": -100,
+    "correctionSite": -145,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2100,
+    "denivelee": -50,
+    "correctionSite": -68,
+    "niveauMeteo": 2,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2100,
+    "denivelee": 0,
+    "correctionSite": 0,
+    "niveauMeteo": 2,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2100,
+    "denivelee": 50,
+    "correctionSite": 57,
+    "niveauMeteo": 2,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2050,
+    "denivelee": -300,
+    "correctionSite": -557,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2050,
+    "denivelee": -250,
+    "correctionSite": -445,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2050,
+    "denivelee": -200,
+    "correctionSite": -341,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2050,
+    "denivelee": -150,
+    "correctionSite": -245,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2050,
+    "denivelee": -100,
+    "correctionSite": -155,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2050,
+    "denivelee": -50,
+    "correctionSite": -73,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2050,
+    "denivelee": 0,
+    "correctionSite": 0,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2050,
+    "denivelee": 50,
+    "correctionSite": 64,
+    "niveauMeteo": 2,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2050,
+    "denivelee": 100,
+    "correctionSite": 115,
+    "niveauMeteo": 2,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2000,
+    "denivelee": -250,
+    "correctionSite": -472,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2000,
+    "denivelee": -200,
+    "correctionSite": -362,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2000,
+    "denivelee": -150,
+    "correctionSite": -260,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2000,
+    "denivelee": -100,
+    "correctionSite": -165,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2000,
+    "denivelee": -50,
+    "correctionSite": -78,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2000,
+    "denivelee": 0,
+    "correctionSite": 0,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2000,
+    "denivelee": 50,
+    "correctionSite": 70,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2000,
+    "denivelee": 100,
+    "correctionSite": 128,
+    "niveauMeteo": 2,
+    "tirMontagne": true
+  },
+  {
+    "distance": 2000,
+    "denivelee": 150,
+    "correctionSite": 173,
+    "niveauMeteo": 2,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1950,
+    "denivelee": -200,
+    "correctionSite": -383,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1950,
+    "denivelee": -150,
+    "correctionSite": -275,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1950,
+    "denivelee": -100,
+    "correctionSite": -176,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1950,
+    "denivelee": -50,
+    "correctionSite": -83,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1950,
+    "denivelee": 0,
+    "correctionSite": 0,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1950,
+    "denivelee": 50,
+    "correctionSite": 75,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1950,
+    "denivelee": 100,
+    "correctionSite": 140,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1950,
+    "denivelee": 150,
+    "correctionSite": 193,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1950,
+    "denivelee": 200,
+    "correctionSite": 230,
+    "niveauMeteo": 2,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1900,
+    "denivelee": -200,
+    "correctionSite": -406,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1900,
+    "denivelee": -150,
+    "correctionSite": -291,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1900,
+    "denivelee": -100,
+    "correctionSite": -185,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1900,
+    "denivelee": -50,
+    "correctionSite": -89,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1900,
+    "denivelee": 0,
+    "correctionSite": 0,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1900,
+    "denivelee": 50,
+    "correctionSite": 79,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1900,
+    "denivelee": 100,
+    "correctionSite": 150,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1900,
+    "denivelee": 150,
+    "correctionSite": 210,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1900,
+    "denivelee": 200,
+    "correctionSite": 257,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1900,
+    "denivelee": 250,
+    "correctionSite": 284,
+    "niveauMeteo": 2,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1850,
+    "denivelee": -150,
+    "correctionSite": -308,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1850,
+    "denivelee": -100,
+    "correctionSite": -196,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1850,
+    "denivelee": -50,
+    "correctionSite": -94,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1850,
+    "denivelee": 0,
+    "correctionSite": 0,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1850,
+    "denivelee": 50,
+    "correctionSite": 85,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1850,
+    "denivelee": 100,
+    "correctionSite": 160,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1850,
+    "denivelee": 150,
+    "correctionSite": 225,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1850,
+    "denivelee": 200,
+    "correctionSite": 279,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1850,
+    "denivelee": 250,
+    "correctionSite": 319,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1850,
+    "denivelee": 300,
+    "correctionSite": 336,
+    "niveauMeteo": 2,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1800,
+    "denivelee": -100,
+    "correctionSite": -208,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1800,
+    "denivelee": -50,
+    "correctionSite": -99,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1800,
+    "denivelee": 0,
+    "correctionSite": 0,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1800,
+    "denivelee": 50,
+    "correctionSite": 90,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1800,
+    "denivelee": 100,
+    "correctionSite": 170,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1800,
+    "denivelee": 150,
+    "correctionSite": 241,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1800,
+    "denivelee": 200,
+    "correctionSite": 300,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1800,
+    "denivelee": 250,
+    "correctionSite": 347,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1800,
+    "denivelee": 300,
+    "correctionSite": 378,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1800,
+    "denivelee": 350,
+    "correctionSite": 383,
+    "niveauMeteo": 2,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1750,
+    "denivelee": -100,
+    "correctionSite": -221,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1750,
+    "denivelee": -50,
+    "correctionSite": -105,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1750,
+    "denivelee": 0,
+    "correctionSite": 0,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1750,
+    "denivelee": 50,
+    "correctionSite": 96,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1750,
+    "denivelee": 100,
+    "correctionSite": 181,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1750,
+    "denivelee": 150,
+    "correctionSite": 256,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1750,
+    "denivelee": 200,
+    "correctionSite": 321,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1750,
+    "denivelee": 250,
+    "correctionSite": 374,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1750,
+    "denivelee": 300,
+    "correctionSite": 413,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1750,
+    "denivelee": 350,
+    "correctionSite": 434,
+    "niveauMeteo": 3,
+    "tirMontagne": true
+  },
+  {
+    "distance": 1750,
+    "denivelee": 400,
+    "correctionSite": 422,
+    "niveauMeteo": 2,
+    "tirMontagne": true
+  }
+]

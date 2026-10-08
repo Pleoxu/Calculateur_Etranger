@@ -1,0 +1,18 @@
+Patch arrondis — Calculateur_tir
+
+Modifications principales :
+- lib/services/balistique_appui_rtc_service.dart
+  - Ajout de helpers _r2() et _r1().
+  - Corrections/intermédiaires AppuiRTC arrondis à 2 décimales :
+    correction site, distance corrigée, dérive, ROTZ, Wz, Wx, masse,
+    ΔTB, ΔP/ΔDB, ROTX, ΔV0, RTC, total direction, total longitudinal,
+    portée à viser, AE, site brut, site vrai, ACS.
+  - Résultats finaux Noire et AQE arrondis à 1 décimale dans le résultat.
+
+- lib/presentation/fire/widgets/tir_details_decomposition.dart
+  - Affichage des valeurs de décomposition en 2 décimales pour les mètres et mils.
+  - La carte résultat finale reste en 1 décimale via tir_results_card.dart.
+
+Note :
+- La logique métier et les tables ne sont pas modifiées.
+- Les autres types de tir n'ont pas été modifiés dans cette passe ; le patch cible AppuiRTC CH6, qui était le scénario contrôlé.

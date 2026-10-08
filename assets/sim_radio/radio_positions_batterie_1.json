@@ -1,0 +1,113 @@
+{
+  "schema": "calculateur_tir.radio_positions.v1",
+  "mode": "simulation_radio",
+  "batteryId": "B1",
+  "timestamp": "2026-05-22T08:33:31Z",
+  "utmZone": "30",
+  "pieces": [
+    {
+      "pieceId": "PD",
+      "zone": "30",
+      "x": 729350.0,
+      "y": 5153945.0,
+      "z": 200.0,
+      "source": "simulation_radio",
+      "timestamp": "2026-05-22T08:33:31Z",
+      "precisionM": 1.0
+    },
+    {
+      "pieceId": "PS1",
+      "zone": "30",
+      "x": 729447.003,
+      "y": 5153969.298,
+      "z": 197.0,
+      "distanceFromPdM": 100.0,
+      "azimutFromPdMil": 1350.0,
+      "timestamp": "2026-05-22T08:33:31Z",
+      "precisionM": 1.0,
+      "source": "simulation_radio"
+    },
+    {
+      "pieceId": "PS2",
+      "zone": "30",
+      "x": 729544.006,
+      "y": 5153993.596,
+      "z": 195.0,
+      "distanceFromPdM": 200.0,
+      "azimutFromPdMil": 1350.0,
+      "timestamp": "2026-05-22T08:33:31Z",
+      "precisionM": 1.0,
+      "source": "simulation_radio"
+    },
+    {
+      "pieceId": "PS3",
+      "zone": "30",
+      "x": 729641.009,
+      "y": 5154017.894,
+      "z": 198.0,
+      "distanceFromPdM": 300.0,
+      "azimutFromPdMil": 1350.0,
+      "timestamp": "2026-05-22T08:33:31Z",
+      "precisionM": 1.0,
+      "source": "simulation_radio"
+    },
+    {
+      "pieceId": "PS4",
+      "zone": "30",
+      "x": 729738.013,
+      "y": 5154042.192,
+      "z": 193.0,
+      "distanceFromPdM": 400.0,
+      "azimutFromPdMil": 1350.0,
+      "timestamp": "2026-05-22T08:33:31Z",
+      "precisionM": 1.0,
+      "source": "simulation_radio"
+    },
+    {
+      "pieceId": "PS5",
+      "zone": "30",
+      "x": 729252.997,
+      "y": 5153920.702,
+      "z": 199.0,
+      "distanceFromPdM": 100.0,
+      "azimutFromPdMil": 4550.0,
+      "timestamp": "2026-05-22T08:33:31Z",
+      "precisionM": 1.0,
+      "source": "simulation_radio"
+    },
+    {
+      "pieceId": "PS6",
+      "zone": "30",
+      "x": 729155.994,
+      "y": 5153896.404,
+      "z": 197.0,
+      "distanceFromPdM": 200.0,
+      "azimutFromPdMil": 4550.0,
+      "timestamp": "2026-05-22T08:33:31Z",
+      "precisionM": 1.0,
+      "source": "simulation_radio"
+    },
+    {
+      "pieceId": "PS7",
+      "zone": "30",
+      "x": 729169.202,
+      "y": 5153859.489,
+      "z": 194.0,
+      "distanceFromPdM": 200.0,
+      "azimutFromPdMil": 4350.0,
+      "timestamp": "2026-05-22T08:33:31Z",
+      "precisionM": 1.0,
+      "source": "simulation_radio"
+    }
+  ],
+  "observer": {
+    "observerId": "OBS1",
+    "zone": "30",
+    "x": 744800.0,
+    "y": 5164100.0,
+    "z": 170.0,
+    "source": "simulation_radio",
+    "timestamp": "2026-05-22T08:33:31Z",
+    "precisionM": 1.0
+  }
+}

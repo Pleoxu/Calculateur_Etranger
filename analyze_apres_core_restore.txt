@@ -1,0 +1,860 @@
+Resolving dependencies...
+Downloading packages...
+  archive 4.0.9 (4.3.0 available)
+  clock 1.1.2 (1.1.3 available)
+  cross_file 0.3.5+2 (0.4.0 available)
+  dbus 0.7.15 (0.8.0 available)
+  file_picker 11.0.2 (13.1.0 available)
+  file_selector_android 0.5.2+8 (0.5.2+11 available)
+  file_selector_ios 0.5.3+5 (0.5.3+6 available)
+  file_selector_linux 0.9.4 (0.9.4+1 available)
+  file_selector_macos 0.9.5 (0.9.5+1 available)
+  file_selector_windows 0.9.3+5 (0.9.3+6 available)
+  flutter_blue_plus 2.3.7 (2.3.13 available)
+  flutter_blue_plus_android 9.0.1 (9.0.4 available)
+  flutter_blue_plus_darwin 9.0.1 (9.0.4 available)
+  flutter_blue_plus_linux 9.0.1 (9.0.3 available)
+  flutter_blue_plus_platform_interface 9.0.1 (9.0.3 available)
+  flutter_blue_plus_web 9.0.1 (9.0.3 available)
+  flutter_map 7.0.2 (8.3.2 available)
+  flutter_riverpod 2.6.1 (3.4.3 available)
+  flutter_secure_storage 10.3.1 (11.2.0 available)
+  flutter_secure_storage_darwin 0.3.2 (0.4.3 available)
+  flutter_secure_storage_linux 3.0.1 (3.0.3 available)
+  flutter_secure_storage_platform_interface 2.0.1 (2.1.1 available)
+  flutter_secure_storage_windows 4.1.0 (4.2.2 available)
+  geolocator 14.0.2 (14.1.1 available)
+  geolocator_android 5.0.2 (5.1.1 available)
+  geolocator_apple 2.3.13 (2.3.14 available)
+  geolocator_linux 0.2.4 (0.2.6 available)
+  geolocator_platform_interface 4.2.6 (4.4.0 available)
+  geolocator_web 4.1.3 (4.1.4 available)
+  gsettings 0.2.8 (0.2.9 available)
+  image 4.9.2 (4.10.1 available)
+  intl 0.20.2 (0.20.3 available)
+  jni 1.0.0 (1.0.3 available)
+  jni_flutter 1.0.1 (1.0.3 available)
+  latlong2 0.9.1 (0.10.1 available)
+  logger 2.7.0 (2.8.0 available)
+  matcher 0.12.19 (0.12.20 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  mbtiles 0.4.2 (0.5.1 available)
+  meta 1.18.0 (1.19.0 available)
+  mgrs_dart 2.0.0 (3.0.0 available)
+  mobile_scanner 7.4.1 (7.4.2 available)
+  package_config 2.2.0 (3.0.0 available)
+  package_info_plus 9.0.1 (10.2.1 available)
+  package_info_plus_platform_interface 3.2.1 (4.1.0 available)
+  path_provider 2.1.5 (2.1.6 available)
+  path_provider_foundation 2.5.1 (2.6.0 available)
+  path_provider_linux 2.2.1 (2.2.2 available)
+  path_provider_platform_interface 2.1.2 (2.1.3 available)
+  pdf 3.13.0 (3.13.1 available)
+  petitparser 7.0.2 (7.1.0 available)
+  platform 3.1.6 (3.2.0 available)
+  posix 6.5.0 (6.5.2 available)
+  proj4dart 2.1.0 (3.0.0 available)
+  qr 3.0.2 (4.0.0 available)
+  riverpod 2.6.1 (3.4.3 available)
+  shared_preferences_android 2.4.25 (2.4.28 available)
+  shared_preferences_foundation 2.5.6 (2.5.7 available)
+  sqlite3 2.9.4 (3.6.0 available)
+  sqlite3_flutter_libs 0.5.42 (0.6.0+eol available)
+  stack_trace 1.12.1 (1.12.2 available)
+  test_api 0.7.11 (0.7.14 available)
+  unicode 0.3.1 (1.1.9 available)
+  uuid 4.5.3 (4.6.0 available)
+  vector_math 2.2.0 (2.4.3 available)
+  vm_service 15.2.0 (15.3.0 available)
+  win32 5.15.0 (6.4.0 available)
+  xml 7.0.1 (7.1.0 available)
+Got dependencies!
+68 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing calculateur_etranger...                               
+
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/domain/fire/effects/fire_shots_computer.dart:231:20 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/domain/fire/effects/fire_shots_computer.dart:233:27 • unnecessary_null_comparison
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/domain/fire/factories/fire_calcul_input_factory.dart:29:37 • dead_null_aware_expression
+  error • The getter 'standard' isn't defined for the type 'NatureTirSelection'. Try importing the library that defines 'standard', correcting the name to the name of an existing getter, or defining a getter or field named 'standard' • lib/domain/fire/factories/fire_calcul_input_factory.dart:29:56 • undefined_getter
+warning • The receiver can't be null, so the null-aware operator '?.' is unnecessary. Try replacing the operator '?.' with '.' • lib/domain/fire/factories/fire_calcul_input_factory.dart:56:37 • invalid_null_aware_operator
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/domain/fire/services/fire_shots_computer.dart:319:27 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/domain/fire/services/fire_shots_computer.dart:319:55 • unnecessary_non_null_assertion
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/domain/fire/services/fire_shots_computer.dart:320:35 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/domain/fire/services/fire_shots_computer.dart:323:39 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/domain/fire/services/fire_shots_computer.dart:324:33 • unnecessary_non_null_assertion
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/domain/fire/services/fire_shots_computer.dart:326:51 • unnecessary_non_null_assertion
+warning • The receiver can't be null, so the null-aware operator '?.' is unnecessary. Try replacing the operator '?.' with '.' • lib/domain/fire/services/fire_shots_computer.dart:361:33 • invalid_null_aware_operator
+  error • The method 'call' isn't defined for the type 'TirCompletUseCase'. Try correcting the name to the name of an existing method, or defining a method named 'call' • lib/presentation/fire/controllers/tir_complet_controller.dart:496:37 • undefined_method
+warning • The value of the local variable 'currentPiecesSoutien' isn't used. Try removing the variable or using it • lib/presentation/fire/pages/ecran_tir_complet_dialogs.dart:465:22 • unused_local_variable
+warning • The value of the local variable 'radius' isn't used. Try removing the variable or using it • lib/presentation/fire/services/message_map_report_builder.dart:53:11 • unused_local_variable
+warning • The declaration '_focusLayoutForGeometry' isn't referenced. Try removing the declaration of '_focusLayoutForGeometry' • lib/presentation/fire/services/message_map_report_builder.dart:599:6 • unused_element
+warning • The declaration '_focusFrameForGeometry' isn't referenced. Try removing the declaration of '_focusFrameForGeometry' • lib/presentation/fire/services/message_map_report_builder.dart:688:37 • unused_element
+warning • The declaration '_focusZoomFromRadius' isn't referenced. Try removing the declaration of '_focusZoomFromRadius' • lib/presentation/fire/services/message_map_report_builder.dart:748:10 • unused_element
+warning • A value for optional parameter 'key' isn't ever given. Try removing the unused parameter • lib/presentation/fire/widgets/message_map_report_view.dart:228:11 • unused_element_parameter
+warning • The declaration '_oppositeMil' isn't referenced. Try removing the declaration of '_oppositeMil' • lib/presentation/fire/widgets/message_map_report_view.dart:338:7 • unused_element
+warning • A value for optional parameter 'tirOppositeLabel' isn't ever given. Try removing the unused parameter • lib/presentation/fire/widgets/message_map_report_view.dart:762:10 • unused_element_parameter
+warning • A value for optional parameter 'linearOppositeLabel' isn't ever given. Try removing the unused parameter • lib/presentation/fire/widgets/message_map_report_view.dart:764:10 • unused_element_parameter
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/presentation/fire/widgets/tir_details_decomposition.dart:303:33 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/presentation/fire/widgets/tir_details_decomposition.dart:303:68 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/presentation/fire/widgets/tir_results_card.dart:61:21 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/presentation/fire/widgets/tir_results_card.dart:67:21 • unnecessary_null_comparison
+  error • The argument type 'Object' can't be assigned to the parameter type 'SystemeArme'.  • lib/services/balistique_appui_rtc_service.dart:108:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:108:29 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:110:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:110:32 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_appui_rtc_service.dart:118:24 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:118:33 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'TypeTir'.  • lib/services/balistique_appui_rtc_service.dart:181:16 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:181:36 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'TypeChargeCaesar'.  • lib/services/balistique_appui_rtc_service.dart:182:25 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:182:51 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:196:24 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:196:38 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:197:33 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_appui_rtc_service.dart:198:22 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:198:37 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'Iterable<String>'.  • lib/services/balistique_appui_rtc_service.dart:199:29 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:199:51 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_appui_rtc_service.dart:200:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:200:32 • dead_null_aware_expression
+  error • A value of type '({Object charge, double ex})' can't be returned from the method '_autoChargeFor' because it has a return type of 'Future<({String charge, double? ex})>' • lib/services/balistique_appui_rtc_service.dart:208:16 • return_of_invalid_type
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:208:37 • dead_null_aware_expression
+   info • Unnecessary use of '??' with 'null'. Try removing the '??' operator and the 'null' operand • lib/services/balistique_appui_rtc_service.dart:208:46 • unnecessary_null_in_if_null_operators
+  error • A value of type '({Object charge, double ex})' can't be returned from the method '_autoChargeFor' because it has a return type of 'Future<({String charge, double? ex})>' • lib/services/balistique_appui_rtc_service.dart:222:14 • return_of_invalid_type
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:223:37 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:224:41 • dead_null_aware_expression
+  error • A value of type '({Object charge, double ex})' can't be returned from the method '_autoChargeFor' because it has a return type of 'Future<({String charge, double? ex})>' • lib/services/balistique_appui_rtc_service.dart:233:14 • return_of_invalid_type
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:233:35 • dead_null_aware_expression
+   info • Unnecessary use of '??' with 'null'. Try removing the '??' operator and the 'null' operand • lib/services/balistique_appui_rtc_service.dart:233:44 • unnecessary_null_in_if_null_operators
+  error • The argument type 'Object' can't be assigned to the parameter type 'Systeme'.  • lib/services/balistique_appui_rtc_service.dart:254:16 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:254:33 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'TypeTir'.  • lib/services/balistique_appui_rtc_service.dart:255:16 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:255:33 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'TypeChargeCaesar'.  • lib/services/balistique_appui_rtc_service.dart:256:25 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:256:51 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'TypeMunition?'.  • lib/services/balistique_appui_rtc_service.dart:257:21 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:257:43 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:271:60 • dead_null_aware_expression
+   info • Unnecessary use of '??' with 'null'. Try removing the '??' operator and the 'null' operand • lib/services/balistique_appui_rtc_service.dart:280:55 • unnecessary_null_in_if_null_operators
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:282:40 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'CalculInput'.  • lib/services/balistique_appui_rtc_service.dart:283:20 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:283:29 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:284:25 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:284:39 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_appui_rtc_service.dart:285:26 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:285:41 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:300:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:300:32 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:301:17 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:301:30 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_appui_rtc_service.dart:302:22 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:302:37 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:307:38 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:308:32 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:328:64 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:343:38 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:343:52 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:343:65 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:343:75 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:349:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:349:32 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:350:17 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:350:27 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_appui_rtc_service.dart:351:22 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:351:37 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:357:38 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:357:52 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:357:65 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:357:75 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:362:48 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:362:62 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:367:38 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:367:52 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:367:65 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:367:75 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:373:20 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:373:34 • dead_null_aware_expression
+  error • The argument type 'num' can't be assigned to the parameter type 'int'.  • lib/services/balistique_appui_rtc_service.dart:373:52 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:373:67 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:379:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:379:32 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:380:17 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:380:27 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool?'.  • lib/services/balistique_appui_rtc_service.dart:381:22 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:381:37 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:422:43 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_appui_rtc_service.dart:423:26 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:423:41 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:429:45 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_appui_rtc_service.dart:430:28 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:430:43 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:436:39 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_appui_rtc_service.dart:437:22 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:437:37 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:454:45 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:456:48 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool?'.  • lib/services/balistique_appui_rtc_service.dart:457:28 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:457:43 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_appui_rtc_service.dart:458:25 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:458:34 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_appui_rtc_service.dart:523:25 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_appui_rtc_service.dart:525:30 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_appui_rtc_service.dart:548:23 • unnecessary_null_comparison
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:555:35 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_appui_rtc_service.dart:587:23 • unnecessary_null_comparison
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:591:36 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:591:65 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:616:41 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:618:44 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_appui_rtc_service.dart:619:24 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:619:39 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_appui_rtc_service.dart:637:19 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_appui_rtc_service.dart:638:22 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_appui_rtc_service.dart:639:21 • unnecessary_null_comparison
+  error • The argument type 'Object' can't be assigned to the parameter type 'SystemeArme'.  • lib/services/balistique_appui_rtc_service.dart:644:46 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:644:61 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'SystemeArme'.  • lib/services/balistique_appui_rtc_service.dart:647:20 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:647:35 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:648:19 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:648:33 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:649:19 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:649:29 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:653:30 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:653:46 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:654:23 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:654:33 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:664:69 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:668:70 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:671:53 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:675:27 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:675:37 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:681:57 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:685:27 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:685:37 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_appui_rtc_service.dart:732:21 • unnecessary_null_comparison
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:734:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:734:32 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:735:17 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:735:27 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_appui_rtc_service.dart:736:22 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:736:37 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_appui_rtc_service.dart:737:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:737:26 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:741:39 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:742:31 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:784:41 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_appui_rtc_service.dart:785:28 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:785:43 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:820:36 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:821:34 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:827:36 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool?'.  • lib/services/balistique_appui_rtc_service.dart:828:22 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:828:37 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'StackTrace?'.  • lib/services/balistique_appui_rtc_service.dart:858:37 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:858:51 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_appui_rtc_service.dart:871:25 • unnecessary_null_comparison
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:880:41 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_appui_rtc_service.dart:881:24 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:881:39 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:895:31 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:896:29 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:897:15 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:897:25 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_appui_rtc_service.dart:898:19 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:898:33 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:899:35 • dead_null_aware_expression
+   info • Unnecessary use of '??' with 'null'. Try removing the '??' operator and the 'null' operand • lib/services/balistique_appui_rtc_service.dart:900:23 • unnecessary_null_in_if_null_operators
+  error • The argument type 'double' can't be assigned to the parameter type 'TempageDetails?'.  • lib/services/balistique_appui_rtc_service.dart:900:23 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:901:25 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:902:31 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:903:30 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:904:23 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:905:61 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:906:23 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:907:35 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:908:43 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:909:41 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:910:25 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:911:19 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:912:23 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:913:25 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:914:29 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:915:29 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:916:29 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:917:21 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:918:33 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:919:45 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:920:38 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:921:31 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:922:32 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:923:38 • dead_null_aware_expression
+  error • The argument type 'num' can't be assigned to the parameter type 'int'.  • lib/services/balistique_appui_rtc_service.dart:924:25 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_appui_rtc_service.dart:924:48 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'TypeTir'.  • lib/services/balistique_bonus_service.dart:113:16 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:113:33 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'TypeChargeCaesar'.  • lib/services/balistique_bonus_service.dart:114:25 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:114:51 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:119:24 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:119:38 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:120:33 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:121:22 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:121:37 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:122:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:122:32 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'StackTrace?'.  • lib/services/balistique_bonus_service.dart:165:37 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:165:51 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:235:60 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:242:40 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'CalculInput'.  • lib/services/balistique_bonus_service.dart:243:20 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:243:29 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:244:25 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:244:39 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:245:26 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:245:41 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:257:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:257:32 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:258:17 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:258:30 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:259:22 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:259:37 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:264:38 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:265:32 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:286:66 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:292:20 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:292:34 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:293:19 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:293:29 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:294:24 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:294:39 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:299:40 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:300:34 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:304:66 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:322:38 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:322:52 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:322:65 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:322:75 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:328:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:328:32 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:329:17 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:329:27 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:330:22 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:330:37 • dead_null_aware_expression
+  error • The argument type 'num' can't be assigned to the parameter type 'int?'.  • lib/services/balistique_bonus_service.dart:331:26 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:331:33 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:338:20 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:338:34 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:339:19 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:339:29 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:340:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:340:26 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:346:20 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:346:34 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:346:48 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:346:56 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:352:20 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:352:34 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:353:19 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:353:29 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:354:20 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:354:28 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:360:20 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:360:34 • dead_null_aware_expression
+  error • The argument type 'num' can't be assigned to the parameter type 'int'.  • lib/services/balistique_bonus_service.dart:360:52 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:360:67 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:366:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:366:32 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:367:17 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:367:27 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool?'.  • lib/services/balistique_bonus_service.dart:368:22 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:368:37 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:369:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:369:26 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:376:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:376:32 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:377:17 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:377:27 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:378:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:378:26 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:426:41 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:427:24 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:427:39 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:432:41 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:433:24 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:433:39 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:438:37 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:439:20 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:439:35 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:447:41 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:449:44 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool?'.  • lib/services/balistique_bonus_service.dart:450:24 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:450:39 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:451:21 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:451:30 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_bonus_service.dart:523:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_bonus_service.dart:524:47 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:532:33 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_bonus_service.dart:565:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_bonus_service.dart:566:47 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:570:28 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:571:33 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:599:37 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:601:40 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:602:20 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:602:35 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_bonus_service.dart:608:25 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_bonus_service.dart:609:27 • unnecessary_null_comparison
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:616:30 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:616:44 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:616:57 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:616:67 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:619:54 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:620:52 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:623:64 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:626:65 • dead_null_aware_expression
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_bonus_service.dart:630:50 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_bonus_service.dart:658:27 • unnecessary_null_comparison
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:660:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:660:32 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:661:17 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:661:27 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:662:22 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:662:37 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:663:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:663:26 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:667:39 • dead_null_aware_expression
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_bonus_service.dart:668:33 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:713:37 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:714:24 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:714:39 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:724:33 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:725:20 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:725:35 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:726:26 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:726:47 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:754:36 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool?'.  • lib/services/balistique_bonus_service.dart:755:22 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:755:37 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'StackTrace?'.  • lib/services/balistique_bonus_service.dart:765:51 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:765:65 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:776:55 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:780:33 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:781:20 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:781:35 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:785:33 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:786:20 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:786:35 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:790:33 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:791:20 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:791:35 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:792:26 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:792:52 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:796:19 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:796:33 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:797:15 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:797:25 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:798:45 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:799:50 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:800:57 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:801:32 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:802:56 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_bonus_service.dart:803:20 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:803:35 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:804:59 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:805:59 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:806:36 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:807:39 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:811:49 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:812:39 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:813:35 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:814:35 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:815:35 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:816:37 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:817:27 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:818:30 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:819:42 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:820:40 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:858:31 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:859:29 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:860:15 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:860:25 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_bonus_service.dart:861:19 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:861:33 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:862:35 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'TempageDetails?'.  • lib/services/balistique_bonus_service.dart:863:23 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:863:41 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:864:25 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:865:31 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:866:30 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:867:23 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:868:61 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:869:23 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:870:35 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:871:43 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:872:41 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:873:25 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:874:19 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:875:23 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:876:25 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:877:29 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:878:29 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:879:29 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:880:21 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:881:33 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:882:45 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:883:38 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:884:31 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:885:32 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:886:38 • dead_null_aware_expression
+  error • The argument type 'num' can't be assigned to the parameter type 'int'.  • lib/services/balistique_bonus_service.dart:887:25 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:887:48 • dead_null_aware_expression
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_bonus_service.dart:888:23 • argument_type_not_assignable
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_bonus_service.dart:888:46 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_bonus_service.dart:889:47 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_core_service.dart:257:60 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_core_service.dart:311:54 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_core_service.dart:517:37 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_core_service.dart:518:51 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_core_service.dart:519:38 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_core_service.dart:520:45 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_core_service.dart:537:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_core_service.dart:538:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_core_service.dart:564:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_core_service.dart:565:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_core_service.dart:598:25 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_core_service.dart:599:27 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_core_service.dart:633:48 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_core_service.dart:648:56 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_core_service.dart:649:54 • dead_null_aware_expression
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_core_service.dart:654:52 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_core_service.dart:711:57 • dead_null_aware_expression
+warning • The library 'package:calculateur_etranger/services/balistique_core_result.dart' doesn't export a member with the hidden name 'BalistiqueCoreService'. Try removing the name from the list of hidden members • lib/services/balistique_eclairant_service.dart:8:10 • undefined_hidden_name
+  error • The argument type 'Object' can't be assigned to the parameter type 'Systeme'.  • lib/services/balistique_eclairant_service.dart:26:16 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:26:33 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'TypeTir'.  • lib/services/balistique_eclairant_service.dart:27:16 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:27:33 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'TypeChargeCaesar'.  • lib/services/balistique_eclairant_service.dart:28:25 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:28:51 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'TypeMunition?'.  • lib/services/balistique_eclairant_service.dart:29:21 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:29:43 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'TypeTir'.  • lib/services/balistique_eclairant_service.dart:35:17 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:35:38 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String?'.  • lib/services/balistique_eclairant_service.dart:36:19 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:36:33 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_eclairant_service.dart:40:16 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:40:30 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_eclairant_service.dart:41:15 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:41:30 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_eclairant_service.dart:42:20 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:42:40 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_eclairant_service.dart:43:16 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:43:25 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:47:40 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:58:55 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:60:44 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_eclairant_service.dart:65:19 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:65:33 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_eclairant_service.dart:66:15 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:66:30 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_eclairant_service.dart:67:20 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:67:40 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:68:52 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:69:43 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:70:38 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:71:63 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_eclairant_service.dart:72:20 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:72:40 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:73:66 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:74:66 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:75:41 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:76:39 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'TypeFusee'.  • lib/services/balistique_eclairant_service.dart:77:14 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:77:23 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:78:60 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:82:43 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:83:33 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:84:29 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:85:29 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:86:29 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:87:31 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:88:35 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:89:30 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:90:42 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:91:34 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_eclairant_service.dart:94:60 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_eclairant_service.dart:95:46 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:123:37 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:124:34 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_eclairant_service.dart:125:15 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:125:30 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_eclairant_service.dart:126:19 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:126:33 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:127:43 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'TempageDetails?'.  • lib/services/balistique_eclairant_service.dart:128:23 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:128:41 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:129:25 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:130:36 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:131:38 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:132:28 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:133:66 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:134:28 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:135:27 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:136:31 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:137:30 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:138:22 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:139:24 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:140:28 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:141:30 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:142:34 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:143:34 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:144:34 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:145:26 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:146:38 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:147:47 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:148:51 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:149:50 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:150:44 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:151:36 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:152:38 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:153:50 • dead_null_aware_expression
+  error • The argument type 'num' can't be assigned to the parameter type 'int'.  • lib/services/balistique_eclairant_service.dart:154:25 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:154:50 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:91:60 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'SystemeArme'.  • lib/services/balistique_mo120_appui_service.dart:111:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:111:36 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_mo120_appui_service.dart:113:17 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:113:27 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_mo120_appui_service.dart:114:22 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:114:37 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:119:38 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:120:32 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:124:73 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'SystemeArme'.  • lib/services/balistique_mo120_appui_service.dart:139:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:139:36 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_mo120_appui_service.dart:141:17 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:141:27 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'SystemeArme'.  • lib/services/balistique_mo120_appui_service.dart:148:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:148:36 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_mo120_appui_service.dart:150:17 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:150:27 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_mo120_appui_service.dart:151:22 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:151:37 • dead_null_aware_expression
+  error • The argument type 'num' can't be assigned to the parameter type 'int?'.  • lib/services/balistique_mo120_appui_service.dart:152:26 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:152:33 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'SystemeArme'.  • lib/services/balistique_mo120_appui_service.dart:161:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:161:36 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_mo120_appui_service.dart:163:17 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:163:27 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_mo120_appui_service.dart:170:66 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:170:74 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'SystemeArme'.  • lib/services/balistique_mo120_appui_service.dart:176:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:176:36 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_mo120_appui_service.dart:178:17 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:178:27 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_mo120_appui_service.dart:179:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:179:26 • dead_null_aware_expression
+  error • The argument type 'num' can't be assigned to the parameter type 'int'.  • lib/services/balistique_mo120_appui_service.dart:185:60 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:185:75 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'SystemeArme'.  • lib/services/balistique_mo120_appui_service.dart:191:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:191:36 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_mo120_appui_service.dart:193:17 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:193:27 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool?'.  • lib/services/balistique_mo120_appui_service.dart:194:22 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:194:37 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_mo120_appui_service.dart:195:18 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:195:26 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:235:41 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_mo120_appui_service.dart:236:24 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:236:39 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:241:41 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_mo120_appui_service.dart:242:24 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:242:39 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:247:37 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_mo120_appui_service.dart:248:20 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:248:35 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:255:41 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:257:44 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool?'.  • lib/services/balistique_mo120_appui_service.dart:258:24 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:258:39 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_mo120_appui_service.dart:259:21 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:259:30 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:304:38 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:304:59 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:308:39 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_mo120_appui_service.dart:309:22 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:309:37 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:310:41 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:317:47 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:317:68 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_appui_service.dart:326:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_appui_service.dart:327:47 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:333:33 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_appui_service.dart:350:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_appui_service.dart:351:47 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:354:28 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:355:33 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:368:37 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:370:40 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_mo120_appui_service.dart:371:20 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:371:35 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_appui_service.dart:392:25 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_appui_service.dart:393:27 • unnecessary_null_comparison
+  error • The argument type 'Object' can't be assigned to the parameter type 'SystemeArme'.  • lib/services/balistique_mo120_appui_service.dart:397:44 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:397:62 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_mo120_appui_service.dart:399:24 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:399:39 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_mo120_appui_service.dart:400:17 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:400:27 • dead_null_aware_expression
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_appui_service.dart:410:49 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:411:56 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:412:54 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:415:67 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:417:66 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:423:56 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_mo120_appui_service.dart:426:27 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:426:37 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:427:46 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:494:37 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_mo120_appui_service.dart:495:24 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:495:39 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:517:36 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:518:34 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:524:36 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool?'.  • lib/services/balistique_mo120_appui_service.dart:525:22 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:525:37 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'StackTrace?'.  • lib/services/balistique_mo120_appui_service.dart:555:37 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:555:51 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:563:41 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'bool'.  • lib/services/balistique_mo120_appui_service.dart:564:24 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:564:39 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:597:31 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:598:29 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_mo120_appui_service.dart:599:15 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:599:25 • dead_null_aware_expression
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/services/balistique_mo120_appui_service.dart:600:19 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:600:34 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:601:35 • dead_null_aware_expression
+   info • Unnecessary use of '??' with 'null'. Try removing the '??' operator and the 'null' operand • lib/services/balistique_mo120_appui_service.dart:602:23 • unnecessary_null_in_if_null_operators
+  error • The argument type 'double' can't be assigned to the parameter type 'TempageDetails?'.  • lib/services/balistique_mo120_appui_service.dart:602:23 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:603:25 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:604:31 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:605:30 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:606:23 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:607:61 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:608:23 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:609:35 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:610:43 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:611:41 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:612:25 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:613:19 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:614:23 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:615:25 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:616:29 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:617:29 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:618:29 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:619:20 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:620:33 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:621:45 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:622:38 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:623:31 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:624:32 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:625:38 • dead_null_aware_expression
+  error • The argument type 'num' can't be assigned to the parameter type 'int'.  • lib/services/balistique_mo120_appui_service.dart:626:25 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:626:40 • dead_null_aware_expression
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo120_appui_service.dart:627:23 • argument_type_not_assignable
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_appui_service.dart:627:46 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_appui_service.dart:628:47 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_eclairant_service.dart:94:60 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_eclairant_service.dart:133:73 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_eclairant_service.dart:315:33 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_eclairant_service.dart:317:46 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_eclairant_service.dart:318:34 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_eclairant_service.dart:319:40 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_eclairant_service.dart:331:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_eclairant_service.dart:332:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_eclairant_service.dart:357:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_eclairant_service.dart:358:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_eclairant_service.dart:401:25 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_eclairant_service.dart:402:27 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_eclairant_service.dart:421:49 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_eclairant_service.dart:422:56 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_eclairant_service.dart:423:54 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_eclairant_service.dart:434:56 • dead_null_aware_expression
+warning • The value of the local variable 'acsMil' isn't used. Try removing the variable or using it • lib/services/balistique_mo120_eclairant_service.dart:533:12 • unused_local_variable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_eclairant_service.dart:613:43 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_eclairant_service.dart:615:29 • dead_null_aware_expression
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo120_eclairant_service.dart:738:23 • argument_type_not_assignable
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_eclairant_service.dart:738:46 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_eclairant_service.dart:739:47 • unnecessary_non_null_assertion
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo120_eclairant_service.dart:741:22 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo120_eclairant_service.dart:742:29 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo120_eclairant_service.dart:743:29 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo120_eclairant_service.dart:744:32 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo120_eclairant_service.dart:745:27 • argument_type_not_assignable
+warning • The receiver can't be null, so the null-aware operator '?.' is unnecessary. Try replacing the operator '?.' with '.' • lib/services/balistique_mo81_llr_appui_service.dart:207:30 • invalid_null_aware_operator
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo81_llr_appui_service.dart:217:53 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'false'. Try removing the condition, an enclosing condition, or the whole conditional statement • lib/services/balistique_mo81_llr_appui_service.dart:242:14 • unnecessary_null_comparison
+warning • The receiver can't be null, so the null-aware operator '?.' is unnecessary. Try replacing the operator '?.' with '.' • lib/services/balistique_mo81_llr_appui_service.dart:247:16 • invalid_null_aware_operator
+warning • Unnecessary cast. Try removing the cast • lib/services/balistique_mo81_llr_appui_service.dart:346:29 • unnecessary_cast
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo81_llr_appui_service.dart:370:48 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo81_llr_appui_service.dart:371:47 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo81_llr_appui_service.dart:410:46 • dead_null_aware_expression
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo81_llr_appui_service.dart:500:23 • argument_type_not_assignable
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo81_llr_appui_service.dart:500:46 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo81_llr_appui_service.dart:501:47 • unnecessary_non_null_assertion
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo81_llr_appui_service.dart:503:22 • argument_type_not_assignable
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo81_llr_appui_service.dart:504:29 • argument_type_not_assignable
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo81_llr_appui_service.dart:505:29 • argument_type_not_assignable
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo81_llr_appui_service.dart:506:32 • argument_type_not_assignable
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo81_llr_appui_service.dart:507:27 • argument_type_not_assignable
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo81_llr_eclairant_service.dart:246:40 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo81_llr_eclairant_service.dart:279:53 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'false'. Try removing the condition, an enclosing condition, or the whole conditional statement • lib/services/balistique_mo81_llr_eclairant_service.dart:345:15 • unnecessary_null_comparison
+warning • Unnecessary cast. Try removing the cast • lib/services/balistique_mo81_llr_eclairant_service.dart:429:29 • unnecessary_cast
+warning • The value of the local variable 'ventAvant' isn't used. Try removing the variable or using it • lib/services/balistique_mo81_llr_eclairant_service.dart:458:18 • unused_local_variable
+warning • The value of the local variable 'correctionDroite' isn't used. Try removing the variable or using it • lib/services/balistique_mo81_llr_eclairant_service.dart:464:18 • unused_local_variable
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo81_llr_eclairant_service.dart:524:48 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo81_llr_eclairant_service.dart:525:47 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo81_llr_eclairant_service.dart:561:46 • dead_null_aware_expression
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo81_llr_eclairant_service.dart:693:23 • argument_type_not_assignable
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo81_llr_eclairant_service.dart:693:46 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo81_llr_eclairant_service.dart:694:47 • unnecessary_non_null_assertion
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo81_llr_eclairant_service.dart:696:22 • argument_type_not_assignable
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo81_llr_eclairant_service.dart:697:29 • argument_type_not_assignable
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo81_llr_eclairant_service.dart:698:29 • argument_type_not_assignable
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo81_llr_eclairant_service.dart:699:32 • argument_type_not_assignable
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo81_llr_eclairant_service.dart:700:27 • argument_type_not_assignable
+   info • The import of 'dart:typed_data' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/foundation.dart'. Try removing the import directive • lib/services/maps/offline_map_download_service.dart:4:8 • unnecessary_import
+warning • The operand can't be 'null', so the condition is always 'false'. Try removing the condition, an enclosing condition, or the whole conditional statement • lib/services/report/message_pd_collector.dart:187:19 • unnecessary_null_comparison
+warning • The declaration '_pieceResultData' isn't referenced. Try removing the declaration of '_pieceResultData' • lib/services/report/message_pd_collector.dart:840:26 • unused_element
+   info • Don't invoke 'print' in production code. Try using a logging framework • lib/services/report/message_pd_collector.dart:1116:5 • avoid_print
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/secure/balistique_appui_service.dart:140:60 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/secure/balistique_appui_service.dart:187:66 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/secure/balistique_appui_service.dart:205:66 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/secure/balistique_appui_service.dart:386:33 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/secure/balistique_appui_service.dart:387:46 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/secure/balistique_appui_service.dart:388:34 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/secure/balistique_appui_service.dart:389:40 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/secure/balistique_appui_service.dart:413:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/secure/balistique_appui_service.dart:414:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/secure/balistique_appui_service.dart:444:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/secure/balistique_appui_service.dart:445:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/secure/balistique_appui_service.dart:473:25 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/secure/balistique_appui_service.dart:474:27 • unnecessary_null_comparison
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/secure/balistique_appui_service.dart:484:54 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/secure/balistique_appui_service.dart:485:52 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/secure/balistique_appui_service.dart:493:54 • dead_null_aware_expression
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/secure/balistique_appui_service.dart:503:50 • unnecessary_non_null_assertion
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/secure/balistique_appui_service.dart:641:23 • argument_type_not_assignable
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/secure/balistique_appui_service.dart:641:46 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/secure/balistique_appui_service.dart:642:47 • unnecessary_non_null_assertion
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/secure/balistique_appui_service.dart:644:22 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/secure/balistique_appui_service.dart:645:29 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/secure/balistique_appui_service.dart:646:29 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/secure/balistique_appui_service.dart:647:32 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/secure/balistique_appui_service.dart:648:27 • argument_type_not_assignable
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • test/services/messages/ct_piece_fire_payload_builder_test.dart:211:23 • argument_type_not_assignable
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • test/services/messages/ct_piece_fire_payload_builder_test.dart:215:23 • argument_type_not_assignable
+  error • The argument type 'Null' can't be assigned to the parameter type 'int'.  • test/services/messages/ct_piece_fire_payload_builder_test.dart:216:23 • argument_type_not_assignable
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • test/services/messages/ct_piece_fire_payload_builder_test.dart:217:21 • argument_type_not_assignable
+

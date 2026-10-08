@@ -1,0 +1,8 @@
+{
+  "kit": "rp_m819_linear_settings_v23",
+  "created_at": "2026-10-03T15:42:39",
+  "saved": [
+    "lib/domain/fire/effects/fire_shots_computer.dart",
+    "test/services/m252/m819_m772_tables_test.dart"
+  ]
+}

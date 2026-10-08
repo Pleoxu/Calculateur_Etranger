@@ -1,0 +1,123 @@
+[
+  {
+    "reglageFusee": 32,
+    "correctionV0Dec": -0.119,
+    "correctionV0Inc": 0.113,
+    "correctionVentFace": -0.01,
+    "correctionVentArriere": 0.009,
+    "correctionTempAirDec": -0.007,
+    "correctionTempAirInc": 0.003,
+    "correctionDensiteAirDec": 0.047,
+    "correctionDensiteAirInc": -0.045
+  },
+  {
+    "reglageFusee": 33,
+    "correctionV0Dec": -0.121,
+    "correctionV0Inc": 0.115,
+    "correctionVentFace": -0.01,
+    "correctionVentArriere": 0.009,
+    "correctionTempAirDec": -0.007,
+    "correctionTempAirInc": 0.003,
+    "correctionDensiteAirDec": 0.048,
+    "correctionDensiteAirInc": -0.046
+  },
+  {
+    "reglageFusee": 34,
+    "correctionV0Dec": -0.123,
+    "correctionV0Inc": 0.117,
+    "correctionVentFace": -0.01,
+    "correctionVentArriere": 0.009,
+    "correctionTempAirDec": -0.007,
+    "correctionTempAirInc": 0.003,
+    "correctionDensiteAirDec": 0.049,
+    "correctionDensiteAirInc": -0.047
+  },
+  {
+    "reglageFusee": 35,
+    "correctionV0Dec": -0.125,
+    "correctionV0Inc": 0.119,
+    "correctionVentFace": -0.01,
+    "correctionVentArriere": 0.009,
+    "correctionTempAirDec": -0.007,
+    "correctionTempAirInc": 0.003,
+    "correctionDensiteAirDec": 0.051,
+    "correctionDensiteAirInc": -0.049
+  },
+  {
+    "reglageFusee": 36,
+    "correctionV0Dec": -0.127,
+    "correctionV0Inc": 0.121,
+    "correctionVentFace": -0.01,
+    "correctionVentArriere": 0.008,
+    "correctionTempAirDec": -0.007,
+    "correctionTempAirInc": 0.003,
+    "correctionDensiteAirDec": 0.052,
+    "correctionDensiteAirInc": -0.05
+  },
+  {
+    "reglageFusee": 37,
+    "correctionV0Dec": -0.129,
+    "correctionV0Inc": 0.124,
+    "correctionVentFace": -0.01,
+    "correctionVentArriere": 0.008,
+    "correctionTempAirDec": -0.007,
+    "correctionTempAirInc": 0.003,
+    "correctionDensiteAirDec": 0.054,
+    "correctionDensiteAirInc": -0.051
+  },
+  {
+    "reglageFusee": 38,
+    "correctionV0Dec": -0.132,
+    "correctionV0Inc": 0.126,
+    "correctionVentFace": -0.01,
+    "correctionVentArriere": 0.008,
+    "correctionTempAirDec": -0.007,
+    "correctionTempAirInc": 0.003,
+    "correctionDensiteAirDec": 0.055,
+    "correctionDensiteAirInc": -0.053
+  },
+  {
+    "reglageFusee": 39,
+    "correctionV0Dec": -0.134,
+    "correctionV0Inc": 0.128,
+    "correctionVentFace": -0.01,
+    "correctionVentArriere": 0.008,
+    "correctionTempAirDec": -0.007,
+    "correctionTempAirInc": 0.003,
+    "correctionDensiteAirDec": 0.056,
+    "correctionDensiteAirInc": -0.054
+  },
+  {
+    "reglageFusee": 40,
+    "correctionV0Dec": -0.136,
+    "correctionV0Inc": 0.13,
+    "correctionVentFace": -0.009,
+    "correctionVentArriere": 0.008,
+    "correctionTempAirDec": -0.007,
+    "correctionTempAirInc": 0.003,
+    "correctionDensiteAirDec": 0.058,
+    "correctionDensiteAirInc": -0.055
+  },
+  {
+    "reglageFusee": 41,
+    "correctionV0Dec": -0.139,
+    "correctionV0Inc": 0.133,
+    "correctionVentFace": -0.009,
+    "correctionVentArriere": 0.007,
+    "correctionTempAirDec": -0.007,
+    "correctionTempAirInc": 0.003,
+    "correctionDensiteAirDec": 0.059,
+    "correctionDensiteAirInc": -0.057
+  },
+  {
+    "reglageFusee": 42,
+    "correctionV0Dec": -0.141,
+    "correctionV0Inc": 0.135,
+    "correctionVentFace": -0.008,
+    "correctionVentArriere": 0.007,
+    "correctionTempAirDec": -0.007,
+    "correctionTempAirInc": 0.003,
+    "correctionDensiteAirDec": 0.061,
+    "correctionDensiteAirInc": -0.058
+  }
+]

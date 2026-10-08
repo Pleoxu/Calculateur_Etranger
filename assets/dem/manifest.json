@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "description": "Manifest DEM intelligent. Tuiles Copernicus GLO-30 preconverties en .f32 float32 little-endian.",
+  "downloadBaseUrl": "",
+  "maxCacheBytes": 536870912,
+  "tileWidth": 3600,
+  "tileHeight": 3600,
+  "nodata": -32768,
+  "tiles": []
+}

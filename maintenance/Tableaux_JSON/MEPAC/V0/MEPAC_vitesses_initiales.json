@@ -1,0 +1,114 @@
+{
+  "systeme": "MO120RTF1",
+  "version": 1,
+  "description": "Vitesses initiales officielles du mortier de 120 mm rayé tracté F1",
+
+  "projectiles": {
+    "OE": {
+      "designation": "Projectile explosif 120 mm Mle F1",
+      "v0": {
+        "CH0": 115.0,
+        "CH0_5": 128.0,
+        "CH1": 141.0,
+        "CH1_5": 154.0,
+        "CH2": 167.0,
+        "CH2_5": 180.0,
+        "CH3": 193.0,
+        "CH4": 218.0,
+        "CH5": 241.0,
+        "CH6": 262.5,
+        "CH7": 290.5,
+        "CH8": 315.5,
+        "CH9": 340.5,
+        "CH10": 365.5
+      }
+    },
+
+    "OEX": {
+      "designation": "Projectile d'exercice 120 mm Mle F1",
+      "identiqueA": "OE"
+    },
+
+    "OFUM": {
+      "designation": "Projectile fumigène 120 mm Mle F1",
+      "identiqueA": "OE"
+    },
+
+    "OECL": {
+      "designation": "Projectile éclairant 120 mm Mle F1",
+      "v0": {
+        "CH1": 143.0,
+        "CH1_5": 156.0,
+        "CH2": 169.0,
+        "CH2_5": 182.0,
+        "CH3": 195.0,
+        "CH4": 221.0,
+        "CH5": 244.0,
+        "CH6": 265.5,
+        "CH7": 294.5,
+        "CH8": 319.5,
+        "CH9": 344.5,
+        "CH10": 369.5
+      }
+    }
+  },
+
+  "fusees": {
+    "PDM557": {
+      "designation": "Fusée-détonateur PDM 557",
+      "projectiles": [
+        "OE",
+        "OEX",
+        "OFUM"
+      ],
+      "type": "Percutante d'ogive",
+      "modes": {
+        "SQ": {
+          "description": "Instantané"
+        },
+        "DELAY": {
+          "description": "Retard",
+          "retardSecondes": 0.05
+        }
+      }
+    },
+
+    "FURALEC120F4": {
+      "designation": "Fusée radioélectrique FU RALEC 120 F4",
+      "projectiles": [
+        "OE"
+      ],
+      "type": "Radioélectrique double effet",
+      "modes": {
+        "PROXIMITE": {
+          "hauteurNominaleMetres": 6.0
+        },
+        "PERCUTANT": {
+          "description": "Percutant par sélecteur"
+        }
+      }
+    },
+
+    "FR55B": {
+      "designation": "Fusée FR 55 B",
+      "projectiles": [
+        "OECL"
+      ]
+    }
+  },
+
+  "corrections": {
+    "OE120F1_PDM557_SECURISE": {
+      "deltaV0": -2.0,
+      "unite": "m/s",
+      "description": "Projectile équipé d'une bague d'étanchéité et armé de la fusée PDM557.",
+      "application": "Appliquer une correction de vitesse initiale de -2 m/s sur toutes les charges. C'est la seule correction à appliquer. Le nombre de carreaux reste celui marqué sur le projectile."
+    }
+  },
+
+  "sources": {
+    "tableTir": "Mortier de 120 mm RT F1 ART 361",
+    "chapitre": "9.1",
+    "additif": "Chapitre 12"
+  }
+}

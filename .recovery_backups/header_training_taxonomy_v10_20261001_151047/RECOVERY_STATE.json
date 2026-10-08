@@ -1,0 +1,27 @@
+[
+  {
+    "path": "lib/models/calcul_data.dart",
+    "exists": true,
+    "directory": false
+  },
+  {
+    "path": "lib/presentation/fire/state/tir_header_state.dart",
+    "exists": true,
+    "directory": false
+  },
+  {
+    "path": "lib/domain/mortar81/m252/m252_asset_probe.dart",
+    "exists": true,
+    "directory": false
+  },
+  {
+    "path": "lib/presentation/fire/widgets/tir_header_section.dart",
+    "exists": true,
+    "directory": false
+  },
+  {
+    "path": "test/presentation/fire/widgets/header_training_taxonomy_test.dart",
+    "exists": false,
+    "directory": false
+  }
+]

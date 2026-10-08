@@ -1,0 +1,26 @@
+{
+  "kit": "rp_m819_m772_ch3_2250_weather_v21",
+  "created_at": "2026-10-03T13:37:31",
+  "saved": [
+    "lib/services/m252/m819_table_codec.dart",
+    "maintenance/M252/PROFILES/M819_M772_CH3/PROFILE.md",
+    "maintenance/M252/PROFILES/M819_M772_CH3/raw/M252_M819_M772_CH3_TABLE_D.json",
+    "maintenance/M252/PROFILES/M819_M772_CH3/raw/SOURCES.sha256",
+    "test/services/m252/m819_m772_tables_test.dart",
+    "assets/secure/tableaux/foreign/m252/profiles/M819_M772_CH1",
+    "assets/secure/tableaux/foreign/m252/profiles/M819_M772_CH2",
+    "assets/secure/tableaux/foreign/m252/profiles/M819_M772_CH3",
+    "assets/secure/tableaux/foreign/m252/profiles/M819_M772_CH4",
+    "assets/secure_enc/tableaux/foreign/m252/profiles/M819_M772_CH1",
+    "assets/secure_enc/tableaux/foreign/m252/profiles/M819_M772_CH2",
+    "assets/secure_enc/tableaux/foreign/m252/profiles/M819_M772_CH3",
+    "assets/secure_enc/tableaux/foreign/m252/profiles/M819_M772_CH4",
+    "assets/secure/manifest_foreign_m252_m819_m772.json",
+    "assets/secure_enc/manifest.json.enc"
+  ],
+  "not_present_before_install": [
+    "maintenance/M252/PROFILES/M819_M772_CH3/raw/evidence/ch3_page05_2250m",
+    "test/services/m252/_m819_2250_nominal_probe_test.dart",
+    ".recovery_backups/.rp_m819_m772_ch3_2250_weather_v21.json"
+  ]
+}

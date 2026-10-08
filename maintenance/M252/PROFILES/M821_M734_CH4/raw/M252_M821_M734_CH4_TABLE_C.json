@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "typeTir": "Appui",
+    "charge": "CH4",
+    "titre": "Température de la poudre — Effet sur la vitesse initiale",
+    "symbole": "ΔEF Vo/Tp",
+    "unites": {
+      "tempPoudreF": "°F",
+      "deltaVo_temp": "m/s",
+      "tempPoudreC": "°C"
+    },
+    "source": "Tables CH4_OEM821_FuM734.pdf, table C"
+  },
+  "data": [
+    {
+      "tempPoudreF": -40,
+      "deltaVo_temp": -7.9,
+      "tempPoudreC": -40.0
+    },
+    {
+      "tempPoudreF": -35,
+      "deltaVo_temp": -7.6,
+      "tempPoudreC": -37.2
+    },
+    {
+      "tempPoudreF": -30,
+      "deltaVo_temp": -7.3,
+      "tempPoudreC": -34.4
+    },
+    {
+      "tempPoudreF": -25,
+      "deltaVo_temp": -6.9,
+      "tempPoudreC": -31.7
+    },
+    {
+      "tempPoudreF": -20,
+      "deltaVo_temp": -6.6,
+      "tempPoudreC": -28.9
+    },
+    {
+      "tempPoudreF": -15,
+      "deltaVo_temp": -6.2,
+      "tempPoudreC": -26.1
+    },
+    {
+      "tempPoudreF": -10,
+      "deltaVo_temp": -5.9,
+      "tempPoudreC": -23.3
+    },
+    {
+      "tempPoudreF": -5,
+      "deltaVo_temp": -5.5,
+      "tempPoudreC": -20.6
+    },
+    {
+      "tempPoudreF": 0,
+      "deltaVo_temp": -5.1,
+      "tempPoudreC": -17.8
+    },
+    {
+      "tempPoudreF": 5,
+      "deltaVo_temp": -4.8,
+      "tempPoudreC": -15.0
+    },
+    {
+      "tempPoudreF": 10,
+      "deltaVo_temp": -4.4,
+      "tempPoudreC": -12.2
+    },
+    {
+      "tempPoudreF": 15,
+      "deltaVo_temp": -4.1,
+      "tempPoudreC": -9.4
+    },
+    {
+      "tempPoudreF": 20,
+      "deltaVo_temp": -3.7,
+      "tempPoudreC": -6.7
+    },
+    {
+      "tempPoudreF": 25,
+      "deltaVo_temp": -3.3,
+      "tempPoudreC": -3.9
+    },
+    {
+      "tempPoudreF": 30,
+      "deltaVo_temp": -3.0,
+      "tempPoudreC": -1.1
+    },
+    {
+      "tempPoudreF": 35,
+      "deltaVo_temp": -2.6,
+      "tempPoudreC": 1.7
+    },
+    {
+      "tempPoudreF": 40,
+      "deltaVo_temp": -2.2,
+      "tempPoudreC": 4.4
+    },
+    {
+      "tempPoudreF": 45,
+      "deltaVo_temp": -1.9,
+      "tempPoudreC": 7.2
+    },
+    {
+      "tempPoudreF": 50,
+      "deltaVo_temp": -1.5,
+      "tempPoudreC": 10.0
+    },
+    {
+      "tempPoudreF": 55,
+      "deltaVo_temp": -1.1,
+      "tempPoudreC": 12.8
+    },
+    {
+      "tempPoudreF": 60,
+      "deltaVo_temp": -0.8,
+      "tempPoudreC": 15.6
+    },
+    {
+      "tempPoudreF": 65,
+      "deltaVo_temp": -0.4,
+      "tempPoudreC": 18.3
+    },
+    {
+      "tempPoudreF": 70,
+      "deltaVo_temp": 0.0,
+      "tempPoudreC": 21.1
+    },
+    {
+      "tempPoudreF": 75,
+      "deltaVo_temp": 0.4,
+      "tempPoudreC": 23.9
+    },
+    {
+      "tempPoudreF": 80,
+      "deltaVo_temp": 0.8,
+      "tempPoudreC": 26.7
+    },
+    {
+      "tempPoudreF": 85,
+      "deltaVo_temp": 1.1,
+      "tempPoudreC": 29.4
+    },
+    {
+      "tempPoudreF": 90,
+      "deltaVo_temp": 1.5,
+      "tempPoudreC": 32.2
+    },
+    {
+      "tempPoudreF": 95,
+      "deltaVo_temp": 1.9,
+      "tempPoudreC": 35.0
+    },
+    {
+      "tempPoudreF": 100,
+      "deltaVo_temp": 2.3,
+      "tempPoudreC": 37.8
+    },
+    {
+      "tempPoudreF": 105,
+      "deltaVo_temp": 2.7,
+      "tempPoudreC": 40.6
+    },
+    {
+      "tempPoudreF": 110,
+      "deltaVo_temp": 3.1,
+      "tempPoudreC": 43.3
+    },
+    {
+      "tempPoudreF": 115,
+      "deltaVo_temp": 3.5,
+      "tempPoudreC": 46.1
+    },
+    {
+      "tempPoudreF": 120,
+      "deltaVo_temp": 3.9,
+      "tempPoudreC": 48.9
+    },
+    {
+      "tempPoudreF": 125,
+      "deltaVo_temp": 4.3,
+      "tempPoudreC": 51.7
+    },
+    {
+      "tempPoudreF": 130,
+      "deltaVo_temp": 4.7,
+      "tempPoudreC": 54.4
+    }
+  ]
+}

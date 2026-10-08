@@ -1,0 +1,565 @@
+import 'dart:io';
+import 'dart:typed_data';
+
+import 'package:flutter/material.dart';
+import 'package:calculateur_etranger/models/calcul_data.dart';
+import 'package:calculateur_etranger/domain/entities/meteo_row.dart';
+import 'package:calculateur_etranger/domain/meteo/metb_parser.dart';
+import 'package:calculateur_etranger/presentation/fire/dialogs/mo81_powder_temperature_dialog.dart';
+import 'package:calculateur_etranger/presentation/fire/mappers/fire_request_mapper.dart';
+import 'package:calculateur_etranger/presentation/fire/state/tir_complet_state.dart';
+import 'package:calculateur_etranger/services/balistique_mo81_m252_appui_service.dart';
+import 'package:calculateur_etranger/services/m252/m252_profile.dart';
+import 'package:calculateur_etranger/services/m252/m252_table_codec.dart';
+import 'package:calculateur_etranger/services/m252/m252_table_repository.dart';
+import 'package:calculateur_etranger/presentation/fire/state/tir_header_state.dart';
+import 'package:flutter_test/flutter_test.dart';
+
+void main() {
+  late M252TableRepository repository;
+
+  setUpAll(() async {
+    const clearRoot =
+        'assets/secure/tableaux/foreign/m252/profiles/M821_M734_CH3';
+    final files = <String, String>{
+      M252TableRepository.windPath: '$clearRoot/A/A.aebtl.gz',
+      M252TableRepository.airDensityPath: '$clearRoot/B/B.bebtl.gz',
+      M252TableRepository.powderTemperaturePath: '$clearRoot/C/C_CH3.cebtl.gz',
+      M252TableRepository.trajectoryPath: '$clearRoot/D/D_CH3.debtl.gz',
+      M252TableRepository.dispersionPath: '$clearRoot/E/E_CH3.eebtl.gz',
+    };
+
+    final payloads = <String, Uint8List>{
+      for (final entry in files.entries)
+        entry.key: Uint8List.fromList(await File(entry.value).readAsBytes()),
+    };
+
+    repository = M252TableRepository(
+      decryptAsset: (path) async {
+        final payload = payloads[path];
+        if (payload == null) throw StateError('Missing test asset: $path');
+        return payload;
+      },
+    );
+  });
+
+  test('decodes all five M252 CH3 formats and preserves reference rows',
+      () async {
+    final tables = await repository.load();
+
+    expect(tables.wind.length, 65);
+    expect(tables.wind.atAngleMil(800).wz, closeTo(0.71, 0.001));
+    expect(tables.wind.atAngleMil(1600).wx, closeTo(0.0, 0.001));
+
+    expect(tables.airDensity.rows, hasLength(41));
+    final air = tables.airDensity.atAbsoluteDeltaAltitude(250);
+    expect(air.deltaTemperaturePct, closeTo(-0.6, 0.001));
+    expect(air.deltaPressurePct, closeTo(-2.4, 0.001));
+
+    expect(tables.powderTemperature.rows, hasLength(35));
+    expect(tables.powderTemperature.atFahrenheit(70).deltaVoMs,
+        closeTo(0.0, 0.001));
+    expect(tables.powderTemperature.atFahrenheit(-40).deltaVoMs,
+        closeTo(-10.0, 0.001));
+    expect(tables.powderTemperature.atFahrenheit(75).deltaVoMs,
+        closeTo(0.6, 0.001));
+    expect(tables.powderTemperature.atFahrenheit(80).deltaVoMs,
+        closeTo(1.2, 0.001));
+
+    expect(tables.trajectory.rows, hasLength(125));
+    final trajectory = tables.trajectory.atDistance(2000);
+    expect(trajectory.elevationMil, closeTo(1364.0, 0.001));
+    expect(trajectory.timeOfFlightS, closeTo(45.4, 0.001));
+    expect(trajectory.turnsPer100m, 1);
+    expect(trajectory.weatherLine, 5);
+    expect(tables.trajectory.atDistance(4350).weatherLine, 4);
+
+    expect(tables.dispersion.rows, hasLength(33));
+    final dispersion = tables.dispersion.atDistance(2000);
+    expect(dispersion.probableRangeErrorM, closeTo(10.0, 0.001));
+    expect(dispersion.remainingVelocityMs, closeTo(195.0, 0.001));
+  });
+
+  test('selecting M252 defaults to the qualified M821 / CH0 family', () {
+    final header = TirHeaderNotifier();
+    header.setSysteme(Systeme.mo81M252);
+
+    expect(header.state.m252MunitionFamily, M252MunitionFamily.m821);
+    expect(header.state.mo81MunitionLabel, 'M821');
+    expect(
+      BalistiqueMo81M252AppuiService.qualifiedMunitions,
+      const <M252MunitionFamily>[
+        M252MunitionFamily.m821,
+        M252MunitionFamily.m821a1,
+        M252MunitionFamily.m821a2,
+      ],
+      reason:
+          'Each runtime profile must expose its exact cartridge/ fuze family.',
+    );
+    expect(
+      m252MunitionsDisponiblesPour(TypeTir.appui),
+      containsAll(const <M252MunitionFamily>[
+        M252MunitionFamily.m821,
+        M252MunitionFamily.m821a1,
+        M252MunitionFamily.m821a2,
+        M252MunitionFamily.m889,
+        M252MunitionFamily.m889a1,
+        M252MunitionFamily.tpM879,
+        M252MunitionFamily.rpM819,
+      ]),
+    );
+
+    header.setMo81Munition('M821A2');
+    expect(header.state.m252MunitionFamily, M252MunitionFamily.m821a2);
+    expect(header.state.mo81MunitionLabel, 'M821A2');
+  });
+
+  test(
+      'reselecting M252 clears a stale CH3 header before mapping a 300 m request',
+      () {
+    final header = TirHeaderNotifier(
+      const TirHeaderState(
+        systeme: Systeme.mo81M252,
+        typeTir: TypeTir.appui,
+        mo81MunitionLabel: 'M821A1',
+        m252MunitionFamily: M252MunitionFamily.m821a1,
+      ),
+    );
+    final form = TirCompletNotifier();
+    form.setSysteme(Systeme.mo81M252);
+    form.setM252MunitionFamily(M252MunitionFamily.m821a1);
+
+    // This is the exact action behind the unified MO81 L16 / M252 button.
+    header.setSysteme(Systeme.mo81M252);
+    form.setSysteme(Systeme.mo81M252);
+
+    expect(header.state.mo81MunitionLabel, 'M821');
+    expect(header.state.m252MunitionFamily, M252MunitionFamily.m821);
+    expect(form.state.m252MunitionFamily, M252MunitionFamily.m821);
+
+    final controllers = <TextEditingController>[
+      for (var index = 0; index < 14; index++) TextEditingController(),
+    ];
+    addTearDown(() {
+      for (final controller in controllers) {
+        controller.dispose();
+      }
+    });
+
+    final request = FireRequestMapper.fromControllerInputs(
+      header: header.state,
+      tirState: form.state,
+      xCtrl: controllers[0],
+      yCtrl: controllers[1],
+      zCtrl: controllers[2],
+      zoneCtrl: controllers[3],
+      latCtrl: controllers[4],
+      lonCtrl: controllers[5],
+      altCtrl: controllers[6],
+      distCtrl: controllers[7],
+      azCtrl: controllers[8],
+      altObjCtrl: controllers[9],
+      xObjCtrl: controllers[10],
+      yObjCtrl: controllers[11],
+      zObjCtrl: controllers[12],
+      obsXCtrl: controllers[13],
+    );
+
+    expect(request.m252MunitionFamily, M252MunitionFamily.m821);
+    expect(
+      M252Profiles.forMunition(request.m252MunitionFamily)?.id,
+      'M821_M734_CH0',
+    );
+  });
+
+  test('MO81 L16 and M252 share one mortar selector in the UI', () {
+    final header = TirHeaderNotifier();
+
+    header.setSysteme(Systeme.mo81M252);
+    expect(header.state.systeme, Systeme.mo81M252);
+    expect(header.state.typeTir, TypeTir.appui);
+    expect(header.state.m252MunitionFamily, M252MunitionFamily.m821);
+    expect(Systeme.mo81M252.typesDisponibles, TypeTir.values);
+
+    final selector =
+        File('lib/presentation/fire/widgets/tir_header_section.dart')
+            .readAsStringSync();
+    expect(selector, contains("'MO81 L16\\nM252'"));
+    expect(selector, contains('targetSystem: Systeme.mo81M252'));
+    expect(selector, isNot(contains("'MO81 L16', targetSystem")));
+    expect(selector, isNot(contains("'M252', targetSystem")));
+    expect(selector, contains('final isMortar = _isMortarSystem(systeme);'));
+    expect(selector, contains('_famillesMortier'));
+    expect(selector, contains('if (isMortar)'));
+  });
+
+  test('keeps the selected M252 cartridge in the calculation state', () {
+    final header = TirHeaderNotifier();
+    final form = TirCompletNotifier();
+
+    header.setSysteme(Systeme.mo81M252);
+    form.setSysteme(Systeme.mo81M252);
+    form.setM252MunitionFamily(header.state.m252MunitionFamily!);
+
+    expect(form.state.m252MunitionFamily, M252MunitionFamily.m821);
+    expect(
+      M252Profiles.forMunition(form.state.m252MunitionFamily)?.chargeLabel,
+      'CH0',
+    );
+
+    header.setMo81Munition('M821A1');
+    form.setM252MunitionFamily(header.state.m252MunitionFamily!);
+    expect(form.state.m252MunitionFamily, M252MunitionFamily.m821a1);
+    expect(
+      M252Profiles.forMunition(form.state.m252MunitionFamily)?.chargeLabel,
+      'CH3',
+    );
+  });
+
+  test('uses the CEBTL zero row at 70 °F / 21.1 °C', () {
+    expect(BalistiqueMo81M252AppuiService.referencePowderTemperatureF, 70.0);
+    expect(
+      BalistiqueMo81M252AppuiService.referencePowderTemperatureC,
+      closeTo(21.111111, 0.000001),
+    );
+    expect(
+      PowderTemperatureUnit.fahrenheit.toCelsius(70.0),
+      closeTo(
+          BalistiqueMo81M252AppuiService.referencePowderTemperatureC, 0.000001),
+    );
+    expect(
+      PowderTemperatureUnit.celsius.fromCelsius(
+        BalistiqueMo81M252AppuiService.referencePowderTemperatureC,
+      ),
+      closeTo(21.111111, 0.000001),
+    );
+  });
+
+  test('stores only the M252 current powder temperature', () {
+    final notifier = TirCompletNotifier();
+    notifier.setTirSimilaireValues(
+      carreaux: 4,
+      tPrev: 12.0,
+      tAct: 15.0,
+      v0: 195.0,
+    );
+
+    notifier.setTirSimilaireMo81M252(temperaturePoudreActuelleC: 0.0);
+
+    expect(notifier.state.tirSimilaire, isTrue);
+    expect(notifier.state.tAct, 0.0);
+    expect(notifier.state.tPrev, isNull);
+    expect(notifier.state.v0Prev, isNull);
+    expect(notifier.state.simFusee, notifier.state.fusee);
+  });
+
+  test('calculates the neutral 2000 m M821A1 / CH3 reference solution',
+      () async {
+    final result = await BalistiqueMo81M252AppuiService.calculer(
+      const CalculInput(
+        systeme: Systeme.mo81M252,
+        typeTir: TypeTir.appui,
+        m252MunitionFamily: M252MunitionFamily.m821a1,
+        chargeForcee: 'CH3',
+        distanceM: 2000,
+        azimutObjectifMil: 1200,
+      ),
+      tables: repository,
+    );
+
+    expect(result.estValide, isTrue);
+    expect(result.charge, 'CH3');
+    expect(result.typeAssets, 'M252_M821_M734_CH3');
+    expect(result.porteeCorrigeeM, closeTo(2000.0, 0.001));
+    expect(result.aqeMil, closeTo(1364.0, 0.001));
+    expect(result.noireMil, closeTo(1200.0, 0.001));
+    expect(result.tempsVolS, closeTo(45.4, 0.001));
+    expect(result.ecartProbablePorteeM, closeTo(10.0, 0.001));
+    expect(result.niveauMeteoBUsed, 5);
+    expect(result.details['weatherLineFromTableD'], 5);
+    expect(result.details['m252Cartridge'], 'M821A1');
+    expect(result.details['m252Fuze'], 'M734');
+  });
+
+  test('calculates the neutral 300 m M821 / M734 CH0 reference solution',
+      () async {
+    const profile = M252Profiles.m821M734Ch0;
+    final clearRoot =
+        'assets/secure/tableaux/foreign/m252/profiles/${profile.id}';
+    final payloads = <String, Uint8List>{
+      for (final tableId in const <String>['A', 'B', 'C', 'D', 'E'])
+        profile.encryptedPath(tableId): Uint8List.fromList(
+          await File('$clearRoot/$tableId/${profile.tableFiles[tableId]}')
+              .readAsBytes(),
+        ),
+    };
+    final ch0Repository = M252TableRepository(
+      profile: profile,
+      decryptAsset: (path) async {
+        final payload = payloads[path];
+        if (payload == null) throw StateError('Missing test asset: $path');
+        return payload;
+      },
+    );
+
+    final result = await BalistiqueMo81M252AppuiService.calculer(
+      const CalculInput(
+        systeme: Systeme.mo81M252,
+        typeTir: TypeTir.appui,
+        m252MunitionFamily: M252MunitionFamily.m821,
+        chargeForcee: 'CH0',
+        distanceM: 300,
+        azimutObjectifMil: 1200,
+      ),
+      tables: ch0Repository,
+    );
+
+    expect(result.estValide, isTrue);
+    expect(result.charge, 'CH0');
+    expect(result.typeAssets, 'M252_M821_M734_CH0');
+    expect(result.porteeCorrigeeM, closeTo(300.0, 0.001));
+    expect(result.aqeMil, closeTo(1256.0, 0.001));
+    expect(result.tempsVolS, closeTo(13.5, 0.001));
+    expect(result.niveauMeteoBUsed, 1);
+    expect(result.details['profile'], 'M821_M734_CH0');
+    expect(result.details['weatherLineFromTableD'], 1);
+    expect(result.details['qualifiedRangeM'], <double>[125.0, 350.0]);
+  });
+
+  test('uses the qualified M821/M734 CH3 tables for M821A2 / M734A1', () async {
+    final result = await BalistiqueMo81M252AppuiService.calculer(
+      const CalculInput(
+        systeme: Systeme.mo81M252,
+        typeTir: TypeTir.appui,
+        m252MunitionFamily: M252MunitionFamily.m821a2,
+        chargeForcee: 'CH3',
+        distanceM: 2000,
+        azimutObjectifMil: 1200,
+      ),
+      tables: repository,
+    );
+
+    expect(result.estValide, isTrue);
+    expect(result.typeAssets, 'M252_M821_M734_CH3');
+    expect(result.aqeMil, closeTo(1364.0, 0.001));
+    expect(result.details['m252Cartridge'], 'M821A2');
+    expect(result.details['m252Fuze'], 'M734A1');
+  });
+
+  test('selects the loaded MET row identified by Table D LINE NO.', () async {
+    const level4 = MeteoRow(
+      level: 4,
+      azimutMils: 1000,
+      vKn: 2,
+      tempPermil: 990,
+      pressPermil: 990,
+      sourceType: 'METB',
+    );
+    const level5 = MeteoRow(
+      level: 5,
+      azimutMils: 2000,
+      vKn: 7,
+      tempPermil: 1010,
+      pressPermil: 990,
+      sourceType: 'METB',
+    );
+    final result = await BalistiqueMo81M252AppuiService.calculer(
+      const CalculInput(
+        systeme: Systeme.mo81M252,
+        typeTir: TypeTir.appui,
+        m252MunitionFamily: M252MunitionFamily.m821a1,
+        chargeForcee: 'CH3',
+        distanceM: 1811,
+        meteoOn: true,
+        meteoRows: <MeteoRow>[level4, level5],
+        pdZ: 100,
+        objZ: 100,
+        meteoStationAltM: 0,
+      ),
+      tables: repository,
+    );
+
+    expect(result.niveauMeteoBUsed, 5);
+    expect(result.details['weatherLineFromTableD'], 5);
+    expect(result.details['weatherLineLoaded'], 5);
+    expect(result.details['weatherApplied'], isTrue);
+    expect(result.details['windKnots'], 7.0);
+    expect(result.details['meteoRawTemperaturePct'], 101.0);
+    expect(result.details['meteoRawPressurePct'], 99.0);
+    expect(result.details['tableA_wzFactor'], closeTo(0.92, 0.001));
+    expect(result.details['tableA_wxFactor'], closeTo(0.38, 0.001));
+    expect(result.details['tableB_temperatureAdjustmentPct'],
+        closeTo(-0.2, 0.001));
+    expect(
+        result.details['tableB_pressureAdjustmentPct'], closeTo(-1.0, 0.001));
+    expect(result.details['tableD_deltaCrossWindMil'], isNot(0.0));
+    expect(result.details['tableD_deltaLongitudinalWindM'], isNot(0.0));
+    expect(result.details['tableD_deltaTemperatureM'], isNot(0.0));
+    expect(result.details['tableD_deltaPressureM'], isNot(0.0));
+  });
+
+  test('restores the exercise corrections from MET line 05 and FT Table C',
+      () async {
+    // MET B form: level / wind direction (hundreds of mils) / knots /
+    // temperature ratio / pressure ratio. The parser restores 050 to 1050‰.
+    final exerciseRow = MetBParser.parse('05 18 11 050 977').single;
+    expect(exerciseRow.azimutMils, 1800);
+    expect(exerciseRow.vKn, 11);
+    expect(exerciseRow.tempPermil, 1050);
+    expect(exerciseRow.pressPermil, 977);
+
+    final result = await BalistiqueMo81M252AppuiService.calculer(
+      CalculInput(
+        systeme: Systeme.mo81M252,
+        typeTir: TypeTir.appui,
+        m252MunitionFamily: M252MunitionFamily.m821a1,
+        chargeForcee: 'CH3',
+        distanceM: 1811,
+        // Bearing recorded in the exercise geometry. Do not round it before
+        // evaluating Table A; the output is displayed rounded to 0.01 mil.
+        azimutObjectifMil: 4824.997721,
+        // Deliberately leave `meteoOn` false: loaded MET data must still
+        // trigger Tables A, B and D.
+        meteoRows: <MeteoRow>[exerciseRow],
+        // Table B is tied to the piece (460 m) and the weather station
+        // (370 m): +90 m. The supplied data carry no piece/target ΔZ.
+        pdZ: 460,
+        objZ: 460,
+        meteoStationAltM: 370,
+        simTempActC: 25.0,
+        simTemperatureCorrectionEnabled: true,
+      ),
+      tables: repository,
+    );
+
+    expect(result.details['weatherApplied'], isTrue);
+    expect(result.niveauMeteoBUsed, 5);
+    expect(result.wzMil, closeTo(-6.545, 0.001));
+    expect(result.wxM, closeTo(-62.843, 0.001));
+    expect(result.deltaZStationM, closeTo(90.0, 0.001));
+    expect(result.deltaTBM, closeTo(-1.440, 0.001));
+    expect(result.deltaPBM, closeTo(-19.021, 0.001));
+    // FT 81-AR-2 Table C: 25 °C = 77 °F, interpolated between
+    // +0.6 m/s at 75 °F and +1.2 m/s at 80 °F.
+    expect(result.deltaV0M, closeTo(-7.681, 0.001));
+    // Table D column 2 is interpolated at the corrected range only. No
+    // piece/target altitude difference was provided, so no site correction
+    // may be invented or applied.
+    expect(result.siteTotalAsMil, 0.0);
+    expect(result.aqeMil, closeTo(1397.60, 0.01));
+    expect(result.gisementMil, closeTo(4818.453, 0.001));
+  });
+
+  test('rejects MET correction when the Table D line is absent', () async {
+    const level4 = MeteoRow(
+      level: 4,
+      azimutMils: 1000,
+      vKn: 9,
+      tempPermil: 990,
+      pressPermil: 990,
+      sourceType: 'METB',
+    );
+    await expectLater(
+      BalistiqueMo81M252AppuiService.calculer(
+        const CalculInput(
+          systeme: Systeme.mo81M252,
+          typeTir: TypeTir.appui,
+          m252MunitionFamily: M252MunitionFamily.m821a1,
+          chargeForcee: 'CH3',
+          distanceM: 1811,
+          meteoOn: true,
+          meteoRows: <MeteoRow>[level4],
+        ),
+        tables: repository,
+      ),
+      throwsA(isA<StateError>()),
+    );
+  });
+
+  test('applies a 0 °C powder correction when explicitly enabled', () async {
+    const neutral = CalculInput(
+      systeme: Systeme.mo81M252,
+      typeTir: TypeTir.appui,
+      m252MunitionFamily: M252MunitionFamily.m821a1,
+      chargeForcee: 'CH3',
+      distanceM: 2000,
+    );
+    const zeroC = CalculInput(
+      systeme: Systeme.mo81M252,
+      typeTir: TypeTir.appui,
+      m252MunitionFamily: M252MunitionFamily.m821a1,
+      chargeForcee: 'CH3',
+      distanceM: 2000,
+      simTempActC: 0.0,
+      simTemperatureCorrectionEnabled: true,
+    );
+
+    final neutralResult = await BalistiqueMo81M252AppuiService.calculer(
+      neutral,
+      tables: repository,
+    );
+    final zeroCResult = await BalistiqueMo81M252AppuiService.calculer(
+      zeroC,
+      tables: repository,
+    );
+
+    expect(neutralResult.deltaV0M, 0.0);
+    expect(zeroCResult.deltaV0M, isNot(0.0));
+  });
+
+  test('does not invent an M252 site correction from legacy input', () async {
+    final result = await BalistiqueMo81M252AppuiService.calculer(
+      const CalculInput(
+        systeme: Systeme.mo81M252,
+        typeTir: TypeTir.appui,
+        m252MunitionFamily: M252MunitionFamily.m821a1,
+        chargeForcee: 'CH3',
+        distanceM: 2000,
+        deltaAltitudeM: -500,
+      ),
+      tables: repository,
+    );
+
+    expect(result.siteTotalAsMil, 0.0);
+    expect(result.aqeMil, closeTo(1364.0, 0.001));
+  });
+
+  test('exposes a time-of-flight label on every CalculResult', () {
+    expect(const CalculResult().tempsLabel, 'Time of flight');
+    expect(
+      const CalculResult(typeAssets: 'MO_OECL').tempsLabel,
+      'Fuze setting',
+    );
+  });
+
+  test('rejects a charge or range outside the qualified CH3 reference domain',
+      () async {
+    await expectLater(
+      BalistiqueMo81M252AppuiService.calculer(
+        const CalculInput(
+          systeme: Systeme.mo81M252,
+          typeTir: TypeTir.appui,
+          m252MunitionFamily: M252MunitionFamily.m821a1,
+          chargeForcee: 'CH2',
+          distanceM: 2000,
+        ),
+        tables: repository,
+      ),
+      throwsA(isA<UnsupportedError>()),
+    );
+
+    await expectLater(
+      BalistiqueMo81M252AppuiService.calculer(
+        const CalculInput(
+          systeme: Systeme.mo81M252,
+          typeTir: TypeTir.appui,
+          m252MunitionFamily: M252MunitionFamily.m821a1,
+          chargeForcee: 'CH3',
+          distanceM: 2301,
+        ),
+        tables: repository,
+      ),
+      throwsA(isA<M252TableRangeException>()),
+    );
+  });
+}

@@ -1,0 +1,16 @@
+{
+  "kit": "rp_m819_ui_message_offsets_v22",
+  "created_at": "2026-10-03T15:15:38",
+  "saved": [
+    "lib/services/report/message_pd_collector.dart",
+    "lib/presentation/fire/widgets/message_pd_preview_card.dart",
+    "lib/presentation/fire/widgets/tir_header_section.dart",
+    "lib/presentation/fire/dialogs/tir_similaire_dialog.dart",
+    "lib/presentation/fire/dialogs/masse_et_charge_dialogs.dart",
+    "lib/presentation/fire/widgets/options_tir_list.dart",
+    "test/presentation/fire/widgets/header_training_taxonomy_test.dart"
+  ],
+  "not_present_before_install": [
+    "test/services/report/message_pd_collector_test.dart"
+  ]
+}

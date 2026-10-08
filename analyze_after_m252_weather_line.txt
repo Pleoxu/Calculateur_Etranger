@@ -1,0 +1,246 @@
+Resolving dependencies...
+Downloading packages...
+  archive 4.0.9 (4.3.0 available)
+  clock 1.1.2 (1.1.3 available)
+  cross_file 0.3.5+2 (0.4.0 available)
+  dbus 0.7.15 (0.8.0 available)
+  file_picker 11.0.2 (13.1.0 available)
+  file_selector_android 0.5.2+8 (0.5.2+11 available)
+  file_selector_ios 0.5.3+5 (0.5.3+6 available)
+  file_selector_linux 0.9.4 (0.9.4+1 available)
+  file_selector_macos 0.9.5 (0.9.5+1 available)
+  file_selector_windows 0.9.3+5 (0.9.3+6 available)
+  flutter_blue_plus 2.3.7 (2.3.13 available)
+  flutter_blue_plus_android 9.0.1 (9.0.4 available)
+  flutter_blue_plus_darwin 9.0.1 (9.0.4 available)
+  flutter_blue_plus_linux 9.0.1 (9.0.3 available)
+  flutter_blue_plus_platform_interface 9.0.1 (9.0.3 available)
+  flutter_blue_plus_web 9.0.1 (9.0.3 available)
+  flutter_map 7.0.2 (8.3.2 available)
+  flutter_riverpod 2.6.1 (3.4.3 available)
+  flutter_secure_storage 10.3.1 (11.2.0 available)
+  flutter_secure_storage_darwin 0.3.2 (0.4.3 available)
+  flutter_secure_storage_linux 3.0.1 (3.0.3 available)
+  flutter_secure_storage_platform_interface 2.0.1 (2.1.1 available)
+  flutter_secure_storage_windows 4.1.0 (4.2.2 available)
+  geolocator 14.0.2 (14.1.1 available)
+  geolocator_android 5.0.2 (5.1.1 available)
+  geolocator_apple 2.3.13 (2.3.14 available)
+  geolocator_linux 0.2.4 (0.2.6 available)
+  geolocator_platform_interface 4.2.6 (4.4.0 available)
+  geolocator_web 4.1.3 (4.1.4 available)
+  gsettings 0.2.8 (0.2.9 available)
+  image 4.9.2 (4.10.1 available)
+  intl 0.20.2 (0.20.3 available)
+  jni 1.0.0 (1.0.3 available)
+  jni_flutter 1.0.1 (1.0.3 available)
+  latlong2 0.9.1 (0.10.1 available)
+  logger 2.7.0 (2.8.0 available)
+  matcher 0.12.19 (0.12.20 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  mbtiles 0.4.2 (0.5.1 available)
+  meta 1.18.0 (1.19.0 available)
+  mgrs_dart 2.0.0 (3.0.0 available)
+  mobile_scanner 7.4.1 (7.4.2 available)
+  package_config 2.2.0 (3.0.0 available)
+  package_info_plus 9.0.1 (10.2.1 available)
+  package_info_plus_platform_interface 3.2.1 (4.1.0 available)
+  path_provider 2.1.5 (2.1.6 available)
+  path_provider_foundation 2.5.1 (2.6.0 available)
+  path_provider_linux 2.2.1 (2.2.2 available)
+  path_provider_platform_interface 2.1.2 (2.1.3 available)
+  pdf 3.13.0 (3.13.1 available)
+  petitparser 7.0.2 (7.1.0 available)
+  platform 3.1.6 (3.2.0 available)
+  posix 6.5.0 (6.5.2 available)
+  proj4dart 2.1.0 (3.0.0 available)
+  qr 3.0.2 (4.0.0 available)
+  riverpod 2.6.1 (3.4.3 available)
+  shared_preferences_android 2.4.25 (2.4.28 available)
+  shared_preferences_foundation 2.5.6 (2.5.7 available)
+  sqlite3 2.9.4 (3.6.0 available)
+  sqlite3_flutter_libs 0.5.42 (0.6.0+eol available)
+  stack_trace 1.12.1 (1.12.2 available)
+  test_api 0.7.11 (0.7.14 available)
+  unicode 0.3.1 (1.1.9 available)
+  uuid 4.5.3 (4.6.0 available)
+  vector_math 2.2.0 (2.4.3 available)
+  vm_service 15.2.0 (15.3.0 available)
+  win32 5.15.0 (6.4.0 available)
+  xml 7.0.1 (7.1.0 available)
+Got dependencies!
+68 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing calculateur_etranger...                               
+
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/domain/fire/effects/fire_shots_computer.dart:231:20 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/domain/fire/effects/fire_shots_computer.dart:233:27 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/domain/fire/services/fire_shots_computer.dart:319:27 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/domain/fire/services/fire_shots_computer.dart:319:55 • unnecessary_non_null_assertion
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/domain/fire/services/fire_shots_computer.dart:320:35 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/domain/fire/services/fire_shots_computer.dart:323:39 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/domain/fire/services/fire_shots_computer.dart:324:33 • unnecessary_non_null_assertion
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/domain/fire/services/fire_shots_computer.dart:326:51 • unnecessary_non_null_assertion
+warning • The receiver can't be null, so the null-aware operator '?.' is unnecessary. Try replacing the operator '?.' with '.' • lib/domain/fire/services/fire_shots_computer.dart:360:33 • invalid_null_aware_operator
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/presentation/fire/pages/ecran_tir_complet.dart:316:69 • unnecessary_non_null_assertion
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/presentation/fire/pages/ecran_tir_complet.dart:357:75 • unnecessary_non_null_assertion
+warning • The value of the local variable 'currentPiecesSoutien' isn't used. Try removing the variable or using it • lib/presentation/fire/pages/ecran_tir_complet_dialogs.dart:465:22 • unused_local_variable
+warning • The value of the local variable 'radius' isn't used. Try removing the variable or using it • lib/presentation/fire/services/message_map_report_builder.dart:53:11 • unused_local_variable
+warning • The declaration '_focusLayoutForGeometry' isn't referenced. Try removing the declaration of '_focusLayoutForGeometry' • lib/presentation/fire/services/message_map_report_builder.dart:599:6 • unused_element
+warning • The declaration '_focusFrameForGeometry' isn't referenced. Try removing the declaration of '_focusFrameForGeometry' • lib/presentation/fire/services/message_map_report_builder.dart:688:37 • unused_element
+warning • The declaration '_focusZoomFromRadius' isn't referenced. Try removing the declaration of '_focusZoomFromRadius' • lib/presentation/fire/services/message_map_report_builder.dart:748:10 • unused_element
+warning • A value for optional parameter 'key' isn't ever given. Try removing the unused parameter • lib/presentation/fire/widgets/message_map_report_view.dart:227:11 • unused_element_parameter
+warning • The declaration '_oppositeMil' isn't referenced. Try removing the declaration of '_oppositeMil' • lib/presentation/fire/widgets/message_map_report_view.dart:337:7 • unused_element
+warning • A value for optional parameter 'tirOppositeLabel' isn't ever given. Try removing the unused parameter • lib/presentation/fire/widgets/message_map_report_view.dart:761:10 • unused_element_parameter
+warning • A value for optional parameter 'linearOppositeLabel' isn't ever given. Try removing the unused parameter • lib/presentation/fire/widgets/message_map_report_view.dart:763:10 • unused_element_parameter
+warning • Unused import: 'package:calculateur_etranger/models/calcul_data.dart'. Try removing the import directive • lib/presentation/fire/widgets/objectif_input_card.dart:6:8 • unused_import
+warning • The value of the local variable 'typeTir' isn't used. Try removing the variable or using it • lib/presentation/fire/widgets/objectif_input_card.dart:298:11 • unused_local_variable
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/presentation/fire/widgets/tir_details_decomposition.dart:305:33 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/presentation/fire/widgets/tir_details_decomposition.dart:305:68 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/presentation/fire/widgets/tir_results_card.dart:61:21 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/presentation/fire/widgets/tir_results_card.dart:67:21 • unnecessary_null_comparison
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:235:60 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:286:66 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:304:66 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_bonus_service.dart:515:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_bonus_service.dart:516:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_bonus_service.dart:557:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_bonus_service.dart:558:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_bonus_service.dart:600:25 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_bonus_service.dart:601:27 • unnecessary_null_comparison
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:611:54 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:612:52 • dead_null_aware_expression
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_bonus_service.dart:622:50 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_bonus_service.dart:650:27 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_bonus_service.dart:660:33 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:768:55 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_core_service.dart:250:60 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_core_service.dart:304:54 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_core_service.dart:510:37 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_core_service.dart:511:51 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_core_service.dart:512:38 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_core_service.dart:513:45 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_core_service.dart:530:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_core_service.dart:531:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_core_service.dart:557:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_core_service.dart:558:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_core_service.dart:591:25 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_core_service.dart:592:27 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_core_service.dart:626:48 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_core_service.dart:641:56 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_core_service.dart:642:54 • dead_null_aware_expression
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_core_service.dart:647:52 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_core_service.dart:704:57 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:56:55 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:58:44 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_eclairant_service.dart:92:60 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_eclairant_service.dart:93:46 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:91:60 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:124:73 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:304:38 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:304:59 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:317:47 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:317:68 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_appui_service.dart:326:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_appui_service.dart:327:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_appui_service.dart:350:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_appui_service.dart:351:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_appui_service.dart:392:25 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_appui_service.dart:393:27 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_appui_service.dart:410:49 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:411:56 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:412:54 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:423:56 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_eclairant_service.dart:94:60 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_eclairant_service.dart:133:73 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_eclairant_service.dart:315:33 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_eclairant_service.dart:317:46 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_eclairant_service.dart:318:34 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_eclairant_service.dart:319:40 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_eclairant_service.dart:331:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_eclairant_service.dart:332:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_eclairant_service.dart:357:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_eclairant_service.dart:358:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_eclairant_service.dart:401:25 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_eclairant_service.dart:402:27 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_eclairant_service.dart:421:49 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_eclairant_service.dart:422:56 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_eclairant_service.dart:423:54 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_eclairant_service.dart:434:56 • dead_null_aware_expression
+warning • The value of the local variable 'acsMil' isn't used. Try removing the variable or using it • lib/services/balistique_mo120_eclairant_service.dart:533:12 • unused_local_variable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_eclairant_service.dart:613:43 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_eclairant_service.dart:615:29 • dead_null_aware_expression
+warning • The receiver can't be null, so the null-aware operator '?.' is unnecessary. Try replacing the operator '?.' with '.' • lib/services/balistique_mo81_llr_appui_service.dart:207:30 • invalid_null_aware_operator
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo81_llr_appui_service.dart:217:53 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'false'. Try removing the condition, an enclosing condition, or the whole conditional statement • lib/services/balistique_mo81_llr_appui_service.dart:242:14 • unnecessary_null_comparison
+warning • The receiver can't be null, so the null-aware operator '?.' is unnecessary. Try replacing the operator '?.' with '.' • lib/services/balistique_mo81_llr_appui_service.dart:247:16 • invalid_null_aware_operator
+warning • Unnecessary cast. Try removing the cast • lib/services/balistique_mo81_llr_appui_service.dart:346:29 • unnecessary_cast
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo81_llr_appui_service.dart:370:48 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo81_llr_appui_service.dart:371:47 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo81_llr_appui_service.dart:410:46 • dead_null_aware_expression
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo81_llr_eclairant_service.dart:246:40 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo81_llr_eclairant_service.dart:279:53 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'false'. Try removing the condition, an enclosing condition, or the whole conditional statement • lib/services/balistique_mo81_llr_eclairant_service.dart:345:15 • unnecessary_null_comparison
+warning • Unnecessary cast. Try removing the cast • lib/services/balistique_mo81_llr_eclairant_service.dart:429:29 • unnecessary_cast
+warning • The value of the local variable 'ventAvant' isn't used. Try removing the variable or using it • lib/services/balistique_mo81_llr_eclairant_service.dart:458:18 • unused_local_variable
+warning • The value of the local variable 'correctionDroite' isn't used. Try removing the variable or using it • lib/services/balistique_mo81_llr_eclairant_service.dart:464:18 • unused_local_variable
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo81_llr_eclairant_service.dart:524:48 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo81_llr_eclairant_service.dart:525:47 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo81_llr_eclairant_service.dart:561:46 • dead_null_aware_expression
+   info • The import of 'dart:typed_data' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/foundation.dart'. Try removing the import directive • lib/services/maps/offline_map_download_service.dart:4:8 • unnecessary_import
+warning • The operand can't be 'null', so the condition is always 'false'. Try removing the condition, an enclosing condition, or the whole conditional statement • lib/services/report/message_pd_collector.dart:175:19 • unnecessary_null_comparison
+warning • The declaration '_pieceResultData' isn't referenced. Try removing the declaration of '_pieceResultData' • lib/services/report/message_pd_collector.dart:828:26 • unused_element
+   info • Don't invoke 'print' in production code. Try using a logging framework • lib/services/report/message_pd_collector.dart:1103:5 • avoid_print
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/secure/balistique_appui_service.dart:140:60 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/secure/balistique_appui_service.dart:187:66 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/secure/balistique_appui_service.dart:205:66 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/secure/balistique_appui_service.dart:386:33 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/secure/balistique_appui_service.dart:387:46 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/secure/balistique_appui_service.dart:388:34 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/secure/balistique_appui_service.dart:389:40 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/secure/balistique_appui_service.dart:413:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/secure/balistique_appui_service.dart:414:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/secure/balistique_appui_service.dart:444:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/secure/balistique_appui_service.dart:445:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/secure/balistique_appui_service.dart:473:25 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/secure/balistique_appui_service.dart:474:27 • unnecessary_null_comparison
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/secure/balistique_appui_service.dart:484:54 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/secure/balistique_appui_service.dart:485:52 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/secure/balistique_appui_service.dart:493:54 • dead_null_aware_expression
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/secure/balistique_appui_service.dart:503:50 • unnecessary_non_null_assertion
+warning • The value of the local variable 't' isn't used. Try removing the variable or using it • lib/utils/charge_utils.dart:139:9 • unused_local_variable
+   info • Dangling library doc comment. Add a 'library' directive after the library comment • tool/build_m252_ch3_assets.dart:1:1 • dangling_library_doc_comments
+   info • Use interpolation to compose strings and values. Try using string interpolation to build the composite string • tool/build_m252_ch3_assets.dart:93:5 • prefer_interpolation_to_compose_strings
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/aebtl_builder.dart:69:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/aebtl_builder.dart:70:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/aebtl_builder.dart:71:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/aebtl_builder.dart:72:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/aebtl_builder.dart:73:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/aebtl_builder.dart:74:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/aebtl_builder.dart:75:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/air_density_table_builder.dart:152:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/air_density_table_builder.dart:153:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/air_density_table_builder.dart:154:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/air_density_table_builder.dart:155:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/air_density_table_builder.dart:156:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/air_density_table_builder.dart:157:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/air_density_table_builder.dart:158:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/cebtl_builder.dart:88:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/cebtl_builder.dart:89:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/cebtl_builder.dart:90:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/cebtl_builder.dart:91:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/cebtl_builder.dart:92:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/cebtl_builder.dart:93:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/cebtl_builder.dart:94:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/cebtl_builder.dart:95:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/debtl_builder.dart:80:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/debtl_builder.dart:81:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/debtl_builder.dart:82:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/debtl_builder.dart:83:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/debtl_builder.dart:84:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/debtl_builder.dart:85:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/debtl_builder.dart:86:5 • avoid_print
+   info • Don't invoke 'print' in production code. Try using a logging framework • tool/m252_builders/debtl_builder.dart:87:5 • avoid_print
+   info • Dangling library doc comment. Add a 'library' directive after the library comment • tool/merge_encrypt_m252_assets.dart:1:1 • dangling_library_doc_comments
+   info • Use interpolation to compose strings and values. Try using string interpolation to build the composite string • tool/merge_encrypt_m252_assets.dart:107:18 • prefer_interpolation_to_compose_strings
+

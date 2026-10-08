@@ -1,0 +1,322 @@
+Resolving dependencies...
+Downloading packages...
+  archive 4.0.9 (4.2.0 available)
+  clock 1.1.2 (1.1.3 available)
+  code_assets 1.2.1 (2.0.0 available)
+  cross_file 0.3.5+2 (0.3.5+5 available)
+  dbus 0.7.14 (0.7.15 available)
+  file_picker 11.0.2 (12.1.2 available)
+  file_selector_android 0.5.2+8 (0.5.2+10 available)
+  file_selector_ios 0.5.3+5 (0.5.3+6 available)
+  file_selector_linux 0.9.4 (0.9.4+1 available)
+  file_selector_macos 0.9.5 (0.9.5+1 available)
+  file_selector_windows 0.9.3+5 (0.9.3+6 available)
+  flutter_blue_plus 2.3.7 (2.3.12 available)
+  flutter_blue_plus_android 9.0.1 (9.0.3 available)
+  flutter_blue_plus_darwin 9.0.1 (9.0.4 available)
+  flutter_blue_plus_linux 9.0.1 (9.0.3 available)
+  flutter_blue_plus_platform_interface 9.0.1 (9.0.3 available)
+  flutter_blue_plus_web 9.0.1 (9.0.3 available)
+  flutter_map 7.0.2 (8.3.2 available)
+  flutter_riverpod 2.6.1 (3.4.2 available)
+  flutter_secure_storage 10.3.1 (11.0.0 available)
+  flutter_secure_storage_darwin 0.3.2 (0.4.0 available)
+  flutter_secure_storage_linux 3.0.1 (3.0.2 available)
+  flutter_secure_storage_platform_interface 2.0.1 (2.0.3 available)
+  flutter_secure_storage_windows 4.1.0 (4.2.2 available)
+  geolocator 14.0.2 (14.0.3 available)
+  geolocator_android 5.0.2 (5.0.3 available)
+  geolocator_apple 2.3.13 (2.3.14 available)
+  geolocator_linux 0.2.4 (0.2.6 available)
+  geolocator_platform_interface 4.2.6 (4.3.0 available)
+  geolocator_web 4.1.3 (4.1.4 available)
+  hooks 2.0.2 (2.2.0 available)
+  intl 0.20.2 (0.20.3 available)
+  jni 1.0.0 (1.0.3 available)
+  jni_flutter 1.0.1 (1.0.2 available)
+  latlong2 0.9.1 (0.10.1 available)
+  matcher 0.12.19 (0.12.20 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  mbtiles 0.4.2 (0.5.0 available)
+  meta 1.18.0 (1.19.0 available)
+  mgrs_dart 2.0.0 (3.0.0 available)
+  objective_c 9.4.1 (9.6.0 available)
+  package_config 2.2.0 (3.0.0 available)
+  package_info_plus 9.0.1 (10.2.1 available)
+  package_info_plus_platform_interface 3.2.1 (4.1.0 available)
+  path_provider 2.1.5 (2.1.6 available)
+  path_provider_linux 2.2.1 (2.2.2 available)
+  path_provider_platform_interface 2.1.2 (2.1.3 available)
+  posix 6.5.0 (6.5.2 available)
+  proj4dart 2.1.0 (3.0.0 available)
+  pub_semver 2.2.0 (2.2.1 available)
+  record_use 0.6.0 (1.1.1 available)
+  riverpod 2.6.1 (3.4.2 available)
+  shared_preferences_android 2.4.25 (2.4.28 available)
+  shared_preferences_foundation 2.5.6 (2.5.7 available)
+  sqlite3 2.9.4 (3.5.2 available)
+  sqlite3_flutter_libs 0.5.42 (0.6.0+eol available)
+  stack_trace 1.12.1 (1.12.2 available)
+  test_api 0.7.11 (0.7.13 available)
+  unicode 0.3.1 (1.1.9 available)
+  uuid 4.5.3 (4.6.0 available)
+  vector_math 2.2.0 (2.4.2 available)
+  vm_service 15.2.0 (15.3.0 available)
+  win32 5.15.0 (6.4.0 available)
+  xml 6.6.1 (7.0.1 available)
+  yaml 3.1.3 (3.1.4 available)
+Got dependencies!
+65 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Launching lib/main.dart on macOS in debug mode...
+The following plugins do not support Swift Package Manager for macos:
+  - flutter_libserialport
+This will become an error in a future version of Flutter. Please contact the plugin maintainers to request Swift Package Manager adoption.
+Building macOS application...                                   
+/Users/Peloux/dev/Calculateur_tir/macos/Pods/Pods.xcodeproj: warning: The macOS deployment target 'MACOSX_DEPLOYMENT_TARGET' is set to 10.11, but the range of supported deployment target versions is 10.13 to 26.5.99. (in target 'libserialport' from project 'Pods')
+✓ Built build/macos/Build/Products/Debug/calculateur_tir_ng.app
+2026-09-01 11:49:51.483 calculateur_tir_ng[52872:4766506] Running with merged UI and platform thread. Experimental.
+Failed to foreground app; open returned 1
+Syncing files to device macOS...                                    58ms
+
+Flutter run key commands.
+r Hot reload. 🔥🔥🔥
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on macOS is available at: http://127.0.0.1:50815/RHGLNLiDWfU=/
+The Flutter DevTools debugger and profiler on macOS is available at: http://127.0.0.1:50815/RHGLNLiDWfU=/devtools/?uri=ws://127.0.0.1:50815/RHGLNLiDWfU=/ws
+flutter: [FUSEE UI] typeTir=TypeTir.appui munition=TypeMunition.oeF5Fr fusee=TypeFusee.frappe
+[SECURE_ASSET_DEBUG] assetPath = assets/secure_enc/manifest.json.enc
+[SECURE_ASSET_DEBUG] flutterAssetKey = Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/manifest.json.enc
+[SECURE_ASSET_DEBUG] assetUrl = /Users/Peloux/dev/Calculateur_tir/build/macos/Build/Products/Debug/calculateur_tir_ng.app/Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/manifest.json.enc
+flutter: [SECURE_TEST] manifest decrypted bytes=122298
+flutter: [FUSEE UI] typeTir=TypeTir.appui munition=null fusee=TypeFusee.frappe
+flutter: [FUSEE UI] typeTir=TypeTir.appui munition=TypeMunition.oe120F1 fusee=TypeFusee.fuRalec120F4
+flutter: [FUSEE UI] typeTir=TypeTir.appui munition=null fusee=TypeFusee.frappe
+flutter: [FUSEE UI] typeTir=TypeTir.appui munition=TypeMunition.oe81F2 fusee=TypeFusee.frappe
+flutter: [FUSEE UI] typeTir=TypeTir.appui munition=TypeMunition.oeF5Fr fusee=TypeFusee.frappe
+flutter: [FUSEE UI] typeTir=TypeTir.appui munition=null fusee=TypeFusee.frappe
+flutter: [FUSEE UI] typeTir=TypeTir.appui munition=TypeMunition.oe120F1 fusee=TypeFusee.fuRalec120F4
+flutter: [FUSEE UI] typeTir=TypeTir.appui munition=null fusee=TypeFusee.frappe
+flutter: [FUSEE UI] typeTir=TypeTir.appui munition=TypeMunition.oe81F2 fusee=TypeFusee.frappe
+flutter: [FUSEE UI] typeTir=TypeTir.eclairant munition=TypeMunition.oecl81F1 fusee=TypeFusee.frappe
+flutter: [FUSEE UI] typeTir=TypeTir.eclairant munition=TypeMunition.oeclIr81F2 fusee=TypeFusee.frappe
+[SECURE_ASSET_DEBUG] assetPath = assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH1.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] flutterAssetKey = Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH1.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] assetUrl = /Users/Peloux/dev/Calculateur_tir/build/macos/Build/Products/Debug/calculateur_tir_ng.app/Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH1.ftbl.gz.enc
+flutter: [SECURE] TableauF AES natif OK assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH1.ftbl.gz.enc systeme=SystemeArme.caesar
+flutter: [TableauF] OK 24 rows via assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH1.ftbl.gz.enc
+flutter: [TableauF] first distance=200.0 hausse=1523.0 derive=0.0 tempageS=23.899999618530273 kWz=6.409999847412109 varH=19.399999618530273
+flutter: [MO81 LLR CHARGE] MO81_LLR_OECL_IR_81_F2 D=3500.0 CH1 hausse=779.00 mil
+[SECURE_ASSET_DEBUG] assetPath = assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH2.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] flutterAssetKey = Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH2.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] assetUrl = /Users/Peloux/dev/Calculateur_tir/build/macos/Build/Products/Debug/calculateur_tir_ng.app/Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH2.ftbl.gz.enc
+flutter: [SECURE] TableauF AES natif OK assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH2.ftbl.gz.enc systeme=SystemeArme.caesar
+flutter: [TableauF] OK 38 rows via assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH2.ftbl.gz.enc
+flutter: [TableauF] first distance=350.0 hausse=1518.0 derive=0.0 tempageS=31.0 kWz=7.25 varH=23.700000762939453
+flutter: [MO81 LLR CHARGE] MO81_LLR_OECL_IR_81_F2 D=3500.0 CH2 hausse=768.00 mil
+[SECURE_ASSET_DEBUG] assetPath = assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH3.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] flutterAssetKey = Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH3.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] assetUrl = /Users/Peloux/dev/Calculateur_tir/build/macos/Build/Products/Debug/calculateur_tir_ng.app/Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH3.ftbl.gz.enc
+flutter: [SECURE] TableauF AES natif OK assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH3.ftbl.gz.enc systeme=SystemeArme.caesar
+flutter: [TableauF] OK 55 rows via assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH3.ftbl.gz.enc
+flutter: [TableauF] first distance=550.0 hausse=1513.0 derive=0.0 tempageS=38.900001525878906 kWz=9.479999542236328 varH=16.0
+flutter: [MO81 LLR CHARGE] MO81_LLR_OECL_IR_81_F2 D=3500.0 CH3 hausse=748.00 mil
+[SECURE_ASSET_DEBUG] assetPath = assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH4.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] flutterAssetKey = Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH4.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] assetUrl = /Users/Peloux/dev/Calculateur_tir/build/macos/Build/Products/Debug/calculateur_tir_ng.app/Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH4.ftbl.gz.enc
+flutter: [SECURE] TableauF AES natif OK assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH4.ftbl.gz.enc systeme=SystemeArme.caesar
+flutter: [TableauF] OK 36 rows via assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH4.ftbl.gz.enc
+flutter: [TableauF] first distance=700.0 hausse=1513.0 derive=0.0 tempageS=45.0 kWz=11.4399995803833 varH=12.699999809265137
+flutter: [TableauF INTERP] distanceDemandee=3500.0 d0=3400.0 d1=3500.0 t=1.0 derive0=0.0 derive1=0.0
+flutter: [TableauF INTERP] deriveInterp=0.0
+flutter: [MO81 LLR CHARGE] MO81_LLR_OECL_IR_81_F2 D=3500.0 CH4 hausse=1053.00 mil
+flutter: [MO81 LLR CHARGE] sélection doctrinale MO81_LLR_OECL_IR_81_F2 => CH4 hausse=1053.00 mil
+flutter: [MO81 LLR TIR SIMILAIRE] munition=TypeMunition.oeclIr81F2 sélection D=3500.0 m => CH4 hausse=1053.00 mil
+flutter: [MO81 LLR TIR SIMILAIRE] munition=TypeMunition.oeclIr81F2 charge=CH4 V0ref=245.0 m/s Tref=21°C Tact=15.0°C
+flutter: [FUSEE UI] typeTir=TypeTir.eclairant munition=TypeMunition.oeclIr81F2 fusee=TypeFusee.frappe
+flutter: [FUSEE UI] typeTir=TypeTir.eclairant munition=TypeMunition.oecl81F3 fusee=TypeFusee.frappe
+flutter: [FUSEE UI] typeTir=TypeTir.eclairant munition=TypeMunition.oecl81F3 fusee=TypeFusee.frappe
+[SECURE_ASSET_DEBUG] assetPath = assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_81_F3_T2_CH1.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] flutterAssetKey = Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_81_F3_T2_CH1.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] assetUrl = /Users/Peloux/dev/Calculateur_tir/build/macos/Build/Products/Debug/calculateur_tir_ng.app/Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_81_F3_T2_CH1.ftbl.gz.enc
+flutter: [SECURE] TableauF AES natif OK assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_81_F3_T2_CH1.ftbl.gz.enc systeme=SystemeArme.caesar
+flutter: [TableauF] OK 20 rows via assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_81_F3_T2_CH1.ftbl.gz.enc
+flutter: [TableauF] first distance=250.0 hausse=1493.0 derive=0.0 tempageS=23.0 kWz=3.9000000953674316 varH=22.0
+flutter: [MO81 LLR CHARGE] MO81_LLR_OECL_81_F3 D=3500.0 CH1 hausse=778.00 mil
+[SECURE_ASSET_DEBUG] assetPath = assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_81_F3_T2_CH2.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] flutterAssetKey = Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_81_F3_T2_CH2.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] assetUrl = /Users/Peloux/dev/Calculateur_tir/build/macos/Build/Products/Debug/calculateur_tir_ng.app/Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_81_F3_T2_CH2.ftbl.gz.enc
+flutter: [SECURE] TableauF AES natif OK assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_81_F3_T2_CH2.ftbl.gz.enc systeme=SystemeArme.caesar
+flutter: [TableauF] OK 33 rows via assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_81_F3_T2_CH2.ftbl.gz.enc
+flutter: [TableauF] first distance=400.0 hausse=1497.0 derive=0.0 tempageS=30.0 kWz=5.400000095367432 varH=13.0
+flutter: [MO81 LLR CHARGE] MO81_LLR_OECL_81_F3 D=3500.0 CH2 hausse=765.00 mil
+[SECURE_ASSET_DEBUG] assetPath = assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_81_F3_T2.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] flutterAssetKey = Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_81_F3_T2.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] assetUrl = /Users/Peloux/dev/Calculateur_tir/build/macos/Build/Products/Debug/calculateur_tir_ng.app/Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_81_F3_T2.ftbl.gz.enc
+flutter: [SECURE] TableauF AES natif OK assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_81_F3_T2.ftbl.gz.enc systeme=SystemeArme.caesar
+flutter: [TableauF] OK 26 rows via assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_81_F3_T2.ftbl.gz.enc
+flutter: [TableauF] first distance=700.0 hausse=1486.0 derive=0.0 tempageS=38.0 kWz=6.699999809265137 varH=17.0
+flutter: [MO81 LLR CHARGE] MO81_LLR_OECL_81_F3 D=3500.0 CH3 hausse=748.00 mil
+[SECURE_ASSET_DEBUG] assetPath = assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_81_F3_T2_CH4.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] flutterAssetKey = Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_81_F3_T2_CH4.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] assetUrl = /Users/Peloux/dev/Calculateur_tir/build/macos/Build/Products/Debug/calculateur_tir_ng.app/Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_81_F3_T2_CH4.ftbl.gz.enc
+flutter: [SECURE] TableauF AES natif OK assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_81_F3_T2_CH4.ftbl.gz.enc systeme=SystemeArme.caesar
+flutter: [TableauF] OK 35 rows via assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_81_F3_T2_CH4.ftbl.gz.enc
+flutter: [TableauF] first distance=900.0 hausse=1491.0 derive=0.0 tempageS=45.0 kWz=7.800000190734863 varH=12.0
+flutter: [TableauF INTERP] distanceDemandee=3500.0 d0=3400.0 d1=3500.0 t=1.0 derive0=0.0 derive1=0.0
+flutter: [TableauF INTERP] deriveInterp=0.0
+flutter: [MO81 LLR CHARGE] MO81_LLR_OECL_81_F3 D=3500.0 CH4 hausse=1085.00 mil
+flutter: [MO81 LLR CHARGE] sélection doctrinale MO81_LLR_OECL_81_F3 => CH4 hausse=1085.00 mil
+flutter: [MO81 LLR TIR SIMILAIRE] munition=TypeMunition.oecl81F3 sélection D=3500.0 m => CH4 hausse=1085.00 mil
+flutter: [FUSEE UI] typeTir=TypeTir.eclairant munition=TypeMunition.oecl81F3 fusee=TypeFusee.frappe
+flutter: [FUSEE UI] typeTir=TypeTir.eclairant munition=TypeMunition.oeclIr81F2 fusee=TypeFusee.frappe
+[SECURE_ASSET_DEBUG] assetPath = assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH1.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] flutterAssetKey = Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH1.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] assetUrl = /Users/Peloux/dev/Calculateur_tir/build/macos/Build/Products/Debug/calculateur_tir_ng.app/Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH1.ftbl.gz.enc
+flutter: [SECURE] TableauF AES natif OK assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH1.ftbl.gz.enc systeme=SystemeArme.caesar
+flutter: [TableauF] OK 24 rows via assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH1.ftbl.gz.enc
+flutter: [TableauF] first distance=200.0 hausse=1523.0 derive=0.0 tempageS=23.899999618530273 kWz=6.409999847412109 varH=19.399999618530273
+flutter: [MO81 LLR CHARGE] MO81_LLR_OECL_IR_81_F2 D=3500.0 CH1 hausse=779.00 mil
+[SECURE_ASSET_DEBUG] assetPath = assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH2.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] flutterAssetKey = Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH2.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] assetUrl = /Users/Peloux/dev/Calculateur_tir/build/macos/Build/Products/Debug/calculateur_tir_ng.app/Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH2.ftbl.gz.enc
+flutter: [SECURE] TableauF AES natif OK assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH2.ftbl.gz.enc systeme=SystemeArme.caesar
+flutter: [TableauF] OK 38 rows via assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH2.ftbl.gz.enc
+flutter: [TableauF] first distance=350.0 hausse=1518.0 derive=0.0 tempageS=31.0 kWz=7.25 varH=23.700000762939453
+flutter: [MO81 LLR CHARGE] MO81_LLR_OECL_IR_81_F2 D=3500.0 CH2 hausse=768.00 mil
+[SECURE_ASSET_DEBUG] assetPath = assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH3.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] flutterAssetKey = Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH3.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] assetUrl = /Users/Peloux/dev/Calculateur_tir/build/macos/Build/Products/Debug/calculateur_tir_ng.app/Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH3.ftbl.gz.enc
+flutter: [SECURE] TableauF AES natif OK assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH3.ftbl.gz.enc systeme=SystemeArme.caesar
+flutter: [TableauF] OK 55 rows via assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH3.ftbl.gz.enc
+flutter: [TableauF] first distance=550.0 hausse=1513.0 derive=0.0 tempageS=38.900001525878906 kWz=9.479999542236328 varH=16.0
+flutter: [MO81 LLR CHARGE] MO81_LLR_OECL_IR_81_F2 D=3500.0 CH3 hausse=748.00 mil
+[SECURE_ASSET_DEBUG] assetPath = assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH4.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] flutterAssetKey = Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH4.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] assetUrl = /Users/Peloux/dev/Calculateur_tir/build/macos/Build/Products/Debug/calculateur_tir_ng.app/Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH4.ftbl.gz.enc
+flutter: [SECURE] TableauF AES natif OK assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH4.ftbl.gz.enc systeme=SystemeArme.caesar
+flutter: [TableauF] OK 36 rows via assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH4.ftbl.gz.enc
+flutter: [TableauF] first distance=700.0 hausse=1513.0 derive=0.0 tempageS=45.0 kWz=11.4399995803833 varH=12.699999809265137
+flutter: [TableauF INTERP] distanceDemandee=3500.0 d0=3400.0 d1=3500.0 t=1.0 derive0=0.0 derive1=0.0
+flutter: [TableauF INTERP] deriveInterp=0.0
+flutter: [MO81 LLR CHARGE] MO81_LLR_OECL_IR_81_F2 D=3500.0 CH4 hausse=1053.00 mil
+flutter: [MO81 LLR CHARGE] sélection doctrinale MO81_LLR_OECL_IR_81_F2 => CH4 hausse=1053.00 mil
+flutter: [MO81 LLR TIR SIMILAIRE] munition=TypeMunition.oeclIr81F2 sélection D=3500.0 m => CH4 hausse=1053.00 mil
+flutter: [MO81 LLR TIR SIMILAIRE] munition=TypeMunition.oeclIr81F2 charge=CH4 V0ref=245.0 m/s Tref=21°C Tact=15.0°C
+flutter: [FUSEE UI] typeTir=TypeTir.eclairant munition=TypeMunition.oeclIr81F2 fusee=TypeFusee.frappe
+flutter: [FUSEE UI] typeTir=TypeTir.eclairant munition=TypeMunition.oeclIr81F2 fusee=TypeFusee.frappe
+[SECURE_ASSET_DEBUG] assetPath = assets/secure_enc/manifest.json.enc
+[SECURE_ASSET_DEBUG] flutterAssetKey = Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/manifest.json.enc
+[SECURE_ASSET_DEBUG] assetUrl = /Users/Peloux/dev/Calculateur_tir/build/macos/Build/Products/Debug/calculateur_tir_ng.app/Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/manifest.json.enc
+flutter: [SECURE] manifest chargé depuis AES natif : 577 entrées
+[SECURE_ASSET_DEBUG] assetPath = assets/secure_enc/tableaux/B/B_OECL_ART392_CH1.btbl.gz.enc
+[SECURE_ASSET_DEBUG] flutterAssetKey = Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/B/B_OECL_ART392_CH1.btbl.gz.enc
+[SECURE_ASSET_DEBUG] assetUrl = /Users/Peloux/dev/Calculateur_tir/build/macos/Build/Products/Debug/calculateur_tir_ng.app/Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/B/B_OECL_ART392_CH1.btbl.gz.enc
+flutter: [FUSEE UI] typeTir=TypeTir.eclairant munition=TypeMunition.oeclIr81F2 fusee=TypeFusee.frappe
+flutter: [SECURE] table AES chargée : B_OECL_ART392_CH1 (5122 octets compressés)
+flutter: [SECURE] table prête : B_OECL_ART392_CH1 (1250 lignes)
+flutter: [MUNITION] systeme=mo81Lrr tir=eclairant munition=oeclIr81F2 charges=fr
+flutter: [MASSE PIPELINE] enabled=false carreaux=2
+[SECURE_ASSET_DEBUG] assetPath = assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH1.ecltbl.gz.enc
+[SECURE_ASSET_DEBUG] flutterAssetKey = Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH1.ecltbl.gz.enc
+[SECURE_ASSET_DEBUG] assetUrl = /Users/Peloux/dev/Calculateur_tir/build/macos/Build/Products/Debug/calculateur_tir_ng.app/Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH1.ecltbl.gz.enc
+flutter: [SECURE] TableauECL AES natif OK assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH1.ecltbl.gz.enc
+flutter: [ECL] OK version=2 rows=14 type=OECL_ART392 charge=CH1 via assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH1.ecltbl.gz.enc
+flutter: [MO81 LLR OECL] CHARGE ECL MO81_LLR_OECL_IR_81_F2 CH1 indisponible : Bad state: [ECL] Aucune ligne pour tirMontagne=false type=OECL_ART392 charge=CH1
+[SECURE_ASSET_DEBUG] assetPath = assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH2.ecltbl.gz.enc
+[SECURE_ASSET_DEBUG] flutterAssetKey = Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH2.ecltbl.gz.enc
+[SECURE_ASSET_DEBUG] assetUrl = /Users/Peloux/dev/Calculateur_tir/build/macos/Build/Products/Debug/calculateur_tir_ng.app/Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH2.ecltbl.gz.enc
+flutter: [SECURE] TableauECL AES natif OK assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH2.ecltbl.gz.enc
+flutter: [ECL] OK version=2 rows=29 type=OECL_ART392 charge=CH2 via assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH2.ecltbl.gz.enc
+flutter: [MO81 LLR OECL] CHARGE ECL MO81_LLR_OECL_IR_81_F2 D=3500.0 CH2 AE=898.00 mil
+[SECURE_ASSET_DEBUG] assetPath = assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH3.ecltbl.gz.enc
+[SECURE_ASSET_DEBUG] flutterAssetKey = Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH3.ecltbl.gz.enc
+[SECURE_ASSET_DEBUG] assetUrl = /Users/Peloux/dev/Calculateur_tir/build/macos/Build/Products/Debug/calculateur_tir_ng.app/Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH3.ecltbl.gz.enc
+flutter: [SECURE] TableauECL AES natif OK assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH3.ecltbl.gz.enc
+flutter: [ECL] OK version=2 rows=48 type=OECL_ART392 charge=CH3 via assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH3.ecltbl.gz.enc
+flutter: [MO81 LLR OECL] CHARGE ECL MO81_LLR_OECL_IR_81_F2 D=3500.0 CH3 AE=827.00 mil
+[SECURE_ASSET_DEBUG] assetPath = assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH4.ecltbl.gz.enc
+[SECURE_ASSET_DEBUG] flutterAssetKey = Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH4.ecltbl.gz.enc
+[SECURE_ASSET_DEBUG] assetUrl = /Users/Peloux/dev/Calculateur_tir/build/macos/Build/Products/Debug/calculateur_tir_ng.app/Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH4.ecltbl.gz.enc
+flutter: [SECURE] TableauECL AES natif OK assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH4.ecltbl.gz.enc
+flutter: [ECL] OK version=2 rows=63 type=OECL_ART392 charge=CH4 via assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH4.ecltbl.gz.enc
+flutter: [MO81 LLR OECL] CHARGE ECL MO81_LLR_OECL_IR_81_F2 D=3500.0 CH4 AE=994.00 mil
+[SECURE_ASSET_DEBUG] assetPath = assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH5.ecltbl.gz.enc
+[SECURE_ASSET_DEBUG] flutterAssetKey = Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH5.ecltbl.gz.enc
+[SECURE_ASSET_DEBUG] assetUrl = /Users/Peloux/dev/Calculateur_tir/build/macos/Build/Products/Debug/calculateur_tir_ng.app/Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH5.ecltbl.gz.enc
+flutter: [SECURE] TableauECL AES natif OK assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH5.ecltbl.gz.enc
+flutter: [ECL] OK version=2 rows=70 type=OECL_ART392 charge=CH5 via assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH5.ecltbl.gz.enc
+flutter: [MO81 LLR OECL] CHARGE ECL MO81_LLR_OECL_IR_81_F2 CH5 indisponible : Bad state: [ECL] Aucune ligne pour tirMontagne=false type=OECL_ART392 charge=CH5
+flutter: [MO81 LLR OECL] CHARGE ECL sélection doctrinale MO81_LLR_OECL_IR_81_F2 => CH4 AE=994.00 mil
+flutter: [MO81 LLR OECL] munition=TypeMunition.oeclIr81F2 variant=MO81_LLR_OECL_IR_81_F2 charge=CH4 D=3500.0 tirMontagneT2=true tirMontagneECL=false T2=assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH4.ftbl.gz.enc T3=assets/secure_enc/tableaux/MO81_LLR/T3/MO81_LLR_OECL_IR_81_F2_T3_CH4.etbl.gz.enc ECL=assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH4.ecltbl.gz.enc
+[SECURE_ASSET_DEBUG] assetPath = assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH4.ecltbl.gz.enc
+[SECURE_ASSET_DEBUG] flutterAssetKey = Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH4.ecltbl.gz.enc
+[SECURE_ASSET_DEBUG] assetUrl = /Users/Peloux/dev/Calculateur_tir/build/macos/Build/Products/Debug/calculateur_tir_ng.app/Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH4.ecltbl.gz.enc
+flutter: [SECURE] TableauECL AES natif OK assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH4.ecltbl.gz.enc
+flutter: [ECL] OK version=2 rows=63 type=OECL_ART392 charge=CH4 via assets/secure_enc/tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH4.ecltbl.gz.enc
+[SECURE_ASSET_DEBUG] assetPath = assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH4.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] flutterAssetKey = Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH4.ftbl.gz.enc
+[SECURE_ASSET_DEBUG] assetUrl = /Users/Peloux/dev/Calculateur_tir/build/macos/Build/Products/Debug/calculateur_tir_ng.app/Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH4.ftbl.gz.enc
+flutter: [SECURE] TableauF AES natif OK assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH4.ftbl.gz.enc systeme=SystemeArme.caesar
+flutter: [TableauF] OK 36 rows via assets/secure_enc/tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH4.ftbl.gz.enc
+flutter: [TableauF] first distance=700.0 hausse=1513.0 derive=0.0 tempageS=45.0 kWz=11.4399995803833 varH=12.699999809265137
+flutter: [TableauF INTERP] distanceDemandee=3701.0 d0=3700.0 d1=3800.0 t=0.01 derive0=0.0 derive1=0.0
+flutter: [TableauF INTERP] deriveInterp=0.0
+flutter: [TableauF FLECHE] distance=3701.0 tirMontagne=true flecheM=1748.25
+flutter: [MO81 LLR OECL MET] Dt=3500 m Dimpact=3701 m F=1748 m Zbie=400 m Zmdp=160 m ΔZ=240 m Fcorr=1988 m arr=2000 m => LN=05
+flutter: [TableauF INTERP] distanceDemandee=3500.0 d0=3400.0 d1=3500.0 t=1.0 derive0=0.0 derive1=0.0
+flutter: [TableauF INTERP] deriveInterp=0.0
+flutter: [TableauF DERIVE] distance=3500.0 tirMontagne=true derive=0.0
+flutter: [TableauF INTERP] distanceDemandee=3701.0 d0=3700.0 d1=3800.0 t=0.01 derive0=0.0 derive1=0.0
+flutter: [TableauF INTERP] deriveInterp=0.0
+flutter: [TableauF FIELD] field=correctionVentMoins distance=3701.0 d0=3700.0 v0=10.199999809265137 d1=3800.0 v1=10.100000381469727 u=0.01 -> 10.198999814987182
+flutter: [TableauF FIELD] field=correctionPressionMoins distance=3701.0 d0=3700.0 v0=-17.5 d1=3800.0 v1=-17.899999618530273 u=0.01 -> -17.503999996185303
+flutter: [TableauF FIELD] field=correctionV0Moins distance=3500.0 d0=3400.0 v0=14.300000190734863 d1=3500.0 v1=14.699999809265137 u=1.0 -> 14.699999809265137
+[SECURE_ASSET_DEBUG] assetPath = assets/secure_enc/tableaux/MO81_LLR/Annexe_1/MO81_LLR_ANNEXE_1.ctbl.gz.enc
+[SECURE_ASSET_DEBUG] flutterAssetKey = Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/Annexe_1/MO81_LLR_ANNEXE_1.ctbl.gz.enc
+[SECURE_ASSET_DEBUG] assetUrl = /Users/Peloux/dev/Calculateur_tir/build/macos/Build/Products/Debug/calculateur_tir_ng.app/Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/Annexe_1/MO81_LLR_ANNEXE_1.ctbl.gz.enc
+flutter: [SECURE] TableauC AES natif OK assets/secure_enc/tableaux/MO81_LLR/Annexe_1/MO81_LLR_ANNEXE_1.ctbl.gz.enc
+flutter: [TableauC] OK rows=65 range=0..6400
+flutter: [TableauC] dir=500 gis=2800 delta=4100 bounds=(4000,4100,u=1.0) wxAbs=0.630000 wzAbs=0.770000 wx=-0.630000 wz=-0.770000
+flutter: [MO81 LLR OECL] VENT angle=4100 Wx1=0.63 Wy1=0.77 V=12.0kn Wx=7.6kn(W) Wy=9.2kn(G) kVent@3701=10.20 kWz@3701=1.96 => dR_Wx=-78m dG_Wy=18mil(G) corrNoire=-18mil
+[SECURE_ASSET_DEBUG] assetPath = assets/secure_enc/tableaux/MO81_LLR/Annexe_2/MO81_LLR_ANNEXE_2.dtbl.gz.enc
+[SECURE_ASSET_DEBUG] flutterAssetKey = Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/Annexe_2/MO81_LLR_ANNEXE_2.dtbl.gz.enc
+[SECURE_ASSET_DEBUG] assetUrl = /Users/Peloux/dev/Calculateur_tir/build/macos/Build/Products/Debug/calculateur_tir_ng.app/Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/Annexe_2/MO81_LLR_ANNEXE_2.dtbl.gz.enc
+flutter: [SECURE] TableauD AES natif OK assets/secure_enc/tableaux/MO81_LLR/Annexe_2/MO81_LLR_ANNEXE_2.dtbl.gz.enc
+flutter: [TableauD] OK 41 rows
+flutter: [MO81 LLR OECL] MET LN=5 Dimpact=3701 F=1748 Fcorr=1988 V=12.0kn angle=4100 Wx=-78 m Wy=18 mil TB=98.0->97.5% ΔR_TB=0.0 m DB=101.8% ΔDB=-0.50% ΔR_DB=-9.0 m
+[SECURE_ASSET_DEBUG] assetPath = assets/secure_enc/tableaux/MO81_LLR/T3/MO81_LLR_OECL_IR_81_F2_T3_CH4.etbl.gz.enc
+[SECURE_ASSET_DEBUG] flutterAssetKey = Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T3/MO81_LLR_OECL_IR_81_F2_T3_CH4.etbl.gz.enc
+[SECURE_ASSET_DEBUG] assetUrl = /Users/Peloux/dev/Calculateur_tir/build/macos/Build/Products/Debug/calculateur_tir_ng.app/Contents/Frameworks/App.framework/Resources/flutter_assets/assets/secure_enc/tableaux/MO81_LLR/T3/MO81_LLR_OECL_IR_81_F2_T3_CH4.etbl.gz.enc
+flutter: [E] load: OK "assets/secure_enc/tableaux/MO81_LLR/T3/MO81_LLR_OECL_IR_81_F2_T3_CH4.etbl.gz.enc" rows=22 tempRange=-40...60 deltaV/carreau=0.0
+flutter: [MO81 LLR OECL] TEMPAGE DM183 F DT=3429 nominal=35.10s corr50=-0.50s dz=200m corrDzBrut=-2.00s corrDz=-2.0s final=33.1s
+flutter: [MO81 LLR OECL] charge=CH4 D=3500.0 Dviser=3429.0 hausseECL=1019.14 AQE=985.85 tempage=33.10 derive=0 Wz=18 corrVentGis=-18 noire=2782 Wx=-78 dTB=0 dPB=-9 dV0=16
+flutter: [PLAN DEBUG] nbCoupsTotal=1
+flutter: [PLAN DEBUG] kind=FirePlanKind.ponctuel
+flutter: [PLAN DEBUG] targets=1
+flutter: [PLAN DEBUG] pieces=1
+flutter: [PLAN DEBUG] allocs=1
+flutter: [SHOT GEOMETRY] piece=PD targetIndex=0 offset=0.00 dx=1339.39 dy=-3233.58 distance=3500.00 objX=730689.39 objY=5150711.42 pieceX=729350.00 pieceY=5153945.00
+flutter: [SHOT Z] piece=PD z=400.0 fallbackPdZ=400.0 targetZ=600.0
+flutter: [SHOT REUSE] piece=PD offset=0.0 m => résultat principal réutilisé
+flutter: [TERMINAL EFFECT] model=generic angle=45.00 cot=null factor=1.4142 diameter=600.00 major=424.26 minor=300.00 epp=null epd=null
+flutter: [SHOTS PERF] coups=1 calculs=0 elapsed=2 ms
+flutter: [TIR PERF] legacy=2 ms
+flutter: [TIR PERF] geo=1 ms
+flutter: [TIR PERF] charge=0 ms
+flutter: [TIR PERF] tableauB=41 ms
+flutter: [TIR PERF] input=1 ms
+flutter: [TIR PERF] principal=36 ms
+flutter: [TIR PERF] plan=14 ms
+flutter: [TIR PERF] coups=1
+flutter: [TIR PERF] total=102 ms
+flutter: [TIR PERF] shots=3 ms
+flutter: [TIR PERF] sort=0 ms
+flutter: [APPUI PERF] calc=104510 µs (104.510 ms)
+flutter: [APPUI PERF] total=111327 µs (111.327 ms)
+flutter: [FUSEE UI] typeTir=TypeTir.eclairant munition=TypeMunition.oeclIr81F2 fusee=TypeFusee.frappe

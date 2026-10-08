@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "typeTir": "Special Fires",
+    "charge": "CH4",
+    "titre": "Propellant temperature \u2014 muzzle velocity variation",
+    "symbole": "\u0394V0/Tp",
+    "unites": {
+      "tempPoudreF": "\u00b0F",
+      "tempPoudreC": "\u00b0C",
+      "deltaVo_temp": "m/s"
+    },
+    "source": "FT 81-AR-2 Part 4, M853A1/M772, Table C, PDF page(s) [327]"
+  },
+  "data": [
+    {
+      "tempPoudreF": -40,
+      "tempPoudreC": -40.0,
+      "deltaVo_temp": -7.2
+    },
+    {
+      "tempPoudreF": -35,
+      "tempPoudreC": -37.2,
+      "deltaVo_temp": -7.1
+    },
+    {
+      "tempPoudreF": -30,
+      "tempPoudreC": -34.4,
+      "deltaVo_temp": -6.9
+    },
+    {
+      "tempPoudreF": -25,
+      "tempPoudreC": -31.7,
+      "deltaVo_temp": -6.8
+    },
+    {
+      "tempPoudreF": -20,
+      "tempPoudreC": -28.9,
+      "deltaVo_temp": -6.5
+    },
+    {
+      "tempPoudreF": -15,
+      "tempPoudreC": -26.1,
+      "deltaVo_temp": -6.3
+    },
+    {
+      "tempPoudreF": -10,
+      "tempPoudreC": -23.3,
+      "deltaVo_temp": -6.0
+    },
+    {
+      "tempPoudreF": -5,
+      "tempPoudreC": -20.6,
+      "deltaVo_temp": -5.8
+    },
+    {
+      "tempPoudreF": 0,
+      "tempPoudreC": -17.8,
+      "deltaVo_temp": -5.4
+    },
+    {
+      "tempPoudreF": 5,
+      "tempPoudreC": -15.0,
+      "deltaVo_temp": -5.1
+    },
+    {
+      "tempPoudreF": 10,
+      "tempPoudreC": -12.2,
+      "deltaVo_temp": -4.8
+    },
+    {
+      "tempPoudreF": 15,
+      "tempPoudreC": -9.4,
+      "deltaVo_temp": -4.4
+    },
+    {
+      "tempPoudreF": 20,
+      "tempPoudreC": -6.7,
+      "deltaVo_temp": -4.1
+    },
+    {
+      "tempPoudreF": 25,
+      "tempPoudreC": -3.9,
+      "deltaVo_temp": -3.7
+    },
+    {
+      "tempPoudreF": 30,
+      "tempPoudreC": -1.1,
+      "deltaVo_temp": -3.3
+    },
+    {
+      "tempPoudreF": 35,
+      "tempPoudreC": 1.7,
+      "deltaVo_temp": -2.9
+    },
+    {
+      "tempPoudreF": 40,
+      "tempPoudreC": 4.4,
+      "deltaVo_temp": -2.5
+    },
+    {
+      "tempPoudreF": 45,
+      "tempPoudreC": 7.2,
+      "deltaVo_temp": -2.1
+    },
+    {
+      "tempPoudreF": 50,
+      "tempPoudreC": 10.0,
+      "deltaVo_temp": -1.7
+    },
+    {
+      "tempPoudreF": 55,
+      "tempPoudreC": 12.8,
+      "deltaVo_temp": -1.3
+    },
+    {
+      "tempPoudreF": 60,
+      "tempPoudreC": 15.6,
+      "deltaVo_temp": -0.8
+    },
+    {
+      "tempPoudreF": 65,
+      "tempPoudreC": 18.3,
+      "deltaVo_temp": -0.4
+    },
+    {
+      "tempPoudreF": 70,
+      "tempPoudreC": 21.1,
+      "deltaVo_temp": 0.0
+    },
+    {
+      "tempPoudreF": 75,
+      "tempPoudreC": 23.9,
+      "deltaVo_temp": 0.4
+    },
+    {
+      "tempPoudreF": 80,
+      "tempPoudreC": 26.7,
+      "deltaVo_temp": 0.8
+    },
+    {
+      "tempPoudreF": 85,
+      "tempPoudreC": 29.4,
+      "deltaVo_temp": 1.2
+    },
+    {
+      "tempPoudreF": 90,
+      "tempPoudreC": 32.2,
+      "deltaVo_temp": 1.6
+    },
+    {
+      "tempPoudreF": 95,
+      "tempPoudreC": 35.0,
+      "deltaVo_temp": 2.0
+    },
+    {
+      "tempPoudreF": 100,
+      "tempPoudreC": 37.8,
+      "deltaVo_temp": 2.4
+    },
+    {
+      "tempPoudreF": 105,
+      "tempPoudreC": 40.6,
+      "deltaVo_temp": 2.7
+    },
+    {
+      "tempPoudreF": 110,
+      "tempPoudreC": 43.3,
+      "deltaVo_temp": 3.1
+    },
+    {
+      "tempPoudreF": 115,
+      "tempPoudreC": 46.1,
+      "deltaVo_temp": 3.4
+    },
+    {
+      "tempPoudreF": 120,
+      "tempPoudreC": 48.9,
+      "deltaVo_temp": 3.7
+    },
+    {
+      "tempPoudreF": 125,
+      "tempPoudreC": 51.7,
+      "deltaVo_temp": 4.0
+    },
+    {
+      "tempPoudreF": 130,
+      "tempPoudreC": 54.4,
+      "deltaVo_temp": 4.2
+    }
+  ]
+}

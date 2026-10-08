@@ -1,0 +1,72 @@
+[
+  {
+    "path": "pubspec.yaml",
+    "exists": true,
+    "directory": false
+  },
+  {
+    "path": "lib/services/m252/m252_profile.dart",
+    "exists": true,
+    "directory": false
+  },
+  {
+    "path": "tool/m252_builders/aebtl_builder.dart",
+    "exists": true,
+    "directory": false
+  },
+  {
+    "path": "tool/m252_builders/air_density_table_builder.dart",
+    "exists": true,
+    "directory": false
+  },
+  {
+    "path": "tool/m252_builders/cebtl_builder.dart",
+    "exists": true,
+    "directory": false
+  },
+  {
+    "path": "tool/m252_builders/debtl_builder.dart",
+    "exists": true,
+    "directory": false
+  },
+  {
+    "path": "tool/m252_builders/eebtl_builder.dart",
+    "exists": true,
+    "directory": false
+  },
+  {
+    "path": "tool/build_m252_m821_m734_ch1_assets.dart",
+    "exists": false,
+    "directory": false
+  },
+  {
+    "path": "test/services/m252/m252_ch1_tables_test.dart",
+    "exists": false,
+    "directory": false
+  },
+  {
+    "path": "maintenance/M252/PROFILES/M821_M734_CH1",
+    "exists": false,
+    "directory": false
+  },
+  {
+    "path": "assets/secure/manifest_foreign_m252_M821_M734_CH1.json",
+    "exists": false,
+    "directory": false
+  },
+  {
+    "path": "assets/secure/tableaux/foreign/m252/profiles/M821_M734_CH1",
+    "exists": false,
+    "directory": false
+  },
+  {
+    "path": "assets/secure_enc/manifest.json.enc",
+    "exists": true,
+    "directory": false
+  },
+  {
+    "path": "assets/secure_enc/tableaux/foreign/m252/profiles/M821_M734_CH1",
+    "exists": false,
+    "directory": false
+  }
+]

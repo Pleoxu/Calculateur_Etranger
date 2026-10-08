@@ -1,0 +1,397 @@
+import 'package:flutter/foundation.dart';
+
+import 'package:calculateur_etranger/domain/entities/meteo_row.dart';
+import 'package:calculateur_etranger/models/calcul_data.dart';
+import 'package:calculateur_etranger/services/m252/m252_profile.dart';
+import 'package:calculateur_etranger/services/m252/m252_table_codec.dart';
+import 'package:calculateur_etranger/services/m252/m252_table_repository.dart';
+
+/// M252 reference pipeline.
+///
+/// Each calculation is bound to one complete, immutable A–E profile. Profiles
+/// are chosen from the selected cartridge/ fuze family and are never mixed.
+/// The current runtime profiles are M821/M734 CH0 (125–350 m) and the existing
+/// M821A1/M734 plus M821A2/M734A1 CH3 set (1525–2300 m).
+class BalistiqueMo81M252AppuiService {
+  const BalistiqueMo81M252AppuiService._();
+
+  /// Compatibility constants for callers that refer specifically to CH3.
+  static const double minimumRangeM = 1525.0;
+  static const double maximumRangeM = 2300.0;
+  static const String charge = 'CH3';
+  static const String typeAssets = 'M252_M821_M734_CH3';
+  static const M252Profile profile = M252Profiles.m821M734Ch3;
+
+  static List<M252MunitionFamily> get qualifiedMunitions =>
+      <M252MunitionFamily>[
+        for (final item in M252Profiles.all)
+          if (item.runtimeQualified) ...item.munitions,
+      ];
+
+  static M252Profile? profileForMunition(M252MunitionFamily? family) =>
+      M252Profiles.forMunition(family);
+
+  static bool supportsMunition(M252MunitionFamily? family) =>
+      profileForMunition(family) != null;
+
+  // Zero row of CEBTL: the M252 source expresses powder temperature in °F.
+  static const double referencePowderTemperatureF = 70.0;
+  static const double referencePowderTemperatureC =
+      (referencePowderTemperatureF - 32.0) * 5.0 / 9.0;
+
+  static Future<CalculResult> calculer(
+    CalculInput input, {
+    M252TableRepository? tables,
+  }) async {
+    final selectedProfile = _validateInput(input);
+    final repository = tables ?? M252TableRepository(profile: selectedProfile);
+    if (repository.profile.id != selectedProfile.id) {
+      throw ArgumentError(
+        'M252 pipeline requires profile ${selectedProfile.id}; '
+        'received ${repository.profile.id}.',
+      );
+    }
+    final reference = await repository.load();
+
+    // Table D, column 5 (`LINE NO.`), is the doctrinal source of the
+    // meteorological level. It is discrete, so it is taken from the trajectory
+    // row before applying range corrections.
+    final initial = reference.trajectory.atDistance(input.distanceM);
+    final weatherLineFromTableD = initial.weatherLine;
+    // A loaded MET row is sufficient to activate the M252 meteorological
+    // chain. This preserves corrections when a legacy caller has populated
+    // `meteoRows` but not yet synchronized its `meteoOn` flag.
+    final meteoActive = input.meteoOn ||
+        input.meteo != null ||
+        (input.meteoRows != null && input.meteoRows!.isNotEmpty);
+
+    // When MET is active, Table D's LINE NO. is mandatory. Scalar legacy
+    // overrides are deliberately ignored in that mode: corrections must come
+    // from the exact MET row prescribed by the firing table.
+    final MeteoRow? weather = meteoActive
+        ? _requiredWeatherForTableLine(
+            input,
+            weatherLineFromTableD,
+            input.distanceM,
+            selectedProfile,
+          )
+        : null;
+    final windDirectionMil = meteoActive
+        ? weather?.azimutMils.toDouble() ?? input.meteoAzVentMil ?? 0.0
+        : 0.0;
+    final windKnots =
+        meteoActive ? weather?.vKn.toDouble() ?? input.meteoVKn ?? 0.0 : 0.0;
+    final rawTemperaturePct = meteoActive
+        ? weather?.tempPercent ?? input.metTempPercent ?? 100.0
+        : 100.0;
+    final rawPressurePct = meteoActive
+        ? weather?.pressPercent ?? input.metPressPercent ?? 100.0
+        : 100.0;
+
+    // Table B corrects ballistic air temperature and density for the altitude
+    // difference between the mortar and the meteorological station (FT 81-AR-2,
+    // Table B description). It is not an objective-altitude correction.
+    final deltaStationToGunM = input.pdZ - input.meteoStationAltM;
+    final air = meteoActive
+        ? reference.airDensity.atAbsoluteDeltaAltitude(deltaStationToGunM)
+        : null;
+    final altitudeSign = deltaStationToGunM < 0 ? -1.0 : 1.0;
+    final temperaturePct = rawTemperaturePct +
+        (air == null ? 0.0 : altitudeSign * air.deltaTemperaturePct);
+    final pressurePct = rawPressurePct +
+        (air == null ? 0.0 : altitudeSign * air.deltaPressurePct);
+
+    // First evaluate at the topographic range. Atmospheric and wind effects
+    // are expressed in range metres, then the trajectory table is sampled at
+    // the corrected range just like the existing fire-support pipeline.
+    final wind =
+        reference.wind.atAngleMil(windDirectionMil - input.azimutObjectifMil);
+    final crossWindKnots = windKnots * wind.wz;
+    final longitudinalWindKnots = (windKnots * wind.wx).abs();
+    final deltaWindMil = -(crossWindKnots * initial.crosswindMilPerKnot);
+
+    final relativeWind =
+        _normalizeMil(windDirectionMil - input.azimutObjectifMil);
+    final tailwind = relativeWind >= 1600.0 && relativeWind <= 4800.0;
+    final deltaWindRangeM = longitudinalWindKnots *
+        (tailwind ? initial.tailwindMPerKnot : initial.headwindMPerKnot);
+
+    final temperatureDifferencePct = temperaturePct - 100.0;
+    final deltaTemperatureM = _signedCoefficient(
+      temperatureDifferencePct,
+      negative: initial.temperatureMinusMPerPct,
+      positive: initial.temperaturePlusMPerPct,
+    );
+    final pressureDifferencePct = pressurePct - 100.0;
+    final deltaPressureM = _signedCoefficient(
+      pressureDifferencePct,
+      negative: initial.pressureMinusMPerPct,
+      positive: initial.pressurePlusMPerPct,
+    );
+
+    var deltaV0M = 0.0;
+    if (input.simTemperatureCorrectionEnabled) {
+      // The table reference is the 70 °F / 21.1 °C zero row supplied by the
+      // source. The initial-velocity correction does not infer an unavailable
+      // V0 reference value; it applies only the documented powder-temperature
+      // delta.
+      final deltaVo =
+          reference.powderTemperature.atCelsius(input.simTempActC).deltaVoMs -
+              reference.powderTemperature
+                  .atFahrenheit(referencePowderTemperatureF)
+                  .deltaVoMs;
+      deltaV0M = _signedCoefficient(
+        deltaVo,
+        negative: initial.v0MinusMPerMs,
+        positive: initial.v0PlusMPerMs,
+      );
+    }
+
+    final totalLongM =
+        deltaWindRangeM + deltaTemperatureM + deltaPressureM + deltaV0M;
+    if (kDebugMode && weather != null) {
+      debugPrint(
+        '[M252 MET] LN=${weather.level.toString().padLeft(2, '0')} '
+        'raw(Dir=${weather.azimutMils}mil,V=${weather.vKn}kn,'
+        'T=${weather.tempPercent.toStringAsFixed(1)}%,'
+        'P=${weather.pressPercent.toStringAsFixed(1)}%) '
+        'A(Wz=${wind.wz.toStringAsFixed(3)},Wx=${wind.wx.toStringAsFixed(3)}) '
+        'B(ΔZstation→gun=${deltaStationToGunM.toStringAsFixed(0)}m,'
+        'ΔT=${(air == null ? 0.0 : altitudeSign * air.deltaTemperaturePct).toStringAsFixed(2)}%,'
+        'ΔP=${(air == null ? 0.0 : altitudeSign * air.deltaPressurePct).toStringAsFixed(2)}%) '
+        'D(Wz=${deltaWindMil.toStringAsFixed(2)}mil,Wx=${deltaWindRangeM.toStringAsFixed(2)}m,'
+        'T=${deltaTemperatureM.toStringAsFixed(2)}m,P=${deltaPressureM.toStringAsFixed(2)}m) '
+        'C(V0=${deltaV0M.toStringAsFixed(2)}m) '
+        'total=${totalLongM.toStringAsFixed(2)}m.',
+      );
+    }
+    final correctedRangeM = input.distanceM + totalLongM;
+    _validateRange(correctedRangeM, selectedProfile);
+
+    final trajectory = reference.trajectory.atDistance(correctedRangeM);
+    final dispersion = reference.dispersion.atDistance(correctedRangeM);
+
+    // The supplied M252 CH3 data contain no piece-to-target vertical interval
+    // or a corresponding elevation correction table. Per FT 81-AR-2, Table D
+    // column 2 is therefore interpolated at the corrected range and used as
+    // the final elevation. Do not infer a site correction from unrelated
+    // coordinates or from an unset legacy `deltaAltitudeM` field.
+    const siteMil = 0.0;
+    final aqeMil = trajectory.elevationMil;
+
+    final azimuthCorrectionMil = trajectory.driftMil + deltaWindMil;
+    // M252 lateral corrections are algebraic aim corrections: a negative
+    // value means left. Add the correction to the target azimuth so a left
+    // crosswind produces a left aiming direction.
+    final firingBearingMil =
+        _normalizeMil(input.azimutObjectifMil + azimuthCorrectionMil);
+
+    if (kDebugMode) {
+      debugPrint(
+        '[M252 FINAL] AE=${trajectory.elevationMil.toStringAsFixed(2)}mil '
+        'site=not-available '
+        'AQE=${aqeMil.toStringAsFixed(2)}mil '
+        'azTarget=${input.azimutObjectifMil.toStringAsFixed(2)}mil '
+        'azCorrection=${azimuthCorrectionMil.toStringAsFixed(2)}mil '
+        'gunBearing=${firingBearingMil.toStringAsFixed(2)}mil.',
+      );
+    }
+
+    return CalculResult(
+      hausseMil: aqeMil,
+      aqeMil: aqeMil,
+      aeMil: trajectory.elevationMil,
+      azimutMil: input.azimutObjectifMil,
+      gisementMil: firingBearingMil,
+      noireMil: firingBearingMil,
+      deriveMil: trajectory.driftMil,
+      wzMil: deltaWindMil,
+      totalCorrectionAzimutMil: azimuthCorrectionMil,
+      porteeM: input.distanceM,
+      porteeCorrigeeM: correctedRangeM,
+      portee: correctedRangeM,
+      distanceTopoM: input.distanceM,
+      deniveleeM: 0.0,
+      tempsVolS: trajectory.timeOfFlightS,
+      vitesseRestanteMps: dispersion.remainingVelocityMs,
+      flecheM: dispersion.trajectoryHeightM,
+      charge: selectedProfile.chargeLabel,
+      chargeLabel: selectedProfile.chargeLabel,
+      typeAssets: 'M252_${selectedProfile.id}',
+      wxM: deltaWindRangeM,
+      deltaTBM: deltaTemperatureM,
+      deltaPBM: deltaPressureM,
+      deltaV0M: deltaV0M,
+      totalLongM: totalLongM,
+      siteBrutMil: siteMil,
+      siteTotalAsMil: siteMil,
+      corrSiteVraiMil: 0.0,
+      acsMil: 0.0,
+      correctionSiteBM: 0.0,
+      deltaZStationM: deltaStationToGunM,
+      latitudePieceDeg: input.pdLatitudeDeg,
+      ecartProbablePorteeM: dispersion.probableRangeErrorM,
+      ecartProbableDirectionM: dispersion.probableDirectionErrorM,
+      angleChuteDeg: dispersion.impactAngleMil * 360.0 / 6400.0,
+      cotangenteAngleChute: dispersion.impactCotangent,
+      niveauMeteoBUsed: weather?.level ?? weatherLineFromTableD,
+      details: <String, dynamic>{
+        'pipeline': 'M252_${selectedProfile.id}_REFERENCE',
+        'profile': selectedProfile.id,
+        'm252Cartridge': input.m252MunitionFamily!.label,
+        'm252Fuze': input.m252MunitionFamily!.defaultFuze,
+        'm252QualifiedPairs': <String>[
+          for (final family in selectedProfile.munitions)
+            '${family.label} / ${family.defaultFuze}',
+        ],
+        'tables': const <String>[
+          'AEBTL_V1',
+          'BEBTL_V1',
+          'CEBTL_V1',
+          'DEBTL_V2',
+          'EEBTL_V1'
+        ],
+        'qualifiedRangeM': <double>[
+          selectedProfile.minimumRangeM,
+          selectedProfile.maximumRangeM,
+        ],
+        'weatherLineFromTableD': weatherLineFromTableD,
+        'weatherLineLoaded': weather?.level,
+        'weatherApplied': meteoActive && weather != null,
+        // Values of the exact MET line required by Table D column 5.
+        'meteoSource': weather?.sourceType,
+        'meteoWindDirectionMil': weather?.azimutMils,
+        'meteoWindKnots': weather?.vKn,
+        'meteoRawTemperaturePct': weather?.tempPercent,
+        'meteoRawPressurePct': weather?.pressPercent,
+        // Table A: wind components in the firing-plane reference frame.
+        'tableA_relativeWindMil': relativeWind,
+        'tableA_wzFactor': wind.wz,
+        'tableA_wxFactor': wind.wx,
+        'tableA_crossWindKnots': crossWindKnots,
+        'tableA_longitudinalWindKnots': longitudinalWindKnots,
+        // Table B: station-to-gun atmospheric adjustment.
+        'tableB_stationToGunDeltaAltitudeM': deltaStationToGunM,
+        'tableB_temperatureAdjustmentPct':
+            air == null ? 0.0 : altitudeSign * air.deltaTemperaturePct,
+        'tableB_pressureAdjustmentPct':
+            air == null ? 0.0 : altitudeSign * air.deltaPressurePct,
+        // Table D: coefficients and resulting firing corrections.
+        'tableD_crossWindMilPerKnot': initial.crosswindMilPerKnot,
+        'tableD_headwindMPerKnot': initial.headwindMPerKnot,
+        'tableD_tailwindMPerKnot': initial.tailwindMPerKnot,
+        'tableD_temperatureMinusMPerPct': initial.temperatureMinusMPerPct,
+        'tableD_temperaturePlusMPerPct': initial.temperaturePlusMPerPct,
+        'tableD_pressureMinusMPerPct': initial.pressureMinusMPerPct,
+        'tableD_pressurePlusMPerPct': initial.pressurePlusMPerPct,
+        // Negative lateral correction = aim left; it is added to azimuth.
+        'tableD_lateralConvention': 'negative_is_left_add_to_target_azimuth',
+        'tableD_deltaCrossWindMil': deltaWindMil,
+        'tableD_deltaLongitudinalWindM': deltaWindRangeM,
+        'tableD_deltaTemperatureM': deltaTemperatureM,
+        'tableD_deltaPressureM': deltaPressureM,
+        // Table C: powder-temperature / V0 correction when the option is enabled.
+        'tableC_deltaV0M': deltaV0M,
+        'windDirectionMil': windDirectionMil,
+        'windKnots': windKnots,
+        'temperaturePct': temperaturePct,
+        'pressurePct': pressurePct,
+        'powderTemperatureCorrectionEnabled':
+            input.simTemperatureCorrectionEnabled,
+        'powderTemperatureC':
+            input.simTemperatureCorrectionEnabled ? input.simTempActC : null,
+        'powderTemperatureReferenceF': referencePowderTemperatureF,
+        'elevationMethod': 'table_d_at_corrected_range_only',
+        'siteCorrectionApplied': false,
+        'featuresNotQualified': const <String>[
+          'tirMontagne',
+          'projectileMassVariation',
+          'rotationCorrections',
+          'similarFireMeasuredV0',
+        ],
+      },
+    );
+  }
+
+  static MeteoRow _requiredWeatherForTableLine(
+    CalculInput input,
+    int tableLine,
+    double rangeM,
+    M252Profile selectedProfile,
+  ) {
+    final rows = input.meteoRows ??
+        (input.meteo == null ? const <MeteoRow>[] : <MeteoRow>[input.meteo!]);
+    for (final row in rows) {
+      if (row.level == tableLine) return row;
+    }
+
+    final available =
+        rows.map((row) => row.level.toString().padLeft(2, '0')).join(', ');
+    throw StateError(
+      'M252 ${selectedProfile.id}: Table D requires MET line '
+      '${tableLine.toString().padLeft(2, '0')} at ${rangeM.toStringAsFixed(0)} m; '
+      'loaded lines: ${available.isEmpty ? 'none' : available}.',
+    );
+  }
+
+  static M252Profile _validateInput(CalculInput input) {
+    if (input.systeme != Systeme.mo81M252) {
+      throw ArgumentError('The M252 pipeline requires Systeme.mo81M252.');
+    }
+    if (input.typeTir != TypeTir.appui) {
+      throw UnsupportedError('M252 illuminating tables are not loaded.');
+    }
+
+    final selectedProfile = M252Profiles.resolve(
+      munition: input.m252MunitionFamily,
+      charge: input.chargeForcee,
+    );
+    if (selectedProfile == null) {
+      throw UnsupportedError(
+        'No qualified M252 profile matches '
+        'munition=${input.m252MunitionFamily}, charge=${input.chargeForcee}.',
+      );
+    }
+    if (kDebugMode) {
+      debugPrint(
+        '[M252 PROFILE] family=${input.m252MunitionFamily} '
+        'forcedCharge=${input.chargeForcee} '
+        'profile=${selectedProfile.id} '
+        'distance=${input.distanceM}',
+      );
+    }
+    if (input.tirMontagne) {
+      throw UnsupportedError(
+        'M252 ${selectedProfile.id} mountain-fire data is not loaded.',
+      );
+    }
+    _validateRange(input.distanceM, selectedProfile);
+    return selectedProfile;
+  }
+
+  static void _validateRange(double rangeM, M252Profile selectedProfile) {
+    if (!selectedProfile.supportsRange(rangeM)) {
+      throw M252TableRangeException(
+        table: 'M252 ${selectedProfile.id} qualified range',
+        value: rangeM,
+        minimum: selectedProfile.minimumRangeM,
+        maximum: selectedProfile.maximumRangeM,
+      );
+    }
+  }
+
+  static double _signedCoefficient(
+    double delta, {
+    required double negative,
+    required double positive,
+  }) {
+    if (delta == 0.0) return 0.0;
+    return delta.abs() * (delta < 0.0 ? negative : positive);
+  }
+
+  static double _normalizeMil(double value) {
+    var normalized = value % 6400.0;
+    if (normalized < 0.0) normalized += 6400.0;
+    return normalized;
+  }
+}

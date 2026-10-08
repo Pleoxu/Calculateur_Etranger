@@ -1,0 +1,282 @@
+{
+  "rows": [
+    {
+      "range": 2100,
+      "v0_dec": "14.2",
+      "v0_inc": "-12.5",
+      "wind_head": "7.2",
+      "wind_tail": "-6.2"
+    },
+    {
+      "range": 2125,
+      "v0_dec": "14.4",
+      "v0_inc": "-12.6",
+      "wind_head": "7.2",
+      "wind_tail": "-6.1"
+    },
+    {
+      "range": 2150,
+      "v0_dec": "14.6",
+      "v0_inc": "-12.8",
+      "wind_head": "7.3",
+      "wind_tail": "-6.2"
+    },
+    {
+      "range": 2175,
+      "v0_dec": "14.8",
+      "v0_inc": "-13.0",
+      "wind_head": "7.3",
+      "wind_tail": "-6.2"
+    },
+    {
+      "range": 2200,
+      "v0_dec": "14.9",
+      "v0_inc": "-13.1",
+      "wind_head": "7.3",
+      "wind_tail": "-6.2"
+    },
+    {
+      "range": 2225,
+      "v0_dec": "15.1",
+      "v0_inc": "-13.3",
+      "wind_head": "7.3",
+      "wind_tail": "-6.2"
+    },
+    {
+      "range": 2250,
+      "v0_dec": "15.3",
+      "v0_inc": "-13.4",
+      "wind_head": "7.3",
+      "wind_tail": "-6.2"
+    },
+    {
+      "range": 2275,
+      "v0_dec": "15.4",
+      "v0_inc": "-13.6",
+      "wind_head": "7.3",
+      "wind_tail": "-6.3"
+    },
+    {
+      "range": 2300,
+      "v0_dec": "15.6",
+      "v0_inc": "-13.7",
+      "wind_head": "7.3",
+      "wind_tail": "-6.4"
+    },
+    {
+      "range": 2325,
+      "v0_dec": "15.8",
+      "v0_inc": "-13.9",
+      "wind_head": "7.4",
+      "wind_tail": "-6.3"
+    },
+    {
+      "range": 2350,
+      "v0_dec": "16.0",
+      "v0_inc": "-14.0",
+      "wind_head": "7.4",
+      "wind_tail": "-6.3"
+    },
+    {
+      "range": 2375,
+      "v0_dec": "16.1",
+      "v0_inc": "-14.2",
+      "wind_head": "7.4",
+      "wind_tail": "-6.3"
+    },
+    {
+      "range": 2400,
+      "v0_dec": "16.3",
+      "v0_inc": "-14.3",
+      "wind_head": "7.4",
+      "wind_tail": "-6.4"
+    },
+    {
+      "range": 2425,
+      "v0_dec": "16.5",
+      "v0_inc": "-14.5",
+      "wind_head": "7.4",
+      "wind_tail": "-6.4"
+    },
+    {
+      "range": 2450,
+      "v0_dec": "16.6",
+      "v0_inc": "-14.6",
+      "wind_head": "7.4",
+      "wind_tail": "-6.4"
+    },
+    {
+      "range": 2475,
+      "v0_dec": "16.8",
+      "v0_inc": "-14.8",
+      "wind_head": "7.4",
+      "wind_tail": "-6.3"
+    },
+    {
+      "range": 2500,
+      "v0_dec": "17.0",
+      "v0_inc": "-14.9",
+      "wind_head": "7.5",
+      "wind_tail": "-6.3"
+    },
+    {
+      "range": 2525,
+      "v0_dec": "17.2",
+      "v0_inc": "-15.1",
+      "wind_head": "7.5",
+      "wind_tail": "-6.3"
+    },
+    {
+      "range": 2550,
+      "v0_dec": "17.3",
+      "v0_inc": "-15.2",
+      "wind_head": "7.5",
+      "wind_tail": "-6.3"
+    },
+    {
+      "range": 2575,
+      "v0_dec": "17.5",
+      "v0_inc": "-15.4",
+      "wind_head": "7.5",
+      "wind_tail": "-6.4"
+    },
+    {
+      "range": 2600,
+      "v0_dec": "17.7",
+      "v0_inc": "-15.6",
+      "wind_head": "7.5",
+      "wind_tail": "-6.4"
+    },
+    {
+      "range": 2625,
+      "v0_dec": "17.8",
+      "v0_inc": "-15.7",
+      "wind_head": "7.5",
+      "wind_tail": "-6.4"
+    },
+    {
+      "range": 2650,
+      "v0_dec": "18.0",
+      "v0_inc": "-15.9",
+      "wind_head": "7.6",
+      "wind_tail": "-6.4"
+    },
+    {
+      "range": 2675,
+      "v0_dec": "18.2",
+      "v0_inc": "-16.0",
+      "wind_head": "7.6",
+      "wind_tail": "-6.4"
+    },
+    {
+      "range": 2700,
+      "v0_dec": "18.4",
+      "v0_inc": "-16.2",
+      "wind_head": "7.6",
+      "wind_tail": "-6.4"
+    },
+    {
+      "range": 2725,
+      "v0_dec": "18.5",
+      "v0_inc": "-16.3",
+      "wind_head": "7.6",
+      "wind_tail": "-6.4"
+    },
+    {
+      "range": 2750,
+      "v0_dec": "18.7",
+      "v0_inc": "-16.5",
+      "wind_head": "7.6",
+      "wind_tail": "-6.4"
+    },
+    {
+      "range": 2775,
+      "v0_dec": "18.9",
+      "v0_inc": "-16.6",
+      "wind_head": "7.6",
+      "wind_tail": "-6.5"
+    },
+    {
+      "range": 2800,
+      "v0_dec": "19.0",
+      "v0_inc": "-16.8",
+      "wind_head": "7.7",
+      "wind_tail": "-6.5"
+    },
+    {
+      "range": 2825,
+      "v0_dec": "19.2",
+      "v0_inc": "-16.9",
+      "wind_head": "7.7",
+      "wind_tail": "-6.5"
+    },
+    {
+      "range": 2850,
+      "v0_dec": "19.4",
+      "v0_inc": "-17.1",
+      "wind_head": "7.7",
+      "wind_tail": "-6.5"
+    },
+    {
+      "range": 2875,
+      "v0_dec": "19.5",
+      "v0_inc": "-17.2",
+      "wind_head": "7.7",
+      "wind_tail": "-6.5"
+    },
+    {
+      "range": 2900,
+      "v0_dec": "",
+      "v0_inc": "",
+      "wind_head": "",
+      "wind_tail": ""
+    }
+  ],
+  "_meta": {
+    "charge": 3,
+    "page": 5,
+    "group": "velocity_wind",
+    "source": "/home/ubuntu/rp_m819_pdf_audit/render/Tables_CH3_RPM819_FuM772-05.png",
+    "crop": "/home/ubuntu/rp_m819_json_reconstruction/vision_transcriptions/CH3_page05_velocity_wind.png",
+    "ranges": [
+      2100,
+      2125,
+      2150,
+      2175,
+      2200,
+      2225,
+      2250,
+      2275,
+      2300,
+      2325,
+      2350,
+      2375,
+      2400,
+      2425,
+      2450,
+      2475,
+      2500,
+      2525,
+      2550,
+      2575,
+      2600,
+      2625,
+      2650,
+      2675,
+      2700,
+      2725,
+      2750,
+      2775,
+      2800,
+      2825,
+      2850,
+      2875,
+      2900
+    ],
+    "model": "gpt-5",
+    "usage": {
+      "prompt_tokens": 1519,
+      "completion_tokens": 2986
+    }
+  }
+}

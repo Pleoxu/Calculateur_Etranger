@@ -1,0 +1,31 @@
+# Flutter
+build/
+.dart_tool/
+.packages
+.pub-cache/
+
+# IDE
+.idea/
+.vscode/
+
+# iOS / macOS
+ios/Pods/
+macos/Pods/
+
+# System
+.DS_Store
+
+# Local/generated
+.flutter-plugins-dependencies
+analyze.txt
+*.iml
+
+# Generated binary secure tables
+assets/secure/tableaux/
+
+# Platform generated folders if not intentionally maintained
+windows/
+
+# Sauvegardes locales / secrets
+*.bak*
+asset_key_v2.hex

@@ -1,0 +1,317 @@
+Resolving dependencies...
+Downloading packages...
+  archive 4.0.9 (4.3.0 available)
+  clock 1.1.2 (1.1.3 available)
+  cross_file 0.3.5+2 (0.4.0 available)
+  dbus 0.7.15 (0.8.0 available)
+  file_picker 11.0.2 (13.1.0 available)
+  file_selector_android 0.5.2+8 (0.5.2+11 available)
+  file_selector_ios 0.5.3+5 (0.5.3+6 available)
+  file_selector_linux 0.9.4 (0.9.4+1 available)
+  file_selector_macos 0.9.5 (0.9.5+1 available)
+  file_selector_windows 0.9.3+5 (0.9.3+6 available)
+  flutter_blue_plus 2.3.7 (2.3.13 available)
+  flutter_blue_plus_android 9.0.1 (9.0.4 available)
+  flutter_blue_plus_darwin 9.0.1 (9.0.4 available)
+  flutter_blue_plus_linux 9.0.1 (9.0.3 available)
+  flutter_blue_plus_platform_interface 9.0.1 (9.0.3 available)
+  flutter_blue_plus_web 9.0.1 (9.0.3 available)
+  flutter_map 7.0.2 (8.3.2 available)
+  flutter_riverpod 2.6.1 (3.4.3 available)
+  flutter_secure_storage 10.3.1 (11.2.0 available)
+  flutter_secure_storage_darwin 0.3.2 (0.4.3 available)
+  flutter_secure_storage_linux 3.0.1 (3.0.3 available)
+  flutter_secure_storage_platform_interface 2.0.1 (2.1.1 available)
+  flutter_secure_storage_windows 4.1.0 (4.2.2 available)
+  geolocator 14.0.2 (14.1.1 available)
+  geolocator_android 5.0.2 (5.1.1 available)
+  geolocator_apple 2.3.13 (2.3.14 available)
+  geolocator_linux 0.2.4 (0.2.6 available)
+  geolocator_platform_interface 4.2.6 (4.4.0 available)
+  geolocator_web 4.1.3 (4.1.4 available)
+  gsettings 0.2.8 (0.2.9 available)
+  image 4.9.2 (4.10.1 available)
+  intl 0.20.2 (0.20.3 available)
+  jni 1.0.0 (1.0.3 available)
+  jni_flutter 1.0.1 (1.0.3 available)
+  latlong2 0.9.1 (0.10.1 available)
+  logger 2.7.0 (2.8.0 available)
+  matcher 0.12.19 (0.12.20 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  mbtiles 0.4.2 (0.5.1 available)
+  meta 1.18.0 (1.19.0 available)
+  mgrs_dart 2.0.0 (3.0.0 available)
+  mobile_scanner 7.4.1 (7.4.2 available)
+  package_config 2.2.0 (3.0.0 available)
+  package_info_plus 9.0.1 (10.2.1 available)
+  package_info_plus_platform_interface 3.2.1 (4.1.0 available)
+  path_provider 2.1.5 (2.1.6 available)
+  path_provider_foundation 2.5.1 (2.6.0 available)
+  path_provider_linux 2.2.1 (2.2.2 available)
+  path_provider_platform_interface 2.1.2 (2.1.3 available)
+  pdf 3.13.0 (3.13.1 available)
+  petitparser 7.0.2 (7.1.0 available)
+  platform 3.1.6 (3.2.0 available)
+  posix 6.5.0 (6.5.2 available)
+  proj4dart 2.1.0 (3.0.0 available)
+  qr 3.0.2 (4.0.0 available)
+  riverpod 2.6.1 (3.4.3 available)
+  shared_preferences_android 2.4.25 (2.4.28 available)
+  shared_preferences_foundation 2.5.6 (2.5.7 available)
+  sqlite3 2.9.4 (3.6.0 available)
+  sqlite3_flutter_libs 0.5.42 (0.6.0+eol available)
+  stack_trace 1.12.1 (1.12.2 available)
+  test_api 0.7.11 (0.7.14 available)
+  unicode 0.3.1 (1.1.9 available)
+  uuid 4.5.3 (4.6.0 available)
+  vector_math 2.2.0 (2.4.3 available)
+  vm_service 15.2.0 (15.3.0 available)
+  win32 5.15.0 (6.4.0 available)
+  xml 7.0.1 (7.1.0 available)
+Got dependencies!
+68 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing calculateur_etranger...                               
+
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/domain/fire/effects/fire_shots_computer.dart:231:20 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/domain/fire/effects/fire_shots_computer.dart:233:27 • unnecessary_null_comparison
+  error • The getter 'typeChargeCaesar' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'typeChargeCaesar', correcting the name to the name of an existing getter, or defining a getter or field named 'typeChargeCaesar' • lib/domain/fire/factories/fire_calcul_input_factory.dart:21:31 • undefined_getter
+  error • The getter 'm252MunitionFamily' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'm252MunitionFamily', correcting the name to the name of an existing getter, or defining a getter or field named 'm252MunitionFamily' • lib/domain/fire/factories/fire_calcul_input_factory.dart:22:33 • undefined_getter
+  error • The getter 'lrrMunitionFamily' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'lrrMunitionFamily', correcting the name to the name of an existing getter, or defining a getter or field named 'lrrMunitionFamily' • lib/domain/fire/factories/fire_calcul_input_factory.dart:23:32 • undefined_getter
+  error • The argument type 'TypeFusee?' can't be assigned to the parameter type 'TypeFusee'.  • lib/domain/fire/factories/fire_calcul_input_factory.dart:24:14 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/domain/fire/factories/fire_calcul_input_factory.dart:25:18 • argument_type_not_assignable
+  error • The getter 'deltaAltitudeM' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'deltaAltitudeM', correcting the name to the name of an existing getter, or defining a getter or field named 'deltaAltitudeM' • lib/domain/fire/factories/fire_calcul_input_factory.dart:26:29 • undefined_getter
+  error • The getter 'azimutObjectifMil' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'azimutObjectifMil', correcting the name to the name of an existing getter, or defining a getter or field named 'azimutObjectifMil' • lib/domain/fire/factories/fire_calcul_input_factory.dart:27:32 • undefined_getter
+  error • The argument type 'int?' can't be assigned to the parameter type 'String?'.  • lib/domain/fire/factories/fire_calcul_input_factory.dart:29:21 • argument_type_not_assignable
+  error • The argument type 'TypeTir' can't be assigned to the parameter type 'NatureTirSelection'.  • lib/domain/fire/factories/fire_calcul_input_factory.dart:31:18 • argument_type_not_assignable
+  error • The argument type 'bool' can't be assigned to the parameter type 'MeteoRow?'.  • lib/domain/fire/factories/fire_calcul_input_factory.dart:32:14 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/domain/fire/factories/fire_calcul_input_factory.dart:34:12 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/domain/fire/factories/fire_calcul_input_factory.dart:35:12 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/domain/fire/factories/fire_calcul_input_factory.dart:36:12 • argument_type_not_assignable
+  error • The getter 'pdZone' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'pdZone', correcting the name to the name of an existing getter, or defining a getter or field named 'pdZone' • lib/domain/fire/factories/fire_calcul_input_factory.dart:37:21 • undefined_getter
+  error • The getter 'isUtmPd' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'isUtmPd', correcting the name to the name of an existing getter, or defining a getter or field named 'isUtmPd' • lib/domain/fire/factories/fire_calcul_input_factory.dart:38:22 • undefined_getter
+  error • The getter 'pdLatitudeDeg' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'pdLatitudeDeg', correcting the name to the name of an existing getter, or defining a getter or field named 'pdLatitudeDeg' • lib/domain/fire/factories/fire_calcul_input_factory.dart:39:28 • undefined_getter
+  error • The getter 'objX' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'objX', correcting the name to the name of an existing getter, or defining a getter or field named 'objX' • lib/domain/fire/factories/fire_calcul_input_factory.dart:40:19 • undefined_getter
+  error • The getter 'objY' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'objY', correcting the name to the name of an existing getter, or defining a getter or field named 'objY' • lib/domain/fire/factories/fire_calcul_input_factory.dart:41:19 • undefined_getter
+  error • The getter 'objZ' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'objZ', correcting the name to the name of an existing getter, or defining a getter or field named 'objZ' • lib/domain/fire/factories/fire_calcul_input_factory.dart:42:19 • undefined_getter
+  error • The getter 'isUtmObj' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'isUtmObj', correcting the name to the name of an existing getter, or defining a getter or field named 'isUtmObj' • lib/domain/fire/factories/fire_calcul_input_factory.dart:43:23 • undefined_getter
+  error • The getter 'objA' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'objA', correcting the name to the name of an existing getter, or defining a getter or field named 'objA' • lib/domain/fire/factories/fire_calcul_input_factory.dart:44:19 • undefined_getter
+  error • The getter 'objD' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'objD', correcting the name to the name of an existing getter, or defining a getter or field named 'objD' • lib/domain/fire/factories/fire_calcul_input_factory.dart:45:19 • undefined_getter
+  error • The getter 'objAlt' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'objAlt', correcting the name to the name of an existing getter, or defining a getter or field named 'objAlt' • lib/domain/fire/factories/fire_calcul_input_factory.dart:46:21 • undefined_getter
+  error • The getter 'natureObjectif' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'natureObjectif', correcting the name to the name of an existing getter, or defining a getter or field named 'natureObjectif' • lib/domain/fire/factories/fire_calcul_input_factory.dart:47:29 • undefined_getter
+  error • The getter 'carreauxMasseObus' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'carreauxMasseObus', correcting the name to the name of an existing getter, or defining a getter or field named 'carreauxMasseObus' • lib/domain/fire/factories/fire_calcul_input_factory.dart:48:32 • undefined_getter
+  error • The getter 'meteoOn' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'meteoOn', correcting the name to the name of an existing getter, or defining a getter or field named 'meteoOn' • lib/domain/fire/factories/fire_calcul_input_factory.dart:49:22 • undefined_getter
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/domain/fire/factories/fire_calcul_input_factory.dart:50:25 • argument_type_not_assignable
+  error • The getter 'niveauMeteoB' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'niveauMeteoB', correcting the name to the name of an existing getter, or defining a getter or field named 'niveauMeteoB' • lib/domain/fire/factories/fire_calcul_input_factory.dart:51:27 • undefined_getter
+  error • The getter 'meteoAzVentMil' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'meteoAzVentMil', correcting the name to the name of an existing getter, or defining a getter or field named 'meteoAzVentMil' • lib/domain/fire/factories/fire_calcul_input_factory.dart:52:29 • undefined_getter
+  error • The getter 'meteoVKn' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'meteoVKn', correcting the name to the name of an existing getter, or defining a getter or field named 'meteoVKn' • lib/domain/fire/factories/fire_calcul_input_factory.dart:53:23 • undefined_getter
+  error • The getter 'metTempPercent' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'metTempPercent', correcting the name to the name of an existing getter, or defining a getter or field named 'metTempPercent' • lib/domain/fire/factories/fire_calcul_input_factory.dart:54:29 • undefined_getter
+  error • The getter 'metPressPercent' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'metPressPercent', correcting the name to the name of an existing getter, or defining a getter or field named 'metPressPercent' • lib/domain/fire/factories/fire_calcul_input_factory.dart:55:30 • undefined_getter
+  error • The getter 'tirMontagne' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'tirMontagne', correcting the name to the name of an existing getter, or defining a getter or field named 'tirMontagne' • lib/domain/fire/factories/fire_calcul_input_factory.dart:56:26 • undefined_getter
+  error • The argument type 'int' can't be assigned to the parameter type 'double'.  • lib/domain/fire/factories/fire_calcul_input_factory.dart:57:20 • argument_type_not_assignable
+  error • The getter 'simFusee' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'simFusee', correcting the name to the name of an existing getter, or defining a getter or field named 'simFusee' • lib/domain/fire/factories/fire_calcul_input_factory.dart:59:18 • undefined_getter
+  error • The getter 'simFusee' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'simFusee', correcting the name to the name of an existing getter, or defining a getter or field named 'simFusee' • lib/domain/fire/factories/fire_calcul_input_factory.dart:59:44 • undefined_getter
+  error • The getter 'simTempActC' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'simTempActC', correcting the name to the name of an existing getter, or defining a getter or field named 'simTempActC' • lib/domain/fire/factories/fire_calcul_input_factory.dart:60:26 • undefined_getter
+  error • The getter 'simTempPrevC' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'simTempPrevC', correcting the name to the name of an existing getter, or defining a getter or field named 'simTempPrevC' • lib/domain/fire/factories/fire_calcul_input_factory.dart:61:27 • undefined_getter
+  error • The getter 'simV0Prev' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'simV0Prev', correcting the name to the name of an existing getter, or defining a getter or field named 'simV0Prev' • lib/domain/fire/factories/fire_calcul_input_factory.dart:62:24 • undefined_getter
+  error • The getter 'autresPieces' isn't defined for the type 'TirCompletInput'. Try importing the library that defines 'autresPieces', correcting the name to the name of an existing getter, or defining a getter or field named 'autresPieces' • lib/domain/fire/factories/fire_calcul_input_factory.dart:63:27 • undefined_getter
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/domain/fire/services/fire_shots_computer.dart:319:27 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/domain/fire/services/fire_shots_computer.dart:319:55 • unnecessary_non_null_assertion
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/domain/fire/services/fire_shots_computer.dart:320:35 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/domain/fire/services/fire_shots_computer.dart:323:39 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/domain/fire/services/fire_shots_computer.dart:324:33 • unnecessary_non_null_assertion
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/domain/fire/services/fire_shots_computer.dart:326:51 • unnecessary_non_null_assertion
+warning • The receiver can't be null, so the null-aware operator '?.' is unnecessary. Try replacing the operator '?.' with '.' • lib/domain/fire/services/fire_shots_computer.dart:360:33 • invalid_null_aware_operator
+warning • Unused import: 'package:calculateur_etranger/domain/fire/utils/salves_planner.dart'. Try removing the import directive • lib/domain/fire/usecases/tir_complet_usecase.dart:7:8 • unused_import
+  error • The method 'computeShots' isn't defined for the type 'FireShotsComputer'. Try correcting the name to the name of an existing method, or defining a method named 'computeShots' • lib/domain/fire/usecases/tir_complet_usecase.dart:37:46 • undefined_method
+  error • The named parameter 'firePlan' is required, but there's no corresponding argument. Try adding the required argument • lib/domain/fire/usecases/tir_complet_usecase.dart:42:12 • missing_required_argument
+  error • The named parameter 'pdOffset' is required, but there's no corresponding argument. Try adding the required argument • lib/domain/fire/usecases/tir_complet_usecase.dart:42:12 • missing_required_argument
+  error • The named parameter 'pdX' is required, but there's no corresponding argument. Try adding the required argument • lib/domain/fire/usecases/tir_complet_usecase.dart:42:12 • missing_required_argument
+  error • The named parameter 'pdY' is required, but there's no corresponding argument. Try adding the required argument • lib/domain/fire/usecases/tir_complet_usecase.dart:42:12 • missing_required_argument
+  error • The named parameter 'prX' is required, but there's no corresponding argument. Try adding the required argument • lib/domain/fire/usecases/tir_complet_usecase.dart:42:12 • missing_required_argument
+  error • The named parameter 'prY' is required, but there's no corresponding argument. Try adding the required argument • lib/domain/fire/usecases/tir_complet_usecase.dart:42:12 • missing_required_argument
+  error • The named parameter 'psOutputs' is required, but there's no corresponding argument. Try adding the required argument • lib/domain/fire/usecases/tir_complet_usecase.dart:42:12 • missing_required_argument
+  error • The named parameter 'resultatPd' is required, but there's no corresponding argument. Try adding the required argument • lib/domain/fire/usecases/tir_complet_usecase.dart:42:12 • missing_required_argument
+  error • The named parameter 'resultatPrincipal' is required, but there's no corresponding argument. Try adding the required argument • lib/domain/fire/usecases/tir_complet_usecase.dart:42:12 • missing_required_argument
+  error • The named parameter 'resultat' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'resultat' • lib/domain/fire/usecases/tir_complet_usecase.dart:43:7 • undefined_named_parameter
+  error • The named parameter 'assetKey' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'assetKey' • lib/domain/fire/usecases/tir_complet_usecase.dart:45:7 • undefined_named_parameter
+  error • The method 'run' isn't defined for the type 'TirCompletUsecase'. Try correcting the name to the name of an existing method, or defining a method named 'run' • lib/presentation/fire/controllers/tir_complet_controller.dart:497:54 • undefined_method
+warning • The value of the local variable 'currentPiecesSoutien' isn't used. Try removing the variable or using it • lib/presentation/fire/pages/ecran_tir_complet_dialogs.dart:465:22 • unused_local_variable
+warning • The value of the local variable 'radius' isn't used. Try removing the variable or using it • lib/presentation/fire/services/message_map_report_builder.dart:53:11 • unused_local_variable
+warning • The declaration '_focusLayoutForGeometry' isn't referenced. Try removing the declaration of '_focusLayoutForGeometry' • lib/presentation/fire/services/message_map_report_builder.dart:599:6 • unused_element
+warning • The declaration '_focusFrameForGeometry' isn't referenced. Try removing the declaration of '_focusFrameForGeometry' • lib/presentation/fire/services/message_map_report_builder.dart:688:37 • unused_element
+warning • The declaration '_focusZoomFromRadius' isn't referenced. Try removing the declaration of '_focusZoomFromRadius' • lib/presentation/fire/services/message_map_report_builder.dart:748:10 • unused_element
+warning • A value for optional parameter 'key' isn't ever given. Try removing the unused parameter • lib/presentation/fire/widgets/message_map_report_view.dart:228:11 • unused_element_parameter
+warning • The declaration '_oppositeMil' isn't referenced. Try removing the declaration of '_oppositeMil' • lib/presentation/fire/widgets/message_map_report_view.dart:338:7 • unused_element
+warning • A value for optional parameter 'tirOppositeLabel' isn't ever given. Try removing the unused parameter • lib/presentation/fire/widgets/message_map_report_view.dart:762:10 • unused_element_parameter
+warning • A value for optional parameter 'linearOppositeLabel' isn't ever given. Try removing the unused parameter • lib/presentation/fire/widgets/message_map_report_view.dart:764:10 • unused_element_parameter
+warning • Unused import: 'package:calculateur_etranger/models/calcul_data.dart'. Try removing the import directive • lib/presentation/fire/widgets/objectif_input_card.dart:6:8 • unused_import
+warning • The value of the local variable 'typeTir' isn't used. Try removing the variable or using it • lib/presentation/fire/widgets/objectif_input_card.dart:298:11 • unused_local_variable
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/presentation/fire/widgets/tir_details_decomposition.dart:303:33 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/presentation/fire/widgets/tir_details_decomposition.dart:303:68 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/presentation/fire/widgets/tir_results_card.dart:61:21 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/presentation/fire/widgets/tir_results_card.dart:67:21 • unnecessary_null_comparison
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:235:60 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:286:66 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:304:66 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_bonus_service.dart:515:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_bonus_service.dart:516:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_bonus_service.dart:557:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_bonus_service.dart:558:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_bonus_service.dart:600:25 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_bonus_service.dart:601:27 • unnecessary_null_comparison
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:611:54 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:612:52 • dead_null_aware_expression
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_bonus_service.dart:622:50 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_bonus_service.dart:650:27 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_bonus_service.dart:660:33 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_bonus_service.dart:768:55 • dead_null_aware_expression
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_bonus_service.dart:880:23 • argument_type_not_assignable
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_bonus_service.dart:880:46 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_bonus_service.dart:881:47 • unnecessary_non_null_assertion
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_bonus_service.dart:883:22 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_bonus_service.dart:884:29 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_bonus_service.dart:885:29 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_bonus_service.dart:886:32 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_bonus_service.dart:887:27 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_core_service.dart:250:60 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_core_service.dart:304:54 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_core_service.dart:510:37 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_core_service.dart:511:51 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_core_service.dart:512:38 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_core_service.dart:513:45 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_core_service.dart:530:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_core_service.dart:531:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_core_service.dart:557:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_core_service.dart:558:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_core_service.dart:591:25 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_core_service.dart:592:27 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_core_service.dart:626:48 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_core_service.dart:641:56 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_core_service.dart:642:54 • dead_null_aware_expression
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_core_service.dart:647:52 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_core_service.dart:704:57 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:56:55 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_eclairant_service.dart:58:44 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_eclairant_service.dart:92:60 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_eclairant_service.dart:93:46 • unnecessary_non_null_assertion
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_eclairant_service.dart:153:23 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:91:60 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:124:73 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:304:38 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:304:59 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:317:47 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:317:68 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_appui_service.dart:326:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_appui_service.dart:327:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_appui_service.dart:350:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_appui_service.dart:351:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_appui_service.dart:392:25 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_appui_service.dart:393:27 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_appui_service.dart:410:49 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:411:56 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:412:54 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_appui_service.dart:423:56 • dead_null_aware_expression
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo120_appui_service.dart:627:23 • argument_type_not_assignable
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_appui_service.dart:627:46 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_appui_service.dart:628:47 • unnecessary_non_null_assertion
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo120_appui_service.dart:630:22 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo120_appui_service.dart:631:29 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo120_appui_service.dart:632:29 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo120_appui_service.dart:633:32 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo120_appui_service.dart:634:27 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_eclairant_service.dart:94:60 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_eclairant_service.dart:133:73 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_eclairant_service.dart:315:33 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_eclairant_service.dart:317:46 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_eclairant_service.dart:318:34 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_eclairant_service.dart:319:40 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_eclairant_service.dart:331:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_eclairant_service.dart:332:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_eclairant_service.dart:357:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_eclairant_service.dart:358:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_eclairant_service.dart:401:25 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_eclairant_service.dart:402:27 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_eclairant_service.dart:421:49 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_eclairant_service.dart:422:56 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_eclairant_service.dart:423:54 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_eclairant_service.dart:434:56 • dead_null_aware_expression
+warning • The value of the local variable 'acsMil' isn't used. Try removing the variable or using it • lib/services/balistique_mo120_eclairant_service.dart:533:12 • unused_local_variable
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_eclairant_service.dart:613:43 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo120_eclairant_service.dart:615:29 • dead_null_aware_expression
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo120_eclairant_service.dart:738:23 • argument_type_not_assignable
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo120_eclairant_service.dart:738:46 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo120_eclairant_service.dart:739:47 • unnecessary_non_null_assertion
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo120_eclairant_service.dart:741:22 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo120_eclairant_service.dart:742:29 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo120_eclairant_service.dart:743:29 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo120_eclairant_service.dart:744:32 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo120_eclairant_service.dart:745:27 • argument_type_not_assignable
+warning • The receiver can't be null, so the null-aware operator '?.' is unnecessary. Try replacing the operator '?.' with '.' • lib/services/balistique_mo81_llr_appui_service.dart:207:30 • invalid_null_aware_operator
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo81_llr_appui_service.dart:217:53 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'false'. Try removing the condition, an enclosing condition, or the whole conditional statement • lib/services/balistique_mo81_llr_appui_service.dart:242:14 • unnecessary_null_comparison
+warning • The receiver can't be null, so the null-aware operator '?.' is unnecessary. Try replacing the operator '?.' with '.' • lib/services/balistique_mo81_llr_appui_service.dart:247:16 • invalid_null_aware_operator
+warning • Unnecessary cast. Try removing the cast • lib/services/balistique_mo81_llr_appui_service.dart:346:29 • unnecessary_cast
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo81_llr_appui_service.dart:370:48 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo81_llr_appui_service.dart:371:47 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo81_llr_appui_service.dart:410:46 • dead_null_aware_expression
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo81_llr_appui_service.dart:500:23 • argument_type_not_assignable
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo81_llr_appui_service.dart:500:46 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo81_llr_appui_service.dart:501:47 • unnecessary_non_null_assertion
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo81_llr_appui_service.dart:503:22 • argument_type_not_assignable
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo81_llr_appui_service.dart:504:29 • argument_type_not_assignable
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo81_llr_appui_service.dart:505:29 • argument_type_not_assignable
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo81_llr_appui_service.dart:506:32 • argument_type_not_assignable
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo81_llr_appui_service.dart:507:27 • argument_type_not_assignable
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo81_llr_eclairant_service.dart:246:40 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo81_llr_eclairant_service.dart:279:53 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'false'. Try removing the condition, an enclosing condition, or the whole conditional statement • lib/services/balistique_mo81_llr_eclairant_service.dart:345:15 • unnecessary_null_comparison
+warning • Unnecessary cast. Try removing the cast • lib/services/balistique_mo81_llr_eclairant_service.dart:429:29 • unnecessary_cast
+warning • The value of the local variable 'ventAvant' isn't used. Try removing the variable or using it • lib/services/balistique_mo81_llr_eclairant_service.dart:458:18 • unused_local_variable
+warning • The value of the local variable 'correctionDroite' isn't used. Try removing the variable or using it • lib/services/balistique_mo81_llr_eclairant_service.dart:464:18 • unused_local_variable
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo81_llr_eclairant_service.dart:524:48 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo81_llr_eclairant_service.dart:525:47 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/balistique_mo81_llr_eclairant_service.dart:561:46 • dead_null_aware_expression
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo81_llr_eclairant_service.dart:693:23 • argument_type_not_assignable
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/balistique_mo81_llr_eclairant_service.dart:693:46 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/balistique_mo81_llr_eclairant_service.dart:694:47 • unnecessary_non_null_assertion
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo81_llr_eclairant_service.dart:696:22 • argument_type_not_assignable
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo81_llr_eclairant_service.dart:697:29 • argument_type_not_assignable
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo81_llr_eclairant_service.dart:698:29 • argument_type_not_assignable
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo81_llr_eclairant_service.dart:699:32 • argument_type_not_assignable
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • lib/services/balistique_mo81_llr_eclairant_service.dart:700:27 • argument_type_not_assignable
+   info • The import of 'dart:typed_data' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/foundation.dart'. Try removing the import directive • lib/services/maps/offline_map_download_service.dart:4:8 • unnecessary_import
+warning • The operand can't be 'null', so the condition is always 'false'. Try removing the condition, an enclosing condition, or the whole conditional statement • lib/services/report/message_pd_collector.dart:175:19 • unnecessary_null_comparison
+warning • The declaration '_pieceResultData' isn't referenced. Try removing the declaration of '_pieceResultData' • lib/services/report/message_pd_collector.dart:828:26 • unused_element
+   info • Don't invoke 'print' in production code. Try using a logging framework • lib/services/report/message_pd_collector.dart:1103:5 • avoid_print
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/secure/balistique_appui_service.dart:140:60 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/secure/balistique_appui_service.dart:187:66 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/secure/balistique_appui_service.dart:205:66 • dead_null_aware_expression
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/secure/balistique_appui_service.dart:386:33 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/secure/balistique_appui_service.dart:387:46 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/secure/balistique_appui_service.dart:388:34 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/secure/balistique_appui_service.dart:389:40 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/secure/balistique_appui_service.dart:413:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/secure/balistique_appui_service.dart:414:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/secure/balistique_appui_service.dart:444:55 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/secure/balistique_appui_service.dart:445:47 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/secure/balistique_appui_service.dart:473:25 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/secure/balistique_appui_service.dart:474:27 • unnecessary_null_comparison
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/secure/balistique_appui_service.dart:484:54 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/secure/balistique_appui_service.dart:485:52 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand • lib/services/secure/balistique_appui_service.dart:493:54 • dead_null_aware_expression
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/secure/balistique_appui_service.dart:503:50 • unnecessary_non_null_assertion
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/secure/balistique_appui_service.dart:641:23 • argument_type_not_assignable
+warning • The operand can't be 'null', so the condition is always 'true'. Remove the condition • lib/services/secure/balistique_appui_service.dart:641:46 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null. Try removing the '!' operator • lib/services/secure/balistique_appui_service.dart:642:47 • unnecessary_non_null_assertion
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/secure/balistique_appui_service.dart:644:22 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/secure/balistique_appui_service.dart:645:29 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/secure/balistique_appui_service.dart:646:29 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/secure/balistique_appui_service.dart:647:32 • argument_type_not_assignable
+  error • The argument type 'double?' can't be assigned to the parameter type 'double'.  • lib/services/secure/balistique_appui_service.dart:648:27 • argument_type_not_assignable
+warning • The value of the local variable 't' isn't used. Try removing the variable or using it • lib/utils/charge_utils.dart:139:9 • unused_local_variable
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • test/services/messages/ct_piece_fire_payload_builder_test.dart:211:23 • argument_type_not_assignable
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • test/services/messages/ct_piece_fire_payload_builder_test.dart:215:23 • argument_type_not_assignable
+  error • The argument type 'Null' can't be assigned to the parameter type 'int'.  • test/services/messages/ct_piece_fire_payload_builder_test.dart:216:23 • argument_type_not_assignable
+  error • The argument type 'Null' can't be assigned to the parameter type 'double'.  • test/services/messages/ct_piece_fire_payload_builder_test.dart:217:21 • argument_type_not_assignable
+

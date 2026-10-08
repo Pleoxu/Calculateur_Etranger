@@ -1,0 +1,6185 @@
+[
+ {
+  "id": "B_APPUIRTC_ART388_CH1",
+  "family": "B",
+  "variant": "APPUIRTC",
+  "charge": 1,
+  "format": "BTBL_V1",
+  "rows": 1753,
+  "file": "tableaux/B/B_APPUIRTC_ART388_CH1.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUIRTC_ART388_CH2",
+  "family": "B",
+  "variant": "APPUIRTC",
+  "charge": 2,
+  "format": "BTBL_V1",
+  "rows": 3213,
+  "file": "tableaux/B/B_APPUIRTC_ART388_CH2.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUIRTC_ART388_CH3",
+  "family": "B",
+  "variant": "APPUIRTC",
+  "charge": 3,
+  "format": "BTBL_V1",
+  "rows": 2975,
+  "file": "tableaux/B/B_APPUIRTC_ART388_CH3.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUIRTC_ART388_CH4",
+  "family": "B",
+  "variant": "APPUIRTC",
+  "charge": 4,
+  "format": "BTBL_V1",
+  "rows": 3454,
+  "file": "tableaux/B/B_APPUIRTC_ART388_CH4.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUIRTC_ART388_CH5",
+  "family": "B",
+  "variant": "APPUIRTC",
+  "charge": 5,
+  "format": "BTBL_V1",
+  "rows": 3727,
+  "file": "tableaux/B/B_APPUIRTC_ART388_CH5.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUIRTC_ART391_CH1",
+  "family": "B",
+  "variant": "APPUIRTC",
+  "charge": 1,
+  "format": "BTBL_V1",
+  "rows": 1718,
+  "file": "tableaux/B/B_APPUIRTC_ART391_CH1.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUIRTC_ART391_CH2",
+  "family": "B",
+  "variant": "APPUIRTC",
+  "charge": 2,
+  "format": "BTBL_V1",
+  "rows": 2233,
+  "file": "tableaux/B/B_APPUIRTC_ART391_CH2.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUIRTC_ART391_CH3",
+  "family": "B",
+  "variant": "APPUIRTC",
+  "charge": 3,
+  "format": "BTBL_V1",
+  "rows": 3015,
+  "file": "tableaux/B/B_APPUIRTC_ART391_CH3.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUIRTC_ART391_CH4",
+  "family": "B",
+  "variant": "APPUIRTC",
+  "charge": 4,
+  "format": "BTBL_V1",
+  "rows": 3520,
+  "file": "tableaux/B/B_APPUIRTC_ART391_CH4.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUIRTC_ART391_CH5",
+  "family": "B",
+  "variant": "APPUIRTC",
+  "charge": 5,
+  "format": "BTBL_V1",
+  "rows": 3879,
+  "file": "tableaux/B/B_APPUIRTC_ART391_CH5.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUIRTC_ART391_CH6",
+  "family": "B",
+  "variant": "APPUIRTC",
+  "charge": 6,
+  "format": "BTBL_V1",
+  "rows": 4996,
+  "file": "tableaux/B/B_APPUIRTC_ART391_CH6.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUI_ALL_CH1",
+  "family": "B",
+  "variant": "APPUI_ALL",
+  "charge": 1,
+  "format": "BTBL_V1",
+  "rows": 1298,
+  "file": "tableaux/B/B_APPUI_ALL_CH1.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUI_ALL_CH2",
+  "family": "B",
+  "variant": "APPUI_ALL",
+  "charge": 2,
+  "format": "BTBL_V1",
+  "rows": 2340,
+  "file": "tableaux/B/B_APPUI_ALL_CH2.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUI_ALL_CH3",
+  "family": "B",
+  "variant": "APPUI_ALL",
+  "charge": 3,
+  "format": "BTBL_V1",
+  "rows": 2207,
+  "file": "tableaux/B/B_APPUI_ALL_CH3.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUI_ALL_CH4",
+  "family": "B",
+  "variant": "APPUI_ALL",
+  "charge": 4,
+  "format": "BTBL_V1",
+  "rows": 2416,
+  "file": "tableaux/B/B_APPUI_ALL_CH4.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUI_ALL_CH5",
+  "family": "B",
+  "variant": "APPUI_ALL",
+  "charge": 5,
+  "format": "BTBL_V1",
+  "rows": 2813,
+  "file": "tableaux/B/B_APPUI_ALL_CH5.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUI_ALL_CH6",
+  "family": "B",
+  "variant": "APPUI_ALL",
+  "charge": 6,
+  "format": "BTBL_V1",
+  "rows": 3176,
+  "file": "tableaux/B/B_APPUI_ALL_CH6.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUI_ART387_CH1",
+  "family": "B",
+  "variant": "APPUI",
+  "charge": 1,
+  "format": "BTBL_V1",
+  "rows": 1500,
+  "file": "tableaux/B/B_APPUI_ART387_CH1.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUI_ART387_CH2",
+  "family": "B",
+  "variant": "APPUI",
+  "charge": 2,
+  "format": "BTBL_V1",
+  "rows": 2536,
+  "file": "tableaux/B/B_APPUI_ART387_CH2.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUI_ART387_CH3",
+  "family": "B",
+  "variant": "APPUI",
+  "charge": 3,
+  "format": "BTBL_V1",
+  "rows": 2364,
+  "file": "tableaux/B/B_APPUI_ART387_CH3.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUI_ART387_CH4",
+  "family": "B",
+  "variant": "APPUI",
+  "charge": 4,
+  "format": "BTBL_V1",
+  "rows": 2749,
+  "file": "tableaux/B/B_APPUI_ART387_CH4.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUI_ART387_CH5",
+  "family": "B",
+  "variant": "APPUI",
+  "charge": 5,
+  "format": "BTBL_V1",
+  "rows": 2970,
+  "file": "tableaux/B/B_APPUI_ART387_CH5.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUI_ART390_CH1",
+  "family": "B",
+  "variant": "APPUI",
+  "charge": 1,
+  "format": "BTBL_V1",
+  "rows": 1433,
+  "file": "tableaux/B/B_APPUI_ART390_CH1.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUI_ART390_CH2",
+  "family": "B",
+  "variant": "APPUI",
+  "charge": 2,
+  "format": "BTBL_V1",
+  "rows": 2233,
+  "file": "tableaux/B/B_APPUI_ART390_CH2.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUI_ART390_CH3",
+  "family": "B",
+  "variant": "APPUI",
+  "charge": 3,
+  "format": "BTBL_V1",
+  "rows": 2245,
+  "file": "tableaux/B/B_APPUI_ART390_CH3.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUI_ART390_CH4",
+  "family": "B",
+  "variant": "APPUI",
+  "charge": 4,
+  "format": "BTBL_V1",
+  "rows": 2414,
+  "file": "tableaux/B/B_APPUI_ART390_CH4.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUI_ART390_CH5",
+  "family": "B",
+  "variant": "APPUI",
+  "charge": 5,
+  "format": "BTBL_V1",
+  "rows": 2832,
+  "file": "tableaux/B/B_APPUI_ART390_CH5.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_APPUI_ART390_CH6",
+  "family": "B",
+  "variant": "APPUI",
+  "charge": 6,
+  "format": "BTBL_V1",
+  "rows": 3213,
+  "file": "tableaux/B/B_APPUI_ART390_CH6.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_BONUS_ART389_CH1",
+  "family": "B",
+  "variant": "UNKNOWN",
+  "charge": 1,
+  "format": "BTBL_V1",
+  "rows": 1010,
+  "file": "tableaux/B/B_BONUS_ART389_CH1.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_BONUS_ART389_CH2",
+  "family": "B",
+  "variant": "UNKNOWN",
+  "charge": 2,
+  "format": "BTBL_V1",
+  "rows": 2221,
+  "file": "tableaux/B/B_BONUS_ART389_CH2.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_BONUS_ART389_CH3",
+  "family": "B",
+  "variant": "UNKNOWN",
+  "charge": 3,
+  "format": "BTBL_V1",
+  "rows": 2522,
+  "file": "tableaux/B/B_BONUS_ART389_CH3.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_BONUS_ART389_CH4",
+  "family": "B",
+  "variant": "UNKNOWN",
+  "charge": 4,
+  "format": "BTBL_V1",
+  "rows": 3025,
+  "file": "tableaux/B/B_BONUS_ART389_CH4.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_BONUS_ART389_CH5",
+  "family": "B",
+  "variant": "UNKNOWN",
+  "charge": 5,
+  "format": "BTBL_V1",
+  "rows": 3685,
+  "file": "tableaux/B/B_BONUS_ART389_CH5.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_OECL_ALL_CH1",
+  "family": "B",
+  "variant": "OECL_ALL",
+  "charge": 1,
+  "format": "BTBL_V1",
+  "rows": 865,
+  "file": "tableaux/B/B_OECL_ALL_CH1.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_OECL_ALL_CH2",
+  "family": "B",
+  "variant": "OECL_ALL",
+  "charge": 2,
+  "format": "BTBL_V1",
+  "rows": 1763,
+  "file": "tableaux/B/B_OECL_ALL_CH2.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_OECL_ALL_CH3",
+  "family": "B",
+  "variant": "OECL_ALL",
+  "charge": 3,
+  "format": "BTBL_V1",
+  "rows": 1840,
+  "file": "tableaux/B/B_OECL_ALL_CH3.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_OECL_ALL_CH4",
+  "family": "B",
+  "variant": "OECL_ALL",
+  "charge": 4,
+  "format": "BTBL_V1",
+  "rows": 2101,
+  "file": "tableaux/B/B_OECL_ALL_CH4.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_OECL_ART385_CH1",
+  "family": "B",
+  "variant": "OECL",
+  "charge": 1,
+  "format": "BTBL_V1",
+  "rows": 1078,
+  "file": "tableaux/B/B_OECL_ART385_CH1.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_OECL_ART385_CH2",
+  "family": "B",
+  "variant": "OECL",
+  "charge": 2,
+  "format": "BTBL_V1",
+  "rows": 1994,
+  "file": "tableaux/B/B_OECL_ART385_CH2.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_OECL_ART385_CH3",
+  "family": "B",
+  "variant": "OECL",
+  "charge": 3,
+  "format": "BTBL_V1",
+  "rows": 1910,
+  "file": "tableaux/B/B_OECL_ART385_CH3.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_OECL_ART385_CH4",
+  "family": "B",
+  "variant": "OECL",
+  "charge": 4,
+  "format": "BTBL_V1",
+  "rows": 2091,
+  "file": "tableaux/B/B_OECL_ART385_CH4.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_OECL_ART385_CH5",
+  "family": "B",
+  "variant": "OECL",
+  "charge": 5,
+  "format": "BTBL_V1",
+  "rows": 2508,
+  "file": "tableaux/B/B_OECL_ART385_CH5.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_OECL_ART392_CH1",
+  "family": "B",
+  "variant": "OECL",
+  "charge": 1,
+  "format": "BTBL_V1",
+  "rows": 1250,
+  "file": "tableaux/B/B_OECL_ART392_CH1.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_OECL_ART392_CH2",
+  "family": "B",
+  "variant": "OECL",
+  "charge": 2,
+  "format": "BTBL_V1",
+  "rows": 2549,
+  "file": "tableaux/B/B_OECL_ART392_CH2.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_OECL_ART392_CH3",
+  "family": "B",
+  "variant": "OECL",
+  "charge": 3,
+  "format": "BTBL_V1",
+  "rows": 2903,
+  "file": "tableaux/B/B_OECL_ART392_CH3.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_OECL_ART392_CH4",
+  "family": "B",
+  "variant": "OECL",
+  "charge": 4,
+  "format": "BTBL_V1",
+  "rows": 3142,
+  "file": "tableaux/B/B_OECL_ART392_CH4.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_OECL_ART392_CH5",
+  "family": "B",
+  "variant": "OECL",
+  "charge": 5,
+  "format": "BTBL_V1",
+  "rows": 4262,
+  "file": "tableaux/B/B_OECL_ART392_CH5.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_OECL_ART392_CH6",
+  "family": "B",
+  "variant": "OECL",
+  "charge": 6,
+  "format": "BTBL_V1",
+  "rows": 4814,
+  "file": "tableaux/B/B_OECL_ART392_CH6.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_OEF2RTC_ALL_CH1",
+  "family": "B",
+  "variant": "UNKNOWN",
+  "charge": 1,
+  "format": "BTBL_V1",
+  "rows": 1515,
+  "file": "tableaux/B/B_OEF2RTC_ALL_CH1.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_OEF2RTC_ALL_CH2",
+  "family": "B",
+  "variant": "UNKNOWN",
+  "charge": 2,
+  "format": "BTBL_V1",
+  "rows": 2927,
+  "file": "tableaux/B/B_OEF2RTC_ALL_CH2.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_OEF2RTC_ALL_CH3",
+  "family": "B",
+  "variant": "UNKNOWN",
+  "charge": 3,
+  "format": "BTBL_V1",
+  "rows": 2918,
+  "file": "tableaux/B/B_OEF2RTC_ALL_CH3.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_OEF2RTC_ALL_CH4",
+  "family": "B",
+  "variant": "UNKNOWN",
+  "charge": 4,
+  "format": "BTBL_V1",
+  "rows": 2688,
+  "file": "tableaux/B/B_OEF2RTC_ALL_CH4.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "B_OEF2RTC_ALL_CH5",
+  "family": "B",
+  "variant": "UNKNOWN",
+  "charge": 5,
+  "format": "BTBL_V1",
+  "rows": 3664,
+  "file": "tableaux/B/B_OEF2RTC_ALL_CH5.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "CAESAR_V0",
+  "family": "CONFIG",
+  "variant": "CAESAR",
+  "format": "V0CFG_V1",
+  "rows": 84,
+  "file": "config/v0.cfg.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "C_GLOBAL",
+  "family": "C",
+  "format": "CTBL_V1",
+  "rows": 65,
+  "file": "tableaux/C/C_GLOBAL.ctbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "DSPD_BONUS_ART389_CH1",
+  "format": "DSPDTBL_V1",
+  "rows": 67,
+  "file": "tableaux/DSPD/DSPD_BONUS_ART389_CH1.dspdtbl.gz"
+ },
+ {
+  "id": "DSPD_BONUS_ART389_CH2",
+  "format": "DSPDTBL_V1",
+  "rows": 125,
+  "file": "tableaux/DSPD/DSPD_BONUS_ART389_CH2.dspdtbl.gz"
+ },
+ {
+  "id": "DSPD_BONUS_ART389_CH3",
+  "format": "DSPDTBL_V1",
+  "rows": 140,
+  "file": "tableaux/DSPD/DSPD_BONUS_ART389_CH3.dspdtbl.gz"
+ },
+ {
+  "id": "DSPD_BONUS_ART389_CH4",
+  "format": "DSPDTBL_V1",
+  "rows": 180,
+  "file": "tableaux/DSPD/DSPD_BONUS_ART389_CH4.dspdtbl.gz"
+ },
+ {
+  "id": "DSPD_BONUS_ART389_CH5",
+  "format": "DSPDTBL_V1",
+  "rows": 213,
+  "file": "tableaux/DSPD/DSPD_BONUS_ART389_CH5.dspdtbl.gz"
+ },
+ {
+  "id": "DSPD_BONUS_ART389_CH6",
+  "format": "DSPDTBL_V1",
+  "rows": 256,
+  "file": "tableaux/DSPD/DSPD_BONUS_ART389_CH6.dspdtbl.gz"
+ },
+ {
+  "id": "D_GLOBAL",
+  "family": "D",
+  "format": "DTBL_V1",
+  "rows": 41,
+  "file": "tableaux/D/D_GLOBAL.dtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "ECL_OECL_ALL_CH1",
+  "family": "ECL",
+  "variant": "OECL_ALL",
+  "charge": 1,
+  "format": "ECLTBL_V2",
+  "rows": 61,
+  "file": "tableaux/ECL/ECL_OECL_ALL_CH1.ecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "ECL_OECL_ALL_CH2",
+  "family": "ECL",
+  "variant": "OECL_ALL",
+  "charge": 2,
+  "format": "ECLTBL_V2",
+  "rows": 104,
+  "file": "tableaux/ECL/ECL_OECL_ALL_CH2.ecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "ECL_OECL_ALL_CH3",
+  "family": "ECL",
+  "variant": "OECL_ALL",
+  "charge": 3,
+  "format": "ECLTBL_V2",
+  "rows": 121,
+  "file": "tableaux/ECL/ECL_OECL_ALL_CH3.ecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "ECL_OECL_ALL_CH4",
+  "family": "ECL",
+  "variant": "OECL_ALL",
+  "charge": 4,
+  "format": "ECLTBL_V2",
+  "rows": 156,
+  "file": "tableaux/ECL/ECL_OECL_ALL_CH4.ecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "ECL_OECL_ART385_CH1",
+  "family": "ECL",
+  "variant": "OECL",
+  "charge": 1,
+  "format": "ECLTBL_V2",
+  "rows": 70,
+  "file": "tableaux/ECL/ECL_OECL_ART385_CH1.ecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "ECL_OECL_ART385_CH2",
+  "family": "ECL",
+  "variant": "OECL",
+  "charge": 2,
+  "format": "ECLTBL_V2",
+  "rows": 115,
+  "file": "tableaux/ECL/ECL_OECL_ART385_CH2.ecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "ECL_OECL_ART385_CH3",
+  "family": "ECL",
+  "variant": "OECL",
+  "charge": 3,
+  "format": "ECLTBL_V2",
+  "rows": 124,
+  "file": "tableaux/ECL/ECL_OECL_ART385_CH3.ecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "ECL_OECL_ART385_CH4",
+  "family": "ECL",
+  "variant": "OECL",
+  "charge": 4,
+  "format": "ECLTBL_V2",
+  "rows": 156,
+  "file": "tableaux/ECL/ECL_OECL_ART385_CH4.ecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "ECL_OECL_ART385_CH5",
+  "family": "ECL",
+  "variant": "OECL",
+  "charge": 5,
+  "format": "ECLTBL_V2",
+  "rows": 164,
+  "file": "tableaux/ECL/ECL_OECL_ART385_CH5.ecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "ECL_OECL_ART392_CH1",
+  "family": "ECL",
+  "variant": "OECL",
+  "charge": 1,
+  "format": "ECLTBL_V2",
+  "rows": 81,
+  "file": "tableaux/ECL/ECL_OECL_ART392_CH1.ecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "ECL_OECL_ART392_CH2",
+  "family": "ECL",
+  "variant": "OECL",
+  "charge": 2,
+  "format": "ECLTBL_V2",
+  "rows": 81,
+  "file": "tableaux/ECL/ECL_OECL_ART392_CH2.ecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "ECL_OECL_ART392_CH3",
+  "family": "ECL",
+  "variant": "OECL",
+  "charge": 3,
+  "format": "ECLTBL_V2",
+  "rows": 159,
+  "file": "tableaux/ECL/ECL_OECL_ART392_CH3.ecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "ECL_OECL_ART392_CH4",
+  "family": "ECL",
+  "variant": "OECL",
+  "charge": 4,
+  "format": "ECLTBL_V2",
+  "rows": 204,
+  "file": "tableaux/ECL/ECL_OECL_ART392_CH4.ecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "ECL_OECL_ART392_CH5",
+  "family": "ECL",
+  "variant": "OECL",
+  "charge": 5,
+  "format": "ECLTBL_V2",
+  "rows": 213,
+  "file": "tableaux/ECL/ECL_OECL_ART392_CH5.ecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "ECL_OECL_ART392_CH6",
+  "family": "ECL",
+  "variant": "OECL",
+  "charge": 6,
+  "format": "ECLTBL_V2",
+  "rows": 236,
+  "file": "tableaux/ECL/ECL_OECL_ART392_CH6.ecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUIRTC_ART388_CH1",
+  "family": "E",
+  "variant": "APPUIRTC",
+  "charge": 1,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUIRTC_ART388_CH1.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUIRTC_ART388_CH2",
+  "family": "E",
+  "variant": "APPUIRTC",
+  "charge": 2,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUIRTC_ART388_CH2.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUIRTC_ART388_CH3",
+  "family": "E",
+  "variant": "APPUIRTC",
+  "charge": 3,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUIRTC_ART388_CH3.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUIRTC_ART388_CH4",
+  "family": "E",
+  "variant": "APPUIRTC",
+  "charge": 4,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUIRTC_ART388_CH4.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUIRTC_ART388_CH5",
+  "family": "E",
+  "variant": "APPUIRTC",
+  "charge": 5,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUIRTC_ART388_CH5.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUIRTC_ART391_CH1",
+  "family": "E",
+  "variant": "APPUIRTC",
+  "charge": 1,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUIRTC_ART391_CH1.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUIRTC_ART391_CH2",
+  "family": "E",
+  "variant": "APPUIRTC",
+  "charge": 2,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUIRTC_ART391_CH2.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUIRTC_ART391_CH3",
+  "family": "E",
+  "variant": "APPUIRTC",
+  "charge": 3,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUIRTC_ART391_CH3.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUIRTC_ART391_CH4",
+  "family": "E",
+  "variant": "APPUIRTC",
+  "charge": 4,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUIRTC_ART391_CH4.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUIRTC_ART391_CH5",
+  "family": "E",
+  "variant": "APPUIRTC",
+  "charge": 5,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUIRTC_ART391_CH5.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUIRTC_ART391_CH6",
+  "family": "E",
+  "variant": "APPUIRTC",
+  "charge": 6,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUIRTC_ART391_CH6.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUI_ALL_CH1",
+  "family": "E",
+  "variant": "APPUI_ALL",
+  "charge": 1,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUI_ALL_CH1.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUI_ALL_CH2",
+  "family": "E",
+  "variant": "APPUI_ALL",
+  "charge": 2,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUI_ALL_CH2.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUI_ALL_CH3",
+  "family": "E",
+  "variant": "APPUI_ALL",
+  "charge": 3,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUI_ALL_CH3.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUI_ALL_CH4",
+  "family": "E",
+  "variant": "APPUI_ALL",
+  "charge": 4,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUI_ALL_CH4.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUI_ALL_CH5",
+  "family": "E",
+  "variant": "APPUI_ALL",
+  "charge": 5,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUI_ALL_CH5.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUI_ALL_CH6",
+  "family": "E",
+  "variant": "APPUI_ALL",
+  "charge": 6,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUI_ALL_CH6.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUI_ART387_CH1",
+  "family": "E",
+  "variant": "APPUI",
+  "charge": 1,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUI_ART387_CH1.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUI_ART387_CH2",
+  "family": "E",
+  "variant": "APPUI",
+  "charge": 2,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUI_ART387_CH2.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUI_ART387_CH3",
+  "family": "E",
+  "variant": "APPUI",
+  "charge": 3,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUI_ART387_CH3.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUI_ART387_CH4",
+  "family": "E",
+  "variant": "APPUI",
+  "charge": 4,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUI_ART387_CH4.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUI_ART387_CH5",
+  "family": "E",
+  "variant": "APPUI",
+  "charge": 5,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUI_ART387_CH5.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUI_ART390_CH1",
+  "family": "E",
+  "variant": "APPUI",
+  "charge": 1,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUI_ART390_CH1.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUI_ART390_CH2",
+  "family": "E",
+  "variant": "APPUI",
+  "charge": 2,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUI_ART390_CH2.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUI_ART390_CH3",
+  "family": "E",
+  "variant": "APPUI",
+  "charge": 3,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUI_ART390_CH3.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUI_ART390_CH4",
+  "family": "E",
+  "variant": "APPUI",
+  "charge": 4,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUI_ART390_CH4.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUI_ART390_CH5",
+  "family": "E",
+  "variant": "APPUI",
+  "charge": 5,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUI_ART390_CH5.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_APPUI_ART390_CH6",
+  "family": "E",
+  "variant": "APPUI",
+  "charge": 6,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_APPUI_ART390_CH6.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_BONUS_ART389_CH1",
+  "family": "E",
+  "variant": "UNKNOWN",
+  "charge": 1,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_BONUS_ART389_CH1.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_BONUS_ART389_CH2",
+  "family": "E",
+  "variant": "UNKNOWN",
+  "charge": 2,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_BONUS_ART389_CH2.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_BONUS_ART389_CH3",
+  "family": "E",
+  "variant": "UNKNOWN",
+  "charge": 3,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_BONUS_ART389_CH3.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_BONUS_ART389_CH4",
+  "family": "E",
+  "variant": "UNKNOWN",
+  "charge": 4,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_BONUS_ART389_CH4.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_BONUS_ART389_CH5",
+  "family": "E",
+  "variant": "UNKNOWN",
+  "charge": 5,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_BONUS_ART389_CH5.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_BONUS_ART389_CH6",
+  "family": "E",
+  "variant": "UNKNOWN",
+  "charge": 6,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_BONUS_ART389_CH6.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OECL_ALL_CH1",
+  "family": "E",
+  "variant": "OECL_ALL",
+  "charge": 1,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OECL_ALL_CH1.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OECL_ALL_CH2",
+  "family": "E",
+  "variant": "OECL_ALL",
+  "charge": 2,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OECL_ALL_CH2.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OECL_ALL_CH3",
+  "family": "E",
+  "variant": "OECL_ALL",
+  "charge": 3,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OECL_ALL_CH3.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OECL_ALL_CH4",
+  "family": "E",
+  "variant": "OECL_ALL",
+  "charge": 4,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OECL_ALL_CH4.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OECL_ART385_CH1",
+  "family": "E",
+  "variant": "OECL",
+  "charge": 1,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OECL_ART385_CH1.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OECL_ART385_CH2",
+  "family": "E",
+  "variant": "OECL",
+  "charge": 2,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OECL_ART385_CH2.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OECL_ART385_CH3",
+  "family": "E",
+  "variant": "OECL",
+  "charge": 3,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OECL_ART385_CH3.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OECL_ART385_CH4",
+  "family": "E",
+  "variant": "OECL",
+  "charge": 4,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OECL_ART385_CH4.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OECL_ART385_CH5",
+  "family": "E",
+  "variant": "OECL",
+  "charge": 5,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OECL_ART385_CH5.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OECL_ART392_CH1",
+  "family": "E",
+  "variant": "OECL",
+  "charge": 1,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OECL_ART392_CH1.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OECL_ART392_CH2",
+  "family": "E",
+  "variant": "OECL",
+  "charge": 2,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OECL_ART392_CH2.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OECL_ART392_CH3",
+  "family": "E",
+  "variant": "OECL",
+  "charge": 3,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OECL_ART392_CH3.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OECL_ART392_CH4",
+  "family": "E",
+  "variant": "OECL",
+  "charge": 4,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OECL_ART392_CH4.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OECL_ART392_CH5",
+  "family": "E",
+  "variant": "OECL",
+  "charge": 5,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OECL_ART392_CH5.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OECL_ART392_CH6",
+  "family": "E",
+  "variant": "OECL",
+  "charge": 6,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OECL_ART392_CH6.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OEF2RTC_ALL_CH1",
+  "family": "E",
+  "variant": "UNKNOWN",
+  "charge": 1,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OEF2RTC_ALL_CH1.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OEF2RTC_ALL_CH2",
+  "family": "E",
+  "variant": "UNKNOWN",
+  "charge": 2,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OEF2RTC_ALL_CH2.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OEF2RTC_ALL_CH3",
+  "family": "E",
+  "variant": "UNKNOWN",
+  "charge": 3,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OEF2RTC_ALL_CH3.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OEF2RTC_ALL_CH4",
+  "family": "E",
+  "variant": "UNKNOWN",
+  "charge": 4,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OEF2RTC_ALL_CH4.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OEF2RTC_ALL_CH5",
+  "family": "E",
+  "variant": "UNKNOWN",
+  "charge": 5,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OEF2RTC_ALL_CH5.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OEF5RTC_ALL_CH1",
+  "family": "E",
+  "variant": "UNKNOWN",
+  "charge": 1,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OEF5RTC_ALL_CH1.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OEF5RTC_ALL_CH2",
+  "family": "E",
+  "variant": "UNKNOWN",
+  "charge": 2,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OEF5RTC_ALL_CH2.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OEF5RTC_ALL_CH3",
+  "family": "E",
+  "variant": "UNKNOWN",
+  "charge": 3,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OEF5RTC_ALL_CH3.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OEF5RTC_ALL_CH4",
+  "family": "E",
+  "variant": "UNKNOWN",
+  "charge": 4,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OEF5RTC_ALL_CH4.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OEF5RTC_ALL_CH5",
+  "family": "E",
+  "variant": "UNKNOWN",
+  "charge": 5,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OEF5RTC_ALL_CH5.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "E_OEF5RTC_ALL_CH6",
+  "family": "E",
+  "variant": "UNKNOWN",
+  "charge": 6,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/E/E_OEF5RTC_ALL_CH6.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_APPUIRTC_ART388_CH1",
+  "family": "F3",
+  "variant": "APPUIRTC",
+  "charge": 1,
+  "format": "F3TBL_V1",
+  "rows": 96,
+  "file": "tableaux/F3/F3I_APPUIRTC_ART388_CH1.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_APPUIRTC_ART388_CH2",
+  "family": "F3",
+  "variant": "APPUIRTC",
+  "charge": 2,
+  "format": "F3TBL_V1",
+  "rows": 169,
+  "file": "tableaux/F3/F3I_APPUIRTC_ART388_CH2.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_APPUIRTC_ART388_CH3",
+  "family": "F3",
+  "variant": "APPUIRTC",
+  "charge": 3,
+  "format": "F3TBL_V1",
+  "rows": 151,
+  "file": "tableaux/F3/F3I_APPUIRTC_ART388_CH3.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_APPUIRTC_ART388_CH4",
+  "family": "F3",
+  "variant": "APPUIRTC",
+  "charge": 4,
+  "format": "F3TBL_V1",
+  "rows": 172,
+  "file": "tableaux/F3/F3I_APPUIRTC_ART388_CH4.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_APPUIRTC_ART388_CH5",
+  "family": "F3",
+  "variant": "APPUIRTC",
+  "charge": 5,
+  "format": "F3TBL_V1",
+  "rows": 184,
+  "file": "tableaux/F3/F3I_APPUIRTC_ART388_CH5.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_APPUIRTC_ART391_CH1",
+  "family": "F3",
+  "variant": "APPUIRTC",
+  "charge": 1,
+  "format": "F3TBL_V1",
+  "rows": 96,
+  "file": "tableaux/F3/F3I_APPUIRTC_ART391_CH1.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_APPUIRTC_ART391_CH2",
+  "family": "F3",
+  "variant": "APPUIRTC",
+  "charge": 2,
+  "format": "F3TBL_V1",
+  "rows": 211,
+  "file": "tableaux/F3/F3I_APPUIRTC_ART391_CH2.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_APPUIRTC_ART391_CH3",
+  "family": "F3",
+  "variant": "APPUIRTC",
+  "charge": 3,
+  "format": "F3TBL_V1",
+  "rows": 153,
+  "file": "tableaux/F3/F3I_APPUIRTC_ART391_CH3.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_APPUIRTC_ART391_CH4",
+  "family": "F3",
+  "variant": "APPUIRTC",
+  "charge": 4,
+  "format": "F3TBL_V1",
+  "rows": 175,
+  "file": "tableaux/F3/F3I_APPUIRTC_ART391_CH4.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_APPUIRTC_ART391_CH5",
+  "family": "F3",
+  "variant": "APPUIRTC",
+  "charge": 5,
+  "format": "F3TBL_V1",
+  "rows": 191,
+  "file": "tableaux/F3/F3I_APPUIRTC_ART391_CH5.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_APPUIRTC_ART391_CH6",
+  "family": "F3",
+  "variant": "APPUIRTC",
+  "charge": 6,
+  "format": "F3TBL_V1",
+  "rows": 245,
+  "file": "tableaux/F3/F3I_APPUIRTC_ART391_CH6.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_BONUS_ART389_CH1",
+  "family": "F3",
+  "variant": "UNKNOWN",
+  "charge": 1,
+  "format": "F3TBL_V1",
+  "rows": 69,
+  "file": "tableaux/F3/F3I_BONUS_ART389_CH1.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_BONUS_ART389_CH2",
+  "family": "F3",
+  "variant": "UNKNOWN",
+  "charge": 2,
+  "format": "F3TBL_V1",
+  "rows": 126,
+  "file": "tableaux/F3/F3I_BONUS_ART389_CH2.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_BONUS_ART389_CH3",
+  "family": "F3",
+  "variant": "UNKNOWN",
+  "charge": 3,
+  "format": "F3TBL_V1",
+  "rows": 141,
+  "file": "tableaux/F3/F3I_BONUS_ART389_CH3.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_BONUS_ART389_CH4",
+  "family": "F3",
+  "variant": "UNKNOWN",
+  "charge": 4,
+  "format": "F3TBL_V1",
+  "rows": 181,
+  "file": "tableaux/F3/F3I_BONUS_ART389_CH4.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_BONUS_ART389_CH5",
+  "family": "F3",
+  "variant": "UNKNOWN",
+  "charge": 5,
+  "format": "F3TBL_V1",
+  "rows": 213,
+  "file": "tableaux/F3/F3I_BONUS_ART389_CH5.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_BONUS_ART389_CH6",
+  "family": "F3",
+  "variant": "UNKNOWN",
+  "charge": 6,
+  "format": "F3TBL_V1",
+  "rows": 256,
+  "file": "tableaux/F3/F3I_BONUS_ART389_CH6.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_OECL_ART392_CH1",
+  "family": "F3",
+  "variant": "OECL",
+  "charge": 1,
+  "format": "F3TBL_V1",
+  "rows": 80,
+  "file": "tableaux/F3/F3I_OECL_ART392_CH1.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_OECL_ART392_CH2",
+  "family": "F3",
+  "variant": "OECL",
+  "charge": 2,
+  "format": "F3TBL_V1",
+  "rows": 142,
+  "file": "tableaux/F3/F3I_OECL_ART392_CH2.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_OECL_ART392_CH3",
+  "family": "F3",
+  "variant": "OECL",
+  "charge": 3,
+  "format": "F3TBL_V1",
+  "rows": 158,
+  "file": "tableaux/F3/F3I_OECL_ART392_CH3.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_OECL_ART392_CH4",
+  "family": "F3",
+  "variant": "OECL",
+  "charge": 4,
+  "format": "F3TBL_V1",
+  "rows": 203,
+  "file": "tableaux/F3/F3I_OECL_ART392_CH4.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_OECL_ART392_CH5",
+  "family": "F3",
+  "variant": "OECL",
+  "charge": 5,
+  "format": "F3TBL_V1",
+  "rows": 213,
+  "file": "tableaux/F3/F3I_OECL_ART392_CH5.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_OECL_ART392_CH6",
+  "family": "F3",
+  "variant": "OECL",
+  "charge": 6,
+  "format": "F3TBL_V1",
+  "rows": 214,
+  "file": "tableaux/F3/F3I_OECL_ART392_CH6.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_OEF2RTC_ALL_CH1",
+  "family": "F3",
+  "variant": "UNKNOWN",
+  "charge": 1,
+  "format": "F3TBL_V1",
+  "rows": 96,
+  "file": "tableaux/F3/F3I_OEF2RTC_ALL_CH1.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_OEF2RTC_ALL_CH2",
+  "family": "F3",
+  "variant": "UNKNOWN",
+  "charge": 2,
+  "format": "F3TBL_V1",
+  "rows": 197,
+  "file": "tableaux/F3/F3I_OEF2RTC_ALL_CH2.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_OEF2RTC_ALL_CH3",
+  "family": "F3",
+  "variant": "UNKNOWN",
+  "charge": 3,
+  "format": "F3TBL_V1",
+  "rows": 149,
+  "file": "tableaux/F3/F3I_OEF2RTC_ALL_CH3.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_OEF2RTC_ALL_CH4",
+  "family": "F3",
+  "variant": "UNKNOWN",
+  "charge": 4,
+  "format": "F3TBL_V1",
+  "rows": 170,
+  "file": "tableaux/F3/F3I_OEF2RTC_ALL_CH4.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F3I_OEF2RTC_ALL_CH5",
+  "family": "F3",
+  "variant": "UNKNOWN",
+  "charge": 5,
+  "format": "F3TBL_V1",
+  "rows": 181,
+  "file": "tableaux/F3/F3I_OEF2RTC_ALL_CH5.f3tbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUIRTC_ART388_CH1",
+  "family": "F",
+  "variant": "APPUIRTC",
+  "charge": 1,
+  "format": "FTBL_V1",
+  "rows": 96,
+  "file": "tableaux/F/F_APPUIRTC_ART388_CH1.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUIRTC_ART388_CH2",
+  "family": "F",
+  "variant": "APPUIRTC",
+  "charge": 2,
+  "format": "FTBL_V1",
+  "rows": 204,
+  "file": "tableaux/F/F_APPUIRTC_ART388_CH2.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUIRTC_ART388_CH3",
+  "family": "F",
+  "variant": "APPUIRTC",
+  "charge": 3,
+  "format": "FTBL_V1",
+  "rows": 151,
+  "file": "tableaux/F/F_APPUIRTC_ART388_CH3.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUIRTC_ART388_CH4",
+  "family": "F",
+  "variant": "APPUIRTC",
+  "charge": 4,
+  "format": "FTBL_V1",
+  "rows": 170,
+  "file": "tableaux/F/F_APPUIRTC_ART388_CH4.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUIRTC_ART388_CH5",
+  "family": "F",
+  "variant": "APPUIRTC",
+  "charge": 5,
+  "format": "FTBL_V1",
+  "rows": 180,
+  "file": "tableaux/F/F_APPUIRTC_ART388_CH5.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUIRTC_ART391_CH1",
+  "family": "F",
+  "variant": "APPUIRTC",
+  "charge": 1,
+  "format": "FTBL_V1",
+  "rows": 97,
+  "file": "tableaux/F/F_APPUIRTC_ART391_CH1.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUIRTC_ART391_CH2",
+  "family": "F",
+  "variant": "APPUIRTC",
+  "charge": 2,
+  "format": "FTBL_V1",
+  "rows": 207,
+  "file": "tableaux/F/F_APPUIRTC_ART391_CH2.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUIRTC_ART391_CH3",
+  "family": "F",
+  "variant": "APPUIRTC",
+  "charge": 3,
+  "format": "FTBL_V1",
+  "rows": 154,
+  "file": "tableaux/F/F_APPUIRTC_ART391_CH3.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUIRTC_ART391_CH4",
+  "family": "F",
+  "variant": "APPUIRTC",
+  "charge": 4,
+  "format": "FTBL_V1",
+  "rows": 176,
+  "file": "tableaux/F/F_APPUIRTC_ART391_CH4.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUIRTC_ART391_CH5",
+  "family": "F",
+  "variant": "APPUIRTC",
+  "charge": 5,
+  "format": "FTBL_V1",
+  "rows": 192,
+  "file": "tableaux/F/F_APPUIRTC_ART391_CH5.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUIRTC_ART391_CH6",
+  "family": "F",
+  "variant": "APPUIRTC",
+  "charge": 6,
+  "format": "FTBL_V1",
+  "rows": 246,
+  "file": "tableaux/F/F_APPUIRTC_ART391_CH6.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUI_ALL_CH1",
+  "family": "F",
+  "variant": "APPUI_ALL",
+  "charge": 1,
+  "format": "FTBL_V1",
+  "rows": 75,
+  "file": "tableaux/F/F_APPUI_ALL_CH1.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUI_ALL_CH2",
+  "family": "F",
+  "variant": "APPUI_ALL",
+  "charge": 2,
+  "format": "FTBL_V1",
+  "rows": 167,
+  "file": "tableaux/F/F_APPUI_ALL_CH2.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUI_ALL_CH3",
+  "family": "F",
+  "variant": "APPUI_ALL",
+  "charge": 3,
+  "format": "FTBL_V1",
+  "rows": 121,
+  "file": "tableaux/F/F_APPUI_ALL_CH3.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUI_ALL_CH4",
+  "family": "F",
+  "variant": "APPUI_ALL",
+  "charge": 4,
+  "format": "FTBL_V1",
+  "rows": 137,
+  "file": "tableaux/F/F_APPUI_ALL_CH4.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUI_ALL_CH5",
+  "family": "F",
+  "variant": "APPUI_ALL",
+  "charge": 5,
+  "format": "FTBL_V1",
+  "rows": 148,
+  "file": "tableaux/F/F_APPUI_ALL_CH5.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUI_ALL_CH6",
+  "family": "F",
+  "variant": "APPUI_ALL",
+  "charge": 6,
+  "format": "FTBL_V1",
+  "rows": 158,
+  "file": "tableaux/F/F_APPUI_ALL_CH6.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUI_ART387_CH1",
+  "family": "F",
+  "variant": "APPUI",
+  "charge": 1,
+  "format": "FTBL_V1",
+  "rows": 85,
+  "file": "tableaux/F/F_APPUI_ART387_CH1.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUI_ART387_CH2",
+  "family": "F",
+  "variant": "APPUI",
+  "charge": 2,
+  "format": "FTBL_V1",
+  "rows": 176,
+  "file": "tableaux/F/F_APPUI_ART387_CH2.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUI_ART387_CH3",
+  "family": "F",
+  "variant": "APPUI",
+  "charge": 3,
+  "format": "FTBL_V1",
+  "rows": 123,
+  "file": "tableaux/F/F_APPUI_ART387_CH3.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUI_ART387_CH4",
+  "family": "F",
+  "variant": "APPUI",
+  "charge": 4,
+  "format": "FTBL_V1",
+  "rows": 141,
+  "file": "tableaux/F/F_APPUI_ART387_CH4.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUI_ART387_CH5",
+  "family": "F",
+  "variant": "APPUI",
+  "charge": 5,
+  "format": "FTBL_V1",
+  "rows": 149,
+  "file": "tableaux/F/F_APPUI_ART387_CH5.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUI_ART390_CH1",
+  "family": "F",
+  "variant": "APPUI",
+  "charge": 1,
+  "format": "FTBL_V1",
+  "rows": 83,
+  "file": "tableaux/F/F_APPUI_ART390_CH1.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUI_ART390_CH2",
+  "family": "F",
+  "variant": "APPUI",
+  "charge": 2,
+  "format": "FTBL_V1",
+  "rows": 172,
+  "file": "tableaux/F/F_APPUI_ART390_CH2.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUI_ART390_CH3",
+  "family": "F",
+  "variant": "APPUI",
+  "charge": 3,
+  "format": "FTBL_V1",
+  "rows": 122,
+  "file": "tableaux/F/F_APPUI_ART390_CH3.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUI_ART390_CH4",
+  "family": "F",
+  "variant": "APPUI",
+  "charge": 4,
+  "format": "FTBL_V1",
+  "rows": 141,
+  "file": "tableaux/F/F_APPUI_ART390_CH4.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUI_ART390_CH5",
+  "family": "F",
+  "variant": "APPUI",
+  "charge": 5,
+  "format": "FTBL_V1",
+  "rows": 150,
+  "file": "tableaux/F/F_APPUI_ART390_CH5.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_APPUI_ART390_CH6",
+  "family": "F",
+  "variant": "APPUI",
+  "charge": 6,
+  "format": "FTBL_V1",
+  "rows": 160,
+  "file": "tableaux/F/F_APPUI_ART390_CH6.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_BONUS_ART389_CH1",
+  "family": "F",
+  "variant": "UNKNOWN",
+  "charge": 1,
+  "format": "FTBL_V1",
+  "rows": 68,
+  "file": "tableaux/F/F_BONUS_ART389_CH1.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_BONUS_ART389_CH2",
+  "family": "F",
+  "variant": "UNKNOWN",
+  "charge": 2,
+  "format": "FTBL_V1",
+  "rows": 125,
+  "file": "tableaux/F/F_BONUS_ART389_CH2.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_BONUS_ART389_CH3",
+  "family": "F",
+  "variant": "UNKNOWN",
+  "charge": 3,
+  "format": "FTBL_V1",
+  "rows": 141,
+  "file": "tableaux/F/F_BONUS_ART389_CH3.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_BONUS_ART389_CH4",
+  "family": "F",
+  "variant": "UNKNOWN",
+  "charge": 4,
+  "format": "FTBL_V1",
+  "rows": 180,
+  "file": "tableaux/F/F_BONUS_ART389_CH4.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_BONUS_ART389_CH5",
+  "family": "F",
+  "variant": "UNKNOWN",
+  "charge": 5,
+  "format": "FTBL_V1",
+  "rows": 213,
+  "file": "tableaux/F/F_BONUS_ART389_CH5.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_BONUS_ART389_CH6",
+  "family": "F",
+  "variant": "UNKNOWN",
+  "charge": 6,
+  "format": "FTBL_V1",
+  "rows": 256,
+  "file": "tableaux/F/F_BONUS_ART389_CH6.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_OECL_ALL_CH1",
+  "family": "F",
+  "variant": "OECL_ALL",
+  "charge": 1,
+  "format": "FTBL_V1",
+  "rows": 62,
+  "file": "tableaux/F/F_OECL_ALL_CH1.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_OECL_ALL_CH2",
+  "family": "F",
+  "variant": "OECL_ALL",
+  "charge": 2,
+  "format": "FTBL_V1",
+  "rows": 105,
+  "file": "tableaux/F/F_OECL_ALL_CH2.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_OECL_ALL_CH3",
+  "family": "F",
+  "variant": "OECL_ALL",
+  "charge": 3,
+  "format": "FTBL_V1",
+  "rows": 122,
+  "file": "tableaux/F/F_OECL_ALL_CH3.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_OECL_ALL_CH4",
+  "family": "F",
+  "variant": "OECL_ALL",
+  "charge": 4,
+  "format": "FTBL_V1",
+  "rows": 157,
+  "file": "tableaux/F/F_OECL_ALL_CH4.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_OECL_ART385_CH1",
+  "family": "F",
+  "variant": "OECL",
+  "charge": 1,
+  "format": "FTBL_V1",
+  "rows": 71,
+  "file": "tableaux/F/F_OECL_ART385_CH1.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_OECL_ART385_CH2",
+  "family": "F",
+  "variant": "OECL",
+  "charge": 2,
+  "format": "FTBL_V1",
+  "rows": 116,
+  "file": "tableaux/F/F_OECL_ART385_CH2.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_OECL_ART385_CH3",
+  "family": "F",
+  "variant": "OECL",
+  "charge": 3,
+  "format": "FTBL_V1",
+  "rows": 127,
+  "file": "tableaux/F/F_OECL_ART385_CH3.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_OECL_ART385_CH4",
+  "family": "F",
+  "variant": "OECL",
+  "charge": 4,
+  "format": "FTBL_V1",
+  "rows": 157,
+  "file": "tableaux/F/F_OECL_ART385_CH4.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_OECL_ART385_CH5",
+  "family": "F",
+  "variant": "OECL",
+  "charge": 5,
+  "format": "FTBL_V1",
+  "rows": 165,
+  "file": "tableaux/F/F_OECL_ART385_CH5.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_OECL_ART392_CH1",
+  "family": "F",
+  "variant": "OECL",
+  "charge": 1,
+  "format": "FTBL_V1",
+  "rows": 81,
+  "file": "tableaux/F/F_OECL_ART392_CH1.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_OECL_ART392_CH2",
+  "family": "F",
+  "variant": "OECL",
+  "charge": 2,
+  "format": "FTBL_V1",
+  "rows": 143,
+  "file": "tableaux/F/F_OECL_ART392_CH2.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_OECL_ART392_CH3",
+  "family": "F",
+  "variant": "OECL",
+  "charge": 3,
+  "format": "FTBL_V1",
+  "rows": 159,
+  "file": "tableaux/F/F_OECL_ART392_CH3.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_OECL_ART392_CH4",
+  "family": "F",
+  "variant": "OECL",
+  "charge": 4,
+  "format": "FTBL_V1",
+  "rows": 204,
+  "file": "tableaux/F/F_OECL_ART392_CH4.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_OECL_ART392_CH5",
+  "family": "F",
+  "variant": "OECL",
+  "charge": 5,
+  "format": "FTBL_V1",
+  "rows": 213,
+  "file": "tableaux/F/F_OECL_ART392_CH5.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_OECL_ART392_CH6",
+  "family": "F",
+  "variant": "OECL",
+  "charge": 6,
+  "format": "FTBL_V1",
+  "rows": 236,
+  "file": "tableaux/F/F_OECL_ART392_CH6.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_OEF2RTC_ALL_CH1",
+  "family": "F",
+  "variant": "UNKNOWN",
+  "charge": 1,
+  "format": "FTBL_V1",
+  "rows": 87,
+  "file": "tableaux/F/F_OEF2RTC_ALL_CH1.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_OEF2RTC_ALL_CH2",
+  "family": "F",
+  "variant": "UNKNOWN",
+  "charge": 2,
+  "format": "FTBL_V1",
+  "rows": 198,
+  "file": "tableaux/F/F_OEF2RTC_ALL_CH2.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_OEF2RTC_ALL_CH3",
+  "family": "F",
+  "variant": "UNKNOWN",
+  "charge": 3,
+  "format": "FTBL_V1",
+  "rows": 150,
+  "file": "tableaux/F/F_OEF2RTC_ALL_CH3.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_OEF2RTC_ALL_CH4",
+  "family": "F",
+  "variant": "UNKNOWN",
+  "charge": 4,
+  "format": "FTBL_V1",
+  "rows": 170,
+  "file": "tableaux/F/F_OEF2RTC_ALL_CH4.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "F_OEF2RTC_ALL_CH5",
+  "family": "F",
+  "variant": "UNKNOWN",
+  "charge": 5,
+  "format": "FTBL_V1",
+  "rows": 177,
+  "file": "tableaux/F/F_OEF2RTC_ALL_CH5.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUIRTC_ART388_CH1",
+  "family": "G",
+  "variant": "APPUIRTC",
+  "charge": 1,
+  "format": "GTBL_V2",
+  "rows": 20,
+  "file": "tableaux/G/G_APPUIRTC_ART388_CH1.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUIRTC_ART388_CH2",
+  "family": "G",
+  "variant": "APPUIRTC",
+  "charge": 2,
+  "format": "GTBL_V2",
+  "rows": 23,
+  "file": "tableaux/G/G_APPUIRTC_ART388_CH2.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUIRTC_ART388_CH3",
+  "family": "G",
+  "variant": "APPUIRTC",
+  "charge": 3,
+  "format": "GTBL_V2",
+  "rows": 31,
+  "file": "tableaux/G/G_APPUIRTC_ART388_CH3.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUIRTC_ART388_CH4",
+  "family": "G",
+  "variant": "APPUIRTC",
+  "charge": 4,
+  "format": "GTBL_V2",
+  "rows": 36,
+  "file": "tableaux/G/G_APPUIRTC_ART388_CH4.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUIRTC_ART388_CH5",
+  "family": "G",
+  "variant": "APPUIRTC",
+  "charge": 5,
+  "format": "GTBL_V2",
+  "rows": 38,
+  "file": "tableaux/G/G_APPUIRTC_ART388_CH5.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUIRTC_ART391_CH1",
+  "family": "G",
+  "variant": "APPUIRTC",
+  "charge": 1,
+  "format": "GTBL_V2",
+  "rows": 21,
+  "file": "tableaux/G/G_APPUIRTC_ART391_CH1.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUIRTC_ART391_CH2",
+  "family": "G",
+  "variant": "APPUIRTC",
+  "charge": 2,
+  "format": "GTBL_V2",
+  "rows": 23,
+  "file": "tableaux/G/G_APPUIRTC_ART391_CH2.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUIRTC_ART391_CH3",
+  "family": "G",
+  "variant": "APPUIRTC",
+  "charge": 3,
+  "format": "GTBL_V2",
+  "rows": 33,
+  "file": "tableaux/G/G_APPUIRTC_ART391_CH3.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUIRTC_ART391_CH4",
+  "family": "G",
+  "variant": "APPUIRTC",
+  "charge": 4,
+  "format": "GTBL_V2",
+  "rows": 36,
+  "file": "tableaux/G/G_APPUIRTC_ART391_CH4.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUIRTC_ART391_CH5",
+  "family": "G",
+  "variant": "APPUIRTC",
+  "charge": 5,
+  "format": "GTBL_V2",
+  "rows": 22,
+  "file": "tableaux/G/G_APPUIRTC_ART391_CH5.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUIRTC_ART391_CH6",
+  "family": "G",
+  "variant": "APPUIRTC",
+  "charge": 6,
+  "format": "GTBL_V2",
+  "rows": 26,
+  "file": "tableaux/G/G_APPUIRTC_ART391_CH6.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUI_ALL_CH1",
+  "family": "G",
+  "variant": "APPUI_ALL",
+  "charge": 1,
+  "format": "GTBL_V2",
+  "rows": 16,
+  "file": "tableaux/G/G_APPUI_ALL_CH1.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUI_ALL_CH2",
+  "family": "G",
+  "variant": "APPUI_ALL",
+  "charge": 2,
+  "format": "GTBL_V2",
+  "rows": 35,
+  "file": "tableaux/G/G_APPUI_ALL_CH2.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUI_ALL_CH3",
+  "family": "G",
+  "variant": "APPUI_ALL",
+  "charge": 3,
+  "format": "GTBL_V2",
+  "rows": 25,
+  "file": "tableaux/G/G_APPUI_ALL_CH3.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUI_ALL_CH4",
+  "family": "G",
+  "variant": "APPUI_ALL",
+  "charge": 4,
+  "format": "GTBL_V2",
+  "rows": 28,
+  "file": "tableaux/G/G_APPUI_ALL_CH4.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUI_ALL_CH5",
+  "family": "G",
+  "variant": "APPUI_ALL",
+  "charge": 5,
+  "format": "GTBL_V2",
+  "rows": 31,
+  "file": "tableaux/G/G_APPUI_ALL_CH5.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUI_ALL_CH6",
+  "family": "G",
+  "variant": "APPUI_ALL",
+  "charge": 6,
+  "format": "GTBL_V2",
+  "rows": 16,
+  "file": "tableaux/G/G_APPUI_ALL_CH6.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUI_ART387_CH1",
+  "family": "G",
+  "variant": "APPUI",
+  "charge": 1,
+  "format": "GTBL_V2",
+  "rows": 17,
+  "file": "tableaux/G/G_APPUI_ART387_CH1.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUI_ART387_CH2",
+  "family": "G",
+  "variant": "APPUI",
+  "charge": 2,
+  "format": "GTBL_V2",
+  "rows": 36,
+  "file": "tableaux/G/G_APPUI_ART387_CH2.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUI_ART387_CH3",
+  "family": "G",
+  "variant": "APPUI",
+  "charge": 3,
+  "format": "GTBL_V2",
+  "rows": 26,
+  "file": "tableaux/G/G_APPUI_ART387_CH3.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUI_ART387_CH4",
+  "family": "G",
+  "variant": "APPUI",
+  "charge": 4,
+  "format": "GTBL_V2",
+  "rows": 30,
+  "file": "tableaux/G/G_APPUI_ART387_CH4.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUI_ART387_CH5",
+  "family": "G",
+  "variant": "APPUI",
+  "charge": 5,
+  "format": "GTBL_V2",
+  "rows": 32,
+  "file": "tableaux/G/G_APPUI_ART387_CH5.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUI_ART390_CH1",
+  "family": "G",
+  "variant": "APPUI",
+  "charge": 1,
+  "format": "GTBL_V2",
+  "rows": 17,
+  "file": "tableaux/G/G_APPUI_ART390_CH1.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUI_ART390_CH2",
+  "family": "G",
+  "variant": "APPUI",
+  "charge": 2,
+  "format": "GTBL_V2",
+  "rows": 19,
+  "file": "tableaux/G/G_APPUI_ART390_CH2.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUI_ART390_CH3",
+  "family": "G",
+  "variant": "APPUI",
+  "charge": 3,
+  "format": "GTBL_V2",
+  "rows": 25,
+  "file": "tableaux/G/G_APPUI_ART390_CH3.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUI_ART390_CH4",
+  "family": "G",
+  "variant": "APPUI",
+  "charge": 4,
+  "format": "GTBL_V2",
+  "rows": 29,
+  "file": "tableaux/G/G_APPUI_ART390_CH4.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUI_ART390_CH5",
+  "family": "G",
+  "variant": "APPUI",
+  "charge": 5,
+  "format": "GTBL_V2",
+  "rows": 30,
+  "file": "tableaux/G/G_APPUI_ART390_CH5.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_APPUI_ART390_CH6",
+  "family": "G",
+  "variant": "APPUI",
+  "charge": 6,
+  "format": "GTBL_V2",
+  "rows": 18,
+  "file": "tableaux/G/G_APPUI_ART390_CH6.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_BONUS_ART389_CH1",
+  "family": "G",
+  "variant": "UNKNOWN",
+  "charge": 1,
+  "format": "GTBL_V2",
+  "rows": 15,
+  "file": "tableaux/G/G_BONUS_ART389_CH1.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_BONUS_ART389_CH2",
+  "family": "G",
+  "variant": "UNKNOWN",
+  "charge": 2,
+  "format": "GTBL_V2",
+  "rows": 27,
+  "file": "tableaux/G/G_BONUS_ART389_CH2.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_BONUS_ART389_CH3",
+  "family": "G",
+  "variant": "UNKNOWN",
+  "charge": 3,
+  "format": "GTBL_V2",
+  "rows": 29,
+  "file": "tableaux/G/G_BONUS_ART389_CH3.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_BONUS_ART389_CH4",
+  "family": "G",
+  "variant": "UNKNOWN",
+  "charge": 4,
+  "format": "GTBL_V2",
+  "rows": 19,
+  "file": "tableaux/G/G_BONUS_ART389_CH4.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_BONUS_ART389_CH5",
+  "family": "G",
+  "variant": "UNKNOWN",
+  "charge": 5,
+  "format": "GTBL_V2",
+  "rows": 22,
+  "file": "tableaux/G/G_BONUS_ART389_CH5.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_BONUS_ART389_CH6",
+  "family": "G",
+  "variant": "UNKNOWN",
+  "charge": 6,
+  "format": "GTBL_V2",
+  "rows": 27,
+  "file": "tableaux/G/G_BONUS_ART389_CH6.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_OECL_ALL_CH1",
+  "family": "G",
+  "variant": "OECL_ALL",
+  "charge": 1,
+  "format": "GTBL_V2",
+  "rows": 14,
+  "file": "tableaux/G/G_OECL_ALL_CH1.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_OECL_ALL_CH2",
+  "family": "G",
+  "variant": "OECL_ALL",
+  "charge": 2,
+  "format": "GTBL_V2",
+  "rows": 30,
+  "file": "tableaux/G/G_OECL_ALL_CH2.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_OECL_ALL_CH3",
+  "family": "G",
+  "variant": "OECL_ALL",
+  "charge": 3,
+  "format": "GTBL_V2",
+  "rows": 26,
+  "file": "tableaux/G/G_OECL_ALL_CH3.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_OECL_ALL_CH4",
+  "family": "G",
+  "variant": "OECL_ALL",
+  "charge": 4,
+  "format": "GTBL_V2",
+  "rows": 33,
+  "file": "tableaux/G/G_OECL_ALL_CH4.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_OECL_ART385_CH1",
+  "family": "G",
+  "variant": "OECL",
+  "charge": 1,
+  "format": "GTBL_V2",
+  "rows": 15,
+  "file": "tableaux/G/G_OECL_ART385_CH1.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_OECL_ART385_CH2",
+  "family": "G",
+  "variant": "OECL",
+  "charge": 2,
+  "format": "GTBL_V2",
+  "rows": 25,
+  "file": "tableaux/G/G_OECL_ART385_CH2.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_OECL_ART385_CH3",
+  "family": "G",
+  "variant": "OECL",
+  "charge": 3,
+  "format": "GTBL_V2",
+  "rows": 25,
+  "file": "tableaux/G/G_OECL_ART385_CH3.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_OECL_ART385_CH4",
+  "family": "G",
+  "variant": "OECL",
+  "charge": 4,
+  "format": "GTBL_V2",
+  "rows": 33,
+  "file": "tableaux/G/G_OECL_ART385_CH4.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_OECL_ART385_CH5",
+  "family": "G",
+  "variant": "OECL",
+  "charge": 5,
+  "format": "GTBL_V2",
+  "rows": 34,
+  "file": "tableaux/G/G_OECL_ART385_CH5.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_OECL_ART392_CH1",
+  "family": "G",
+  "variant": "OECL",
+  "charge": 1,
+  "format": "GTBL_V2",
+  "rows": 17,
+  "file": "tableaux/G/G_OECL_ART392_CH1.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_OECL_ART392_CH2",
+  "family": "G",
+  "variant": "OECL",
+  "charge": 2,
+  "format": "GTBL_V2",
+  "rows": 30,
+  "file": "tableaux/G/G_OECL_ART392_CH2.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_OECL_ART392_CH3",
+  "family": "G",
+  "variant": "OECL",
+  "charge": 3,
+  "format": "GTBL_V2",
+  "rows": 34,
+  "file": "tableaux/G/G_OECL_ART392_CH3.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_OECL_ART392_CH4",
+  "family": "G",
+  "variant": "OECL",
+  "charge": 4,
+  "format": "GTBL_V2",
+  "rows": 20,
+  "file": "tableaux/G/G_OECL_ART392_CH4.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_OECL_ART392_CH5",
+  "family": "G",
+  "variant": "OECL",
+  "charge": 5,
+  "format": "GTBL_V2",
+  "rows": 22,
+  "file": "tableaux/G/G_OECL_ART392_CH5.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_OECL_ART392_CH6",
+  "family": "G",
+  "variant": "OECL",
+  "charge": 6,
+  "format": "GTBL_V2",
+  "rows": 24,
+  "file": "tableaux/G/G_OECL_ART392_CH6.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_OEF2RTC_ALL_CH1",
+  "family": "G",
+  "variant": "UNKNOWN",
+  "charge": 1,
+  "format": "GTBL_V2",
+  "rows": 19,
+  "file": "tableaux/G/G_OEF2RTC_ALL_CH1.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_OEF2RTC_ALL_CH2",
+  "family": "G",
+  "variant": "UNKNOWN",
+  "charge": 2,
+  "format": "GTBL_V2",
+  "rows": 22,
+  "file": "tableaux/G/G_OEF2RTC_ALL_CH2.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_OEF2RTC_ALL_CH3",
+  "family": "G",
+  "variant": "UNKNOWN",
+  "charge": 3,
+  "format": "GTBL_V2",
+  "rows": 31,
+  "file": "tableaux/G/G_OEF2RTC_ALL_CH3.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_OEF2RTC_ALL_CH4",
+  "family": "G",
+  "variant": "UNKNOWN",
+  "charge": 4,
+  "format": "GTBL_V2",
+  "rows": 18,
+  "file": "tableaux/G/G_OEF2RTC_ALL_CH4.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "G_OEF2RTC_ALL_CH5",
+  "family": "G",
+  "variant": "UNKNOWN",
+  "charge": 5,
+  "format": "GTBL_V2",
+  "rows": 20,
+  "file": "tableaux/G/G_OEF2RTC_ALL_CH5.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUIRTC_ART388_CH1",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUIRTC_ART388_CH1.htbl.gz",
+  "rows": 21,
+  "bytes": 2953,
+  "gzipBytes": 784,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUIRTC_ART388_CH2",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUIRTC_ART388_CH2.htbl.gz",
+  "rows": 24,
+  "bytes": 3364,
+  "gzipBytes": 1063,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUIRTC_ART388_CH3",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUIRTC_ART388_CH3.htbl.gz",
+  "rows": 32,
+  "bytes": 4460,
+  "gzipBytes": 1226,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUIRTC_ART388_CH4",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUIRTC_ART388_CH4.htbl.gz",
+  "rows": 37,
+  "bytes": 5145,
+  "gzipBytes": 1303,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUIRTC_ART388_CH5",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUIRTC_ART388_CH5.htbl.gz",
+  "rows": 39,
+  "bytes": 5419,
+  "gzipBytes": 1197,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUIRTC_ART391_CH1",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUIRTC_ART391_CH1.htbl.gz",
+  "rows": 22,
+  "bytes": 3090,
+  "gzipBytes": 1612,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUIRTC_ART391_CH2",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUIRTC_ART391_CH2.htbl.gz",
+  "rows": 24,
+  "bytes": 3364,
+  "gzipBytes": 1768,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUIRTC_ART391_CH3",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUIRTC_ART391_CH3.htbl.gz",
+  "rows": 34,
+  "bytes": 4734,
+  "gzipBytes": 2417,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUIRTC_ART391_CH4",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUIRTC_ART391_CH4.htbl.gz",
+  "rows": 37,
+  "bytes": 5145,
+  "gzipBytes": 2618,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUIRTC_ART391_CH5",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUIRTC_ART391_CH5.htbl.gz",
+  "rows": 23,
+  "bytes": 3227,
+  "gzipBytes": 1690,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUIRTC_ART391_CH6",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUIRTC_ART391_CH6.htbl.gz",
+  "rows": 27,
+  "bytes": 3775,
+  "gzipBytes": 1959,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUI_ALL_CH1",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUI_ALL_CH1.htbl.gz",
+  "rows": 35,
+  "bytes": 4871,
+  "gzipBytes": 1193,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUI_ALL_CH2",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUI_ALL_CH2.htbl.gz",
+  "rows": 35,
+  "bytes": 4871,
+  "gzipBytes": 1193,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUI_ALL_CH3",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUI_ALL_CH3.htbl.gz",
+  "rows": 26,
+  "bytes": 3638,
+  "gzipBytes": 1009,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUI_ALL_CH4",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUI_ALL_CH4.htbl.gz",
+  "rows": 29,
+  "bytes": 4049,
+  "gzipBytes": 1143,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUI_ALL_CH5",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUI_ALL_CH5.htbl.gz",
+  "rows": 32,
+  "bytes": 4460,
+  "gzipBytes": 1173,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUI_ALL_CH6",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUI_ALL_CH6.htbl.gz",
+  "rows": 16,
+  "bytes": 2268,
+  "gzipBytes": 772,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUI_ART387_CH1",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUI_ART387_CH1.htbl.gz",
+  "rows": 18,
+  "bytes": 2542,
+  "gzipBytes": 685,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUI_ART387_CH2",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUI_ART387_CH2.htbl.gz",
+  "rows": 37,
+  "bytes": 5145,
+  "gzipBytes": 1320,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUI_ART387_CH3",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUI_ART387_CH3.htbl.gz",
+  "rows": 27,
+  "bytes": 3775,
+  "gzipBytes": 1063,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUI_ART387_CH4",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUI_ART387_CH4.htbl.gz",
+  "rows": 31,
+  "bytes": 4323,
+  "gzipBytes": 1199,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUI_ART387_CH5",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUI_ART387_CH5.htbl.gz",
+  "rows": 33,
+  "bytes": 4597,
+  "gzipBytes": 1231,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUI_ART390_CH1",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUI_ART390_CH1.htbl.gz",
+  "rows": 20,
+  "bytes": 2816,
+  "gzipBytes": 1364,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUI_ART390_CH2",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUI_ART390_CH2.htbl.gz",
+  "rows": 15,
+  "bytes": 2131,
+  "gzipBytes": 1173,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUI_ART390_CH3",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUI_ART390_CH3.htbl.gz",
+  "rows": 25,
+  "bytes": 3501,
+  "gzipBytes": 1870,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUI_ART390_CH4",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUI_ART390_CH4.htbl.gz",
+  "rows": 30,
+  "bytes": 4186,
+  "gzipBytes": 2159,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUI_ART390_CH5",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUI_ART390_CH5.htbl.gz",
+  "rows": 30,
+  "bytes": 4186,
+  "gzipBytes": 2197,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_APPUI_ART390_CH6",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_APPUI_ART390_CH6.htbl.gz",
+  "rows": 17,
+  "bytes": 2405,
+  "gzipBytes": 1317,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_BONUS_ART389_CH1",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_BONUS_ART389_CH1.htbl.gz",
+  "rows": 16,
+  "bytes": 2268,
+  "gzipBytes": 777,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_BONUS_ART389_CH2",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_BONUS_ART389_CH2.htbl.gz",
+  "rows": 28,
+  "bytes": 3912,
+  "gzipBytes": 1274,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_BONUS_ART389_CH3",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_BONUS_ART389_CH3.htbl.gz",
+  "rows": 30,
+  "bytes": 4186,
+  "gzipBytes": 1315,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_BONUS_ART389_CH4",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_BONUS_ART389_CH4.htbl.gz",
+  "rows": 20,
+  "bytes": 2816,
+  "gzipBytes": 992,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_BONUS_ART389_CH5",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_BONUS_ART389_CH5.htbl.gz",
+  "rows": 23,
+  "bytes": 3227,
+  "gzipBytes": 1228,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_BONUS_ART389_CH6",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_BONUS_ART389_CH6.htbl.gz",
+  "rows": 28,
+  "bytes": 3912,
+  "gzipBytes": 1330,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_FACTEURLATITUDE",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_FACTEURLATITUDE.htbl.gz",
+  "rows": 8,
+  "bytes": 56,
+  "gzipBytes": 72,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_OECL_ALL_CH1",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_OECL_ALL_CH1.htbl.gz",
+  "rows": 15,
+  "bytes": 2131,
+  "gzipBytes": 542,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_OECL_ALL_CH2",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_OECL_ALL_CH2.htbl.gz",
+  "rows": 23,
+  "bytes": 3227,
+  "gzipBytes": 728,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_OECL_ALL_CH3",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_OECL_ALL_CH3.htbl.gz",
+  "rows": 27,
+  "bytes": 3775,
+  "gzipBytes": 796,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_OECL_ALL_CH4",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_OECL_ALL_CH4.htbl.gz",
+  "rows": 34,
+  "bytes": 4734,
+  "gzipBytes": 959,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_OECL_ART385_CH1",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_OECL_ART385_CH1.htbl.gz",
+  "rows": 16,
+  "bytes": 2268,
+  "gzipBytes": 792,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_OECL_ART385_CH2",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_OECL_ART385_CH2.htbl.gz",
+  "rows": 26,
+  "bytes": 3638,
+  "gzipBytes": 1090,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_OECL_ART385_CH3",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_OECL_ART385_CH3.htbl.gz",
+  "rows": 26,
+  "bytes": 3638,
+  "gzipBytes": 1044,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_OECL_ART385_CH4",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_OECL_ART385_CH4.htbl.gz",
+  "rows": 34,
+  "bytes": 4734,
+  "gzipBytes": 1291,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_OECL_ART385_CH5",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_OECL_ART385_CH5.htbl.gz",
+  "rows": 35,
+  "bytes": 4871,
+  "gzipBytes": 1306,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_OECL_ART392_CH1",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_OECL_ART392_CH1.htbl.gz",
+  "rows": 18,
+  "bytes": 2542,
+  "gzipBytes": 1368,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_OECL_ART392_CH2",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_OECL_ART392_CH2.htbl.gz",
+  "rows": 31,
+  "bytes": 4323,
+  "gzipBytes": 2239,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_OECL_ART392_CH3",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_OECL_ART392_CH3.htbl.gz",
+  "rows": 35,
+  "bytes": 4871,
+  "gzipBytes": 2499,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_OECL_ART392_CH4",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_OECL_ART392_CH4.htbl.gz",
+  "rows": 21,
+  "bytes": 2953,
+  "gzipBytes": 1566,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_OECL_ART392_CH5",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_OECL_ART392_CH5.htbl.gz",
+  "rows": 22,
+  "bytes": 3090,
+  "gzipBytes": 1631,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_OECL_ART392_CH6",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_OECL_ART392_CH6.htbl.gz",
+  "rows": 25,
+  "bytes": 3501,
+  "gzipBytes": 1821,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_OEF2RTC_ALL_CH1",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_OEF2RTC_ALL_CH1.htbl.gz",
+  "rows": 20,
+  "bytes": 2816,
+  "gzipBytes": 784,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_OEF2RTC_ALL_CH2",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_OEF2RTC_ALL_CH2.htbl.gz",
+  "rows": 23,
+  "bytes": 3227,
+  "gzipBytes": 1059,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_OEF2RTC_ALL_CH3",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_OEF2RTC_ALL_CH3.htbl.gz",
+  "rows": 32,
+  "bytes": 4460,
+  "gzipBytes": 1295,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_OEF2RTC_ALL_CH4",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_OEF2RTC_ALL_CH4.htbl.gz",
+  "rows": 19,
+  "bytes": 2679,
+  "gzipBytes": 927,
+  "keyVersion": 0
+ },
+ {
+  "id": "H_OEF2RTC_ALL_CH5",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/H/H_OEF2RTC_ALL_CH5.htbl.gz",
+  "rows": 21,
+  "bytes": 2953,
+  "gzipBytes": 906,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUIRTC_ART388_CH1",
+  "family": "I",
+  "variant": "APPUIRTC",
+  "charge": 1,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUIRTC_ART388_CH1.itbl.gz",
+  "rows": 1368,
+  "bytes": 17793,
+  "gzipBytes": 4808,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUIRTC_ART388_CH2",
+  "family": "I",
+  "variant": "APPUIRTC",
+  "charge": 2,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUIRTC_ART388_CH2.itbl.gz",
+  "rows": 1584,
+  "bytes": 20601,
+  "gzipBytes": 5504,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUIRTC_ART388_CH3",
+  "family": "I",
+  "variant": "APPUIRTC",
+  "charge": 3,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUIRTC_ART388_CH3.itbl.gz",
+  "rows": 2160,
+  "bytes": 28089,
+  "gzipBytes": 7678,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUIRTC_ART388_CH4",
+  "family": "I",
+  "variant": "APPUIRTC",
+  "charge": 4,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUIRTC_ART388_CH4.itbl.gz",
+  "rows": 2520,
+  "bytes": 32769,
+  "gzipBytes": 9061,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUIRTC_ART388_CH5",
+  "family": "I",
+  "variant": "APPUIRTC",
+  "charge": 5,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUIRTC_ART388_CH5.itbl.gz",
+  "rows": 2664,
+  "bytes": 34641,
+  "gzipBytes": 9560,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUIRTC_ART391_CH1",
+  "family": "I",
+  "variant": "APPUIRTC",
+  "charge": 1,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUIRTC_ART391_CH1.itbl.gz",
+  "rows": 864,
+  "bytes": 11241,
+  "gzipBytes": 5622,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUIRTC_ART391_CH2",
+  "family": "I",
+  "variant": "APPUIRTC",
+  "charge": 2,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUIRTC_ART391_CH2.itbl.gz",
+  "rows": 1152,
+  "bytes": 14985,
+  "gzipBytes": 7183,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUIRTC_ART391_CH3",
+  "family": "I",
+  "variant": "APPUIRTC",
+  "charge": 3,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUIRTC_ART391_CH3.itbl.gz",
+  "rows": 1368,
+  "bytes": 17793,
+  "gzipBytes": 8725,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUIRTC_ART391_CH4",
+  "family": "I",
+  "variant": "APPUIRTC",
+  "charge": 4,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUIRTC_ART391_CH4.itbl.gz",
+  "rows": 1584,
+  "bytes": 20601,
+  "gzipBytes": 10083,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUIRTC_ART391_CH5",
+  "family": "I",
+  "variant": "APPUIRTC",
+  "charge": 5,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUIRTC_ART391_CH5.itbl.gz",
+  "rows": 1080,
+  "bytes": 14049,
+  "gzipBytes": 6930,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUIRTC_ART391_CH6",
+  "family": "I",
+  "variant": "APPUIRTC",
+  "charge": 6,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUIRTC_ART391_CH6.itbl.gz",
+  "rows": 1512,
+  "bytes": 19665,
+  "gzipBytes": 9763,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUI_ALL_CH1",
+  "family": "I",
+  "variant": "APPUI_ALL",
+  "charge": 1,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUI_ALL_CH1.itbl.gz",
+  "rows": 1080,
+  "bytes": 14049,
+  "gzipBytes": 3773,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUI_ALL_CH2",
+  "family": "I",
+  "variant": "APPUI_ALL",
+  "charge": 2,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUI_ALL_CH2.itbl.gz",
+  "rows": 2448,
+  "bytes": 31833,
+  "gzipBytes": 8302,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUI_ALL_CH3",
+  "family": "I",
+  "variant": "APPUI_ALL",
+  "charge": 3,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUI_ALL_CH3.itbl.gz",
+  "rows": 1728,
+  "bytes": 22473,
+  "gzipBytes": 6118,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUI_ALL_CH4",
+  "family": "I",
+  "variant": "APPUI_ALL",
+  "charge": 4,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUI_ALL_CH4.itbl.gz",
+  "rows": 1944,
+  "bytes": 25281,
+  "gzipBytes": 6825,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUI_ALL_CH5",
+  "family": "I",
+  "variant": "APPUI_ALL",
+  "charge": 5,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUI_ALL_CH5.itbl.gz",
+  "rows": 2232,
+  "bytes": 29025,
+  "gzipBytes": 8012,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUI_ALL_CH6",
+  "family": "I",
+  "variant": "APPUI_ALL",
+  "charge": 6,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUI_ALL_CH6.itbl.gz",
+  "rows": 1080,
+  "bytes": 14049,
+  "gzipBytes": 3921,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUI_ART387_CH1",
+  "family": "I",
+  "variant": "APPUI",
+  "charge": 1,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUI_ART387_CH1.itbl.gz",
+  "rows": 1152,
+  "bytes": 14985,
+  "gzipBytes": 4037,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUI_ART387_CH2",
+  "family": "I",
+  "variant": "APPUI",
+  "charge": 2,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUI_ART387_CH2.itbl.gz",
+  "rows": 2520,
+  "bytes": 32769,
+  "gzipBytes": 8479,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUI_ART387_CH3",
+  "family": "I",
+  "variant": "APPUI",
+  "charge": 3,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUI_ART387_CH3.itbl.gz",
+  "rows": 1800,
+  "bytes": 23409,
+  "gzipBytes": 6361,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUI_ART387_CH4",
+  "family": "I",
+  "variant": "APPUI",
+  "charge": 4,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUI_ART387_CH4.itbl.gz",
+  "rows": 2088,
+  "bytes": 27153,
+  "gzipBytes": 7373,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUI_ART387_CH5",
+  "family": "I",
+  "variant": "APPUI",
+  "charge": 5,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUI_ART387_CH5.itbl.gz",
+  "rows": 2232,
+  "bytes": 29025,
+  "gzipBytes": 7992,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUI_ART390_CH1",
+  "family": "I",
+  "variant": "APPUI",
+  "charge": 1,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUI_ART390_CH1.itbl.gz",
+  "rows": 720,
+  "bytes": 9369,
+  "gzipBytes": 4649,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUI_ART390_CH2",
+  "family": "I",
+  "variant": "APPUI",
+  "charge": 2,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUI_ART390_CH2.itbl.gz",
+  "rows": 1296,
+  "bytes": 16857,
+  "gzipBytes": 7877,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUI_ART390_CH3",
+  "family": "I",
+  "variant": "APPUI",
+  "charge": 3,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUI_ART390_CH3.itbl.gz",
+  "rows": 2160,
+  "bytes": 28089,
+  "gzipBytes": 10046,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUI_ART390_CH4",
+  "family": "I",
+  "variant": "APPUI",
+  "charge": 4,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUI_ART390_CH4.itbl.gz",
+  "rows": 2016,
+  "bytes": 26217,
+  "gzipBytes": 12579,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUI_ART390_CH5",
+  "family": "I",
+  "variant": "APPUI",
+  "charge": 5,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUI_ART390_CH5.itbl.gz",
+  "rows": 2088,
+  "bytes": 27153,
+  "gzipBytes": 13088,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_APPUI_ART390_CH6",
+  "family": "I",
+  "variant": "APPUI",
+  "charge": 6,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_APPUI_ART390_CH6.itbl.gz",
+  "rows": 1224,
+  "bytes": 15921,
+  "gzipBytes": 7813,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_BONUS_ART389_CH1",
+  "family": "I",
+  "variant": "UNKNOWN",
+  "charge": 1,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_BONUS_ART389_CH1.itbl.gz",
+  "rows": 504,
+  "bytes": 6561,
+  "gzipBytes": 1787,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_BONUS_ART389_CH2",
+  "family": "I",
+  "variant": "UNKNOWN",
+  "charge": 2,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_BONUS_ART389_CH2.itbl.gz",
+  "rows": 1872,
+  "bytes": 24345,
+  "gzipBytes": 6786,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_BONUS_ART389_CH3",
+  "family": "I",
+  "variant": "UNKNOWN",
+  "charge": 3,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_BONUS_ART389_CH3.itbl.gz",
+  "rows": 2016,
+  "bytes": 26217,
+  "gzipBytes": 7234,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_BONUS_ART389_CH4",
+  "family": "I",
+  "variant": "UNKNOWN",
+  "charge": 4,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_BONUS_ART389_CH4.itbl.gz",
+  "rows": 756,
+  "bytes": 9837,
+  "gzipBytes": 2727,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_BONUS_ART389_CH5",
+  "family": "I",
+  "variant": "UNKNOWN",
+  "charge": 5,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_BONUS_ART389_CH5.itbl.gz",
+  "rows": 1152,
+  "bytes": 14985,
+  "gzipBytes": 4060,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_BONUS_ART389_CH6",
+  "family": "I",
+  "variant": "UNKNOWN",
+  "charge": 6,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_BONUS_ART389_CH6.itbl.gz",
+  "rows": 1872,
+  "bytes": 24345,
+  "gzipBytes": 6905,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_OECL_ALL_CH1",
+  "family": "I",
+  "variant": "OECL_ALL",
+  "charge": 1,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_OECL_ALL_CH1.itbl.gz",
+  "rows": 864,
+  "bytes": 11241,
+  "gzipBytes": 3120,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_OECL_ALL_CH2",
+  "family": "I",
+  "variant": "OECL_ALL",
+  "charge": 2,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_OECL_ALL_CH2.itbl.gz",
+  "rows": 1512,
+  "bytes": 19665,
+  "gzipBytes": 5312,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_OECL_ALL_CH3",
+  "family": "I",
+  "variant": "OECL_ALL",
+  "charge": 3,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_OECL_ALL_CH3.itbl.gz",
+  "rows": 1800,
+  "bytes": 23409,
+  "gzipBytes": 6293,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_OECL_ALL_CH4",
+  "family": "I",
+  "variant": "OECL_ALL",
+  "charge": 4,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_OECL_ALL_CH4.itbl.gz",
+  "rows": 2304,
+  "bytes": 29961,
+  "gzipBytes": 8115,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_OECL_ART385_CH1",
+  "family": "I",
+  "variant": "OECL",
+  "charge": 1,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_OECL_ART385_CH1.itbl.gz",
+  "rows": 1008,
+  "bytes": 13113,
+  "gzipBytes": 3607,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_OECL_ART385_CH2",
+  "family": "I",
+  "variant": "OECL",
+  "charge": 2,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_OECL_ART385_CH2.itbl.gz",
+  "rows": 1728,
+  "bytes": 22473,
+  "gzipBytes": 6054,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_OECL_ART385_CH3",
+  "family": "I",
+  "variant": "OECL",
+  "charge": 3,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_OECL_ART385_CH3.itbl.gz",
+  "rows": 1728,
+  "bytes": 22473,
+  "gzipBytes": 6030,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_OECL_ART385_CH4",
+  "family": "I",
+  "variant": "OECL",
+  "charge": 4,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_OECL_ART385_CH4.itbl.gz",
+  "rows": 2304,
+  "bytes": 29961,
+  "gzipBytes": 8124,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_OECL_ART385_CH5",
+  "family": "I",
+  "variant": "OECL",
+  "charge": 5,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_OECL_ART385_CH5.itbl.gz",
+  "rows": 2376,
+  "bytes": 30897,
+  "gzipBytes": 8342,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_OECL_ART392_CH1",
+  "family": "I",
+  "variant": "OECL",
+  "charge": 1,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_OECL_ART392_CH1.itbl.gz",
+  "rows": 1152,
+  "bytes": 14985,
+  "gzipBytes": 7375,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_OECL_ART392_CH2",
+  "family": "I",
+  "variant": "OECL",
+  "charge": 2,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_OECL_ART392_CH2.itbl.gz",
+  "rows": 1152,
+  "bytes": 14985,
+  "gzipBytes": 7375,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_OECL_ART392_CH3",
+  "family": "I",
+  "variant": "OECL",
+  "charge": 3,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_OECL_ART392_CH3.itbl.gz",
+  "rows": 1152,
+  "bytes": 14985,
+  "gzipBytes": 7378,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_OECL_ART392_CH4",
+  "family": "I",
+  "variant": "OECL",
+  "charge": 4,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_OECL_ART392_CH4.itbl.gz",
+  "rows": 864,
+  "bytes": 11241,
+  "gzipBytes": 5573,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_OECL_ART392_CH5",
+  "family": "I",
+  "variant": "OECL",
+  "charge": 5,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_OECL_ART392_CH5.itbl.gz",
+  "rows": 1512,
+  "bytes": 19665,
+  "gzipBytes": 9673,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_OECL_ART392_CH6",
+  "family": "I",
+  "variant": "OECL",
+  "charge": 6,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_OECL_ART392_CH6.itbl.gz",
+  "rows": 1152,
+  "bytes": 14985,
+  "gzipBytes": 7360,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_OEF2RTC_ALL_CH1",
+  "family": "I",
+  "variant": "UNKNOWN",
+  "charge": 1,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_OEF2RTC_ALL_CH1.itbl.gz",
+  "rows": 1296,
+  "bytes": 16857,
+  "gzipBytes": 4550,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_OEF2RTC_ALL_CH2",
+  "family": "I",
+  "variant": "UNKNOWN",
+  "charge": 2,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_OEF2RTC_ALL_CH2.itbl.gz",
+  "rows": 1512,
+  "bytes": 19665,
+  "gzipBytes": 5367,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_OEF2RTC_ALL_CH3",
+  "family": "I",
+  "variant": "UNKNOWN",
+  "charge": 3,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_OEF2RTC_ALL_CH3.itbl.gz",
+  "rows": 2160,
+  "bytes": 28089,
+  "gzipBytes": 7647,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_OEF2RTC_ALL_CH4",
+  "family": "I",
+  "variant": "UNKNOWN",
+  "charge": 4,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_OEF2RTC_ALL_CH4.itbl.gz",
+  "rows": 1224,
+  "bytes": 15921,
+  "gzipBytes": 4504,
+  "keyVersion": 0
+ },
+ {
+  "id": "I_OEF2RTC_ALL_CH5",
+  "family": "I",
+  "variant": "UNKNOWN",
+  "charge": 5,
+  "format": "ITBL_V1",
+  "file": "tableaux/I/I_OEF2RTC_ALL_CH5.itbl.gz",
+  "rows": 1368,
+  "bytes": 17793,
+  "gzipBytes": 4675,
+  "keyVersion": 0
+ },
+ {
+  "id": "JBIS_BONUS_ART389_CH1",
+  "family": "JBIS",
+  "variant": "UNKNOWN",
+  "charge": 1,
+  "format": "JBISTBL_V1",
+  "file": "tableaux/Jbis/JBIS_BONUS_ART389_CH1.jbistbl.gz",
+  "rows": 41,
+  "temperatures": [
+   -39,
+   -24,
+   -9,
+   6,
+   21,
+   36,
+   51
+  ],
+  "bytes": 1336,
+  "gzipBytes": 763,
+  "keyVersion": 0
+ },
+ {
+  "id": "JBIS_BONUS_ART389_CH2",
+  "family": "JBIS",
+  "variant": "UNKNOWN",
+  "charge": 2,
+  "format": "JBISTBL_V1",
+  "file": "tableaux/Jbis/JBIS_BONUS_ART389_CH2.jbistbl.gz",
+  "rows": 61,
+  "temperatures": [
+   -39,
+   -24,
+   -9,
+   6,
+   21,
+   36,
+   51
+  ],
+  "bytes": 1976,
+  "gzipBytes": 1030,
+  "keyVersion": 0
+ },
+ {
+  "id": "JBIS_BONUS_ART389_CH3",
+  "family": "JBIS",
+  "variant": "UNKNOWN",
+  "charge": 3,
+  "format": "JBISTBL_V1",
+  "file": "tableaux/Jbis/JBIS_BONUS_ART389_CH3.jbistbl.gz",
+  "rows": 66,
+  "temperatures": [
+   -39,
+   -24,
+   -9,
+   6,
+   21,
+   36,
+   51
+  ],
+  "bytes": 2136,
+  "gzipBytes": 1132,
+  "keyVersion": 0
+ },
+ {
+  "id": "JBIS_BONUS_ART389_CH4",
+  "family": "JBIS",
+  "variant": "UNKNOWN",
+  "charge": 4,
+  "format": "JBISTBL_V1",
+  "file": "tableaux/Jbis/JBIS_BONUS_ART389_CH4.jbistbl.gz",
+  "rows": 79,
+  "temperatures": [
+   -39,
+   -24,
+   -9,
+   6,
+   21,
+   36,
+   51
+  ],
+  "bytes": 2552,
+  "gzipBytes": 1925,
+  "keyVersion": 0
+ },
+ {
+  "id": "JBIS_BONUS_ART389_CH5",
+  "family": "JBIS",
+  "variant": "UNKNOWN",
+  "charge": 5,
+  "format": "JBISTBL_V1",
+  "file": "tableaux/Jbis/JBIS_BONUS_ART389_CH5.jbistbl.gz",
+  "rows": 94,
+  "temperatures": [
+   -39,
+   -24,
+   -9,
+   6,
+   21,
+   36,
+   51
+  ],
+  "bytes": 3032,
+  "gzipBytes": 2220,
+  "keyVersion": 0
+ },
+ {
+  "id": "JBIS_BONUS_ART389_CH6",
+  "family": "JBIS",
+  "variant": "UNKNOWN",
+  "charge": 6,
+  "format": "JBISTBL_V1",
+  "file": "tableaux/Jbis/JBIS_BONUS_ART389_CH6.jbistbl.gz",
+  "rows": 107,
+  "temperatures": [
+   -39,
+   -24,
+   -9,
+   6,
+   21,
+   36,
+   51
+  ],
+  "bytes": 3448,
+  "gzipBytes": 2424,
+  "keyVersion": 0
+ },
+ {
+  "id": "JBIS_OECL_ART392_CH1",
+  "family": "JBIS",
+  "variant": "OECL",
+  "charge": 1,
+  "format": "JBISTBL_V1",
+  "file": "tableaux/Jbis/JBIS_OECL_ART392_CH1.jbistbl.gz",
+  "rows": 44,
+  "temperatures": [
+   -39,
+   -24,
+   -9,
+   6,
+   21,
+   36,
+   51
+  ],
+  "bytes": 1432,
+  "gzipBytes": 471,
+  "keyVersion": 0
+ },
+ {
+  "id": "JBIS_OECL_ART392_CH2",
+  "family": "JBIS",
+  "variant": "OECL",
+  "charge": 2,
+  "format": "JBISTBL_V1",
+  "file": "tableaux/Jbis/JBIS_OECL_ART392_CH2.jbistbl.gz",
+  "rows": 44,
+  "temperatures": [
+   -39,
+   -24,
+   -9,
+   6,
+   21,
+   36,
+   51
+  ],
+  "bytes": 1432,
+  "gzipBytes": 471,
+  "keyVersion": 0
+ },
+ {
+  "id": "JBIS_OECL_ART392_CH3",
+  "family": "JBIS",
+  "variant": "OECL",
+  "charge": 3,
+  "format": "JBISTBL_V1",
+  "file": "tableaux/Jbis/JBIS_OECL_ART392_CH3.jbistbl.gz",
+  "rows": 70,
+  "temperatures": [
+   -39,
+   -24,
+   -9,
+   6,
+   21,
+   36,
+   51
+  ],
+  "bytes": 2264,
+  "gzipBytes": 724,
+  "keyVersion": 0
+ },
+ {
+  "id": "JBIS_OECL_ART392_CH4",
+  "family": "JBIS",
+  "variant": "OECL",
+  "charge": 4,
+  "format": "JBISTBL_V1",
+  "file": "tableaux/Jbis/JBIS_OECL_ART392_CH4.jbistbl.gz",
+  "rows": 84,
+  "temperatures": [
+   -39,
+   -24,
+   -9,
+   6,
+   21,
+   36,
+   51
+  ],
+  "bytes": 2712,
+  "gzipBytes": 823,
+  "keyVersion": 0
+ },
+ {
+  "id": "JBIS_OECL_ART392_CH5",
+  "family": "JBIS",
+  "variant": "OECL",
+  "charge": 5,
+  "format": "JBISTBL_V1",
+  "file": "tableaux/Jbis/JBIS_OECL_ART392_CH5.jbistbl.gz",
+  "rows": 95,
+  "temperatures": [
+   -39,
+   -24,
+   -9,
+   6,
+   21,
+   36,
+   51
+  ],
+  "bytes": 3064,
+  "gzipBytes": 1019,
+  "keyVersion": 0
+ },
+ {
+  "id": "JBIS_OECL_ART392_CH6",
+  "family": "JBIS",
+  "variant": "OECL",
+  "charge": 6,
+  "format": "JBISTBL_V1",
+  "file": "tableaux/Jbis/JBIS_OECL_ART392_CH6.jbistbl.gz",
+  "rows": 102,
+  "temperatures": [
+   -39,
+   -24,
+   -9,
+   6,
+   21,
+   36,
+   51
+  ],
+  "bytes": 3288,
+  "gzipBytes": 1144,
+  "keyVersion": 0
+ },
+ {
+  "id": "J_BONUS_ART389_CH1",
+  "family": "J",
+  "variant": "UNKNOWN",
+  "charge": 1,
+  "format": "JTBL_V2",
+  "file": "tableaux/J/J_BONUS_ART389_CH1.jtbl.gz",
+  "rows": 41,
+  "bytes": 1824,
+  "gzipBytes": 1135,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 41
+  }
+ },
+ {
+  "id": "J_BONUS_ART389_CH2",
+  "family": "J",
+  "variant": "UNKNOWN",
+  "charge": 2,
+  "format": "JTBL_V2",
+  "file": "tableaux/J/J_BONUS_ART389_CH2.jtbl.gz",
+  "rows": 61,
+  "bytes": 2704,
+  "gzipBytes": 1541,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 61
+  }
+ },
+ {
+  "id": "J_BONUS_ART389_CH3",
+  "family": "J",
+  "variant": "UNKNOWN",
+  "charge": 3,
+  "format": "JTBL_V2",
+  "file": "tableaux/J/J_BONUS_ART389_CH3.jtbl.gz",
+  "rows": 66,
+  "bytes": 2924,
+  "gzipBytes": 1361,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 66
+  }
+ },
+ {
+  "id": "J_BONUS_ART389_CH4",
+  "family": "J",
+  "variant": "UNKNOWN",
+  "charge": 4,
+  "format": "JTBL_V2",
+  "file": "tableaux/J/J_BONUS_ART389_CH4.jtbl.gz",
+  "rows": 79,
+  "bytes": 3496,
+  "gzipBytes": 1754,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 79
+  }
+ },
+ {
+  "id": "J_BONUS_ART389_CH5",
+  "family": "J",
+  "variant": "UNKNOWN",
+  "charge": 5,
+  "format": "JTBL_V2",
+  "file": "tableaux/J/J_BONUS_ART389_CH5.jtbl.gz",
+  "rows": 94,
+  "bytes": 4156,
+  "gzipBytes": 2150,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 94
+  }
+ },
+ {
+  "id": "J_BONUS_ART389_CH6",
+  "family": "J",
+  "variant": "UNKNOWN",
+  "charge": 6,
+  "format": "JTBL_V2",
+  "file": "tableaux/J/J_BONUS_ART389_CH6.jtbl.gz",
+  "rows": 107,
+  "bytes": 4728,
+  "gzipBytes": 2374,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 107
+  }
+ },
+ {
+  "id": "J_OECL_ALL_CH1",
+  "family": "J",
+  "variant": "OECL_ALL",
+  "charge": 1,
+  "format": "JTBL_V2",
+  "file": "tableaux/J/J_OECL_ALL_CH1.jtbl.gz",
+  "rows": 39,
+  "bytes": 1736,
+  "gzipBytes": 957,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 39
+  }
+ },
+ {
+  "id": "J_OECL_ALL_CH2",
+  "family": "J",
+  "variant": "OECL_ALL",
+  "charge": 2,
+  "format": "JTBL_V2",
+  "file": "tableaux/J/J_OECL_ALL_CH2.jtbl.gz",
+  "rows": 56,
+  "bytes": 2484,
+  "gzipBytes": 1369,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 56
+  }
+ },
+ {
+  "id": "J_OECL_ALL_CH3",
+  "family": "J",
+  "variant": "OECL_ALL",
+  "charge": 3,
+  "format": "JTBL_V2",
+  "file": "tableaux/J/J_OECL_ALL_CH3.jtbl.gz",
+  "rows": 62,
+  "bytes": 2748,
+  "gzipBytes": 1279,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 62
+  }
+ },
+ {
+  "id": "J_OECL_ALL_CH4",
+  "family": "J",
+  "variant": "OECL_ALL",
+  "charge": 4,
+  "format": "JTBL_V2",
+  "file": "tableaux/J/J_OECL_ALL_CH4.jtbl.gz",
+  "rows": 76,
+  "bytes": 3364,
+  "gzipBytes": 1607,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 76
+  }
+ },
+ {
+  "id": "J_OECL_ART385_CH1",
+  "family": "J",
+  "variant": "OECL",
+  "charge": 1,
+  "format": "JTBL_V2",
+  "file": "tableaux/J/J_OECL_ART385_CH1.jtbl.gz",
+  "rows": 84,
+  "bytes": 3729,
+  "gzipBytes": 1623,
+  "keyVersion": 0,
+  "subTables": {
+   "FU_DE_F2": 42,
+   "FUCHSIA": 42
+  }
+ },
+ {
+  "id": "J_OECL_ART385_CH2",
+  "family": "J",
+  "variant": "OECL",
+  "charge": 2,
+  "format": "JTBL_V2",
+  "file": "tableaux/J/J_OECL_ART385_CH2.jtbl.gz",
+  "rows": 118,
+  "bytes": 5225,
+  "gzipBytes": 2225,
+  "keyVersion": 0,
+  "subTables": {
+   "FU_DE_F2": 59,
+   "FUCHSIA": 59
+  }
+ },
+ {
+  "id": "J_OECL_ART385_CH3",
+  "family": "J",
+  "variant": "OECL",
+  "charge": 3,
+  "format": "JTBL_V2",
+  "file": "tableaux/J/J_OECL_ART385_CH3.jtbl.gz",
+  "rows": 126,
+  "bytes": 5577,
+  "gzipBytes": 2238,
+  "keyVersion": 0,
+  "subTables": {
+   "FU_DE_F2": 63,
+   "FUCHSIA": 63
+  }
+ },
+ {
+  "id": "J_OECL_ART385_CH4",
+  "family": "J",
+  "variant": "OECL",
+  "charge": 4,
+  "format": "JTBL_V2",
+  "file": "tableaux/J/J_OECL_ART385_CH4.jtbl.gz",
+  "rows": 152,
+  "bytes": 6721,
+  "gzipBytes": 3016,
+  "keyVersion": 0,
+  "subTables": {
+   "FU_DE_F2": 76,
+   "FUCHSIA": 76
+  }
+ },
+ {
+  "id": "J_OECL_ART385_CH5",
+  "family": "J",
+  "variant": "OECL",
+  "charge": 5,
+  "format": "JTBL_V2",
+  "file": "tableaux/J/J_OECL_ART385_CH5.jtbl.gz",
+  "rows": 174,
+  "bytes": 7689,
+  "gzipBytes": 3475,
+  "keyVersion": 0,
+  "subTables": {
+   "FU_DE_F2": 87,
+   "FUCHSIA": 87
+  }
+ },
+ {
+  "id": "J_OECL_ART392_CH1",
+  "family": "J",
+  "variant": "OECL",
+  "charge": 1,
+  "format": "JTBL_V2",
+  "file": "tableaux/J/J_OECL_ART392_CH1.jtbl.gz",
+  "rows": 44,
+  "bytes": 1956,
+  "gzipBytes": 919,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 44
+  }
+ },
+ {
+  "id": "J_OECL_ART392_CH2",
+  "family": "J",
+  "variant": "OECL",
+  "charge": 2,
+  "format": "JTBL_V2",
+  "file": "tableaux/J/J_OECL_ART392_CH2.jtbl.gz",
+  "rows": 44,
+  "bytes": 1956,
+  "gzipBytes": 919,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 44
+  }
+ },
+ {
+  "id": "J_OECL_ART392_CH3",
+  "family": "J",
+  "variant": "OECL",
+  "charge": 3,
+  "format": "JTBL_V2",
+  "file": "tableaux/J/J_OECL_ART392_CH3.jtbl.gz",
+  "rows": 70,
+  "bytes": 3100,
+  "gzipBytes": 1214,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 70
+  }
+ },
+ {
+  "id": "J_OECL_ART392_CH4",
+  "family": "J",
+  "variant": "OECL",
+  "charge": 4,
+  "format": "JTBL_V2",
+  "file": "tableaux/J/J_OECL_ART392_CH4.jtbl.gz",
+  "rows": 84,
+  "bytes": 3716,
+  "gzipBytes": 1511,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 84
+  }
+ },
+ {
+  "id": "J_OECL_ART392_CH5",
+  "family": "J",
+  "variant": "OECL",
+  "charge": 5,
+  "format": "JTBL_V2",
+  "file": "tableaux/J/J_OECL_ART392_CH5.jtbl.gz",
+  "rows": 95,
+  "bytes": 4200,
+  "gzipBytes": 1717,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 95
+  }
+ },
+ {
+  "id": "J_OECL_ART392_CH6",
+  "family": "J",
+  "variant": "OECL",
+  "charge": 6,
+  "format": "JTBL_V2",
+  "file": "tableaux/J/J_OECL_ART392_CH6.jtbl.gz",
+  "rows": 102,
+  "bytes": 4508,
+  "gzipBytes": 1923,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 102
+  }
+ },
+ {
+  "id": "MEPAC_V0",
+  "family": "CONFIG",
+  "variant": "MEPAC",
+  "format": "V0CFG_V1",
+  "rows": 26,
+  "file": "config/MEPAC/v0.cfg.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_ANNEXE_1",
+  "family": "C",
+  "format": "CTBL_V1",
+  "rows": 65,
+  "file": "tableaux/MO81_LLR/Annexe_1/MO81_LLR_ANNEXE_1.ctbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_ANNEXE_2",
+  "family": "D",
+  "format": "DTBL_V1",
+  "rows": 41,
+  "file": "tableaux/MO81_LLR/Annexe_2/MO81_LLR_ANNEXE_2.dtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_81_F3_ECL_CH1",
+  "family": "ECL",
+  "variant": "OECL",
+  "charge": 1,
+  "format": "ECLTBL_V2",
+  "rows": 14,
+  "file": "tableaux/MO81_LLR/ECL/MO81_LLR_OECL_81_F3_ECL_CH1.ecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_81_F3_ECL_CH2",
+  "family": "ECL",
+  "variant": "OECL",
+  "charge": 2,
+  "format": "ECLTBL_V2",
+  "rows": 26,
+  "file": "tableaux/MO81_LLR/ECL/MO81_LLR_OECL_81_F3_ECL_CH2.ecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_81_F3_ECL_CH3",
+  "family": "ECL",
+  "variant": "OECL",
+  "charge": 3,
+  "format": "ECLTBL_V2",
+  "rows": 24,
+  "file": "tableaux/MO81_LLR/ECL/MO81_LLR_OECL_81_F3_ECL_CH3.ecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_81_F3_ECL_CH4",
+  "family": "ECL",
+  "variant": "OECL",
+  "charge": 4,
+  "format": "ECLTBL_V2",
+  "rows": 32,
+  "file": "tableaux/MO81_LLR/ECL/MO81_LLR_OECL_81_F3_ECL_CH4.ecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_81_F3_ECL_CH5",
+  "family": "ECL",
+  "variant": "OECL",
+  "charge": 5,
+  "format": "ECLTBL_V2",
+  "rows": 24,
+  "file": "tableaux/MO81_LLR/ECL/MO81_LLR_OECL_81_F3_ECL_CH5.ecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_81_F3_T2_CH1",
+  "family": "F",
+  "variant": "OECL_81_F3",
+  "charge": 1,
+  "format": "FTBL_V2",
+  "rows": 20,
+  "file": "tableaux/MO81_LLR/T2/MO81_LLR_OECL_81_F3_T2_CH1.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_81_F3_T2_CH2",
+  "family": "F",
+  "variant": "OECL_81_F3",
+  "charge": 2,
+  "format": "FTBL_V2",
+  "rows": 33,
+  "file": "tableaux/MO81_LLR/T2/MO81_LLR_OECL_81_F3_T2_CH2.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_81_F3_T2_CH3",
+  "family": "F",
+  "variant": "OECL_81_F3",
+  "charge": 3,
+  "format": "FTBL_V2",
+  "rows": 26,
+  "file": "tableaux/MO81_LLR/T2/MO81_LLR_OECL_81_F3_T2_CH3.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_81_F3_T2_CH4",
+  "family": "F",
+  "variant": "OECL_81_F3",
+  "charge": 4,
+  "format": "FTBL_V2",
+  "rows": 35,
+  "file": "tableaux/MO81_LLR/T2/MO81_LLR_OECL_81_F3_T2_CH4.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_81_F3_T2_CH5",
+  "family": "F",
+  "variant": "OECL_81_F3",
+  "charge": 5,
+  "format": "FTBL_V2",
+  "rows": 42,
+  "file": "tableaux/MO81_LLR/T2/MO81_LLR_OECL_81_F3_T2_CH5.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_81_F3_T3_CH1",
+  "family": "E",
+  "variant": "OECL_81_F3",
+  "charge": 1,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO81_LLR/T3/MO81_LLR_OECL_81_F3_T3_CH1.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_81_F3_T3_CH2",
+  "family": "E",
+  "variant": "OECL_81_F3",
+  "charge": 2,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO81_LLR/T3/MO81_LLR_OECL_81_F3_T3_CH2.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_81_F3_T3_CH3",
+  "family": "E",
+  "variant": "OECL_81_F3",
+  "charge": 3,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO81_LLR/T3/MO81_LLR_OECL_81_F3_T3_CH3.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_81_F3_T3_CH4",
+  "family": "E",
+  "variant": "OECL_81_F3",
+  "charge": 4,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO81_LLR/T3/MO81_LLR_OECL_81_F3_T3_CH4.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_81_F3_T3_CH5",
+  "family": "E",
+  "variant": "OECL_81_F3",
+  "charge": 5,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO81_LLR/T3/MO81_LLR_OECL_81_F3_T3_CH5.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_IR_81_F2_ECL_CH1",
+  "family": "ECL",
+  "variant": "OECL",
+  "charge": 1,
+  "format": "ECLTBL_V2",
+  "rows": 14,
+  "file": "tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH1.ecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_IR_81_F2_ECL_CH2",
+  "family": "ECL",
+  "variant": "OECL",
+  "charge": 2,
+  "format": "ECLTBL_V2",
+  "rows": 29,
+  "file": "tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH2.ecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_IR_81_F2_ECL_CH3",
+  "family": "ECL",
+  "variant": "OECL",
+  "charge": 3,
+  "format": "ECLTBL_V2",
+  "rows": 48,
+  "file": "tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH3.ecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_IR_81_F2_ECL_CH4",
+  "family": "ECL",
+  "variant": "OECL",
+  "charge": 4,
+  "format": "ECLTBL_V2",
+  "rows": 63,
+  "file": "tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH4.ecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_IR_81_F2_ECL_CH5",
+  "family": "ECL",
+  "variant": "OECL",
+  "charge": 5,
+  "format": "ECLTBL_V2",
+  "rows": 70,
+  "file": "tableaux/MO81_LLR/ECL/MO81_LLR_OECL_IR_81_F2_ECL_CH5.ecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_IR_81_F2_T2_CH1",
+  "family": "F",
+  "variant": "OECL_IR_81_F2",
+  "charge": 1,
+  "format": "FTBL_V2",
+  "rows": 24,
+  "file": "tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH1.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_IR_81_F2_T2_CH2",
+  "family": "F",
+  "variant": "OECL_IR_81_F2",
+  "charge": 2,
+  "format": "FTBL_V2",
+  "rows": 38,
+  "file": "tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH2.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_IR_81_F2_T2_CH3",
+  "family": "F",
+  "variant": "OECL_IR_81_F2",
+  "charge": 3,
+  "format": "FTBL_V2",
+  "rows": 55,
+  "file": "tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH3.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_IR_81_F2_T2_CH4",
+  "family": "F",
+  "variant": "OECL_IR_81_F2",
+  "charge": 4,
+  "format": "FTBL_V2",
+  "rows": 36,
+  "file": "tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH4.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_IR_81_F2_T2_CH5",
+  "family": "F",
+  "variant": "OECL_IR_81_F2",
+  "charge": 5,
+  "format": "FTBL_V2",
+  "rows": 39,
+  "file": "tableaux/MO81_LLR/T2/MO81_LLR_OECL_IR_81_F2_T2_CH5.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_IR_81_F2_T3_CH1",
+  "family": "E",
+  "variant": "OECL_IR_81_F2",
+  "charge": 1,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO81_LLR/T3/MO81_LLR_OECL_IR_81_F2_T3_CH1.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_IR_81_F2_T3_CH2",
+  "family": "E",
+  "variant": "OECL_IR_81_F2",
+  "charge": 2,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO81_LLR/T3/MO81_LLR_OECL_IR_81_F2_T3_CH2.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_IR_81_F2_T3_CH3",
+  "family": "E",
+  "variant": "OECL_IR_81_F2",
+  "charge": 3,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO81_LLR/T3/MO81_LLR_OECL_IR_81_F2_T3_CH3.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_IR_81_F2_T3_CH4",
+  "family": "E",
+  "variant": "OECL_IR_81_F2",
+  "charge": 4,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO81_LLR/T3/MO81_LLR_OECL_IR_81_F2_T3_CH4.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OECL_IR_81_F2_T3_CH5",
+  "family": "E",
+  "variant": "OECL_IR_81_F2",
+  "charge": 5,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO81_LLR/T3/MO81_LLR_OECL_IR_81_F2_T3_CH5.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OE_81_F2_T1_CH1",
+  "family": "B",
+  "variant": "UNKNOWN",
+  "charge": 1,
+  "format": "BTBL_V1",
+  "rows": 83,
+  "file": "tableaux/MO81_LLR/T1/MO81_LLR_OE_81_F2_T1_CH1.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OE_81_F2_T1_CH2",
+  "family": "B",
+  "variant": "UNKNOWN",
+  "charge": 2,
+  "format": "BTBL_V1",
+  "rows": 71,
+  "file": "tableaux/MO81_LLR/T1/MO81_LLR_OE_81_F2_T1_CH2.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OE_81_F2_T1_CH3",
+  "family": "B",
+  "variant": "UNKNOWN",
+  "charge": 3,
+  "format": "BTBL_V1",
+  "rows": 218,
+  "file": "tableaux/MO81_LLR/T1/MO81_LLR_OE_81_F2_T1_CH3.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OE_81_F2_T1_CH4",
+  "family": "B",
+  "variant": "UNKNOWN",
+  "charge": 4,
+  "format": "BTBL_V1",
+  "rows": 409,
+  "file": "tableaux/MO81_LLR/T1/MO81_LLR_OE_81_F2_T1_CH4.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OE_81_F2_T1_CH5",
+  "family": "B",
+  "variant": "UNKNOWN",
+  "charge": 5,
+  "format": "BTBL_V1",
+  "rows": 541,
+  "file": "tableaux/MO81_LLR/T1/MO81_LLR_OE_81_F2_T1_CH5.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OE_81_F2_T1_CH6",
+  "family": "B",
+  "variant": "UNKNOWN",
+  "charge": 6,
+  "format": "BTBL_V1",
+  "rows": 650,
+  "file": "tableaux/MO81_LLR/T1/MO81_LLR_OE_81_F2_T1_CH6.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OE_81_F2_T2_CH1",
+  "family": "F",
+  "variant": "OE_81_F2",
+  "charge": 1,
+  "format": "FTBL_V1",
+  "rows": 17,
+  "file": "tableaux/MO81_LLR/T2/MO81_LLR_OE_81_F2_T2_CH1.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OE_81_F2_T2_CH2",
+  "family": "F",
+  "variant": "OE_81_F2",
+  "charge": 2,
+  "format": "FTBL_V1",
+  "rows": 15,
+  "file": "tableaux/MO81_LLR/T2/MO81_LLR_OE_81_F2_T2_CH2.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OE_81_F2_T2_CH3",
+  "family": "F",
+  "variant": "OE_81_F2",
+  "charge": 3,
+  "format": "FTBL_V1",
+  "rows": 26,
+  "file": "tableaux/MO81_LLR/T2/MO81_LLR_OE_81_F2_T2_CH3.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OE_81_F2_T2_CH4",
+  "family": "F",
+  "variant": "OE_81_F2",
+  "charge": 4,
+  "format": "FTBL_V1",
+  "rows": 35,
+  "file": "tableaux/MO81_LLR/T2/MO81_LLR_OE_81_F2_T2_CH4.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OE_81_F2_T2_CH5",
+  "family": "F",
+  "variant": "OE_81_F2",
+  "charge": 5,
+  "format": "FTBL_V1",
+  "rows": 40,
+  "file": "tableaux/MO81_LLR/T2/MO81_LLR_OE_81_F2_T2_CH5.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OE_81_F2_T2_CH6",
+  "family": "F",
+  "variant": "OE_81_F2",
+  "charge": 6,
+  "format": "FTBL_V1",
+  "rows": 45,
+  "file": "tableaux/MO81_LLR/T2/MO81_LLR_OE_81_F2_T2_CH6.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OE_81_F2_T3_CH1",
+  "family": "E",
+  "variant": "OE_81_F2",
+  "charge": 1,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO81_LLR/T3/MO81_LLR_OE_81_F2_T3_CH1.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OE_81_F2_T3_CH2",
+  "family": "E",
+  "variant": "OE_81_F2",
+  "charge": 2,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO81_LLR/T3/MO81_LLR_OE_81_F2_T3_CH2.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OE_81_F2_T3_CH3",
+  "family": "E",
+  "variant": "OE_81_F2",
+  "charge": 3,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO81_LLR/T3/MO81_LLR_OE_81_F2_T3_CH3.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OE_81_F2_T3_CH4",
+  "family": "E",
+  "variant": "OE_81_F2",
+  "charge": 4,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO81_LLR/T3/MO81_LLR_OE_81_F2_T3_CH4.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OE_81_F2_T3_CH5",
+  "family": "E",
+  "variant": "OE_81_F2",
+  "charge": 5,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO81_LLR/T3/MO81_LLR_OE_81_F2_T3_CH5.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO81_LLR_OE_81_F2_T3_CH6",
+  "family": "E",
+  "variant": "OE_81_F2",
+  "charge": 6,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO81_LLR/T3/MO81_LLR_OE_81_F2_T3_CH6.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_B_APPUI_CH0",
+  "family": "B",
+  "variant": "APPUI",
+  "charge": 0,
+  "format": "BTBL_V1",
+  "rows": 31,
+  "file": "tableaux/MO/B/MO_B_APPUI_CH0.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_B_APPUI_CH0_5",
+  "family": "B",
+  "variant": "APPUI",
+  "charge": 0,
+  "format": "BTBL_V1",
+  "rows": 46,
+  "file": "tableaux/MO/B/MO_B_APPUI_CH0_5.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_B_APPUI_CH1",
+  "family": "B",
+  "variant": "APPUI",
+  "charge": 1,
+  "format": "BTBL_V1",
+  "rows": 76,
+  "file": "tableaux/MO/B/MO_B_APPUI_CH1.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_B_APPUI_CH10",
+  "family": "B",
+  "variant": "APPUI",
+  "charge": 10,
+  "format": "BTBL_V1",
+  "rows": 496,
+  "file": "tableaux/MO/B/MO_B_APPUI_CH10.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_B_APPUI_CH1_5",
+  "family": "B",
+  "variant": "APPUI",
+  "charge": 1,
+  "format": "BTBL_V1",
+  "rows": 103,
+  "file": "tableaux/MO/B/MO_B_APPUI_CH1_5.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_B_APPUI_CH2",
+  "family": "B",
+  "variant": "APPUI",
+  "charge": 2,
+  "format": "BTBL_V1",
+  "rows": 165,
+  "file": "tableaux/MO/B/MO_B_APPUI_CH2.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_B_APPUI_CH2_5",
+  "family": "B",
+  "variant": "APPUI",
+  "charge": 2,
+  "format": "BTBL_V1",
+  "rows": 224,
+  "file": "tableaux/MO/B/MO_B_APPUI_CH2_5.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_B_APPUI_CH3",
+  "family": "B",
+  "variant": "APPUI",
+  "charge": 3,
+  "format": "BTBL_V1",
+  "rows": 304,
+  "file": "tableaux/MO/B/MO_B_APPUI_CH3.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_B_APPUI_CH4",
+  "family": "B",
+  "variant": "APPUI",
+  "charge": 4,
+  "format": "BTBL_V1",
+  "rows": 413,
+  "file": "tableaux/MO/B/MO_B_APPUI_CH4.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_B_APPUI_CH5",
+  "family": "B",
+  "variant": "APPUI",
+  "charge": 5,
+  "format": "BTBL_V1",
+  "rows": 205,
+  "file": "tableaux/MO/B/MO_B_APPUI_CH5.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_B_APPUI_CH6",
+  "family": "B",
+  "variant": "APPUI",
+  "charge": 6,
+  "format": "BTBL_V1",
+  "rows": 272,
+  "file": "tableaux/MO/B/MO_B_APPUI_CH6.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_B_APPUI_CH7",
+  "family": "B",
+  "variant": "APPUI",
+  "charge": 7,
+  "format": "BTBL_V1",
+  "rows": 369,
+  "file": "tableaux/MO/B/MO_B_APPUI_CH7.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_B_APPUI_CH8",
+  "family": "B",
+  "variant": "APPUI",
+  "charge": 8,
+  "format": "BTBL_V1",
+  "rows": 409,
+  "file": "tableaux/MO/B/MO_B_APPUI_CH8.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_B_APPUI_CH9",
+  "family": "B",
+  "variant": "APPUI",
+  "charge": 9,
+  "format": "BTBL_V1",
+  "rows": 456,
+  "file": "tableaux/MO/B/MO_B_APPUI_CH9.btbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_ECL_OECL_CH1",
+  "family": "MO_ECL",
+  "variant": "OECL",
+  "chargeLabel": "CH1",
+  "format": "MOECLT_V1",
+  "rows": 13,
+  "file": "tableaux/MO/ECL/MO_ECL_OECL_CH1.moecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_ECL_OECL_CH10",
+  "family": "MO_ECL",
+  "variant": "OECL",
+  "chargeLabel": "CH10",
+  "format": "MOECLT_V1",
+  "rows": 30,
+  "file": "tableaux/MO/ECL/MO_ECL_OECL_CH10.moecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_ECL_OECL_CH1_5",
+  "family": "MO_ECL",
+  "variant": "OECL",
+  "chargeLabel": "CH1_5",
+  "format": "MOECLT_V1",
+  "rows": 19,
+  "file": "tableaux/MO/ECL/MO_ECL_OECL_CH1_5.moecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_ECL_OECL_CH2",
+  "family": "MO_ECL",
+  "variant": "OECL",
+  "chargeLabel": "CH2",
+  "format": "MOECLT_V1",
+  "rows": 24,
+  "file": "tableaux/MO/ECL/MO_ECL_OECL_CH2.moecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_ECL_OECL_CH2_5",
+  "family": "MO_ECL",
+  "variant": "OECL",
+  "chargeLabel": "CH2_5",
+  "format": "MOECLT_V1",
+  "rows": 26,
+  "file": "tableaux/MO/ECL/MO_ECL_OECL_CH2_5.moecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_ECL_OECL_CH3",
+  "family": "MO_ECL",
+  "variant": "OECL",
+  "chargeLabel": "CH3",
+  "format": "MOECLT_V1",
+  "rows": 28,
+  "file": "tableaux/MO/ECL/MO_ECL_OECL_CH3.moecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_ECL_OECL_CH4",
+  "family": "MO_ECL",
+  "variant": "OECL",
+  "chargeLabel": "CH4",
+  "format": "MOECLT_V1",
+  "rows": 29,
+  "file": "tableaux/MO/ECL/MO_ECL_OECL_CH4.moecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_ECL_OECL_CH5",
+  "family": "MO_ECL",
+  "variant": "OECL",
+  "chargeLabel": "CH5",
+  "format": "MOECLT_V1",
+  "rows": 18,
+  "file": "tableaux/MO/ECL/MO_ECL_OECL_CH5.moecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_ECL_OECL_CH6",
+  "family": "MO_ECL",
+  "variant": "OECL",
+  "chargeLabel": "CH6",
+  "format": "MOECLT_V1",
+  "rows": 21,
+  "file": "tableaux/MO/ECL/MO_ECL_OECL_CH6.moecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_ECL_OECL_CH7",
+  "family": "MO_ECL",
+  "variant": "OECL",
+  "chargeLabel": "CH7",
+  "format": "MOECLT_V1",
+  "rows": 25,
+  "file": "tableaux/MO/ECL/MO_ECL_OECL_CH7.moecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_ECL_OECL_CH8",
+  "family": "MO_ECL",
+  "variant": "OECL",
+  "chargeLabel": "CH8",
+  "format": "MOECLT_V1",
+  "rows": 29,
+  "file": "tableaux/MO/ECL/MO_ECL_OECL_CH8.moecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_ECL_OECL_CH9",
+  "family": "MO_ECL",
+  "variant": "OECL",
+  "chargeLabel": "CH9",
+  "format": "MOECLT_V1",
+  "rows": 30,
+  "file": "tableaux/MO/ECL/MO_ECL_OECL_CH9.moecltbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_E_APPUI_CH0",
+  "family": "E",
+  "variant": "APPUI",
+  "charge": 0,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO/E/MO_E_APPUI_CH0.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_E_APPUI_CH0_5",
+  "family": "E",
+  "variant": "APPUI",
+  "charge": 0,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO/E/MO_E_APPUI_CH0_5.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_E_APPUI_CH1",
+  "family": "E",
+  "variant": "APPUI",
+  "charge": 1,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO/E/MO_E_APPUI_CH1.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_E_APPUI_CH10",
+  "family": "E",
+  "variant": "APPUI",
+  "charge": 10,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO/E/MO_E_APPUI_CH10.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_E_APPUI_CH1_5",
+  "family": "E",
+  "variant": "APPUI",
+  "charge": 1,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO/E/MO_E_APPUI_CH1_5.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_E_APPUI_CH2",
+  "family": "E",
+  "variant": "APPUI",
+  "charge": 2,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO/E/MO_E_APPUI_CH2.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_E_APPUI_CH2_5",
+  "family": "E",
+  "variant": "APPUI",
+  "charge": 2,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO/E/MO_E_APPUI_CH2_5.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_E_APPUI_CH3",
+  "family": "E",
+  "variant": "APPUI",
+  "charge": 3,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO/E/MO_E_APPUI_CH3.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_E_APPUI_CH4",
+  "family": "E",
+  "variant": "APPUI",
+  "charge": 4,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO/E/MO_E_APPUI_CH4.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_E_APPUI_CH5",
+  "family": "E",
+  "variant": "APPUI",
+  "charge": 5,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO/E/MO_E_APPUI_CH5.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_E_APPUI_CH6",
+  "family": "E",
+  "variant": "APPUI",
+  "charge": 6,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO/E/MO_E_APPUI_CH6.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_E_APPUI_CH7",
+  "family": "E",
+  "variant": "APPUI",
+  "charge": 7,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO/E/MO_E_APPUI_CH7.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_E_APPUI_CH8",
+  "family": "E",
+  "variant": "APPUI",
+  "charge": 8,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO/E/MO_E_APPUI_CH8.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_E_APPUI_CH9",
+  "family": "E",
+  "variant": "APPUI",
+  "charge": 9,
+  "format": "ETBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO/E/MO_E_APPUI_CH9.etbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_F_APPUI_CH0",
+  "family": "F",
+  "variant": "APPUI",
+  "charge": 0,
+  "format": "FTBL_V1",
+  "rows": 8,
+  "file": "tableaux/MO/F/MO_F_APPUI_CH0.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_F_APPUI_CH0_5",
+  "family": "F",
+  "variant": "APPUI",
+  "charge": 0,
+  "format": "FTBL_V1",
+  "rows": 11,
+  "file": "tableaux/MO/F/MO_F_APPUI_CH0_5.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_F_APPUI_CH1",
+  "family": "F",
+  "variant": "APPUI",
+  "charge": 1,
+  "format": "FTBL_V1",
+  "rows": 13,
+  "file": "tableaux/MO/F/MO_F_APPUI_CH1.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_F_APPUI_CH10",
+  "family": "F",
+  "variant": "APPUI",
+  "charge": 10,
+  "format": "FTBL_V1",
+  "rows": 32,
+  "file": "tableaux/MO/F/MO_F_APPUI_CH10.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_F_APPUI_CH1_5",
+  "family": "F",
+  "variant": "APPUI",
+  "charge": 1,
+  "format": "FTBL_V1",
+  "rows": 14,
+  "file": "tableaux/MO/F/MO_F_APPUI_CH1_5.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_F_APPUI_CH2",
+  "family": "F",
+  "variant": "APPUI",
+  "charge": 2,
+  "format": "FTBL_V1",
+  "rows": 17,
+  "file": "tableaux/MO/F/MO_F_APPUI_CH2.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_F_APPUI_CH2_5",
+  "family": "F",
+  "variant": "APPUI",
+  "charge": 2,
+  "format": "FTBL_V1",
+  "rows": 21,
+  "file": "tableaux/MO/F/MO_F_APPUI_CH2_5.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_F_APPUI_CH3",
+  "family": "F",
+  "variant": "APPUI",
+  "charge": 3,
+  "format": "FTBL_V1",
+  "rows": 24,
+  "file": "tableaux/MO/F/MO_F_APPUI_CH3.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_F_APPUI_CH4",
+  "family": "F",
+  "variant": "APPUI",
+  "charge": 4,
+  "format": "FTBL_V1",
+  "rows": 28,
+  "file": "tableaux/MO/F/MO_F_APPUI_CH4.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_F_APPUI_CH5",
+  "family": "F",
+  "variant": "APPUI",
+  "charge": 5,
+  "format": "FTBL_V1",
+  "rows": 19,
+  "file": "tableaux/MO/F/MO_F_APPUI_CH5.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_F_APPUI_CH6",
+  "family": "F",
+  "variant": "APPUI",
+  "charge": 6,
+  "format": "FTBL_V1",
+  "rows": 22,
+  "file": "tableaux/MO/F/MO_F_APPUI_CH6.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_F_APPUI_CH7",
+  "family": "F",
+  "variant": "APPUI",
+  "charge": 7,
+  "format": "FTBL_V1",
+  "rows": 27,
+  "file": "tableaux/MO/F/MO_F_APPUI_CH7.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_F_APPUI_CH8",
+  "family": "F",
+  "variant": "APPUI",
+  "charge": 8,
+  "format": "FTBL_V1",
+  "rows": 29,
+  "file": "tableaux/MO/F/MO_F_APPUI_CH8.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_F_APPUI_CH9",
+  "family": "F",
+  "variant": "APPUI",
+  "charge": 9,
+  "format": "FTBL_V1",
+  "rows": 31,
+  "file": "tableaux/MO/F/MO_F_APPUI_CH9.ftbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_G_APPUI_CH0",
+  "family": "G",
+  "variant": "APPUI",
+  "charge": 0,
+  "format": "GTBL_V2",
+  "rows": 8,
+  "file": "tableaux/MO/G/MO_G_APPUI_CH0.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_G_APPUI_CH0_5",
+  "family": "G",
+  "variant": "APPUI",
+  "charge": 0,
+  "format": "GTBL_V2",
+  "rows": 10,
+  "file": "tableaux/MO/G/MO_G_APPUI_CH0_5.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_G_APPUI_CH1",
+  "family": "G",
+  "variant": "APPUI",
+  "charge": 1,
+  "format": "GTBL_V2",
+  "rows": 12,
+  "file": "tableaux/MO/G/MO_G_APPUI_CH1.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_G_APPUI_CH10",
+  "family": "G",
+  "variant": "APPUI",
+  "charge": 10,
+  "format": "GTBL_V2",
+  "rows": 32,
+  "file": "tableaux/MO/G/MO_G_APPUI_CH10.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_G_APPUI_CH1_5",
+  "family": "G",
+  "variant": "APPUI",
+  "charge": 1,
+  "format": "GTBL_V2",
+  "rows": 13,
+  "file": "tableaux/MO/G/MO_G_APPUI_CH1_5.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_G_APPUI_CH2",
+  "family": "G",
+  "variant": "APPUI",
+  "charge": 2,
+  "format": "GTBL_V2",
+  "rows": 16,
+  "file": "tableaux/MO/G/MO_G_APPUI_CH2.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_G_APPUI_CH2_5",
+  "family": "G",
+  "variant": "APPUI",
+  "charge": 2,
+  "format": "GTBL_V2",
+  "rows": 20,
+  "file": "tableaux/MO/G/MO_G_APPUI_CH2_5.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_G_APPUI_CH3",
+  "family": "G",
+  "variant": "APPUI",
+  "charge": 3,
+  "format": "GTBL_V2",
+  "rows": 23,
+  "file": "tableaux/MO/G/MO_G_APPUI_CH3.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_G_APPUI_CH4",
+  "family": "G",
+  "variant": "APPUI",
+  "charge": 4,
+  "format": "GTBL_V2",
+  "rows": 27,
+  "file": "tableaux/MO/G/MO_G_APPUI_CH4.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_G_APPUI_CH5",
+  "family": "G",
+  "variant": "APPUI",
+  "charge": 5,
+  "format": "GTBL_V2",
+  "rows": 18,
+  "file": "tableaux/MO/G/MO_G_APPUI_CH5.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_G_APPUI_CH6",
+  "family": "G",
+  "variant": "APPUI",
+  "charge": 6,
+  "format": "GTBL_V2",
+  "rows": 21,
+  "file": "tableaux/MO/G/MO_G_APPUI_CH6.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_G_APPUI_CH7",
+  "family": "G",
+  "variant": "APPUI",
+  "charge": 7,
+  "format": "GTBL_V2",
+  "rows": 27,
+  "file": "tableaux/MO/G/MO_G_APPUI_CH7.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_G_APPUI_CH8",
+  "family": "G",
+  "variant": "APPUI",
+  "charge": 8,
+  "format": "GTBL_V2",
+  "rows": 28,
+  "file": "tableaux/MO/G/MO_G_APPUI_CH8.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_G_APPUI_CH9",
+  "family": "G",
+  "variant": "APPUI",
+  "charge": 9,
+  "format": "GTBL_V2",
+  "rows": 30,
+  "file": "tableaux/MO/G/MO_G_APPUI_CH9.gtbl.gz",
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_H_APPUI_CH0",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/MO/H/MO_H_APPUI_CH0.htbl.gz",
+  "rows": 8,
+  "bytes": 1172,
+  "gzipBytes": 159,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_H_APPUI_CH0_5",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/MO/H/MO_H_APPUI_CH0_5.htbl.gz",
+  "rows": 11,
+  "bytes": 1583,
+  "gzipBytes": 186,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_H_APPUI_CH1",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/MO/H/MO_H_APPUI_CH1.htbl.gz",
+  "rows": 13,
+  "bytes": 1857,
+  "gzipBytes": 222,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_H_APPUI_CH10",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/MO/H/MO_H_APPUI_CH10.htbl.gz",
+  "rows": 33,
+  "bytes": 4597,
+  "gzipBytes": 851,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_H_APPUI_CH1_5",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/MO/H/MO_H_APPUI_CH1_5.htbl.gz",
+  "rows": 14,
+  "bytes": 1994,
+  "gzipBytes": 243,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_H_APPUI_CH2",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/MO/H/MO_H_APPUI_CH2.htbl.gz",
+  "rows": 17,
+  "bytes": 2405,
+  "gzipBytes": 295,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_H_APPUI_CH2_5",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/MO/H/MO_H_APPUI_CH2_5.htbl.gz",
+  "rows": 21,
+  "bytes": 2953,
+  "gzipBytes": 390,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_H_APPUI_CH3",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/MO/H/MO_H_APPUI_CH3.htbl.gz",
+  "rows": 24,
+  "bytes": 3364,
+  "gzipBytes": 401,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_H_APPUI_CH4",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/MO/H/MO_H_APPUI_CH4.htbl.gz",
+  "rows": 28,
+  "bytes": 3912,
+  "gzipBytes": 530,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_H_APPUI_CH5",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/MO/H/MO_H_APPUI_CH5.htbl.gz",
+  "rows": 19,
+  "bytes": 2679,
+  "gzipBytes": 491,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_H_APPUI_CH6",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/MO/H/MO_H_APPUI_CH6.htbl.gz",
+  "rows": 20,
+  "bytes": 2816,
+  "gzipBytes": 445,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_H_APPUI_CH7",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/MO/H/MO_H_APPUI_CH7.htbl.gz",
+  "rows": 28,
+  "bytes": 3912,
+  "gzipBytes": 688,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_H_APPUI_CH8",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/MO/H/MO_H_APPUI_CH8.htbl.gz",
+  "rows": 29,
+  "bytes": 4049,
+  "gzipBytes": 756,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_H_APPUI_CH9",
+  "family": "H",
+  "format": "HTBL_V1",
+  "file": "tableaux/MO/H/MO_H_APPUI_CH9.htbl.gz",
+  "rows": 31,
+  "bytes": 4323,
+  "gzipBytes": 804,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_I_APPUI_CH0",
+  "family": "I",
+  "variant": "APPUI",
+  "charge": 0,
+  "format": "ITBL_V1",
+  "file": "tableaux/MO/I/MO_I_APPUI_CH0.itbl.gz",
+  "rows": 360,
+  "bytes": 4689,
+  "gzipBytes": 1225,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_I_APPUI_CH0_5",
+  "family": "I",
+  "variant": "APPUI",
+  "charge": 0,
+  "format": "ITBL_V1",
+  "file": "tableaux/MO/I/MO_I_APPUI_CH0_5.itbl.gz",
+  "rows": 144,
+  "bytes": 1881,
+  "gzipBytes": 533,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_I_APPUI_CH1",
+  "family": "I",
+  "variant": "APPUI",
+  "charge": 1,
+  "format": "ITBL_V1",
+  "file": "tableaux/MO/I/MO_I_APPUI_CH1.itbl.gz",
+  "rows": 216,
+  "bytes": 2817,
+  "gzipBytes": 815,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_I_APPUI_CH10",
+  "family": "I",
+  "variant": "APPUI",
+  "charge": 10,
+  "format": "ITBL_V1",
+  "file": "tableaux/MO/I/MO_I_APPUI_CH10.itbl.gz",
+  "rows": 216,
+  "bytes": 2817,
+  "gzipBytes": 903,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_I_APPUI_CH1_5",
+  "family": "I",
+  "variant": "APPUI",
+  "charge": 1,
+  "format": "ITBL_V1",
+  "file": "tableaux/MO/I/MO_I_APPUI_CH1_5.itbl.gz",
+  "rows": 216,
+  "bytes": 2817,
+  "gzipBytes": 835,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_I_APPUI_CH2",
+  "family": "I",
+  "variant": "APPUI",
+  "charge": 2,
+  "format": "ITBL_V1",
+  "file": "tableaux/MO/I/MO_I_APPUI_CH2.itbl.gz",
+  "rows": 216,
+  "bytes": 2817,
+  "gzipBytes": 840,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_I_APPUI_CH2_5",
+  "family": "I",
+  "variant": "APPUI",
+  "charge": 2,
+  "format": "ITBL_V1",
+  "file": "tableaux/MO/I/MO_I_APPUI_CH2_5.itbl.gz",
+  "rows": 216,
+  "bytes": 2817,
+  "gzipBytes": 864,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_I_APPUI_CH3",
+  "family": "I",
+  "variant": "APPUI",
+  "charge": 3,
+  "format": "ITBL_V1",
+  "file": "tableaux/MO/I/MO_I_APPUI_CH3.itbl.gz",
+  "rows": 216,
+  "bytes": 2817,
+  "gzipBytes": 864,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_I_APPUI_CH4",
+  "family": "I",
+  "variant": "APPUI",
+  "charge": 4,
+  "format": "ITBL_V1",
+  "file": "tableaux/MO/I/MO_I_APPUI_CH4.itbl.gz",
+  "rows": 216,
+  "bytes": 2817,
+  "gzipBytes": 888,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_I_APPUI_CH5",
+  "family": "I",
+  "variant": "APPUI",
+  "charge": 5,
+  "format": "ITBL_V1",
+  "file": "tableaux/MO/I/MO_I_APPUI_CH5.itbl.gz",
+  "rows": 216,
+  "bytes": 2817,
+  "gzipBytes": 900,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_I_APPUI_CH6",
+  "family": "I",
+  "variant": "APPUI",
+  "charge": 6,
+  "format": "ITBL_V1",
+  "file": "tableaux/MO/I/MO_I_APPUI_CH6.itbl.gz",
+  "rows": 216,
+  "bytes": 2817,
+  "gzipBytes": 883,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_I_APPUI_CH7",
+  "family": "I",
+  "variant": "APPUI",
+  "charge": 7,
+  "format": "ITBL_V1",
+  "file": "tableaux/MO/I/MO_I_APPUI_CH7.itbl.gz",
+  "rows": 216,
+  "bytes": 2817,
+  "gzipBytes": 913,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_I_APPUI_CH8",
+  "family": "I",
+  "variant": "APPUI",
+  "charge": 8,
+  "format": "ITBL_V1",
+  "file": "tableaux/MO/I/MO_I_APPUI_CH8.itbl.gz",
+  "rows": 216,
+  "bytes": 2817,
+  "gzipBytes": 906,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_I_APPUI_CH9",
+  "family": "I",
+  "variant": "APPUI",
+  "charge": 9,
+  "format": "ITBL_V1",
+  "file": "tableaux/MO/I/MO_I_APPUI_CH9.itbl.gz",
+  "rows": 216,
+  "bytes": 2817,
+  "gzipBytes": 902,
+  "keyVersion": 0
+ },
+ {
+  "id": "MO_J_APPUI_CH0",
+  "family": "J",
+  "variant": "APPUI",
+  "charge": 0,
+  "format": "JTBL_V2",
+  "file": "tableaux/MO/J/MO_J_APPUI_CH0.jtbl.gz",
+  "rows": 8,
+  "bytes": 372,
+  "gzipBytes": 246,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 8
+  }
+ },
+ {
+  "id": "MO_J_APPUI_CH0_5",
+  "family": "J",
+  "variant": "APPUI",
+  "charge": 0,
+  "format": "JTBL_V2",
+  "file": "tableaux/MO/J/MO_J_APPUI_CH0_5.jtbl.gz",
+  "rows": 8,
+  "bytes": 372,
+  "gzipBytes": 254,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 8
+  }
+ },
+ {
+  "id": "MO_J_APPUI_CH1",
+  "family": "J",
+  "variant": "APPUI",
+  "charge": 1,
+  "format": "JTBL_V2",
+  "file": "tableaux/MO/J/MO_J_APPUI_CH1.jtbl.gz",
+  "rows": 10,
+  "bytes": 460,
+  "gzipBytes": 313,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 10
+  }
+ },
+ {
+  "id": "MO_J_APPUI_CH10",
+  "family": "J",
+  "variant": "APPUI",
+  "charge": 10,
+  "format": "JTBL_V2",
+  "file": "tableaux/MO/J/MO_J_APPUI_CH10.jtbl.gz",
+  "rows": 23,
+  "bytes": 1032,
+  "gzipBytes": 626,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 23
+  }
+ },
+ {
+  "id": "MO_J_APPUI_CH1_5",
+  "family": "J",
+  "variant": "APPUI",
+  "charge": 1,
+  "format": "JTBL_V2",
+  "file": "tableaux/MO/J/MO_J_APPUI_CH1_5.jtbl.gz",
+  "rows": 10,
+  "bytes": 460,
+  "gzipBytes": 307,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 10
+  }
+ },
+ {
+  "id": "MO_J_APPUI_CH2",
+  "family": "J",
+  "variant": "APPUI",
+  "charge": 2,
+  "format": "JTBL_V2",
+  "file": "tableaux/MO/J/MO_J_APPUI_CH2.jtbl.gz",
+  "rows": 11,
+  "bytes": 504,
+  "gzipBytes": 335,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 11
+  }
+ },
+ {
+  "id": "MO_J_APPUI_CH2_5",
+  "family": "J",
+  "variant": "APPUI",
+  "charge": 2,
+  "format": "JTBL_V2",
+  "file": "tableaux/MO/J/MO_J_APPUI_CH2_5.jtbl.gz",
+  "rows": 13,
+  "bytes": 592,
+  "gzipBytes": 395,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 13
+  }
+ },
+ {
+  "id": "MO_J_APPUI_CH3",
+  "family": "J",
+  "variant": "APPUI",
+  "charge": 3,
+  "format": "JTBL_V2",
+  "file": "tableaux/MO/J/MO_J_APPUI_CH3.jtbl.gz",
+  "rows": 13,
+  "bytes": 592,
+  "gzipBytes": 383,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 13
+  }
+ },
+ {
+  "id": "MO_J_APPUI_CH4",
+  "family": "J",
+  "variant": "APPUI",
+  "charge": 4,
+  "format": "JTBL_V2",
+  "file": "tableaux/MO/J/MO_J_APPUI_CH4.jtbl.gz",
+  "rows": 15,
+  "bytes": 680,
+  "gzipBytes": 473,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 15
+  }
+ },
+ {
+  "id": "MO_J_APPUI_CH5",
+  "family": "J",
+  "variant": "APPUI",
+  "charge": 5,
+  "format": "JTBL_V2",
+  "file": "tableaux/MO/J/MO_J_APPUI_CH5.jtbl.gz",
+  "rows": 17,
+  "bytes": 768,
+  "gzipBytes": 523,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 17
+  }
+ },
+ {
+  "id": "MO_J_APPUI_CH6",
+  "family": "J",
+  "variant": "APPUI",
+  "charge": 6,
+  "format": "JTBL_V2",
+  "file": "tableaux/MO/J/MO_J_APPUI_CH6.jtbl.gz",
+  "rows": 18,
+  "bytes": 812,
+  "gzipBytes": 561,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 18
+  }
+ },
+ {
+  "id": "MO_J_APPUI_CH7",
+  "family": "J",
+  "variant": "APPUI",
+  "charge": 7,
+  "format": "JTBL_V2",
+  "file": "tableaux/MO/J/MO_J_APPUI_CH7.jtbl.gz",
+  "rows": 20,
+  "bytes": 900,
+  "gzipBytes": 620,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 20
+  }
+ },
+ {
+  "id": "MO_J_APPUI_CH8",
+  "family": "J",
+  "variant": "APPUI",
+  "charge": 8,
+  "format": "JTBL_V2",
+  "file": "tableaux/MO/J/MO_J_APPUI_CH8.jtbl.gz",
+  "rows": 21,
+  "bytes": 944,
+  "gzipBytes": 680,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 21
+  }
+ },
+ {
+  "id": "MO_J_APPUI_CH9",
+  "family": "J",
+  "variant": "APPUI",
+  "charge": 9,
+  "format": "JTBL_V2",
+  "file": "tableaux/MO/J/MO_J_APPUI_CH9.jtbl.gz",
+  "rows": 22,
+  "bytes": 988,
+  "gzipBytes": 649,
+  "keyVersion": 0,
+  "subTables": {
+   "DEFAULT": 22
+  }
+ },
+ {
+  "id": "MO_V0",
+  "family": "CONFIG",
+  "variant": "MO",
+  "format": "V0CFG_V1",
+  "rows": 26,
+  "file": "config/MO/v0.cfg.gz",
+  "keyVersion": 0
+ }
+]

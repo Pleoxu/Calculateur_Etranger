@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "typeTir": "AppuiRTC_ALL",
+    "charge": "CH2",
+    "deltaV_per_carreau_ms": -2.6
+  },
+  "data": [
+    { "tempPoudre": 60.0,  "deltaVo_temp": 4.3 },
+    { "tempPoudre": 55.0,  "deltaVo_temp": 3.7 },
+    { "tempPoudre": 50.0,  "deltaVo_temp": 3.1 },
+    { "tempPoudre": 45.0,  "deltaVo_temp": 2.5 },
+    { "tempPoudre": 40.0,  "deltaVo_temp": 2.0 },
+    { "tempPoudre": 35.0,  "deltaVo_temp": 1.4 },
+    { "tempPoudre": 30.0,  "deltaVo_temp": 0.9 },
+    { "tempPoudre": 25.0,  "deltaVo_temp": 0.4 },
+    { "tempPoudre": 21.0,  "deltaVo_temp": 0.0 },
+    { "tempPoudre": 20.0,  "deltaVo_temp": -0.1 },
+    { "tempPoudre": 15.0,  "deltaVo_temp": -0.6 },
+    { "tempPoudre": 10.0,  "deltaVo_temp": -1.0 },
+    { "tempPoudre": 5.0,   "deltaVo_temp": -1.5 },
+    { "tempPoudre": 0.0,   "deltaVo_temp": -1.9 },
+    { "tempPoudre": -5.0,  "deltaVo_temp": -2.3 },
+    { "tempPoudre": -10.0, "deltaVo_temp": -2.7 },
+    { "tempPoudre": -15.0, "deltaVo_temp": -3.0 },
+    { "tempPoudre": -20.0, "deltaVo_temp": -3.4 },
+    { "tempPoudre": -25.0, "deltaVo_temp": -3.7 },
+    { "tempPoudre": -30.0, "deltaVo_temp": -4.1 },
+    { "tempPoudre": -35.0, "deltaVo_temp": -4.4 },
+    { "tempPoudre": -40.0, "deltaVo_temp": -4.6 }
+  ]
+}

@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+
+        <receiver
+            android:name=".DebugProvisioningReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="com.example.calculateur_tir_ng.PROVISION_ASSET_KEY" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

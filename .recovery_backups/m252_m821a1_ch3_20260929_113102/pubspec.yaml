@@ -1,0 +1,110 @@
+name: calculateur_etranger
+description: Calculateur de tir (refactor)
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  intl: ^0.20.2
+  flutter_riverpod: ^2.6.1
+
+  # Chiffrement AES-256-GCM
+  cryptography: ^2.9.0
+
+  # Stockage sécurisé
+  flutter_secure_storage: ^10.3.1
+
+  file_picker: ^11.0.2
+  shared_preferences: ^2.2.2
+  path: ^1.9.0
+  file_selector: ^1.0.4
+  archive: ^4.0.9
+
+  # Cartographie
+  flutter_map: ^7.0.2
+  flutter_map_mbtiles: ^1.0.4
+  mbtiles: ^0.4.2
+  latlong2: ^0.9.1
+
+  # Position / GPS
+  geolocator: ^14.0.2
+  flutter_blue_plus: ^2.3.4
+  flutter_libserialport: ^0.6.0
+
+  http: ^1.2.0
+  path_provider: ^2.1.5
+  proj4dart: any
+  pdf: ^3.13.0
+  sqlite3: ^2.9.4
+  image: ^4.9.2
+  path_provider_foundation: 2.5.1
+  mobile_scanner: ^7.4.1
+  qr: ^3.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # ===== DSPD =====
+    - assets/data/DSPD/
+
+    # ===== Manifest sécurisé =====
+    - assets/secure_enc/manifest.json.enc
+
+    # ===== CAESAR =====
+    - assets/secure_enc/tableaux/B/
+    - assets/secure_enc/tableaux/C/
+    - assets/secure_enc/tableaux/D/
+    - assets/secure_enc/tableaux/E/
+    - assets/secure_enc/tableaux/ECL/
+    - assets/secure_enc/tableaux/F/
+    - assets/secure_enc/tableaux/F3/
+    - assets/secure_enc/tableaux/G/
+    - assets/secure_enc/tableaux/H/
+    - assets/secure_enc/tableaux/I/
+    - assets/secure_enc/tableaux/J/
+    - assets/secure_enc/tableaux/Jbis/
+
+    - assets/secure_enc/config/
+
+    # ===== MO =====
+    - assets/secure_enc/tableaux/MO/B/
+    - assets/secure_enc/tableaux/MO/E/
+    - assets/secure_enc/tableaux/MO/ECL/
+    - assets/secure_enc/tableaux/MO/F/
+    - assets/secure_enc/tableaux/MO/G/
+    - assets/secure_enc/tableaux/MO/H/
+    - assets/secure_enc/tableaux/MO/I/
+    - assets/secure_enc/tableaux/MO/J/
+
+    - assets/secure_enc/config/MO/
+
+    # ===== MO81 LLR =====
+    - assets/secure_enc/tableaux/MO81_LLR/T1/
+    - assets/secure_enc/tableaux/MO81_LLR/T2/
+    - assets/secure_enc/tableaux/MO81_LLR/T3/
+    - assets/secure_enc/tableaux/MO81_LLR/ECL/
+    - assets/secure_enc/tableaux/MO81_LLR/Annexe_1/
+    - assets/secure_enc/tableaux/MO81_LLR/Annexe_2/
+
+    # ===== DEM Copernicus GLO-30 =====
+    - assets/dem/
+
+    # ===== Cartographie locale =====
+    # Les zones MBTiles sont désormais installées dynamiquement dans
+    # Application Support/maps. Aucun camp n'est embarqué en dur.
+
+    # ===== Divers =====
+    - assets/sim_radio/

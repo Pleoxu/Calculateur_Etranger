@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "typeTir": "OECL",
+    "deltaV_per_carreau_ms": -2.4
+  },
+  "data": [
+    {
+      "tempPoudre": 60.0,
+      "deltaVo_temp": 3.8999999999999773
+    },
+    {
+      "tempPoudre": 55.0,
+      "deltaVo_temp": 3.3999999999999773
+    },
+    {
+      "tempPoudre": 50.0,
+      "deltaVo_temp": 2.8999999999999773
+    },
+    {
+      "tempPoudre": 45.0,
+      "deltaVo_temp": 2.3999999999999773
+    },
+    {
+      "tempPoudre": 40.0,
+      "deltaVo_temp": 1.8999999999999773
+    },
+    {
+      "tempPoudre": 35.0,
+      "deltaVo_temp": 1.3999999999999773
+    },
+    {
+      "tempPoudre": 30.0,
+      "deltaVo_temp": 0.8999999999999773
+    },
+    {
+      "tempPoudre": 25.0,
+      "deltaVo_temp": 0.39999999999997726
+    },
+    {
+      "tempPoudre": 21.0,
+      "deltaVo_temp": 0.0
+    },
+    {
+      "tempPoudre": 20.0,
+      "deltaVo_temp": -0.10000000000002274
+    },
+    {
+      "tempPoudre": 15.0,
+      "deltaVo_temp": -0.6000000000000227
+    },
+    {
+      "tempPoudre": 10.0,
+      "deltaVo_temp": -1.1000000000000227
+    },
+    {
+      "tempPoudre": 5.0,
+      "deltaVo_temp": -1.6000000000000227
+    },
+    {
+      "tempPoudre": 0.0,
+      "deltaVo_temp": -2.1000000000000227
+    },
+    {
+      "tempPoudre": -5.0,
+      "deltaVo_temp": -2.6000000000000227
+    },
+    {
+      "tempPoudre": -10.0,
+      "deltaVo_temp": -3.1000000000000227
+    },
+    {
+      "tempPoudre": -15.0,
+      "deltaVo_temp": -3.6000000000000227
+    },
+    {
+      "tempPoudre": -20.0,
+      "deltaVo_temp": -4.100000000000023
+    },
+    {
+      "tempPoudre": -25.0,
+      "deltaVo_temp": -4.600000000000023
+    },
+    {
+      "tempPoudre": -30.0,
+      "deltaVo_temp": -5.100000000000023
+    },
+    {
+      "tempPoudre": -35.0,
+      "deltaVo_temp": -5.600000000000023
+    },
+    {
+      "tempPoudre": -40.0,
+      "deltaVo_temp": -6.100000000000023
+    }
+  ]
+}

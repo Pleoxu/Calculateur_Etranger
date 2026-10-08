@@ -1,0 +1,806 @@
+// lib/presentation/fire/controllers/tir_complet_controller.dart
+
+import 'dart:convert';
+
+import 'package:calculateur_etranger/security/security_service.dart';
+
+import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+import 'package:calculateur_etranger/models/calcul_data.dart';
+import 'package:calculateur_etranger/domain/fire/input/fire_request.dart';
+import 'package:calculateur_etranger/services/balistique_mo81_m252_appui_service.dart';
+import 'package:calculateur_etranger/services/balistique_mo81_m252_m853a1_service.dart';
+import 'package:calculateur_etranger/services/balistique_mo81_m252_m819_service.dart';
+import 'package:calculateur_etranger/domain/fire/models/tir_complet_output.dart';
+import 'package:calculateur_etranger/domain/fire/usecases/tir_complet_usecase.dart'
+    show TirCompletUsecase;
+
+import 'package:calculateur_etranger/presentation/fire/state/tir_header_state.dart';
+import 'package:calculateur_etranger/presentation/fire/state/tir_complet_state.dart';
+import 'package:calculateur_etranger/presentation/fire/helpers/coups_repartition_helper.dart';
+import 'package:calculateur_etranger/presentation/fire/models/piece_soutien.dart';
+import 'package:calculateur_etranger/presentation/fire/mappers/fire_request_mapper.dart';
+
+import 'package:calculateur_etranger/presentation/fire/dialogs/masse_et_charge_dialogs.dart';
+import 'package:calculateur_etranger/presentation/fire/dialogs/mo81_powder_temperature_dialog.dart';
+import 'package:calculateur_etranger/presentation/fire/dialogs/tir_similaire_dialog.dart';
+import 'package:calculateur_etranger/presentation/fire/dialogs/fusee_dialog.dart';
+import 'package:calculateur_etranger/presentation/fire/dialogs/meteo_picker_dialog.dart';
+import 'package:calculateur_etranger/utils/charge_utils.dart';
+
+/// Plage de masse disponible dans le dialogue de tir similaire.
+(int, int) similarFireCarreauxRangeFor({
+  required Systeme systeme,
+  required int currentCarreaux,
+}) {
+  if (systeme.isCaesarFamily) return (1, 8);
+  return (currentCarreaux, currentCarreaux);
+}
+
+final porteeMaxSeuilProvider = Provider<double>((ref) {
+  final header = ref.watch(tirHeaderProvider);
+  final st = ref.watch(tirCompletProvider);
+
+  return getPorteeMaxAbsolueCaesar(
+    typeTir: header.typeTir,
+    typeChargeCaesar: st.typeChargeCaesar,
+  );
+});
+
+class TirCompletController {
+  TirCompletController(this.ref) : _usecase = TirCompletUsecase();
+
+  final WidgetRef ref;
+  final TirCompletUsecase _usecase;
+  final SecurityService _securityService = SecurityService();
+
+  TirHeaderState get _header => ref.read(tirHeaderProvider);
+  TirCompletState get _state => ref.read(tirCompletProvider);
+  TirCompletNotifier get _notifier => ref.read(tirCompletProvider.notifier);
+
+  double? _d(String? s) =>
+      s == null ? null : double.tryParse(s.trim().replaceAll(',', '.'));
+
+  static const bool _traceEnabled = bool.fromEnvironment(
+    'CALC_TRACE',
+    defaultValue: false,
+  );
+
+  static const int _traceSchemaVersion = 3;
+
+  void _tracePrintJsonLine(Map<String, dynamic> payload) {
+    if (!_traceEnabled) return;
+    try {
+      debugPrint(jsonEncode(payload));
+    } catch (_) {}
+  }
+
+  Map<String, num?> _extractDeltaV0Candidates(dynamic rp) {
+    num? read(String fieldName) {
+      try {
+        final v = (rp as dynamic).deltaV0;
+        if (fieldName == 'deltaV0' && v is num) return v;
+      } catch (_) {}
+      try {
+        final v = (rp as dynamic).v0Used;
+        if (fieldName == 'v0Used' && v is num) return v;
+      } catch (_) {}
+      try {
+        final v = (rp as dynamic).v0Final;
+        if (fieldName == 'v0Final' && v is num) return v;
+      } catch (_) {}
+      try {
+        final v = (rp as dynamic).v0;
+        if (fieldName == 'v0' && v is num) return v;
+      } catch (_) {}
+      return null;
+    }
+
+    return {
+      'deltaV0': read('deltaV0'),
+      'v0Used': read('v0Used'),
+      'v0Final': read('v0Final'),
+      'v0': read('v0'),
+    };
+  }
+
+  Map<String, dynamic> _snapshotUiRaw({
+    required TextEditingController xCtrl,
+    required TextEditingController yCtrl,
+    required TextEditingController zCtrl,
+    required TextEditingController zoneCtrl,
+    required TextEditingController latCtrl,
+    required TextEditingController lonCtrl,
+    required TextEditingController altCtrl,
+    required TextEditingController distCtrl,
+    required TextEditingController azCtrl,
+    required TextEditingController altObjCtrl,
+    required TextEditingController xObjCtrl,
+    required TextEditingController yObjCtrl,
+    required TextEditingController zObjCtrl,
+    required bool forceOecl,
+  }) {
+    final header = _header;
+    final st = _state;
+
+    return {
+      'schema': _traceSchemaVersion,
+      'header': {
+        'systeme': header.systeme.toString(),
+        'typeTir': (forceOecl ? TypeTir.eclairant : header.typeTir).toString(),
+        'dark': header.dark,
+      },
+      'state': {
+        'pieceUtm': st.pieceUtm,
+        'objectifMode': st.objectifMode.toString(),
+        'tirVertical': st.tirVertical,
+        'forcerCharge': st.forcerCharge,
+        'chargeForcee': st.chargeForcee,
+        'masseEnabled': st.masseEnabled,
+        'carreaux': st.carreaux,
+        'fusee': st.fusee.toString(),
+        'tirSimilaire': st.tirSimilaire,
+        'simCarreaux': st.simCarreaux,
+        'tPrev': st.tPrev,
+        'tAct': st.tAct,
+        'v0Prev': st.v0Prev,
+        'meteo': st.meteo,
+        'meteoFileName': st.meteoFileName,
+        'meteoRowsCount': st.meteoRows?.length ?? 0,
+        'meteoStationAltM': st.meteoStationAltM,
+        'autrePieces': st.autrePieces,
+        'piecesSoutien': st.piecesSoutien
+            .map(
+              (ps) => {
+                'nom': ps.nom,
+                'distanceM': ps.distanceM,
+                'azimutMil': ps.azimutMil,
+              },
+            )
+            .toList(),
+        'coupsParPieceByPiece': st.coupsParPieceByPiece,
+      },
+      'ui': {
+        'piece': {
+          'zone': zoneCtrl.text,
+          'x': xCtrl.text,
+          'y': yCtrl.text,
+          'z': zCtrl.text,
+          'lat': latCtrl.text,
+          'lon': lonCtrl.text,
+          'alt': altCtrl.text,
+        },
+        'objectif': {
+          'dist': distCtrl.text,
+          'az': azCtrl.text,
+          'altObj': altObjCtrl.text,
+          'xObj': xObjCtrl.text,
+          'yObj': yObjCtrl.text,
+          'zObj': zObjCtrl.text,
+        },
+      },
+    };
+  }
+
+  Map<String, dynamic> _snapshotInputNormalized(FireRequest request) {
+    return {
+      'systeme': request.systeme.toString(),
+      'typeTir': request.typeTir.toString(),
+      'piece': {
+        'utmX': request.piece.utmX,
+        'utmY': request.piece.utmY,
+        'altitude': request.piece.altitude,
+        'utmZone': request.piece.utmZone,
+        'latitude': request.piece.latitude,
+        'longitude': request.piece.longitude,
+      },
+      'target': {
+        'mode': request.target.mode.toString(),
+        'utmX': request.target.utmX,
+        'utmY': request.target.utmY,
+        'altitude': request.target.altitude,
+        'distanceM': request.target.distanceM,
+        'azimutMil': request.target.azimutMil,
+        'latitude': request.target.latitude,
+        'longitude': request.target.longitude,
+      },
+      'tirVertical': request.tirVertical,
+      'forcerCharge': request.forcerCharge,
+      'chargeForcee': request.chargeForcee,
+      'doctrine': {
+        'nature': request.doctrine.nature.toString(),
+        'shotPlan': {
+          'nbCoups': request.doctrine.shotPlan.nbCoups,
+          'par': request.doctrine.shotPlan.par,
+          'coupsParPiece': request.doctrine.shotPlan.coupsParPiece,
+        },
+        'zonal': {
+          'longueurM': request.doctrine.zonal.longueurM,
+          'profondeurM': request.doctrine.zonal.profondeurM,
+          'debordementPct': request.doctrine.zonal.debordementPct,
+          'recouvrementPct': request.doctrine.zonal.recouvrementPct,
+          'zonalMode': request.doctrine.zonal.zonalMode.toString(),
+          'pointZonal': request.doctrine.zonal.pointZonal?.toString(),
+          'azimutLargeurMil': request.doctrine.zonal.azimutLargeurMil,
+          'azimutProfondeurMil': request.doctrine.zonal.azimutProfondeurMil,
+        },
+        'lineaire': {
+          'referencePoint':
+              request.doctrine.lineaire.referencePoint?.toString(),
+          'azimutLineaireMil': request.doctrine.lineaire.azimutLineaireMil,
+          'firingMode': request.doctrine.lineaire.firingMode.toString(),
+          'selectedRoles': request.doctrine.lineaire.selectedRoles,
+        },
+      },
+      'salves': {
+        'enabled': request.salves.enabled,
+        'preferenceIdx': request.salves.preferenceIdx,
+        'lastSalveAroundPd': request.salves.lastSalveAroundPd,
+      },
+      'supportPiecesCount': request.supportPieces.length,
+      'masseEnabled': request.masseEnabled,
+      'carreaux': request.carreaux,
+      'fusee': request.fusee.toString(),
+      'tirSimilaire': request.tirSimilaire,
+      'meteo': request.meteo != null,
+      'meteoFileName': request.meteo?.fileName,
+      'meteoRowsCount': request.meteo?.rows.length ?? 0,
+      'meteoStationAltM': request.meteo?.stationAltM,
+      'tPrev': request.tPrev,
+      'tAct': request.tAct,
+      'v0Prev': request.v0Prev,
+    };
+  }
+
+  Map<String, dynamic> _snapshotABloc(FireRequest request) {
+    final zP = request.piece.altitude;
+    final zO = request.target.altitude;
+    final dz = (zP != null && zO != null) ? (zO - zP) : null;
+
+    return {
+      'systeme': request.systeme.toString(),
+      'typeTir': request.typeTir.toString(),
+      'charge': request.forcerCharge ? request.chargeForcee : null,
+      'chargeForced': request.forcerCharge,
+      'dist': request.target.distanceM,
+      'azMil': request.target.azimutMil,
+      'zPiece': zP,
+      'zObj': zO,
+      'deltaZ': dz,
+      'latDeg': request.piece.latitude,
+      'tirVertical': request.tirVertical,
+      'objectifMode': request.target.mode.toString(),
+    };
+  }
+
+  Map<String, dynamic> _snapshotOutputSafe(TirCompletOutput output) {
+    final rp = output.resultatPrincipal;
+    final deltaV0 = rp == null ? null : _extractDeltaV0Candidates(rp);
+
+    return {
+      'ok': rp != null,
+      'resultatPrincipalType': rp?.runtimeType.toString(),
+      'niveauBLocal': output.niveauBLocal,
+      'siteBLocalM': output.siteBLocalM,
+      'latitudePieceDeg': output.latitudePieceDeg,
+      'deltaAltMet': output.deltaAltMet,
+      if (deltaV0 != null) 'deltaV0Candidates': deltaV0,
+    };
+  }
+
+  void syncDeltaAltFromFields({
+    required TextEditingController zCtrl,
+    required TextEditingController deltaAltMetCtrl,
+  }) {
+    final zP = _d(zCtrl.text) ?? 0.0;
+    final stationAlt = _state.meteoStationAltM;
+    if (stationAlt != null) {
+      deltaAltMetCtrl.text = (zP - stationAlt).toStringAsFixed(0);
+    }
+  }
+
+  int _computeTotalCoupsForSelection({
+    required NatureTirSelection sel,
+    required int piecesCount,
+  }) {
+    final int baseCoups =
+        (sel.nbCoups ?? (sel.nature == NatureTirType.ponctuel ? 1 : 3)).clamp(
+      1,
+      400,
+    );
+
+    if (sel.nature == NatureTirType.zonal) {
+      final l = sel.longueurZonaleM ?? sel.longueurM ?? 0.0;
+      final p = sel.profondeurM ?? 0.0;
+      final isSpecificSquare = sel.zonalMode == ZonalMode.force &&
+          (sel.nbCoups ?? 0) == 8 &&
+          l > 0 &&
+          p > 0 &&
+          (l - p).abs() <= 1.0 &&
+          const <double>[
+            100.0,
+            150.0,
+            200.0,
+          ].any((size) => (l - size).abs() <= 1.0);
+
+      if (isSpecificSquare) {
+        final int nbSalves = (sel.lineairePar ?? 1).clamp(1, 3);
+        return (baseCoups * nbSalves).clamp(1, 9999);
+      }
+
+      return baseCoups;
+    }
+
+    if (sel.nature == NatureTirType.ponctuel) {
+      final int count = piecesCount <= 0 ? 1 : piecesCount;
+      return (baseCoups * count).clamp(1, 9999);
+    }
+
+    final int par = (sel.lineairePar ?? 1).clamp(1, 12);
+    return (baseCoups * par).clamp(1, 9999);
+  }
+
+  Map<String, int> _buildEquitableDistribution({
+    required List<String> pieces,
+    required int totalCoups,
+  }) {
+    if (pieces.isEmpty || totalCoups <= 0) {
+      return <String, int>{};
+    }
+
+    return doctrinalRepartition(
+      totalCoups: totalCoups,
+      piecesOrdered: pieces,
+      maxPerPiece: 9999,
+    );
+  }
+
+  void applyNatureSelectionAndAutoDistribute(NatureTirSelection sel) {
+    _notifier.resetResult();
+
+    if (sel.nature == NatureTirType.ponctuel) {
+      final cleanSel = sel.copyWith(
+        nbCoups: sel.nbCoups ?? 1,
+        lineairePar: 1,
+        longueurM: 0.0,
+        longueurZonaleM: 0.0,
+        profondeurM: 0.0,
+      );
+
+      final int nbCoups = (cleanSel.nbCoups ?? 1).clamp(1, 400);
+
+      _notifier.setNatureSelection(cleanSel);
+      _notifier.setAutrePieces(false);
+      _notifier.setCoupsParPieceByPiece(<String, int>{'PD': nbCoups});
+      return;
+    }
+
+    final pieces = <String>[
+      'PD',
+      for (final ps in _state.piecesSoutien) ps.nom,
+    ];
+
+    final int totalCoups = _computeTotalCoupsForSelection(
+      sel: sel,
+      piecesCount: pieces.length,
+    );
+
+    final repartition = _buildEquitableDistribution(
+      pieces: pieces,
+      totalCoups: totalCoups,
+    );
+
+    final bool useSeveralPieces =
+        _state.piecesSoutien.isNotEmpty && totalCoups > 1;
+
+    _notifier.setNatureSelection(sel);
+    _notifier.setAutrePieces(useSeveralPieces);
+    _notifier.setCoupsParPieceByPiece(repartition);
+  }
+
+  Future<void> calculer({
+    required BuildContext context,
+    required TextEditingController xCtrl,
+    required TextEditingController yCtrl,
+    required TextEditingController zCtrl,
+    required TextEditingController zoneCtrl,
+    required TextEditingController latCtrl,
+    required TextEditingController lonCtrl,
+    required TextEditingController altCtrl,
+    required TextEditingController distCtrl,
+    required TextEditingController azCtrl,
+    required TextEditingController altObjCtrl,
+    required TextEditingController xObjCtrl,
+    required TextEditingController yObjCtrl,
+    required TextEditingController zObjCtrl,
+    required TextEditingController latPieceDegCtrl,
+    required TextEditingController deltaAltMetCtrl,
+    TextEditingController? obsXCtrl,
+    TextEditingController? obsYCtrl,
+    TextEditingController? obsZCtrl,
+    TextEditingController? obsDistCtrl,
+    TextEditingController? obsAzCtrl,
+    TextEditingController? obsAltObjCtrl,
+    TextEditingController? obsXObjCtrl,
+    TextEditingController? obsYObjCtrl,
+    TextEditingController? obsZObjCtrl,
+    bool forceOecl = false,
+  }) async {
+    if (_state.busy) return;
+
+    final swTotal = Stopwatch()..start();
+    final swCalc = Stopwatch();
+
+    _notifier
+      ..setBusy(true)
+      ..resetResult();
+
+    final traceTs = DateTime.now();
+    final traceId = traceTs.microsecondsSinceEpoch.toString();
+
+    final uiRaw = _snapshotUiRaw(
+      xCtrl: xCtrl,
+      yCtrl: yCtrl,
+      zCtrl: zCtrl,
+      zoneCtrl: zoneCtrl,
+      latCtrl: latCtrl,
+      lonCtrl: lonCtrl,
+      altCtrl: altCtrl,
+      distCtrl: distCtrl,
+      azCtrl: azCtrl,
+      altObjCtrl: altObjCtrl,
+      xObjCtrl: xObjCtrl,
+      yObjCtrl: yObjCtrl,
+      zObjCtrl: zObjCtrl,
+      forceOecl: forceOecl,
+    );
+
+    FireRequest? normalizedRequest;
+    TirCompletOutput? computedOutput;
+    String? errorStr;
+
+    try {
+      final request = FireRequestMapper.fromControllerInputs(
+        header: _header,
+        tirState: _state,
+        xCtrl: xCtrl,
+        yCtrl: yCtrl,
+        zCtrl: zCtrl,
+        zoneCtrl: zoneCtrl,
+        latCtrl: latCtrl,
+        lonCtrl: lonCtrl,
+        altCtrl: altCtrl,
+        distCtrl: distCtrl,
+        azCtrl: azCtrl,
+        altObjCtrl: altObjCtrl,
+        xObjCtrl: xObjCtrl,
+        yObjCtrl: yObjCtrl,
+        zObjCtrl: zObjCtrl,
+        obsXCtrl: obsXCtrl,
+        obsYCtrl: obsYCtrl,
+        obsZCtrl: obsZCtrl,
+        obsDistCtrl: obsDistCtrl,
+        obsAzCtrl: obsAzCtrl,
+        obsAltObjCtrl: obsAltObjCtrl,
+        obsXObjCtrl: obsXObjCtrl,
+        obsYObjCtrl: obsYObjCtrl,
+        obsZObjCtrl: obsZObjCtrl,
+        forceOecl: forceOecl,
+      );
+
+      normalizedRequest = request;
+
+      if (_traceEnabled) {
+        _tracePrintJsonLine({
+          'kind': 'A',
+          'id': traceId,
+          'ts': traceTs.toIso8601String(),
+          'A': _snapshotABloc(request),
+        });
+      }
+
+      await _securityService.verifyExecutionAllowed();
+
+      swCalc.start();
+      final TirCompletOutput output = await _usecase.run(request);
+      swCalc.stop();
+
+      if (kDebugMode) {
+        debugPrint(
+          '[APPUI PERF] calc=${swCalc.elapsedMicroseconds} µs '
+          '(${(swCalc.elapsedMicroseconds / 1000).toStringAsFixed(3)} ms)',
+        );
+      }
+
+      computedOutput = output;
+
+      _applyTirCompletOutput(
+        output,
+        request: request,
+        latPieceDegCtrl: latPieceDegCtrl,
+        deltaAltMetCtrl: deltaAltMetCtrl,
+      );
+    } catch (e, st) {
+      errorStr = e.toString();
+
+      if (kDebugMode) {
+        debugPrint('[CALC_TRACE] error=$e\n$st');
+      }
+
+      final msg = e.toString();
+
+      if (normalizedRequest?.systeme == Systeme.mo81M252) {
+        if (context.mounted) {
+          final messenger = ScaffoldMessenger.of(context);
+          final tableDWeatherGap =
+              msg.contains('Table D') && msg.contains('not published');
+          messenger.hideCurrentSnackBar();
+          messenger.showSnackBar(
+            SnackBar(
+              duration: const Duration(seconds: 12),
+              content: Text(
+                tableDWeatherGap
+                    ? 'M252 weather correction unavailable at this range. Disable Weather for the nominal result, or use a qualified Table D range.'
+                    : 'M252 calculation error: $msg',
+              ),
+            ),
+          );
+        }
+        return;
+      }
+
+      if (msg.contains('HorsPortee')) {
+        if (context.mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(content: Text('Range outside firing area.')),
+          );
+        }
+        return;
+      }
+
+      if (context.mounted) {
+        final messenger = ScaffoldMessenger.of(context);
+        messenger.hideCurrentSnackBar();
+        messenger.showSnackBar(
+          SnackBar(
+            duration: const Duration(seconds: 10),
+            content: Text('Calculation error: $msg'),
+          ),
+        );
+      }
+      return;
+    } finally {
+      swTotal.stop();
+
+      if (kDebugMode) {
+        debugPrint(
+          '[APPUI PERF] total=${swTotal.elapsedMicroseconds} µs '
+          '(${(swTotal.elapsedMicroseconds / 1000).toStringAsFixed(3)} ms)',
+        );
+      }
+
+      if (_traceEnabled) {
+        _tracePrintJsonLine({
+          'kind': 'calc_trace',
+          'id': traceId,
+          'ts': traceTs.toIso8601String(),
+          'uiRaw': uiRaw,
+          if (normalizedRequest != null)
+            'input': _snapshotInputNormalized(normalizedRequest),
+          if (computedOutput != null)
+            'output': _snapshotOutputSafe(computedOutput),
+          if (errorStr != null) 'error': errorStr,
+        });
+      }
+
+      _notifier.setBusy(false);
+    }
+  }
+
+  void _applyTirCompletOutput(
+    TirCompletOutput output, {
+    required FireRequest request,
+    required TextEditingController latPieceDegCtrl,
+    required TextEditingController deltaAltMetCtrl,
+  }) {
+    if (output.resultatPrincipal == null) {
+      if (kDebugMode) {
+        debugPrint(
+          '[CALC_TRACE] TirCompletOutput received without resultatPrincipal '
+          '(niveauBLocal=${output.niveauBLocal}, '
+          'siteBLocalM=${output.siteBLocalM}).',
+        );
+      }
+      return;
+    }
+
+    _notifier.setCalculatedResult(output.resultatPrincipal!);
+
+    latPieceDegCtrl.text = output.latitudePieceDeg.toStringAsFixed(6);
+    deltaAltMetCtrl.text = output.deltaAltMet.toStringAsFixed(0);
+  }
+
+  Future<void> handleMasseChanged(BuildContext context, bool enabled) async {
+    if (!enabled) {
+      _notifier.setMasseEnabled(false);
+      return;
+    }
+
+    final value = await showCarreauxDialog(
+      context: context,
+      dark: _header.dark,
+      initialCarreaux: _state.carreaux,
+    );
+
+    if (value == null) {
+      _notifier.setMasseEnabled(false);
+      return;
+    }
+
+    _notifier
+      ..setCarreaux(value)
+      ..setMasseEnabled(true);
+  }
+
+  Future<void> handleTirSimilaireChanged(
+    BuildContext context,
+    bool enabled, {
+    TextEditingController? distanceCtrl,
+  }) async {
+    if (!enabled) {
+      _notifier.setTirSimilaireEnabled(false);
+      return;
+    }
+
+    final s = _state;
+    final systeme = _header.systeme;
+
+    if (systeme == Systeme.mo81M252) {
+      final isM853A1Illumination = _header.typeTir == TypeTir.eclairant &&
+          _header.m252MunitionFamily == M252MunitionFamily.illM853a1;
+      final isM819Screening = _header.typeTir == TypeTir.appui &&
+          _header.m252MunitionFamily == M252MunitionFamily.rpM819;
+      const m821Families = <M252MunitionFamily>{
+        M252MunitionFamily.m821,
+        M252MunitionFamily.m821a1,
+        M252MunitionFamily.m821a2,
+      };
+      final isM821Support = _header.typeTir == TypeTir.appui &&
+          m821Families.contains(_header.m252MunitionFamily);
+
+      if (!isM821Support && !isM819Screening && !isM853A1Illumination) {
+        _notifier.setTirSimilaireEnabled(false);
+        if (context.mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text(
+                'Powder-temperature correction is available only for a '
+                'qualified M252 M821, RP M819 or ILL M853A1 profile.',
+              ),
+            ),
+          );
+        }
+        return;
+      }
+
+      final distanceM = _d(distanceCtrl?.text);
+      if (distanceM == null || distanceM <= 0) {
+        _notifier.setTirSimilaireEnabled(false);
+        if (context.mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text(
+                'M252: provide the target distance before entering powder temperature.',
+              ),
+            ),
+          );
+        }
+        return;
+      }
+
+      try {
+        late final String profileId;
+        late final String chargeLabel;
+        late final double referenceTemperatureC;
+
+        if (isM853A1Illumination) {
+          final profile =
+              await BalistiqueMo81M252M853A1Service.selectProfileFor(
+            distanceM: distanceM,
+          );
+          profileId = profile.id;
+          chargeLabel = profile.chargeLabel;
+          referenceTemperatureC =
+              BalistiqueMo81M252M853A1Service.referencePowderTemperatureC;
+        } else if (isM819Screening) {
+          final profile = await BalistiqueMo81M252M819Service.selectProfileFor(
+            distanceM: distanceM,
+          );
+          profileId = profile.id;
+          chargeLabel = profile.chargeLabel;
+          referenceTemperatureC =
+              BalistiqueMo81M252M819Service.referencePowderTemperatureC;
+        } else {
+          final profile = await BalistiqueMo81M252AppuiService.selectProfileFor(
+            family: _header.m252MunitionFamily,
+            distanceM: distanceM,
+          );
+          profileId = profile.id;
+          chargeLabel = profile.chargeLabel;
+          referenceTemperatureC =
+              BalistiqueMo81M252AppuiService.referencePowderTemperatureC;
+        }
+
+        if (!context.mounted) {
+          _notifier.setTirSimilaireEnabled(false);
+          return;
+        }
+
+        final currentTemperatureC = await showMo81PowderTemperatureDialog(
+          context: context,
+          dark: _header.dark,
+          charge: chargeLabel,
+          referenceTemperatureC: referenceTemperatureC,
+          initialTemperatureC: s.tAct ?? referenceTemperatureC,
+          initialUnit: PowderTemperatureUnit.fahrenheit,
+        );
+
+        if (currentTemperatureC == null) {
+          _notifier.setTirSimilaireEnabled(false);
+          return;
+        }
+
+        _notifier.setTirSimilaireTemperatures(
+          tPrev: referenceTemperatureC,
+          tAct: currentTemperatureC,
+        );
+
+        if (kDebugMode) {
+          debugPrint(
+            '[M252 POWDER TEMPERATURE] '
+            'profile=$profileId '
+            'charge=$chargeLabel '
+            'reference=70.0°F '
+            'current=${currentTemperatureC.toStringAsFixed(1)}°C',
+          );
+        }
+      } catch (error) {
+        _notifier.setTirSimilaireEnabled(false);
+        if (context.mounted) {
+          final messenger = ScaffoldMessenger.of(context);
+          messenger.hideCurrentSnackBar();
+          messenger.showSnackBar(SnackBar(content: Text('M252: $error')));
+        }
+      }
+      return;
+    }
+
+    final TypeMunition tirSimMunition = s.typeMunition ??
+        munitionParDefautPour(systeme: systeme, typeTir: _header.typeTir);
+
+    final FuseeCompatibility tirSimCompatibility = fuseeCompatibilityPour(
+      systeme: systeme,
+      typeTir: _header.typeTir,
+      munition: tirSimMunition,
+    );
+
+    final TypeFusee tirSimInitialFusee = tirSimCompatibility.normalise(
+      s.simFusee ?? s.fusee,
+    );
+
+    final String? imposedM252Fuze =
+        systeme == Systeme.mo81M252 ? s.m252MunitionFamily?.defaultFuze : null;
+
+    final int currentCarreaux = s.simCarreaux.clamp(1, 8);
+    final (int, int) carreauxRange = similarFireCarreauxRangeFor(
+      systeme: systeme,
+      currentCarreaux: currentCarreaux,
+    );
+
+    throw UnsupportedError(
+      'Tir similaire indisponible: fin de méthode absente du fichier source fourni.',
+    );
+  }
+}
