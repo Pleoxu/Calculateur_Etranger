@@ -29,3 +29,5 @@ windows/
 # Sauvegardes locales / secrets
 *.bak*
 asset_key_v2.hex
+
+calculateur_etranger_code_only.zip
