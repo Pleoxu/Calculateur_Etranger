@@ -167,8 +167,8 @@ bool isZonalSquare3x3(NatureTirSelection sel) {
   const double maxM = 230.0;
   const double tolerance = 10.0;
 
-  final l = sel.longueurZonaleM ?? sel.longueurM ?? 0.0;
-  final p = sel.profondeurM ?? 0.0;
+  final l = sel.longueurZonaleM;
+  final p = sel.profondeurM;
 
   if (l <= 0 || p <= 0) return false;
 
@@ -180,10 +180,10 @@ bool isZonalPreset(NatureTirSelection? sel) {
   if (sel == null) return false;
   if (sel.nature != NatureTirType.zonal) return false;
   if (sel.zonalMode != ZonalMode.force) return false;
-  if ((sel.nbCoups ?? 0) != 8) return false;
+  if (sel.nbCoups != 8) return false;
 
-  final l = sel.longueurZonaleM ?? sel.longueurM ?? 0.0;
-  final p = sel.profondeurM ?? 0.0;
+  final l = sel.longueurZonaleM;
+  final p = sel.profondeurM;
 
   if (l <= 0 || p <= 0) return false;
 
