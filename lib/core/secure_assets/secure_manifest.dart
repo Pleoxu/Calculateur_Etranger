@@ -56,14 +56,6 @@ class SecureManifestEntry {
     throw FormatException('Invalid manifest: "$key" must be a string.');
   }
 
-  static int _int(Map<String, dynamic> json, String key) {
-    final value = json[key];
-
-    if (value is int) return value;
-
-    throw FormatException('Invalid manifest: "$key" missing/invalid.');
-  }
-
   static int? _optionalRows(Map<String, dynamic> json) {
     final value = json['rows'];
 

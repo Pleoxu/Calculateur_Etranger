@@ -6,7 +6,6 @@ import 'package:cryptography/cryptography.dart';
 import 'package:cryptography/helpers.dart' show randomBytes;
 
 const _caesarPrefix = 'foreign.caesar.profile.';
-const _caesarAssetPrefix = 'tableaux/foreign/caesar/profiles/';
 const _globalFiles = <String>{
   'tableaux/C/C_GLOBAL.ctbl.gz',
   'tableaux/D/D_GLOBAL.dtbl.gz',
@@ -54,10 +53,6 @@ Future<void> main(List<String> args) async {
   _validateUniqueIds(master, 'clear master manifest');
   _validateUniqueIds(incoming, 'CAESAR fragment');
 
-  final masterById = {
-    for (final e in master)
-      if (e['id'] is String) e['id'] as String: e,
-  };
   final masterByFile = {
     for (final e in master)
       if (e['file'] is String) e['file'] as String: e,

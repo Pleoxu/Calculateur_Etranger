@@ -3,7 +3,6 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'package:calculateur_etranger/domain/fire/models/tir_complet_input.dart';
-import 'package:calculateur_etranger/models/calcul_data.dart';
 import 'package:calculateur_etranger/presentation/fire/controllers/tir_complet_controller.dart';
 import 'package:calculateur_etranger/presentation/fire/state/tir_complet_state.dart';
 import 'package:calculateur_etranger/presentation/fire/state/tir_header_state.dart';
@@ -295,8 +294,6 @@ class ObjectifInputCard extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final maxDistSeuil = ref.watch(porteeMaxSeuilProvider);
-    final typeTir = ref.watch(tirHeaderProvider).typeTir;
-
     final currentDist = _parseDouble(distCtrl.text) ?? 0.0;
     final bool isHorsPortee = maxDistSeuil > 0 && currentDist > maxDistSeuil;
 

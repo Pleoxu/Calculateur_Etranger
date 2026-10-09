@@ -1,6 +1,5 @@
 // lib/presentation/fire/builders/message_map_report_builder.dart
 
-import 'package:flutter/material.dart';
 import 'package:latlong2/latlong.dart';
 
 import 'package:calculateur_etranger/presentation/fire/models/message_map_report_models.dart';
@@ -64,9 +63,6 @@ class MessageMapReportBuilder {
       );
       extraPolygons.add(smokePlume);
     }
-
-    // 3. Détermination du rayon théorique
-    final theoreticalRadius = getTheoreticalCircleRadiusForAmmo(ammoCode);
 
     return MessageMapViewConfig(
       kind: kind,

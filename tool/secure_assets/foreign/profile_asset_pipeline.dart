@@ -1,4 +1,3 @@
-import 'dart:convert';
 import 'dart:io';
 
 import 'package:crypto/crypto.dart';
@@ -296,10 +295,10 @@ class ForeignProfileAssetPipeline {
     }
 
     if (hasRelativeFile) {
-      addCandidate(oldRelative as String);
+      addCandidate(oldRelative);
     }
     if (hasAbsolutePath) {
-      addCandidate(oldPath as String);
+      addCandidate(oldPath);
     }
 
     for (final candidate in candidates) {
@@ -313,8 +312,8 @@ class ForeignProfileAssetPipeline {
     // convention does not match their actual output directory.
     if (generated == null) {
       final expectedName = [
-        if (hasRelativeFile) (oldRelative as String),
-        if (hasAbsolutePath) (oldPath as String),
+        if (hasRelativeFile) oldRelative,
+        if (hasAbsolutePath) oldPath,
       ]
           .map((value) => File(value).uri.pathSegments.last)
           .where((name) => name.isNotEmpty)
