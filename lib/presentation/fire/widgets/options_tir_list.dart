@@ -375,19 +375,15 @@ class OptionsTirList extends StatelessWidget {
           ? 'Point'
           : (sel.nature == NatureTirType.lineaire ? 'Linear' : 'Zonal');
 
-      final base =
-          (sel.nbCoups ?? (sel.nature == NatureTirType.ponctuel ? 1 : 3)).clamp(
-        1,
-        400,
-      );
+      final base = sel.nbCoups.clamp(1, 400);
 
-      final par = (sel.lineairePar ?? 1).clamp(1, 12);
+      final par = sel.lineairePar.clamp(1, 12);
 
       if (sel.nature == NatureTirType.ponctuel) {
         resume = '$t · x$base rounds';
       } else if (sel.nature == NatureTirType.lineaire) {
-        final L = sel.longueurM?.toStringAsFixed(0) ?? '—';
-        final az = sel.azimutMil?.toStringAsFixed(0) ?? '—';
+        final L = sel.longueurM.toStringAsFixed(0);
+        final az = sel.azimutMil.toStringAsFixed(0);
 
         final p =
             (sel.pointApplicationLineaire == PointApplicationLineaire.extremite)
@@ -399,10 +395,10 @@ class OptionsTirList extends StatelessWidget {
             '$t $L m · $az mil · $p · $base offsets × $par rounds = $total rounds';
       } else {
         // ZONAL : afficher longueur x profondeur et les deux azimuts
-        final L = sel.longueurM?.toStringAsFixed(0) ?? '—';
-        final P = sel.profondeurM?.toStringAsFixed(0) ?? '—';
-        final azL = sel.azimutLargeurMil?.toStringAsFixed(0) ?? '—';
-        final azP = sel.azimutProfondeurMil?.toStringAsFixed(0) ?? '—';
+        final L = sel.longueurM.toStringAsFixed(0);
+        final P = sel.profondeurM.toStringAsFixed(0);
+        final azL = sel.azimutLargeurMil.toStringAsFixed(0);
+        final azP = sel.azimutProfondeurMil.toStringAsFixed(0);
 
         final total = (base * par).clamp(1, 9999);
         resume =
