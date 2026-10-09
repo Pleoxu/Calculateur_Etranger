@@ -5,7 +5,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:calculateur_etranger/domain/fire/models/tir_complet_input.dart';
 import 'package:calculateur_etranger/presentation/fire/controllers/tir_complet_controller.dart';
 import 'package:calculateur_etranger/presentation/fire/state/tir_complet_state.dart';
-import 'package:calculateur_etranger/presentation/fire/state/tir_header_state.dart';
 import 'package:calculateur_etranger/presentation/theme/tir_tokens.dart';
 
 class ObjectifInputCard extends ConsumerWidget {

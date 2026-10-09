@@ -108,11 +108,11 @@ class _NatureTirCardState extends State<NatureTirCard> {
         );
 
     nature = init.nature;
-    nbCoups = (init.nbCoups ?? 1).clamp(1, 40);
-    lineairePar = (init.lineairePar ?? 1).clamp(1, 12);
+    nbCoups = init.nbCoups.clamp(1, 40);
+    lineairePar = init.lineairePar.clamp(1, 12);
 
     longueurM = (init.nature == NatureTirType.zonal)
-        ? (init.longueurZonaleM ?? init.longueurM)
+        ? init.longueurZonaleM
         : init.longueurM;
     profondeurM = init.profondeurM;
 
@@ -128,25 +128,22 @@ class _NatureTirCardState extends State<NatureTirCard> {
     // issu d'un tir APPUI ou d'un état précédemment mémorisé.
     debordPct = _isEclairant
         ? _defaultDebordEclairant
-        : (init.pourcentageDebordement ?? defaultDebord).toDouble();
-    recouvPct = (init.pourcentageRecouvrement ?? _defaultRecouv).toDouble();
+        : init.pourcentageDebordement.toDouble();
+    recouvPct = init.pourcentageRecouvrement.toDouble();
 
     advanced = !_isEclairant &&
-        ((init.pourcentageDebordement != null &&
-                init.pourcentageDebordement != defaultDebord) ||
-            (init.pourcentageRecouvrement != null &&
-                init.pourcentageRecouvrement != _defaultRecouv));
+        (init.pourcentageDebordement != defaultDebord ||
+            init.pourcentageRecouvrement != _defaultRecouv);
 
-    pointLineaire =
-        init.pointApplicationLineaire ?? PointApplicationLineaire.centre;
+    pointLineaire = init.pointApplicationLineaire;
 
     azimutLineaireMil = (init.nature == NatureTirType.lineaire)
-        ? (init.azimutMil ?? init.azimutLargeurMil)
+        ? init.azimutMil
         : null;
 
-    azimutLargeurMil = init.azimutLargeurMil ?? init.azimutMil;
+    azimutLargeurMil = init.azimutLargeurMil;
     azimutProfondeurMil = init.azimutProfondeurMil;
-    pointZonal = init.pointZonal ?? PointZonal.centre;
+    pointZonal = init.pointZonal;
 
     salvesEnabled = init.salvesEnabled;
     salvesPreferenceIdx = init.salvesPreferenceIdx;
@@ -229,10 +226,10 @@ class _NatureTirCardState extends State<NatureTirCard> {
   _ZonalPresetKind _presetFromSelection(NatureTirSelection init) {
     if (init.nature != NatureTirType.zonal) return _ZonalPresetKind.general;
     if (init.zonalMode != ZonalMode.force) return _ZonalPresetKind.general;
-    if ((init.nbCoups ?? 0) != 8) return _ZonalPresetKind.general;
+    if (init.nbCoups != 8) return _ZonalPresetKind.general;
 
-    final l = init.longueurZonaleM ?? init.longueurM ?? 0.0;
-    final p = init.profondeurM ?? 0.0;
+    final l = init.longueurZonaleM;
+    final p = init.profondeurM;
     if ((l - p).abs() > 1.0) return _ZonalPresetKind.general;
 
     if ((l - 200.0).abs() <= 1.0) return _ZonalPresetKind.neutralisation;
