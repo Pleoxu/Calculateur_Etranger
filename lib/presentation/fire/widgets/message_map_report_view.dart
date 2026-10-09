@@ -893,9 +893,7 @@ class _DirectionRose extends StatelessWidget {
     required this.linearBearingDeg,
     required this.mapRotationDeg,
     this.tirLabel,
-    this.tirOppositeLabel,
     this.linearLabel,
-    this.linearOppositeLabel,
   });
 
   final bool dark;
@@ -903,9 +901,7 @@ class _DirectionRose extends StatelessWidget {
   final double linearBearingDeg;
   final double mapRotationDeg;
   final String? tirLabel;
-  final String? tirOppositeLabel;
   final String? linearLabel;
-  final String? linearOppositeLabel;
 
   @override
   Widget build(BuildContext context) {
@@ -918,9 +914,7 @@ class _DirectionRose extends StatelessWidget {
           linearBearingDeg: linearBearingDeg,
           mapRotationDeg: mapRotationDeg,
           tirLabel: tirLabel,
-          tirOppositeLabel: tirOppositeLabel,
           linearLabel: linearLabel,
-          linearOppositeLabel: linearOppositeLabel,
           dark: dark,
         ),
       ),
@@ -935,9 +929,7 @@ class _DirectionRosePainter extends CustomPainter {
     required this.mapRotationDeg,
     required this.dark,
     this.tirLabel,
-    this.tirOppositeLabel,
     this.linearLabel,
-    this.linearOppositeLabel,
   });
 
   final double tirBearingDeg;
@@ -945,9 +937,7 @@ class _DirectionRosePainter extends CustomPainter {
   final double mapRotationDeg;
   final bool dark;
   final String? tirLabel;
-  final String? tirOppositeLabel;
   final String? linearLabel;
-  final String? linearOppositeLabel;
 
   int _milFromDeg(double deg) {
     var normalized = deg % 360.0;
@@ -1026,24 +1016,6 @@ class _DirectionRosePainter extends CustomPainter {
     );
   }
 
-  void _drawOppositeArrow(
-    Canvas canvas,
-    Offset center,
-    double bearingDeg,
-    Color color,
-    String label,
-    double radius,
-  ) {
-    _drawArrow(
-      canvas,
-      center,
-      (bearingDeg + 180.0) % 360.0,
-      color,
-      label,
-      radius,
-    );
-  }
-
   @override
   void paint(Canvas canvas, Size size) {
     final center = Offset(size.width / 2, size.height / 2 + 2);
@@ -1077,17 +1049,6 @@ class _DirectionRosePainter extends CustomPainter {
       tirLabel ?? '${_milFromDeg(tirBearingDeg)}',
       circleRadius + 1,
     );
-    if (tirOppositeLabel != null) {
-      _drawOppositeArrow(
-        canvas,
-        center,
-        screenTirDeg,
-        const Color(0xFF48E0B5),
-        tirOppositeLabel!,
-        circleRadius + 1,
-      );
-    }
-
     _drawArrow(
       canvas,
       center,
@@ -1096,17 +1057,6 @@ class _DirectionRosePainter extends CustomPainter {
       linearLabel ?? '${_milFromDeg(linearBearingDeg)}',
       circleRadius + 1,
     );
-    if (linearOppositeLabel != null) {
-      _drawOppositeArrow(
-        canvas,
-        center,
-        screenAxisDeg,
-        const Color(0xFFFFB000),
-        linearOppositeLabel!,
-        circleRadius + 1,
-      );
-    }
-
     canvas.drawCircle(
       center,
       2.4,
@@ -1122,9 +1072,7 @@ class _DirectionRosePainter extends CustomPainter {
         oldDelegate.linearBearingDeg != linearBearingDeg ||
         oldDelegate.mapRotationDeg != mapRotationDeg ||
         oldDelegate.tirLabel != tirLabel ||
-        oldDelegate.tirOppositeLabel != tirOppositeLabel ||
         oldDelegate.linearLabel != linearLabel ||
-        oldDelegate.linearOppositeLabel != linearOppositeLabel ||
         oldDelegate.dark != dark;
   }
 }

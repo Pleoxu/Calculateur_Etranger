@@ -308,12 +308,6 @@ Future<void> openAutresPiecesDialogLineaire({
                   selectedRoles = result.selectedRoles
                       .where(availableRoles.contains)
                       .toSet();
-                  currentPiecesSoutien = _existingPiecesFromRoles(
-                    roles: selectedRoles,
-                    existing: st.autrePieces
-                        ? st.piecesSoutien
-                        : const <PieceSoutien>[],
-                  );
                   coups = normalizeNow();
                 });
               },
@@ -462,7 +456,6 @@ Future<void> openAutresPiecesDialog({
 
   // À chaque ouverture zonale : aucune ancienne PS n'est reprise.
   // Le catalogue reste complet, mais seule la PD est présélectionnée.
-  List<PieceSoutien> currentPiecesSoutien = const <PieceSoutien>[];
   Set<String> selectedRoles = <String>{'PD'};
 
   final availableZonalRoles = _selectableFireRoles(st.piecesSoutien);
@@ -548,12 +541,6 @@ Future<void> openAutresPiecesDialog({
                     result.selectedRoles,
                   ).where(availableZonalRoles.contains).toSet();
                   nomadeExterne = result.nomadeExterne;
-                  currentPiecesSoutien = _existingPiecesFromRoles(
-                    roles: selectedRoles,
-                    existing: st.autrePieces
-                        ? st.piecesSoutien
-                        : const <PieceSoutien>[],
-                  );
                   coups = normalizeNow();
                 });
               },
@@ -564,12 +551,6 @@ Future<void> openAutresPiecesDialog({
                     result.selectedRoles,
                   ).where(availableZonalRoles.contains).toSet();
                   nomadeExterne = result.nomadeExterne;
-                  currentPiecesSoutien = _existingPiecesFromRoles(
-                    roles: selectedRoles,
-                    existing: st.autrePieces
-                        ? st.piecesSoutien
-                        : const <PieceSoutien>[],
-                  );
                   coups = normalizeNow();
                 });
                 validated = true;
